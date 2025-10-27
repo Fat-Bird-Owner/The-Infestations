@@ -1,0 +1,48 @@
+type: RegenProjector
+health: 300
+name: Reconstruction Projector
+category: effect
+requirements:[item-silver/40,item-conduction-quartz/15]
+healPercent: 0.05
+range: 32
+range: 5
+squareSprite: false
+consumes:{
+power: 0.58
+}
+effect:[
+{
+  type: ParticleEffect
+  particles: 3
+  line: true
+  length: 2
+  baseLength: 1
+  strokeFrom: 1.6
+  strokeTo: 0
+  lifetime: 60
+  cone: 360
+  interp: linear
+  sizeInterp: linear
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+    
+  ]
+} 
+
+research:{
+parent: wire
+}
+researchCost:[item-silver/160,item-conduction-quartz/60]

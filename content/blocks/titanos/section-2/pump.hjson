@@ -1,0 +1,6 @@
+type: Pump
+pumpAmount: 0.25
+name: Hydrolic Pump
+consumes:[
+power: 1
+]

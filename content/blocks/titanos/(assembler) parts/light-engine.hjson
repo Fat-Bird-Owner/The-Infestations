@@ -1,0 +1,7 @@
+type: Block
+requirements:[item-silver/35,item-oxidium/15,item-conduction-quartz/10]
+placeable: true
+breakable: false
+size: 2
+name: "Light Engine"
+buildVisibility: hidden

@@ -1,0 +1,9 @@
+localizedName: "Solar Production Plant"
+difficulty: 3
+planet: serpulo
+sector: 15
+
+research: {
+  parent: craters
+  objectives:[titanium,thorium,ground-factory,frontier]
+}

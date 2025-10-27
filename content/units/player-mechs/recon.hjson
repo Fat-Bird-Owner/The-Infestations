@@ -1,0 +1,105 @@
+type: tether
+name: "Recon"
+description: "An air unit capable of bombing buildings. Can also carry medium sized payloads."
+
+details:"
+MU-1 Recon
+
+An assault unit, effective against slow units and weak buildings.
+
+Uses the magnetic hook under it to carry small buildings.
+The Bomb shells consist of 2 parts being the explosive and the shell.
+The shell is primarily made from silver do to it's hard nature.
+The explosives is made from crushing oxidium making it volatile.
+"
+
+health: 750
+speed: 2.25
+range: 180
+mineTier: 0
+minesItem:[]
+mineWalls: true
+buildSpeed: 0.65
+mineSpeed: 0
+drag: 0.03
+accel: 0.1
+hitSize: 20
+flying: true
+itemCapacity: 20
+ammoCapacity: 1
+pickupUnits: true
+outlineColor: 2c2d38
+faceTarget: false
+payloadCapacity: 256
+trailLength: 24
+trailScl: 1
+engineSize: 4.5
+
+// mech pad module
+mineSpeed: 0
+buildSpeed: 0.85
+commands:[mine]
+defaultCommand: rebuild
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+targetPriority: -0.1
+range: 0.1
+targetAir: false
+targetGround: false
+defaultCommand: mine
+immunities:[rallied]
+
+engines:[
+{
+radius: 4.5
+y: -3.75
+rotation: 90
+}
+]
+
+
+weapons:[
+{
+x: 3
+y:0
+mirror: true
+
+reload: 60
+shootY: 0
+shootCone: 180
+
+shoot:{
+shots: 6
+shotDelay: 5
+}
+
+bullet:{
+type: BombBulletType
+speed: 0.1
+splashDamage: 35
+splashDamageRadius: 20
+buildDamageMultiplier: 0.75
+lifeTime: 90
+width: 10
+height: 14
+frontColor: ffcd66
+backColor: e28654
+hitShake: 0.7
+
+hitEffect:{
+type: ExplosionEffect
+lifetime: 40
+}
+
+}
+
+}
+]
+
+research:{
+parent: recon-air-bay
+requiresUnlock: false
+}

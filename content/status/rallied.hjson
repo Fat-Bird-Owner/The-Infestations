@@ -1,0 +1,19 @@
+name: Rallied
+
+description: "Makes units generally better.[accent] Applied by Core Units[]."
+
+speedMultiplier: 1.2
+reloadMultiplier: 1.2
+
+effect:{
+type: ParticleEffect
+particles: 3
+colorFrom: FFD37F 	
+colorTo: FFD37F 
+region: "infestation-star"
+}
+
+research:{
+parent: frag
+}
+alwaysUnlocked: true

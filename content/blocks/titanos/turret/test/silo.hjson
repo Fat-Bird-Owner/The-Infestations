@@ -1,0 +1,54 @@
+type: ItemTurret
+size: 2
+name: Silo
+shootCone: 180
+requirements:[item-silver/200,item-oxidium/175,item-conduction-quartz/20,item-hardened-calcite/35]
+description: "Fires volleys of missiles at it's target. Able to shoot from very far and missiles are homing and causes burning."
+category: turret
+range: 160
+shootSound: flux
+inaccuracy: 180
+reload: 5
+rotateSpeed: 0
+shootY: 0
+rotatable: false
+recoil: 0
+rotate: false
+
+shoot:{
+shots: 5
+}
+
+ammoTypes:{
+item-conduction-quartz:{
+type: MissileBulletType
+homingDelay: 5
+ammoMultiplier: 5
+homingPower: 0.15
+homingRange: 180
+damage: 6
+trailLength: 16
+hitEffect: formsmoke
+knockback: 1.5
+lifetime: 50
+speed: 6
+status: burning
+statusDuration": 600
+}
+}
+
+research:{
+parent: dissipate
+objectives:[
+{
+type: onSector
+preset: rain-forest
+}
+]
+}
+
+drawer:{
+type: DrawTurret
+basePrefix: "null"
+
+}

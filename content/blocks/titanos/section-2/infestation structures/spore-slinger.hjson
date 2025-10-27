@@ -1,0 +1,14 @@
+type: PowerTurret
+consumes:[]
+size:3
+health: 20000
+armor: 20
+range: 600
+reload: 600
+
+shootType:{
+lifetime: 600
+instantDisappear: true
+despawnHit:true
+spawnUnit: infested-spore
+}

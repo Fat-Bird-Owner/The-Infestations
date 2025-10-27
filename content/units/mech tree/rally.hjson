@@ -1,0 +1,92 @@
+type: mech
+name: Seize
+description: " A terrorifying threat. bullets can pierce but are less accurrate. can give nearby units shield."
+speed: 0.2
+health: 5000
+armor: 10
+hitSize: 24
+stepShake: 0.75
+outlineColor: 2c2d38
+
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 7
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -2
+    radius: 4
+    layer: 59.999
+    followRotation: true
+  }
+]
+
+//
+weapons:[
+{
+name: rally-weapon
+mirror: true
+x: 12.3
+y: 0
+shootY: 3
+shake: 0.2 
+shootSound: art-fire
+reload: 10
+inaccuracy: 7.5
+ejectEffect: casing2
+bullet:{
+type: BasicBulletType
+speed: 6
+lifetime: 33
+damage: 25
+trailWidth: 5
+width: 25
+height: 21
+trailLength: 6
+frontColor: f68859
+backColor: d06b53
+trailColor: f68859
+homingPower: 0.01
+homingRange: 180
+
+fragBullets: 3
+fragRandomSpread: 0
+fragSpread: 20
+//
+
+//
+fragBullet:{
+type: ShrapnelBulletType
+length: 11
+width: 8
+fromColor: f68859
+toColor: d06b53
+hitSize: 50
+damage: 30
+
+hitEffect:{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: b0fffc
+colorTo: dbfffe
+lifetime: 10
+}
+
+}
+
+hitEffect:{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: f68859
+colorTo: d06b53
+lifetime: 25
+}
+
+}
+}
+]
+
+immunities:[corroded]

@@ -1,0 +1,26 @@
+type: AttributeCrafter
+size: 3
+name: Carbon Accumilator
+baseEfficiency: 0
+displayEfficiencyScale: 0.11111111111
+minEfficiency: 8
+displayEfficiency: false
+craftTime: 60
+attribute: carbon
+
+outputLiquid: carbon-dioxide/0.0625
+category: production
+requirements:[item-silver/40]
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawBlurSpin
+rotateSpeed: 6.5
+}
+]
+}

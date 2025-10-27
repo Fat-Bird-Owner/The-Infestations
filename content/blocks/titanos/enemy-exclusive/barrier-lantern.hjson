@@ -1,0 +1,15 @@
+type: ForceProjector
+buildVisibility: sandboxOnly
+shieldRotation: 45
+shieldHealth: 999999
+health: 5000
+size: 3
+requirements:[item-silver/75,item-oxidium/50,item-carbon-matter/35]
+sides: 4
+radius: 300
+localizedName: Barrier Lantern
+cooldownNormal: 0
+cooldownLiquid: 0
+consumes:{
+power: 5
+}

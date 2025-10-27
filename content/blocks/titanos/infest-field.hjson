@@ -1,0 +1,11 @@
+type: ForceProjector
+radius: 160
+sides: 25
+shieldHealth: 9000000
+absorbEffect: shockwave
+shieldBreakEffect: blockCrash
+size: 2
+health: 9996000
+consumes:{
+items:[item-silver/1]
+}

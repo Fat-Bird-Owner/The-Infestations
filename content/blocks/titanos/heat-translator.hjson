@@ -1,0 +1,5 @@
+type: Wall
+name: Heat Translator
+description: produces alittle bit of charge which is used for a volitile artillery payload.
+health: 400
+drawTeamOverlay: false

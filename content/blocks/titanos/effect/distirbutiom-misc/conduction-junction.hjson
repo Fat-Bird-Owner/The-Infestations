@@ -1,0 +1,18 @@
+type: Junction
+health: 200
+name: Conduction Junction
+category: defense
+requirements:[item-silver/6,item-conduction-quartz/2]
+research:{
+parent: charged-conveyor
+}
+researchCost:[item-silver/300,item-conduction-quartz/200]
+
+description:"Acts as a default junction but also conducts power."
+hasPower: true
+outputsPower: true
+liquidPressure: 0
+liquidCapacity: 0
+consumes: {
+  powerBuffered: 10
+} 

@@ -1,0 +1,53 @@
+// general
+
+type: GenericCrafter
+name: "Eletric Furnace"
+description: "Burns [accent]Shale[] to produce [#8f8f8f]Carbon Dioxide[],[accent]requires power[]."
+size: 3
+category: crafting
+health: 500
+
+// Functions
+// requirements to function
+
+ambientSound: smelter
+
+consumes:{
+power: 1.14
+items:[
+item-shale/5
+]
+}
+craftTime: 180
+outputLiquids:[carbon-dioxide/1]
+ambientSound: hum
+ambientSoundVolume: 1
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawArcSmelt
+}
+{
+type: DrawDefault
+}
+]
+}
+
+drawer:{
+type: DrawMulti
+// just incase
+drawers:[
+{
+type: DrawGlowRegion
+color: ff3838cc
+}
+{
+type: DrawDefault
+}
+{
+type: DrawFlame
+color: ffef99
+}
+]
+}

@@ -1,0 +1,13 @@
+type: DirectionalUnloader
+health: 150
+name: Unload Operator
+
+description: "[accent]Unloads items behide it and gives it to the block in front it.[red] cant unload from the core."
+
+requirements:[item-silver/30]
+
+research:{
+parent: silver-conveyor
+}
+
+researchCost:[item-silver/300]

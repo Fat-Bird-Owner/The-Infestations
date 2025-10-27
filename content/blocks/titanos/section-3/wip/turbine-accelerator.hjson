@@ -1,0 +1,25 @@
+type: ThermalGenerator
+size: 3
+name: Carbon Accumilator
+baseEfficiency: 0
+displayEfficiencyScale: 0.11111111111
+minEfficiency: 8.9999
+displayEfficiency: false
+attribute: carbon
+
+powerProduction: 0.22
+category: power
+requirements:[item-silver/35]
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawBlurSpin
+rotateSpeed: 6.5
+}
+]
+}

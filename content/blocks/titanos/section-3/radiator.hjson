@@ -1,0 +1,6 @@
+type: HeatProducer
+name: Radiator
+heatOutput: 5
+consumes:[
+liquids:{slag/0.166}
+]

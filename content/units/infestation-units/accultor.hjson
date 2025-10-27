@@ -1,0 +1,53 @@
+// general stats
+type: legs
+hitSize: 16
+health: 230
+armor: 3
+speed: 0.5
+omniMovement: true
+shootCone: 30
+range: 160
+
+// funni spider
+legCount: 4
+legMoveSpace: 1.5
+emitWalkEffect: true
+stepShake: 0.7
+legLengthScl: 0.95
+legSpeed: 0.4
+legLength: 12.5
+
+// bullet
+
+weapons:[
+{
+x:1
+mirror: true
+alternate: true
+y:0
+inaccuracy: 5
+reload: 60
+bullet:{
+recoil: 18
+type: LiquidBulletType
+liquid: acid
+trailWidth: 3
+trailLength: 19
+speed: 4
+lifetime: 40
+trailColor: ffffffcc
+puddleSize: 1.33
+damage: 200
+status: corroded
+}
+
+}
+]
+
+abilities:[
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 180.0
+}
+]

@@ -1,0 +1,8 @@
+type: Block
+name: Extraction
+placeable: false
+alwaysUnlocked: true
+buildVisibility: hidden
+research:{
+parent: core-satellite
+}

@@ -1,0 +1,13 @@
+type: PayloadDeconstructor
+health: 2000
+consumes:{
+power: 2
+}
+size: 3
+requirements:[item-silver/20,item-conduction-quartz/40]
+category: crafting
+
+description: "Delete blocks and gives back there items."
+maxPayloadSize: 2	
+deconstructSpeed: 1	
+dumpRate: 2

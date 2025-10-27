@@ -1,0 +1,31 @@
+type: ConsumeGenerator
+size: 2
+name: Conduction Generator
+requirements:[item-silver/40]
+consumeEffect: [{
+effect:[
+capped: false
+particles: 15
+]
+}]
+powerProduction: 0.75
+consumes:{
+items:[item-conduction-quartz/1]
+}
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawGlowRegion
+suffix:"-glow"
+color: ffff005f
+glowIntensity: 0.1
+}
+]
+}
+
+researchCost:[item-silver/120]

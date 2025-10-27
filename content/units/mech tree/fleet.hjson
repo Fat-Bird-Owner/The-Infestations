@@ -1,0 +1,82 @@
+type: mech
+name: Fleet
+description: ""
+speed: 0.75
+health: 750
+armor: 10
+hitSize: 14
+outlineColor: 2c2d38
+controller: HugAI
+
+weapons:[
+{
+name: fleet-weapon
+mirror: true
+x: 8
+ejectEffect: {
+type: MultiEffect
+effects:[casing1,fireSmoke]
+}y: 2
+shootSound: art-fire
+reload: 17.5
+ejectEffect: casing2
+bullet:{
+type: BasicBulletType
+speed: 6
+lifetime: 30
+damage: 17.5
+trailWidth: 1.2
+width: 6.0	
+trailLength: 4
+frontColor: f68859
+backColor: e28654
+trailColor: f68859
+sprite: "infestation-arrow-bullet"
+backSprite: "infestation-arrow-bullet-back"
+
+hitEffect:{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: f68859
+colorTo: d06b53
+lifetime: 25
+}
+
+}
+
+}
+// shotgun weapon
+{
+name: "Shotgun"
+x: 0
+mirror: false
+reload: 35
+shootSound: shoot-shotgun
+bullet:{
+speed: 1
+lifetime: 30 
+despawnHit: true
+instantDisappear: true
+fragBullets: 3
+fragRandomSpread: 0
+fragSpread: 30
+
+fragBullet:{
+type: ShrapnelBulletType
+length: 11.25
+width: 4
+fromColor: f68859
+toColor: dbfffe
+hitSize: 50
+damage: 25
+serrations: 1
+
+hitEffect:{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: f68859
+colorTo: dbfffe
+lifetime: 10
+}}}}]

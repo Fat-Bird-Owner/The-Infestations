@@ -1,0 +1,65 @@
+type: GenericCrafter
+size: 3
+name: Mineral Extractor
+description: "
+[accent]Filters shale for conduction quartz and hardened calcite. Faster then the Mineral Seive.
+consistantly give a three hardened calcite and two conduction quartz.
+"
+category: crafting
+consumes:{
+items:[
+item-shale/5
+]
+}
+outputItems:[
+item-conduction-quartz/2
+item-hardened-calcite/3
+]
+
+health: 500
+requirements:[item-silver/30]
+craftTime: 60
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawParticles
+particle: 15
+color: 3f3f3f5f
+reverse: true
+}
+]
+}
+
+research:{
+parent: core-satellite
+objectives:[
+{
+type: OnSector
+preset: rain-forest
+}    
+]
+
+}
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawPistons
+}
+{
+type: DrawParticles
+color: 7f7f7f
+reverse: true
+}
+]
+}
+
+researchCost:[item-silver/120]

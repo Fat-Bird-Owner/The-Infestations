@@ -1,0 +1,46 @@
+type: GenericCrafter
+size: 2
+localizedName: Carbon Kiln
+description: Smelts carbon matter from silver, oxidium and steam.
+
+requirements:[item-silver/100,item-oxidium/80]
+
+consumes:{
+items:[item-silver/2,item-oxidium/1]
+liquids:[steam/0.0168]
+power: 0.75
+}
+outputItem: item-carbon-matter/1
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawParticle
+color: ffcd6677
+sides: 4
+particles: 10
+}
+{
+type: DrawArcSmelt
+particleRad: 5
+}
+{
+type: DrawDefault
+}
+{
+type: DrawGlowRegion
+color: ffcd6655
+suffix: "-heat"
+}
+]
+}
+
+research:{
+parent: crafting
+requirements:[item-silver/300,item-oxidium/240]
+}

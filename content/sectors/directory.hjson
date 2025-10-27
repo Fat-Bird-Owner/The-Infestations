@@ -1,0 +1,15 @@
+captureWave: 10
+localizedName: "Directory"
+difficulty: 0
+planet: titanos
+sector: 10
+description: "An abandoned facility perfect to start out in and learn the basics of titanos."
+research: {
+  parent: sector
+}
+
+details:"
+Sector-0: Directory
+The first sector of titanos with minimal presence.
+An abandoned facility is located here but is abandoned do to unknown causes.
+"

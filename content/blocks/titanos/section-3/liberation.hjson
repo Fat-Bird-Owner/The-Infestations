@@ -1,0 +1,30 @@
+type: ItemTurret
+size: 2
+range: 240
+reload: 60
+shootSound: "lib-fire"
+maxAmmo: 2
+
+ammoTypes:{
+calcite-arrow:{
+type: BasicBulletType
+sprite: "infestation-liberation-arrow"
+collideAir:
+lifetime: 30
+width: 25
+height: 45
+speed: 8
+damage: 125
+trailWidth:1
+trailLength: 10
+trailColor: ffffff33
+pierceArmor: turret
+collidesAir: true
+collidesGround: true
+hitSize: 8
+}
+
+}
+
+category: turret 
+requirements:[]

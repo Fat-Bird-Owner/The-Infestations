@@ -1,0 +1,7 @@
+type: StaticWall
+name: Silver Rich Wall
+variants: 1
+itemDrop: item-silver
+attributes: {
+  silver: 1
+}

@@ -1,0 +1,5 @@
+name: "Example"
+color: 9f9f9f
+buildable: false
+
+description: "Refined as turret ammo."

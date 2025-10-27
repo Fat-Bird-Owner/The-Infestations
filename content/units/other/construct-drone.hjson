@@ -1,0 +1,22 @@
+type: tether
+name: Construct Drone
+description: Units from forges which builds stuff.
+flying: true
+drag: 0.08
+accel: 0.1
+speed: 0.8
+health: 120
+engineSize: 2
+engineOffset: 6.5
+payloadCapacity: 0
+targetable: false
+bounded: false
+outlineColor: 44413c
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
+controller: AssemblerAI

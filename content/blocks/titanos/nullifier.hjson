@@ -1,0 +1,176 @@
+type: ItemTurret
+name: Nullifier
+requirements:[
+item-silver/200
+item-hardened-calcite/75
+item-conduction-quartz/75
+]
+researchCostMultiplier: 0.1
+research:{
+parent: core-satellite
+}
+description: "Mainly used to obliterate infested buildings, requires conduction quartz to function."
+category: effect
+size: 2
+maxAmmo: 30
+itemCapacity: 30
+ammoPerShot: 30
+shootCone: 180
+health: 600
+alwaysShooting: true
+range: 120
+squareSprite: false
+rotateSpeed: 0
+shake: 5
+collidesTeam: true
+
+ammoTypes:{
+item-conduction-quartz: {
+killShooter:true
+despawnHit: true
+despawnEffect:reactorExplosion
+instantDisappear: true
+splashDamage: 10000000
+splashDamageRadius: 120
+}
+}
+
+minWarmup: 1
+shootWarmupSpeed: 0.0005
+linearWarmup: true
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawTurret
+parts:[
+{
+suffix:-h
+progress: warmup
+under: true
+heatColor:ff9fff
+moveY: 0
+mirror: false
+}
+{
+suffix:"-h"
+progress: warmup
+under: false
+heatColor:ff9fff
+x: -5
+moveX: -2
+mirror: false
+
+  progress: {
+                                type: warmup
+                                ops: [
+                                        {
+                                                op: compress
+                                                start: 0
+                                                end: 0.2
+                                        }
+                                        {
+                                                op: curve
+                                                interp: circleIn
+                                        }
+                                ]
+                        }
+
+}
+{
+suffix:"-h"
+progress: warmup
+under: false
+heatColor:ff9fff
+x: 5
+moveX: 2
+mirror: false
+
+  progress: {
+                                type: warmup
+                                ops: [
+                                        {
+                                                op: compress
+                                                start: 0.2
+                                                end: 0.4
+                                        }
+                                        {
+                                                op: curve
+                                                interp: circleIn
+                                        }
+                                ]
+                        }
+
+}
+{
+suffix:"-h"
+progress: warmup
+under: false
+heatColor:ff9fff
+y: 5
+moveY: 2
+mirror: false
+
+  progress: {
+                                type: warmup
+                                ops: [
+                                        {
+                                                op: compress
+                                                start: 0.4
+                                                end: 0.6
+                                        }
+                                        {
+                                                op: curve
+                                                interp: circleIn
+                                        }
+                                ]
+                        }
+
+}
+{
+suffix:"-h"
+progress: warmup
+under: false
+heatColor:ff9fff
+y: -5
+moveY: -2
+mirror: false
+
+  progress: {
+                                type: warmup
+                                ops: [
+                                        {
+                                                op: compress
+                                                start: 0.6
+                                                end: 0.8
+                                        }
+                                        {
+                                                op: curve
+                                                interp: circleIn
+                                        }
+                                ]
+                        }
+
+}
+]
+
+//draw turret end
+}
+{
+type: DrawDefault
+}
+{
+type: DrawPulseShape
+radiusScl: 0.5
+stroke: 8
+color:ff4f00
+square: false
+}
+{
+type: DrawArcSmelt
+particleRad: 0
+particles: 0
+}
+]
+}

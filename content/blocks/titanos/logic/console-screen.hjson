@@ -1,0 +1,22 @@
+// general
+
+type: LogicDisplay
+name: Console Screen
+category: logic
+health: 500
+size: 3
+
+description:"Shows images. can only be change by a console's logic."
+
+// class related
+
+displaySize: 80
+
+// others
+
+requirements:[
+item-silver/60
+item-photon-sheet/5
+item-carbon-matter/10
+item-conduction-quartz/20
+]

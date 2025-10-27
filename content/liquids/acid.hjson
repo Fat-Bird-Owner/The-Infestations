@@ -1,0 +1,11 @@
+type: CellLiquid
+name: Acid
+color: 76a372ff
+coolant: false
+viscosity: 0
+moveThroughBlocks: true
+capPuddles: false
+spreadConversion: 0.3
+spreadDamage:2.5
+maxSpread: 0.75
+spreadTarget: "carbon-dioxide"

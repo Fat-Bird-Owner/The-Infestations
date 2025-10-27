@@ -1,0 +1,19 @@
+// general
+
+type: MessageBlock
+name: Output Region
+category: logic
+health: 250
+
+description:"Displays messages, Can also be change via the console's logic."
+
+// class related
+
+maxTextLength: 330
+maxNewlines: 36
+
+// others
+
+requirements:[
+item-silver/30
+]

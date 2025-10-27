@@ -1,0 +1,5 @@
+type: Wall
+name: Conduction Wall
+health: 600
+lightningChance: 0.35
+requirements:[item-conduction-quartz/6]

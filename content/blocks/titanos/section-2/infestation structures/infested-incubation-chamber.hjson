@@ -1,0 +1,22 @@
+type: GenericCrafter
+health: 1500
+size: 3
+outputLiquid: blood/4
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+padding: 1.3
+drawLiquid: blood
+}
+{
+type: DrawDefault
+}
+]
+}

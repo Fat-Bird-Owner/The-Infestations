@@ -1,0 +1,5 @@
+type: Floor
+emitLight: true
+lightRadius: 40
+lightColor: 95abd9
+variants: 0

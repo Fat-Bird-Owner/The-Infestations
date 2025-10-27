@@ -1,0 +1,85 @@
+type: payload
+name: "Observer"
+health: 750
+armor: 1
+speed: 3.5
+range: 180
+accel: 0.055
+drag: 0.05
+mineTier: 1
+minesItem:[item-silver]
+mineWalls: true
+buildSpeed: 1
+mineSpeed: 2
+payloadCapacity: 32
+drag: 0.03
+accel: 0.1
+engineSize: 0
+flying: true
+itemCapacity: 40
+payloadCapacity: 300
+pickupUnits: true
+outlineColor: 2c2d38
+omniMovement: false
+rotateSpeed: 7
+
+engines:[
+{
+radius: 2.5
+y: -7.5
+rotation: 90
+}
+]
+
+weapons:[
+// engine effect
+{
+y: -7.5
+x: 0
+hidden: true
+baseRotation: 180
+alwaysShooting: true
+shootCone: 360
+continuous: true
+alternate: false
+shootSound: none
+recoil: 0
+minShootVelocity: 2.5
+
+bullet:{
+type: BasicBulletType
+instantDisappear: true
+despawnHit: true
+despawnEffect: fireHit
+shootEffect: none
+hitEffect: none
+}
+
+}
+]
+
+abilities:[
+{
+type: EnergyFieldAbility
+damage: 0
+hitUnits: false
+maxTargets: 10
+healPercent: 3.5
+reload: 40
+effectRadius: 0
+layer: 10
+hitEffect: heal
+shootSound: heal
+
+damageEffect:{
+type: WaveEffect
+sizeTo: 60
+colorFrom: 98ffa9ff
+colorTo: 98ffa9ff
+followParent: true
+lifetime: 30
+}
+
+}
+
+]

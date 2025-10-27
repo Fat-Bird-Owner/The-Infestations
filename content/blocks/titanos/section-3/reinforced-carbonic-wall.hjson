@@ -1,0 +1,6 @@
+type: Wall
+health: 500
+name: Reinforced Carbonic Wall
+category: defense
+requirements:[item-silver/2,item-carbon-matter/6]
+insulated: true

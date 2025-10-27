@@ -1,0 +1,22 @@
+type: Duct
+health: 100
+name: Silver Wire
+armored: true
+category: power
+requirements:[item-silver/1]
+conductivePower: true
+acceptsItems: false
+instantTransfer: false
+solid: false
+hasPower: true
+outputsPower: true
+liquidPressure: 0
+liquidCapacity: 0
+consumes: {
+  powerBuffered: 5
+} 
+
+research:{
+parent: convection-generator
+}
+alwaysUnlocked: true

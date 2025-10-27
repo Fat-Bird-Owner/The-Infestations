@@ -1,0 +1,11 @@
+type: Liquid
+name: Steam
+description: "An important gas used on titanos, Consist of mostly Water particles.[scarlet] Very volatile protect at all cost."
+color: f9f9f9
+temperature: 5
+heatCapacity: 1
+capPuddles: false
+viscosity: 0.2
+gas: true
+coolant: false
+explosiveness: 2.5

@@ -1,0 +1,10 @@
+// general
+type: HeatConductor
+name: Gamma Chain
+size: 2
+health: 300
+category: crafting
+requirements:[
+item-silver/20
+item-photon-sheet/10
+]

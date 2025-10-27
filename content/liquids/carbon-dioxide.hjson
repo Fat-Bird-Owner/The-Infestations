@@ -1,0 +1,6 @@
+type: Liquid
+name: Carbon Dioxide
+color: 9f9f9f6f
+temperature: 1
+gas: true
+gasColor: 9f9f9f6f

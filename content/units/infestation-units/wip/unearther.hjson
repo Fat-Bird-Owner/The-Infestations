@@ -1,0 +1,27 @@
+// general stats
+type: legs
+hitSize: 16
+health: 100
+name: Unearther
+armor: 4
+speed: 1.3
+mineSpeed: 1
+omniMovement: true
+range: 6
+mineWalls: true
+commands:[mine]
+defaultCommand: mine
+mineRange: 20
+mineSpeed: 20
+mineItem:[item-shale]
+mineTier: 1
+itemCapacity: 175
+
+// funni spider
+legCount: 6
+legMoveSpace: 2.5
+legPairOffset: 8
+stepShake: 0.4
+legLengthScl: 1
+legLength: 10
+legSpeed: 0.1

@@ -1,0 +1,178 @@
+type: ItemTurret
+name: Retaliation
+description: "Fires bullets at it's target and can use a varity of ammo."
+health: 400
+reload: 60
+range: 180
+size: 2
+outlineColor: 00000000
+
+shootSound: shoot-low-cal
+ejectEffect: casing2
+inaccuracy: 1
+
+
+shootEffect:{
+effects:[
+{
+type: WaveEffect
+colorFrom: d4fdff	
+colorTo: d4fdff11
+lifetime: 20
+sizeFrom: 0
+strokeFrom: 3
+strokeTo: 0
+sizeTo: 20
+}
+{
+type: ParticleEffect
+colorFrom: 2f2f2fff
+colorTo: 5f5f5f00
+lifetime: 35
+length: 5
+}
+]
+}
+
+details:"
+Entry T-001://: Retaliation
+Basic turret ideal for early game due to it's cheap production cost.
+
+-Strength: low production cost, high single target damage and versatile.
+
+-Weakness: weak crowd control and slow reload
+"
+/*
+ammoMultiplier	float	2.0	How many bullets get created per ammo item/liquid.
+reloadMultiplier
+*/
+
+requirements: [
+  item-silver/60
+  item-oxidium/40
+]
+
+researchCostMultiplier: 0.075
+research:{
+parent: core-satellite
+}
+
+ammoTypes:{
+item-silver:{
+type: BasicBulletType
+// Effect
+chargeEffect:{
+type: MultiEffect
+effects:[
+{
+type: WaveEffect
+colorFrom: d4fdff	
+colorTo: d4fdff11
+lifetime: 20
+sizeFrom: 20
+strokeFrom: 5
+strokeTo: 5
+sizeTo: 0
+}
+]
+}
+
+speed: 3
+width: 10
+height: 14
+lifetime: 60
+damage: 14
+fragSpread: 30
+frontColor: d4fdff
+backColor: ffffff
+trailColor: d4fdff
+trailWidth: 2
+trailLength: 6
+status: frag
+statusDuration: 2
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+
+item-conduction-quartz:{
+type: BasicBulletType
+
+speed: 3
+width: 10
+height: 14
+lifetime: 60
+damage: 14
+fragSpread: 30
+frontColor: e28654
+backColor: ffcd66
+trailColor: ffffa3
+trailWidth: 2
+trailLength: 6
+status: shocked
+despawnHit: true
+fragBullets: 5
+fragBullet:{
+type: LightningBulletType
+lightningColor: ffcd66
+lightningLength: 4.5
+damage: 7
+lifetime: 30
+}
+
+
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+
+item-hardened-calcite:{
+type: BasicBulletType
+
+ammoMultiplier: 9
+reloadMultiplier:9
+speed: 3
+width: 10
+height: 14
+inaccuracy: 5
+lifetime: 60
+damage: 2
+fragSpread: 30
+frontColor: b0bac0
+backColor: 989aa4
+trailColor: 6e7080
+trailWidth: 2
+trailLength: 6
+status: frag
+statusDuration: 1
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+
+}
+
+category: turret
+
+shootY: 7
+
+drawer:{
+type: DrawMulti
+
+drawers:[
+{
+type: DrawTurret
+basePrefix: "-base"
+}
+]
+
+}

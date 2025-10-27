@@ -1,0 +1,35 @@
+type: UnitAssembler
+health: 1500
+name: Hover Forge
+requirements:[item-silver/75,item-conduction-quartz/25]
+size: 3
+areaSize: 5
+category: units
+consumes:[]
+hasLiquids: false
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: infestation-shift
+    time: 900
+    requirements: [
+	infestation-silver-wall/2
+  infestation-retaliation/1
+    ]
+  }
+    {
+    type: AssemblerUnitPlan
+    unit: infestation-dive
+    time: 2000
+    requirements: [
+	infestation-silver-wall/10
+	infestation-retaliation/1
+    ]
+  }
+]
+
+research:{
+parent: core-satellite
+}
+researchCost:[item-silver/75,item-conduction-quartz/25]
+droneType: construct-drone

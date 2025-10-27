@@ -1,0 +1,15 @@
+type: GenericCrafter
+size: 3
+health: 500
+requirements:[item-silver/50,item-conduction-quartz/10,item-hardened-calcite/20]
+category: crafting
+
+consumes:[
+item-silver/5
+item-hardened-calcite/3
+]
+
+outputItem: calcite-arrow/1
+craftEffect: {
+type: ExplosionEffect
+}

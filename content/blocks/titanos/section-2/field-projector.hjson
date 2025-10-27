@@ -1,0 +1,72 @@
+// general
+
+type: ItemTurret
+name: Field Projector
+category: effect
+health: 1000
+size: 3
+itemCapacity: 30
+
+description: "Damages everything around it."
+
+// class related
+
+reload: 60
+range: 120
+shootCone: 180
+rotateSpeed: 0
+shootY: 0
+recoil: 0
+
+alwaysShooting: true
+shootSound: none
+
+ammoTypes:{
+item-conduction-quartz:{
+shootEffect: {
+type: WaveEffect
+sizeTo:120
+strokeFrom: 5.0	
+}
+instantDisappear: true
+despawnHit: true
+damage: 15
+buildingDamageMultiplier: 8
+splashDamage: 15
+splashDamageRadius: 120
+pierceCap: 30
+status: divine-burn
+statusDuration: 60
+}
+}
+
+// others
+
+requirements:[
+item-silver/60
+item-photon-sheet/5
+item-carbon-matter/10
+item-conduction-quartz/20
+]
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawTurret
+basePrefix: "-lol"
+}
+{
+type: DrawPulseShape
+color: ffffa3
+stroke: 6
+timeScl: 90
+layer: 50.1
+}
+{
+type: DrawGlowRegion
+color: ffffa3
+suffix: "-h"
+}
+]
+}

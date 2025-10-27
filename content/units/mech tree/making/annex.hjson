@@ -1,0 +1,125 @@
+type: mech
+name: Annex
+speed: 0.15
+health: 30000
+armor: 30
+hitSize: 35
+stepShake: 1.5
+outlineColor: 2c2d38
+
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 7
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -2
+    radius: 8
+    layer: 59.999
+    followRotation: true
+  }
+]
+
+//
+weapons:[
+{
+name: rally-weapon
+mirror: true
+x: 12.3
+y: 0
+shootY: 3
+shake: 0.2 
+shootSound: art-fire
+reload: 5
+ejectEffect: casing2
+bullet:{
+type: BasicBulletType
+ammoMultiplier: 5
+inaccuracy: 10
+speed: 12
+lifetime: 15
+homingDelay: 10
+homingPower: 0.01
+damage: 120
+status: unmoving
+statusDuration: 5
+
+knockback: 2.5
+width: 15
+height: 21
+trailWidth: 3
+trailLength: 12.5
+frontColor: b0bac0
+backColor: 989aa4
+trailColor: 6e7080
+}
+},
+{
+name: bayonet-Weapon
+range: 40
+reload: 25
+recoil: -10
+bullet:{
+type: ShrapnelBulletType
+hitSize: 90
+length: 45
+serrations: 1
+width: 16
+damage: 200
+}
+}
+{
+name: Core-lightning
+reload: 600
+accurateDelay: false
+shoot:{
+firstShotDelay: 120
+}
+
+bullet:{
+type: BasicBulletType
+width: 20
+height: 20
+trailWidth: 4
+frontColor: ffffa3
+backColor: ffcd66
+trailColor: e28654
+speed: 2
+lifetime: 150
+damage: 2500
+pierce: true
+pierceCap: 100
+
+chargeEffect:{
+type: MultiEffect
+effects:[
+{
+type: WaveEffect
+colorFrom: ffcd66	
+colorTo: ffcd66
+lifetime: 120
+sizeFrom: 100
+strokeFrom: 5
+strokeTo: 5
+sizeTo: 0
+}
+]
+}
+
+intervalBullet:{
+type: LightningBulletType
+lightningColor: ffffa3
+damage: 20
+lightningLength: 15
+}
+
+bulletInterval: 2.5
+intervalBullets: 3
+
+}
+
+}
+]
+
+immunities:[corroded]

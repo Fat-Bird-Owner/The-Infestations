@@ -1,0 +1,9 @@
+captureWave: 10
+localizedName: "Acidic Lake"
+difficulty: 1
+planet: titanos
+sector: 0
+description: "With minimal threat this place seems like a perfect place to quickly gather up resources and start researching."
+research: {
+  parent: core-satellite
+}

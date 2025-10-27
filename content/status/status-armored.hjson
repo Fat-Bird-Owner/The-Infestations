@@ -1,0 +1,5 @@
+localizedName: Armored
+healthMultiplier: 1.35
+speedMultiplier: 0.85
+opposites:[electrified,shocked]
+permanent: true

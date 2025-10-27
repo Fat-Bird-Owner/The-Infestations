@@ -1,0 +1,12 @@
+type: AutoDoor
+health: 500
+name: Barrier
+size: 1
+category: defense
+description:"Basic wall used to tank damage for other buildings and allows allows ally units to pass through."
+requirements:[copper/6]
+
+research:{
+parent: core-test
+}
+alwaysUnlocked: true

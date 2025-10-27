@@ -1,0 +1,7 @@
+name: Silver
+description: A basic material commonly used through the infestation mod.
+charge: 0.05
+research:{
+parent: core-satellite
+}
+color: 989aa4

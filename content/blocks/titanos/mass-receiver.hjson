@@ -1,0 +1,4 @@
+type: UnitCargoUnloadPoint
+size: 2
+requirements: [item-silver/30]
+itemCapaity: 30

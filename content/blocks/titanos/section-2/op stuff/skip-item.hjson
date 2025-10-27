@@ -1,0 +1,7 @@
+type: ItemSource
+itemsPerSecond: 1000
+research:{
+parent: core-satellite
+}
+alwaysUnlocked: true
+requirements:[]

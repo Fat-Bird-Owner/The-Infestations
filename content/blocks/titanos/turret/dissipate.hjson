@@ -1,0 +1,34 @@
+type: ItemTurret
+maxAmmo: 5
+health: 200
+category: turret
+range: 120
+outlineColor: 2c2d38
+description: "Cheaper alternative to the retaliation. Able rapidly fire volleys of bullets at it's target. "
+
+shoot:{
+shots: 10
+shotDelay: 3
+}
+reload: 65
+inaccuracy: 10
+
+requirements:[item-silver/30,item-oxidium/20]
+
+ammoTypes:{
+item-oxidium:{
+type: BasicBulletType
+frontColor: 9c88c3
+backColor: 676486
+damage: 1
+splashDamage: 1
+splashDamageRadius: 20
+lifetime: 60
+speed: 2
+}
+}
+
+research:{
+parent: retaliation
+requirements:[item-silver/90,item-oxidium/60]
+}

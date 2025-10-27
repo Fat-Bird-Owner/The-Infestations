@@ -1,0 +1,6 @@
+name: Oxidium
+description: "the formation of hard crystals found in slag. poccesses minor explosive capabilities and is quite radioactive"
+
+radioactivity: 0.45
+explosiveness: 0.35
+color: 9c88c3

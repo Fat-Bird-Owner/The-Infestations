@@ -1,0 +1,6 @@
+type: OverflowDuct
+health: 100
+name: Infested Vain
+drawTeamOverlay: false
+speed: 2
+invert: false

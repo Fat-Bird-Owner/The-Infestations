@@ -1,0 +1,91 @@
+// general stats
+type: legs
+hitSize: 16
+health: 300
+speed: 0.75
+omniMovement: true
+shootCone: 30
+range: 80
+faceTarget: false
+outlineColor: 2c2d38
+
+// funni spider
+legCount: 6
+legMoveSpace: 1.35
+lockLegBase: true
+legContinuousMove: true
+emitWalkEffect: false
+legPairOffset: 2
+stepShake: 0.2
+legLengthScl: 0.95
+legSpeed: 0.25
+LegStraightness: 0.35
+legLength: 25
+
+// bullet
+
+weapons:[
+{
+name: "ir-weapon"
+rotateSpeed: 3
+shootSound: shoot-low-cal
+x:0
+y: -3
+mirror: false
+rotate: true
+alternate: false
+inaccuracy: 3
+range: 180
+reload: 45
+
+bullet:{
+
+type: BasicBulletType
+// Effect
+chargeEffect:{
+type: MultiEffect
+effects:[
+{
+type: WaveEffect
+colorFrom: ff0000ff	
+colorTo: ff000011
+lifetime: 20
+sizeFrom: 20
+strokeFrom: 5
+strokeTo: 5
+sizeTo: 0
+}
+]
+}
+
+speed: 3
+width: 10
+height: 14
+lifetime: 60
+damage: 14
+fragSpread: 30
+frontColor: ff0000ff
+backColor: ff0000ff
+trailColor: ff0000ff
+trailWidth: 2
+trailLength: 6
+status: frag
+statusDuration: 1
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+
+}
+]
+
+abilities:[
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 180.0
+}
+]

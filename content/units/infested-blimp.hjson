@@ -1,0 +1,37 @@
+type: flying
+name: Infested Blimp
+health: 200
+speed: 1.75
+accel: 0.1
+drag: 0.05
+range: 1
+flying: true
+
+weapons:[
+{
+y: 0
+x: 0
+mirror: false
+reload: 25
+shootSound: malignShoot
+bullet:{
+explosionDamage: 200
+explosionDamageRadius: 80
+despawnHit: true
+killShooter: true
+instantDisappear: true
+}}
+]
+
+abilities:[
+{
+type: SpawnDeathAbility
+amount: 3
+unit: "infested-mass"
+}
+{
+type: LiquidExplodeAbility
+liquid: "acid"
+amount: 200
+}
+]

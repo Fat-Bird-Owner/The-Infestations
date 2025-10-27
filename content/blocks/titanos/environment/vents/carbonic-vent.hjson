@@ -1,0 +1,9 @@
+type: SteamVent
+name: Carbonic Vent 
+variants: 1
+attributes: {
+  carbon: 1
+}
+variants: 0
+blendGroup: crim-stone
+parent: crim-stone

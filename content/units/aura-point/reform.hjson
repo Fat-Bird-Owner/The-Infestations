@@ -1,0 +1,41 @@
+type: tether
+
+name: Multi-purpose Central
+
+health: 180
+range: 120
+
+speed: 0
+rotateSpeed: 0
+drag: 1000
+engineSize: 0
+shadowElevation: 0
+createWreck: false
+isEnemy: false
+useUnitCap: false
+createWreck: false
+drawBody: false
+allowedInPayloads: false
+physics: false
+bounded: false
+hidden: true
+playerControllable: false
+drawCell: false
+
+abilities:[
+{
+type: EnergyFieldAbility
+damage: 15
+reload: 60
+statusDuration: 0
+targetAir: false
+healPercent: 2
+sectors: 4
+useAmmo: false
+range: 120
+}
+]
+
+immunities: [
+reforming
+]

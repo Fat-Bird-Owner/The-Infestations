@@ -1,0 +1,5 @@
+name: Shale
+description: A material commonly found on the ground, but dont underestimate it, it contains  high amount of other materials.
+research:{
+parent: item-silver
+}

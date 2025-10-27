@@ -1,0 +1,9 @@
+name: Reforming
+description: "Constantly repairs/heals inafflicted unit."
+effect: {
+type: ParticleEffect
+colorFrom: baffc0ff
+colorTo: 00ff0000
+useRotation: false
+}
+damage: -0.75

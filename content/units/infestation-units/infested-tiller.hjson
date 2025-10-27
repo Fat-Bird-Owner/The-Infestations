@@ -1,0 +1,56 @@
+// general stats
+type: legs
+hitSize: 16
+health: 230
+name: Tiller
+armor: 6
+speed: 0.73
+omniMovement: true
+range: 180
+
+// funni spider
+legCount: 6
+legMoveSpace: 2.5
+legPairOffset: 8
+stepShake: 0.2
+legLengthScl: 1
+legLength: 15
+legSpeed: 0.1
+
+// bullet
+abilities:[
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 180.0
+}
+{
+type: StatusFieldAbility
+effect: rallied
+duration: 300	
+reload: 600
+range: 180
+
+activeEffect:{
+type: WaveEffect
+lifetime: 180
+sizeTo: 180
+sizeFrom: 180
+}
+
+}
+{
+type: ShieldRegenFieldAbility
+reload: 600
+amount: 50
+range: 180
+
+activeEffect:{
+type: WaveEffect
+lifetime: 180
+sizeFrom: 180
+sizeTo: 180
+}
+
+}
+]

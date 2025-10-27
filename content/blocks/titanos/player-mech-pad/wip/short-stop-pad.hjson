@@ -1,0 +1,26 @@
+type: UnitCargoLoader
+category: effect
+solid: false
+itemCapacity: 0
+consumes:{
+power: 0.6
+}
+name: "Mech Bay: [blue]Short Stop[]"
+
+size: 2
+unitType: short-stop
+unitBuildTime: 1200
+requirements:[item-silver/200,item-conduction-quartz/75,item-hardened-calcite/100]
+
+polyRadius: 6
+polySides: 3
+polyStroke: 1
+polyRotateSpeed: 1.5
+polyColor: ffcd66
+description:"
+Uses power to fabricate a Short stop unit, this unit will stay idle and can be controlled by the player.
+[accent]
+Short Stop[grey]
+strider unit, able to cross over thin terrain, Equipped with point defense weapons and a repair beam weapon 
+and also has a forcefield.
+"

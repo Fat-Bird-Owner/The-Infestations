@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Oxidium Cooler
+category: crafting
+consumes:{
+liquids:[slag/0.0166]
+}
+requirements:[item-silver/80]
+craftTime: 60
+outputItem: item-oxidium/1
+
+research:{
+parent: core-satellite
+}
+alwaysUnlocked: true
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+padding: 0.7
+}
+{
+type: DrawRegion
+suffix: -rotator
+rotateSpeed: 5
+}
+{
+type: DrawDefault
+}
+]
+}
+

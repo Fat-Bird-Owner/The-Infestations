@@ -1,0 +1,25 @@
+type: ConsumeGenerator
+size: 4
+itemDuration: 60
+powerProduction: 10
+consumes:{
+items:[item-shale/1]
+}
+outputLiquid: valk/0.75
+explodeOnFull: true
+liquidCapacity: 100
+
+description: "Burns the organic matter in shale to produce high amounts of power. [red]Produces high amounts of valkarium and will violenty explode if not attended to."
+category: power
+requirements:[]
+explosionRadius: 80
+explosionDamage: 80	
+explodeEffect: {
+type: MultiEffect
+effects:[reactorExplosion,shockwave]
+}
+explodeSound: reactorExplosion
+explosionPuddles: 25
+explosionPuddleLiquid: valk	
+explosionMinWarmup: 1
+explosionShake: 1.0

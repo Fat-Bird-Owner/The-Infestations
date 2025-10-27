@@ -1,0 +1,17 @@
+name: Divine Burn
+damage: 0.75
+damageMultiplier: 0.7
+healthMultiplier: 0.9
+speedMultiplier: 0.8
+color: ffffa3
+applyColor:ffffa3
+effect:{
+type: ParticleEffect
+sizeFrom: 1.0
+sizeTo: 0
+colorFrom: ffffa3
+colorTo: ffffa3
+particles: 4
+}
+
+description: "[red]PREPARE FOR UTTER ANNIHILATION, HOLY BURN."

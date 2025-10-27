@@ -1,0 +1,6 @@
+research:{
+parent: item-conduction-quartz
+}
+description: "An Ore which is enable to store power quite well. Enables the use of higher tier Buildings."
+charge: 0.25
+hardness: 2

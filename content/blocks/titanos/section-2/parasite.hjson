@@ -1,0 +1,8 @@
+type: GenericCrafter
+consumes:[]
+health: 300
+name: Parasite
+outputItems:[
+item-silver/10
+]
+craftTime: 10

@@ -1,0 +1,7 @@
+type: Block
+requirements:[item-silver/30/item-oxidium/15]
+buildVisibility: hidden
+placeable: true
+breakable: false
+size: 2
+name: "Mechanical Base"

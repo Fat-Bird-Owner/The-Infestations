@@ -1,0 +1,12 @@
+type: Accelerator
+name: Rift Terminal
+size: 6
+requirements:[]
+launchBlock: core-satellite
+destructible: false
+breakable: false
+destructible: false
+replaceable: false
+research:{
+    parent: core-satellite
+}

@@ -1,0 +1,20 @@
+type: Wall
+health: 500
+name: "Dorment Hive [red](Lv.1)"
+size: 2
+description: "Acts as a wall but will explode into infested mass once destroyed."
+category: effect
+requirements:[]
+buildVisibility: sandboxOnly
+
+destroyBulletSameTeam: true
+destroyBullet: {
+instantDisappear:true
+despawnHit: true
+fragBullets: 3
+fragBullet:{
+instantDisappear:true
+despawnHit: true
+spawnUnit: "infested-mass"
+}
+}

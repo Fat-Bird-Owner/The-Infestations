@@ -1,0 +1,74 @@
+type: mech
+name: Frontier
+description: Capable of shooting basic projectiles.
+speed: 0.55
+health: 340
+armor: 0
+hitSize: 15
+outlineColor: 2c2d38
+
+//smoke
+
+weapons:[
+{
+name: frontier-weapon
+top: false
+mirror: true
+x: 7
+y: 1
+shootSound: art-fire
+reload: 25
+ejectEffect: {
+type: MultiEffect
+effects:[casing1,smoke,fireSmoke]
+}
+bullet:{
+type: BasicBulletType
+speed: 6
+weaveScale: 0.75
+weaveMag: 1.25
+lifetime: 30
+damage: 12
+width: 5
+height: 14
+trailWidth: 1
+trailLength: 4
+frontColor: ffa665
+backColor: e28654
+trailColor: ffa665
+sprite: "infestation-arrow-bullet"
+backSprite: "infestation-arrow-bullet-back"
+
+hitEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: ffa665
+colorTo: d06b53
+lifetime: 25
+}
+smoke
+blastExplosion
+]
+}
+
+}
+
+}
+]
+
+deathExplosionEffect:{
+type: MultiEffect
+
+effects:[
+{
+type: SoundEffect
+sound: big-boom
+effect: none
+}
+]
+
+}

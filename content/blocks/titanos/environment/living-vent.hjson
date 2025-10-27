@@ -1,0 +1,7 @@
+name: Living Vent
+type: SteamVent
+effect: ventSteam
+effectColor: dad2ca
+attributes: {
+   steam: 1
+}

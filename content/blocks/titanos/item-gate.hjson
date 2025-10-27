@@ -1,0 +1,5 @@
+type: Sorter
+health: 75
+name: Item Gate
+size: 1
+requirements:[item-silver/5]

@@ -1,0 +1,45 @@
+// general
+
+type: GenericCrafter
+name: Photon Binder
+health: 600
+size: 3
+flammabilityScale: 10
+liquidCapacity: 15
+
+description:"Binds silver and carbon matter into [accent]Photon Sheet[]. produces valkarium whichs needs to be disposed of."
+
+category: crafting
+
+requirements:[
+item-silver/105
+item-conduction-quartz/75
+item-carbon-matter/50
+]
+
+consumes:{
+items:[item-silver/4,item-conduction-quartz/2]
+power: 1.25
+liquids: [oxygen/0.125]
+}
+
+// class related
+
+outputItems:[
+item-photon-sheet/1
+]
+
+outputLiquids:[
+valk/0.166
+]
+
+// drawing stuffs
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawSoftParticles
+}
+]
+}

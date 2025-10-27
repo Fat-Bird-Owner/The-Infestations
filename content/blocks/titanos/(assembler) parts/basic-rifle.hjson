@@ -1,0 +1,7 @@
+type: Block
+requirements:[item-silver/10,item-oxidium/5]
+placeable: true
+breakable: false
+size: 2
+name: "Basic Rifle"
+buildVisibility: hidden

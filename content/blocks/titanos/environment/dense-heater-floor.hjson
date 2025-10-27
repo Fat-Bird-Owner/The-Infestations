@@ -1,0 +1,7 @@
+type: Floor
+emitLight: true
+lightRadius: 20
+variants: 0
+attributes: {
+heat: 1.25
+}

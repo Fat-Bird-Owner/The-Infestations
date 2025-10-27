@@ -1,0 +1,108 @@
+type: mech
+name: General
+description: "Mech Unit that poccesses strong automatic weaponary."
+speed: 0.65
+health: 225
+armor: 0
+hitSize: 15
+outlineColor: 2c2d38
+canBoost: true
+boostMultiplier: 1.75
+mineSpeed: 0
+buildSpeed: 0.65
+commands:[mine]
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+targetPriority: 0.01
+range: 0.1
+targetAir: false
+targetGround: false
+defaultCommand: mine
+immunities:[rallied]
+
+//smoke
+
+weapons:[
+{
+name: frontier-weapon
+top: false
+mirror: true
+alternate: false
+shoot:{
+shots: 15
+shotDelay: 2
+}
+
+x: 7
+y: 1.5
+shootSound: art-fire
+reload: 40
+ejectEffect: {
+type: MultiEffect
+effects:[casing1,smoke,fireSmoke]
+}
+bullet:{
+type: BasicBulletType
+inaccuracy: 3.5
+speed: 6
+healAmount: 2.5
+collidesTeam: true
+weaveScale: 0.75
+weaveMag: 1.25
+lifetime: 30
+damage: 3
+trailWidth: 1.2
+width: 6.0	
+trailLength: 4
+frontColor: 96f58c
+backColor: 54d67d
+trailColor: 96f58c
+
+hitEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: 96f58c
+colorTo: 54d67d
+lifetime: 25
+}
+smoke
+crawlDust
+blastExplosion
+]
+}
+
+}
+
+}
+]
+
+deathExplosionEffect:{
+type: MultiEffect
+
+effects:[
+{
+type: SoundEffect
+sound: big-boom
+effect: none
+}
+]
+
+}
+
+abilities:[
+{
+type: StatusFieldAbility
+reload: 2.5
+effect: rallied
+activeEffect: none
+duration: 3
+range: 80
+}
+]

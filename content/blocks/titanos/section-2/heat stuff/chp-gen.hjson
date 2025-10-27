@@ -1,0 +1,22 @@
+// general
+type: HeaterGenerator
+name: CHP Generator
+size: 3
+requirements:[
+item-silver/100
+item-conduction-quartz/25
+item-hardened-calcite/35
+item-carbon-matter/15
+item-photon-sheet/20
+]
+buildTime: 600
+itemCapacity: 20
+
+consumes:{
+items:[
+item-silver/6
+item-conduction-quartz/4
+]
+}
+
+powerProduction: 5

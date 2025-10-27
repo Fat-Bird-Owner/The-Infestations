@@ -1,0 +1,61 @@
+type: WallCrafter
+name: Compact tunneler
+size: 2
+requirements:[item-silver/16]
+category: production
+description: "crushes the wall to look for silver. requires and conducts power."
+range: 3
+drillTime: 240
+researchCost:[item-silver/60]
+research:{
+parent: drill-icon
+}
+conductivePower: true
+hasPower: true
+outputsPower: true
+consumes:{
+power: 0.035
+}
+alwaysUnlocked: true
+liquidBoostIntensity: 1
+attribute: silver
+alwaysUnlocked: true
+output: item-silver
+
+// ------ break 
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}

@@ -1,0 +1,10 @@
+type: DroneCenter
+health: 9996000
+size: 2
+droneType:"infested-blimp"
+droneConstructTime: 300
+unitsSpawned: 30
+consumes:{
+items:[item-silver/15]
+}
+itemCapacity:15

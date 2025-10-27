@@ -1,0 +1,44 @@
+type: hover
+name: Shift
+health: 450
+speed: 2
+accel: 0.1
+drag: 0.05
+range: 80
+hitSize: 13
+hovering: true
+canDrown: false
+trailLength: 8
+outlineColor: 2c2d38
+engines:[
+{
+y: -5
+radius: 1
+}
+]
+
+weapons:[
+{
+name: "shift-weapon"
+x: 0.1
+y: 0
+top: false
+shootX: 6
+shootY: 6
+mirror: true
+reload: 25
+shootSound: malignShoot
+ejectEffect: casing1
+bullet:{
+type: BasicBulletType
+damage: 20
+speed: 8
+lifetime: 10
+trailWidth: 2
+trailLength: 6
+backColor: ff0000	
+frontColor: 7f0000
+trailColor: 7f0000
+}}
+]
+// "ff0000"

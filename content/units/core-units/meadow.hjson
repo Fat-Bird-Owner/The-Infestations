@@ -1,0 +1,55 @@
+type: tank
+health: 750
+speed: 1.25
+description: "This core unit poccesses weaponary and thus can protect itself.[red] can't cross over terrain[]."
+faceTarget: false
+omniMovement: false
+rotateSpeed: 2.5
+buildSpeed: 1.2
+mineSpeed: 1
+range: 120
+
+weapons:[
+{
+name: weapon-smg
+rotateSpeed: 4
+rotate: true
+y: -3.5
+x: 0
+mirror: false
+alternate: false
+reload: 10
+ejectEffect: casing2
+shootSound: lasershoot
+
+bullet: {
+type: BasicBulletType
+pierceCap: 2
+inaccuracy: 6
+damage: 20
+speed: 6
+lifetime: 20
+trailWidth: 1.75
+trailLength: 10
+buildingDamageMultiplier: 0.1
+weaveMag: 2
+weaveScale: 2
+frontColor: b0fffc
+backColor: dbfffe
+trailColor: b0fffc
+despawnEffect: none
+despawnHit: true
+
+hitEffect: {
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: b0fffc
+colorTo: dbfffe
+lifetime: 25
+}
+
+}
+}
+
+]

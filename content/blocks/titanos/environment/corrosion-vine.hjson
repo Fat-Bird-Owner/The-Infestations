@@ -1,0 +1,6 @@
+type: Floor
+name: Corrosion Vine
+variants: 0
+damageTaken: 1
+needsSurface: true
+status: corroded

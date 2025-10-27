@@ -1,0 +1,19 @@
+hidden: true
+name: "[lightgrey]Data Chip: Inhabitor"
+details: "
+(D-1) - Data Chip - Inhabitor
+Inhabitors are massive machines able to cause mass destruction.
+although do to the hefty production cost, only were several produced.
+and lastly its been reported that the enemy faction lost contact with most if not all of them.
+"
+
+research:{
+requiresUnlock: true
+parent: core-satellite
+objectives:[
+{
+type: SectorComplete
+preset: directory
+}
+]
+}

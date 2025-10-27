@@ -1,0 +1,13 @@
+type: BaseShield
+size: 3
+radius: 80
+shieldColor: 000000ff
+consumes:{
+liquids:[
+acid/1
+]
+}
+hasConsumers: true
+category: effect
+visibility: sandboxOnly
+requirements:[]

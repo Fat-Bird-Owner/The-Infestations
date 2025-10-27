@@ -1,0 +1,10 @@
+type: Battery
+baseExplosiveness: 1.25
+consumes: {
+  powerBuffered: 500
+} 
+research:{
+parent: wire
+}
+requirements:[item-silver/20,item-conduction-quartz/10]
+researchCost:[item-silver/200,item-conduction-quartz/100]

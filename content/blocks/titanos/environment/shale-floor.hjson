@@ -1,0 +1,4 @@
+type: floor
+name: Shale
+variants: 1
+itemDrop: item-shale

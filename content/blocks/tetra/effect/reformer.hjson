@@ -1,0 +1,14 @@
+type: MendProjector
+name: Reformer
+requirements:[copper/50]
+healPercent: 0.05
+range: 40
+
+consumes:{}
+
+description: "vital building on tetra, useful for repairing damaged buildings."
+
+research:{
+parent: core-test
+}
+alwaysUnlocked: true

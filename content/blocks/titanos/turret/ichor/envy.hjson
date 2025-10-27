@@ -1,0 +1,23 @@
+type: PowerTurret
+name: Envy
+description: "saps unit making them much weaker."
+health: 400
+reload: 7.5
+range: 100
+size: 2
+outlineColor: 2c2d38
+category: turret
+
+requirements:[]
+shootSound: shoot-low-cal
+ejectEffect: casing2
+inaccuracy: 1
+consumes:{
+power: 1.5
+}
+
+shootType:{
+type: SapBulletType
+length: 100
+damage: 10
+}

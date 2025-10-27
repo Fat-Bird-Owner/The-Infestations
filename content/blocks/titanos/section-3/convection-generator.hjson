@@ -1,0 +1,77 @@
+type: ThermalGenerator
+health: 300
+name: Convection Generator
+description: "Runs lava into itself to generate power."
+size: 2
+floating: true
+category: power
+outputLiquid: slag/0.01
+requirements:[item-silver/35]
+research:{
+parent: power
+}
+alwaysUnlocked: true
+minEfficiency: 3.399
+displayEfficiencyScale: 0.295
+powerProduction: 0.122
+squareSprite: false
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}
+
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+padding: 0.65
+drawLiquid: slag
+}
+{
+type: DrawRegion
+suffix: -rotator
+rotateSpeed: 5
+}
+{
+type: DrawDefault
+}
+]
+}

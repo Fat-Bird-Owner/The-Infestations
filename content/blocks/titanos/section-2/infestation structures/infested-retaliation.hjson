@@ -1,0 +1,95 @@
+type: LiquidTurret
+name: Infested Retaliation
+health: 375
+reload: 45
+range: 180
+size: 2
+outlineColor: 2c2d38
+
+requirements:[]
+shootSound: shoot-low-cal
+ejectEffect: casing2
+inaccuracy: 1
+extinguish: false
+consumes:{
+liquids:[blood/0.00833333333]
+}
+
+shootEffect:{
+effects:[
+{
+type: WaveEffect
+colorFrom: d4fdff	
+colorTo: d4fdff11
+lifetime: 20
+sizeFrom: 0
+strokeFrom: 3
+strokeTo: 0
+sizeTo: 20
+}
+{
+type: ParticleEffect
+line: true
+colorFrom: d4fdff
+colorTo: d4fdff
+lifetime: 35
+}
+]
+}
+
+ammoTypes:{
+blood:{
+type: BasicBulletType
+// Effect
+chargeEffect:{
+type: MultiEffect
+effects:[
+{
+type: WaveEffect
+colorFrom: ff0000ff	
+colorTo: ff000011
+lifetime: 20
+sizeFrom: 20
+strokeFrom: 5
+strokeTo: 5
+sizeTo: 0
+}
+]
+}
+
+speed: 3
+width: 10
+height: 14
+lifetime: 60
+damage: 14
+fragSpread: 30
+frontColor: ff0000ff
+backColor: ff0000ff
+trailColor: ff0000ff
+trailWidth: 2
+trailLength: 6
+status: frag
+statusDuration: 1
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-half"
+mirror: true
+progress: recoil
+rotation: 0
+x: 0
+moveY: -1
+moveRot: 7.5
+}
+]
+}

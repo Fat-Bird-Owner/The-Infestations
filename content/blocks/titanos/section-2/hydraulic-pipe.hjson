@@ -1,0 +1,28 @@
+type: Conduit
+
+// general
+
+name: Hydraulic Pipe
+description: "Moves liquids and gases foward."
+
+// general stats
+
+health: 80
+
+// class stats
+speed: 6
+
+// research
+//research:{
+//parent: silver-conveyor
+//objectives:[silver-conveyor]
+//}
+//researchCost:[item-silver/50]
+
+// cost n more
+
+requirements:[
+item-silver/2
+item-hardened-calcite/1
+]
+category: liquid

@@ -1,0 +1,50 @@
+// general
+
+type: LandingPad
+name: Lander
+category: effect
+health: 750
+size: 3
+
+itemCapacity: 10
+
+description: "recieves resources from orbit."
+// class related
+
+arrivalDuration: 30
+cooldownTime: 110
+consumeLiquidAmount: 0
+landEffect: {
+type: ExplosionEffect
+smokes: 0
+sparks: 0
+waveLife: 30
+waveRad: 40
+}
+
+// others
+
+consumes:{
+power: 1
+}
+
+requirements:[
+item-silver/50
+item-conduction-quartz/15
+item-hardened-calcite/25
+]
+
+research:{
+parent: sender
+objective:[
+{
+type: sectorComplete
+preset: uphill
+}]
+}
+
+researchCost:[
+item-silver/50
+item-conduction-quartz/15
+item-hardened-calcite/25
+]

@@ -1,0 +1,7 @@
+name: Carbon Matter
+description: A highly durable material able to absorb eletricity. used fro higher tier buidlings.
+healthScaling: 0.375
+research:{
+parent: item-hardened-calcite
+}
+color: 646469

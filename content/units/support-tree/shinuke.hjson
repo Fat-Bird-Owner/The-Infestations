@@ -1,0 +1,93 @@
+// general
+type: naval
+name: Chinook
+health: 560
+armor: 4
+speed: 2.25
+
+description:"Specialized support unit able to cross over acid without a problem.
+
+[accent]Can[]:
+- Boost
+- Attack (Only while not boosting)
+- And apply rallied.
+"
+
+
+// specialty
+canBoost: true
+boostMultiplier: 0.5
+
+//weapon
+weapons:[
+{
+rotate: true
+name:"chinuke-gun"
+x: 0
+y: -4
+ejectEffect: casing1
+reload: 20
+inaccuracy: 5
+shootCone: 5
+bullet:{
+type: BasicBulletType
+lifetime: 30
+speed: 6
+width: 10
+height: 14
+frontColor: 84F491
+backColor: 62AE7F
+trailColor: 84F491
+trailWidth: 2
+trailLength: 20
+weaveMag: 3
+weaveScale: 2
+damage: 25
+
+despawnHit: true
+
+splashDamage: 6
+splashDamageRadius: 40
+
+despawnEffect:{
+type: ExplosionEffect
+sparkColor: 84F491
+}
+
+}
+
+}
+]
+
+abilities:[
+{
+type: ShieldRegenFieldAbility
+max: 450
+reload: 1
+range: 0.1
+
+activeEffect:{
+type: ParticleEffect
+particles: 3
+colorFrom: FFD37F 	
+colorTo: FFD37F 
+region: "infestation-star"
+}}
+
+{
+type: StatusFieldAbility
+effect: rallied
+reload: 300
+duration: 180
+range: 80
+
+activeEffect: {
+type: WaveEffect
+sizeTo: 80
+colorFrom: FFD37F	
+colorTo: FFD37F
+}
+
+
+}
+]

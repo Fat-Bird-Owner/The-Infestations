@@ -1,0 +1,7 @@
+type: LiquidRouter
+health: 340
+requirements:[item-silver/2]
+consumes:{
+liquids:[blood/0.00833333333]
+}
+liquidPadding: 1.2

@@ -1,0 +1,4 @@
+type: MessageBlock
+targetable: false
+privileged: true
+buildVisibility: worldProcessorOnly

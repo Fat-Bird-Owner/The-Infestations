@@ -1,0 +1,86 @@
+type: ContinuousTurret
+
+name: "[gold]Ichor[]"
+description: "Powers up a focused beam before shooting."
+
+
+shoot:{
+firstShotDelay: 60
+}
+
+category: turret
+
+health: 2300
+size: 3
+outlineColor: 00000000
+range: 200
+reload: 3.25
+
+description: ""
+
+requirements:[]
+shootSound: art-fire
+
+consumes:{
+power: 3.45
+}
+
+shootType:{
+type: ContinuousLaserBulletType
+// charge FX
+status: ichor-burn
+statusDuration: 300
+chargeEffect:{
+type: WaveEffect
+lifeTime: 60
+sizeFrom: 60
+sizeTo: 0
+}
+
+damage: 25
+frontLength: 200
+width: 4.5
+}
+
+aimChangeSpeed: 1
+rotateSpeed: 1.5
+
+// Shoot effect
+shootY: 18
+shootEffect:{
+type: ParticleEffect
+length: 5
+colorFrom: 2f2f2f
+colorTo: 6f6f6f00
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-bottom"
+x: 0
+y: 0
+mirror: false
+moveX: 0
+moveY: 0
+layerOffset: -2
+}
+{
+suffix: "-helux"
+x: 0
+y: 0
+mirror: false
+moveX: 7
+layerOffset: -1
+}
+{
+suffix: "-helux"
+x: 0
+y: 0
+mirror: false
+moveX: -7
+layerOffset: -1
+}
+]
+}

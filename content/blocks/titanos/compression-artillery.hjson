@@ -1,0 +1,5 @@
+type: Wall
+name: Compression Artillery
+description: launches artillery every so often, can change its payload to whatever the infestation is prouducing, requires world proccessor to work.
+health: 400
+drawTeamOverlay: false

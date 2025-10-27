@@ -1,0 +1,39 @@
+type: ItemTurret
+name: Zone Cleanser
+requirements:[
+]
+
+targetable: false
+breakable: false
+replaceable: false
+destructible: false
+
+description: "Mainly used to obliterate infested buildings, requires conduction quartz to function."
+category: effect
+size: 6
+maxAmmo: 200
+itemCapacity: 200
+ammoPerShot: 200
+shootCone: 180
+alwaysShooting: true
+range: 1200
+squareSprite: false
+rotateSpeed: 0
+shake: 5
+collidesTeam: true
+
+ammoTypes:{
+item-conduction-quartz: {
+killShooter:true
+despawnHit: true
+despawnEffect:reactorExplosion
+instantDisappear: true
+splashDamage: 10000500
+splashDamageRadius: 1200
+scaledSplashDamage: true
+}
+}
+
+minWarmup: 1
+shootWarmupSpeed: 0.0001
+linearWarmup: true

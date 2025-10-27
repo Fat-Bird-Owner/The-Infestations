@@ -1,0 +1,32 @@
+type: PowerTurret
+consumes:{
+power: 3
+}
+size:3
+name: Anchor 
+health: 600
+armor: 5
+range: 240
+reload: 65
+predictTarget: false
+linearWarmup: true
+shootWarmupSpeed: 0.03
+shootEffect: lightningShoot
+category: turret
+requirements:[]
+
+description:"Shoots strong lightning arcs which can chain targets.
+[red]Weakness[]:
+- inaccuracy
+"
+
+chargeEffect: lancerLaserChargeBegin
+
+shootType:{
+type: LightningBulletType
+lifetime: 70
+lightningColor: ffffffff
+hitEffect: hitLancer
+lightningLength: 30
+damage: 100
+}

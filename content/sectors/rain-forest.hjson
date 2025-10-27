@@ -1,0 +1,30 @@
+captureWave: 50
+localizedName: "Rain Forest"
+difficulty: 4
+planet: titanos
+sector: 86
+description: "
+Nightfall will soon arrive, Enemy presence has increase substancially.
+Learn to extract and seperate shale to build a defensive line before the horde of enemies arrives.
+[lightgrey]
+Tip: A number of derelict wrecks have been located here, destroy or repair to make use of them.
+"
+research: {
+  parent: directory
+  objectives:[
+  {
+  type: SectorComplete
+  preset: directory
+  }
+  recon-air-bay
+  ]
+}
+
+details:"
+Sector-84: Rain Forest
+A former oxidium production facility following a long sewage system,
+but now abandoned and forgotten by the grenarcs.
+this sector usally receives a high number of rain fall every year and hence also has a great number of tree.
+and it can be estimated that these wrecks are at youngest 15 years old, if measured looking at the oldest trees located there.
+"
+

@@ -1,0 +1,5 @@
+name: Photon Sheet
+description: A durable sheet of metal that can absorb tempurature easily.
+research:{
+parent: item-silver
+}

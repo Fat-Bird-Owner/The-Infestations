@@ -1,0 +1,9 @@
+type: ParticleWeather
+name: Acid Rain
+color: 32695a
+xspeed: 1.5
+sizeMax: 9
+sizeMin: 4.5
+noiseColor: b5ffeb
+useWindVector: true
+particleRegion: "infestation-line"

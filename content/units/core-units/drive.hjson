@@ -1,0 +1,96 @@
+type: tether
+name: "Drive"
+description:"Basic mech unit able to build and heal blocks."
+health: 500
+armor: 1
+speed: 2.25
+range: 180
+mineTier: 0
+minesItem:[]
+mineWalls: true
+buildSpeed: 0.65
+mineSpeed: 0
+payloadCapacity: 32
+drag: 0.03
+accel: 0.1
+engineSize: 0
+flying: true
+itemCapacity: 40
+ammoCapacity: 1
+pickupUnits: true
+outlineColor: 2c2d38
+
+// mech pad module
+mineSpeed: 0
+buildSpeed: 0.65
+commands:[mine]
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+targetPriority: -0.1
+range: 0.1
+targetAir: false
+targetGround: false
+defaultCommand: mine
+immunities:[rallied]
+
+engines:[
+{
+radius: 4.5
+y: -8.5
+rotation: 90
+}
+]
+
+abilities:[
+{
+type: EnergyFieldAbility
+damage: 0
+hitUnits: false
+maxTargets: 10
+healPercent: 3.5
+reload: 60
+effectRadius: 0
+sectors: 0
+layer: 10
+hitEffect: heal
+shootSound: heal
+
+damageEffect:[
+{
+type: WaveEffect
+sizeTo: 60
+colorFrom: e2865455
+colorTo: e2865455
+followParent: true
+lifetime: 120
+strokeFrom: 3.5
+strokeTo: 3.5
+followParent: true
+layer: 86
+}
+{
+type: SoundEffect
+sound: sonar-ping
+effect: none
+}
+{
+type: WaveEffect
+sizeTo: 60
+colorFrom: e28654
+colorTo: e2865400
+followParent: true
+lifetime: 120
+strokeFrom: 3.5
+strokeTo: 3.5
+sizeFrom: 60
+sizeTo: 60
+followParent: true
+layer: 86
+}
+]
+
+}
+]

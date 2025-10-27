@@ -1,0 +1,30 @@
+type: GenericCrafter
+health: 400
+size: 2
+name: Valk Disposer
+category: liquid
+description:"Gets rid of valkarium at a steady pace."
+
+requirements:[]
+outputItems: []
+consumes:{
+liquids:[
+valk/0.2
+]
+}
+craftTime: 10
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawParticles
+color: f7f7f7ff
+particles: 15
+reverse: true
+}
+]
+}

@@ -1,0 +1,6 @@
+type: wall
+health: 500
+name: Reinforced Infested Wall
+drawTeamOverlay: false
+chanceDeflect: 15
+absorbLasers: true

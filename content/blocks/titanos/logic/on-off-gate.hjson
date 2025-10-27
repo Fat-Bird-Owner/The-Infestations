@@ -1,0 +1,21 @@
+// general
+
+type: SwitchBlock
+name: On/Off Gate
+category: logic
+health: 300
+size: 3
+
+description:"Its a switch."
+
+// class related
+
+// theres none lol
+
+// others
+
+requirements:[
+item-silver/20
+item-carbon-matter/5
+item-conduction-quartz/10
+]

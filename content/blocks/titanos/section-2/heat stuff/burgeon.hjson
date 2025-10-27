@@ -1,0 +1,52 @@
+// general
+type: ItemTurret
+name: Burgeon
+health: 500
+size: 3
+outlineColor: darkOutline
+range: 400
+reload: 180
+
+category: turret
+
+heatRequirement: 6
+
+maxHeatEfficiency: 2.5
+
+requirements:[
+item-silver/75
+item-conduction-quartz/40
+item-hardened-calcite/35
+item-carbon-matter/30
+item-photon-sheet/35
+]
+
+// class related stats 
+
+predictTarget: false
+
+ammoCapacity: 40
+itemCapacity: 40
+
+ammoTypes:{
+item-carbon-matter:{
+type: LaserBulletType
+length: 400
+damage: 150
+width: 30
+}
+}
+
+// drawing
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+x: 4
+y: 8
+moveY:-6
+mirror: true
+progress: recoil
+}]
+}

@@ -1,0 +1,5 @@
+type: CoreBlock
+name: Infested Hive
+health: 1000
+size: 3
+buildVisibility: worldProcessorOnly

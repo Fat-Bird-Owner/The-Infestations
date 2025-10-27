@@ -1,0 +1,19 @@
+type: CoreBlock
+name: "Core: Fort"
+description: " A small core, armored and produces a less mobile unit which can attack."
+health: 4500
+unitType: meadow
+size: 3
+itemCapacity: 1000
+squareSprite: false
+mineSpeed:1.25
+requirements:[item-silver/750,item-conduction-quartz/100,item-hardened-calcite/100]
+category: effect
+alwaysUnlocked: true
+unitCapModifier: 25
+solid: false
+requiresCoreZone: false
+research: {
+ parent: core-satellite
+}
+alwaysUnlocked: true

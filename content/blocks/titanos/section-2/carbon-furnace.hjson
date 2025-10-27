@@ -1,0 +1,37 @@
+// general
+
+type: ConsumeGenerator
+name: Carbon Furnace
+category: power
+health: 500
+size: 3
+
+description: "Rapidly burns shale to produce power."
+
+// class related
+
+itemDuration: 30
+powerProduction: 1.25
+
+// others
+
+consumes:{
+items:[item-shale/1]
+}
+
+requirements:[
+item-silver/40
+item-conduction-quartz/15
+item-hardened-calcite/20
+]
+
+research:{
+parent: power
+objectives:[mineral-seive]
+}
+
+researchCost:[
+item-silver/40
+item-conduction-quartz/15
+item-hardened-calcite/20
+]

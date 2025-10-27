@@ -1,0 +1,6 @@
+name: Conduction Quartz
+description: "A [red]VERY[] conductive fragile material."
+charge: 0.5
+research:{
+parent: item-shale
+}

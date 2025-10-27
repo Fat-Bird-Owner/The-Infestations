@@ -1,0 +1,9 @@
+type: Block
+name: Sector Category
+description:"Sectors of titanos can be founded in this category."
+placeable: false
+alwaysUnlocked: true
+buildVisibility: hidden
+research:{
+parent: core-satellite
+}

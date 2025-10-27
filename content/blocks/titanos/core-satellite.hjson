@@ -1,0 +1,30 @@
+type: CoreBlock
+name: "[accent]Core: Satellite"
+description:"
+[accent]The heart of the base, durable but has a low item capacity. once destroyed, the sector will be lost.
+[grey]
+"
+
+details:"
+Primarily used on [purple]Serpulo[grey] and [orange]Erekir[grey]
+to scout sectors, but was then switched to a new form of reconnaissance.
+now the rest of this core is sent of to [lime]Titanos[grey] in order to serve there final mission.
+"
+
+health: 2500
+unitType: observent
+size: 3
+itemCapacity: 1500
+squareSprite: false
+requirements:[item-silver/1000]
+category: effect
+alwaysUnlocked: true
+unitCapModifier: 20
+requiresCoreZone: false
+isFirstTier: true
+research: {
+  planet: titanos
+  root: true
+  name: Titanos
+  requiresUnlock: false
+}

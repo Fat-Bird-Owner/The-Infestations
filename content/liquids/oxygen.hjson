@@ -1,0 +1,7 @@
+type: Liquid
+name: Oxygen
+color: e4f5f46f
+gas: true
+gasColor: e4f5f46f
+flammability: 1
+explosiveness: 0.5

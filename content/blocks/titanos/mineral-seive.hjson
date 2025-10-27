@@ -1,0 +1,61 @@
+type: Separator
+size: 2
+name: Mineral Sieve
+description: "Filters minerals from shale. Gives [accent]Conduction Quartz[] and [#9f9f9f]Hardened Calcite[]."
+consumes:{
+items:[
+item-shale/2
+]
+}
+results:[
+item-conduction-quartz/45
+item-hardened-calcite/55
+]
+
+health: 300
+requirements:[item-silver/30]
+craftTime: 60
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawParticles
+particle: 15
+color: 3f3f3f5f
+reverse: true
+}
+]
+}
+
+research:{
+parent: crafting
+objectives:[
+{
+type: OnSector
+preset: rain-forest
+}    
+]
+
+}
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawPistons
+}
+{
+type: DrawParticles
+color: 7f7f7f
+reverse: true
+}
+]
+}
+
+researchCost:[item-silver/120]

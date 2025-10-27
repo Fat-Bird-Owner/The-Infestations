@@ -1,0 +1,9 @@
+name: Binding Network
+details: "allows core satellites to communicate via signal links allowing for further data transfer, able to find and scan sectors more efficiently."
+
+research:{
+parent: core-satellite
+}
+
+researchCost:[item-silver/5000,item-oxidium/4000]
+hidden: true

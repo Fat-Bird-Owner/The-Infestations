@@ -1,0 +1,28 @@
+type: ItemTurret
+maxAmmo: 5
+health: 400
+category: turret
+range: 80
+outlineColor: 2c2d38
+size: 2
+requirements:[]
+
+shoot:{
+shots: 40
+}
+reload: 25
+inaccuracy: 60
+
+ammoTypes:{
+item-hardened-calcite:{
+type: BasicBulletType
+width: 10
+height: 14
+hitSize: 10
+
+lifetime: 10
+speed: 8
+knockback: 0.35
+damage: 1.25
+}
+}

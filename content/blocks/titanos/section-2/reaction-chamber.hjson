@@ -1,0 +1,57 @@
+type: GenericCrafter
+size: 3
+name: Reaction Chamber
+description: "
+[accent]Melts down silver and mixes it with calcite and binds carbon dioxide to cause a reaction making Carbon Matter.
+"
+squareSprite: false
+hasLiquid: true
+consumes:{
+items:[
+item-hardened-calcite/2
+item-silver/4
+]
+liquids:[
+carbon-dioxide/0.5
+]
+}
+
+health: 750
+requirements:[item-hardened-calcite/30, item-conduction-quartz/20,item-silver/60]
+craftTime: 60
+
+outputItems:[item-carbon-matter/1]
+
+ambientSound: hum
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: carbon-dioxide
+}
+{
+type: DrawCircles
+amount: 3
+color: 3f3f3f55
+}
+{
+type: DrawDefault
+}
+{
+type: DrawGlowRegion
+suffix:"-top"
+}
+]
+}
+
+craftEffect:{
+type: RadialEffect
+effect:surgeCruciSmoke
+lengthOffset: 11.5
+}

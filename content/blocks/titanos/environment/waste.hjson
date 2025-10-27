@@ -1,0 +1,7 @@
+type: ShallowLiquid
+variants: 0
+dropLiquid: Acid
+cacheLayer: water
+isLiquid: true
+supportsOverlay: true
+albedo: 0.9

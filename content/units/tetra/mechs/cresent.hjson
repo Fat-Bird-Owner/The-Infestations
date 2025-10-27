@@ -1,0 +1,44 @@
+type: mech
+name: Cresent
+description: "Unlike the anectons these units are strong even by themselves. equipped with a shotgun for close range."
+speed: 0.5
+health: 235
+hitSize: 14
+outlineColor: 2c2d38
+range: 120
+
+weapons:[
+{
+x: 0
+y: 0
+mirror: false
+reload: 120
+
+shoot:{
+firstShotDelay: 90
+}
+
+bullet:{
+
+chargeEffect:{
+type: WaveEffect
+sizeFrom: 80
+sizeTo: 0
+strokeFrom: 1
+strokeTo: 0
+lifetime: 90
+}
+
+type: BasicBulletType
+width: 15
+height: 15
+trailWidth: 3
+traillength: 30
+damage: 25
+speed: 4
+lifetime: 30
+
+}
+
+}
+]

@@ -1,0 +1,34 @@
+// general stats
+type: legs
+hitSize: 16
+health: 1000
+speed: 0.2
+omniMovement: true
+shootCone: 30
+range: 120
+faceTarget: false
+outlineColor: 2c2d38
+
+// funni spider
+legCount: 6
+legMoveSpace: 1.35
+lockLegBase: true
+legContinuousMove: true
+emitWalkEffect: false
+legPairOffset: 2
+stepShake: 0.2
+legLengthScl: 0.95
+legSpeed: 0.25
+LegStraightness: 0.35
+legLength: 40
+
+// bullet
+
+abilities:[
+{
+type: UnitSpawnAbility
+unit: infested-mass
+spawnTime: 600
+spawnY: -8
+}
+]

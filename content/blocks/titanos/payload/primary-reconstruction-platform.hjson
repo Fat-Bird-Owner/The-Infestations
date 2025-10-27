@@ -1,0 +1,19 @@
+type: Reconstructor
+size: 3
+health: 350
+name: Primary Reconstruction Platform
+requirements:[]
+constructTime: 600
+solid: false
+consumes:{
+power: 2.75
+items:[item-silver/75,item-oxidium/45,item-hardened-calcite/15]
+liquids: [steam/0.01675]
+}
+
+upgrades:[
+[
+frontier
+fleet
+]
+]

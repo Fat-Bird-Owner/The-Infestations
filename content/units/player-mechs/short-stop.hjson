@@ -1,0 +1,61 @@
+// general stats
+type: tether
+hitSize: 16
+health: 250
+name: Short Stop
+speed: 0.9
+shootCone: 30
+buildSpeed: 0.35
+
+// mech pad module
+mineSpeed: 0
+commands:[mine]
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+targetPriority: -0.1
+range: 0.1
+targetAir: false
+targetGround: false
+defaultCommand: mine
+immunities:[rallied]
+
+// funni spider
+legCount: 6
+legMoveSpace: 1.8
+emitWalkEffect: false
+legPairOffset: 2
+stepShake: 0.2
+legLengthScl: 0.95
+legSpeed: 0.35
+legLength: 7.5
+
+// bullet
+
+weapons:[
+{
+type: PointDefenseWeapon 
+x: 5
+y: 0
+reload: 30
+alternate: false
+}
+{
+type: RepairBeamWeapon
+repairSpeed: 1.3
+x: 0
+mirror: false
+y: -6.5
+}
+]
+
+abilities:[
+{
+type: ForceFieldAbility
+radius: 40
+regen: 1
+max: 600
+}
+]

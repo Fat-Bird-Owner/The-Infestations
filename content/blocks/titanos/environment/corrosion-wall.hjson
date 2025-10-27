@@ -1,0 +1,7 @@
+type: Wall
+name: Corrosion Vine Wall
+variants: 0
+forceDark: true
+breakable: false
+destructible: false
+replaceable: false

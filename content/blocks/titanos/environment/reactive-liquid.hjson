@@ -1,0 +1,11 @@
+type: Floor
+speedMultiplier: 0.6
+variants: 0
+statusDuration: 60
+damageTaken: 2
+status: corroded
+cacheLayer: tar
+liquidDrop: acid
+name: Acid Pool
+isLiquid: true
+drownTime: 200

@@ -1,0 +1,22 @@
+// general
+
+type: BuildTurret
+name: Build Cheat tower
+category: power
+health: 500
+size: 3
+
+// class related
+
+buildSpeed: 1000
+range: 8000
+
+// others
+
+requirements:[]
+
+research:{
+parent: conduction-generator
+}
+
+alwaysUnlocked: true

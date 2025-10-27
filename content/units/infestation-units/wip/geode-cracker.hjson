@@ -1,0 +1,24 @@
+// general stats
+type: legs
+hitSize: 20
+health: 350
+name: Geode Cracker
+armor: 12
+speed: 0.45
+omniMovement: true
+range: 20
+mineWalls: true
+commands:[mine]
+mineItem:[item-silver]
+mineSpeed: 5
+mineTier: 1
+itemCapacity: 300
+
+// funni spider
+legCount: 4
+legMoveSpace: 2.5
+legPairOffset: 8
+stepShake: 0.4
+legLengthScl: 1
+legLength: 10
+legSpeed: 0.1

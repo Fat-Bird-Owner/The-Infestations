@@ -1,0 +1,12 @@
+type: ItemBridge
+health: 75
+name: Acceleration Line
+size: 1
+range: 5
+transportTime: 10
+requirements:[item-silver/5]
+researchCostMultiplier: 0.5
+
+// research:{
+// parent: filter-move-icon
+// }

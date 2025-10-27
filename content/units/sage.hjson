@@ -1,0 +1,68 @@
+// general
+type: tank
+name: Sage 
+description: "A heavily armored artillery vehicle. Is able to heal from blood puddles. has very great range"
+hitSize: 24
+range: 300
+omniMovement: false
+rotateSpeed: 4.5
+
+health: 1600
+armor: 15
+
+outlineColor: "000000ff"
+
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+
+weapons: [
+{
+name: "main-cannon"
+shootSound: artillery
+x: 0
+mirror: false
+rotate: true
+reload: 45
+layerOffset: 1
+rotateSpeed: 2
+range: 300
+bullet: {
+speed: 10
+lifetime: 30
+knockback: 18
+instantDisappear: true
+despawnHit: true
+fragBullets: 24
+fragSpread: 3.75
+fragVelocityMin: 1
+fragVelocityMax: 1
+fragRandomSpread: 0
+fragBullet:{
+type: BasicBulletType
+speed: 7.5
+lifetime: 45
+homingRange: 300
+pierceCap: 15
+width: 4
+trailWidth: 4
+trailLength: 15
+damage: 35
+pierceBuilding: true
+splashDamage: 10
+homingPower: 0.1
+splashDamageRadius: 20
+}
+
+}
+}
+
+]
+
+abilities:[
+{
+type: LiquidRegenAbility
+liquid: blood
+}
+]

@@ -1,0 +1,79 @@
+// general
+type: legs
+health: 5000
+range: 80
+speed: 0.6
+hitSize: 24
+
+// spooder stuff
+legCount: 6
+legSpeed: 0.05
+legPairOffset: 1
+legMinLength: 0.95
+legMaxLength: 1.05
+legSplashRange: 8
+legSplashDamage: 5
+legStraightness: 0.15
+legLength: 25
+
+// weapons
+
+weapons:[
+{
+name: acid-shotgun
+mirror: false
+y: 4
+linearWarmup: true
+minWarmup: 1
+shootWarmupSpeed: 0.016
+shootSound: flame
+reload: 2
+
+bullet:{
+speed: 10
+lifetime: 8
+instantDisappear: true
+despawnHit: true
+fragBullets: 8
+fragRandomSpread: 90
+fragBullet:{
+type: LiquidBulletType
+liquid: acid
+speed: 5
+lifetime: 40
+damage: 10
+trailWidth: 1
+trailLength: 4
+}
+
+}
+
+}
+]
+
+abilities:[
+{
+type: LiquidExplodeAbility
+liquid: blood
+amount: 1750
+}
+]
+
+deathExplosionEffect: {
+type: MultiEffect
+effects: [{
+type: ParticleEffect
+sizeFrom: 16
+particles: 12
+colorFrom: 4f0500
+colorTo: 300300cc
+length: 180
+}
+{
+type: ExplosionEffect
+smokes: 0	
+sparks: 0
+waveLife: 50	
+waveStroke: 10
+waveRad: 80
+}]}

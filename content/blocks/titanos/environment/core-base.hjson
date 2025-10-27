@@ -1,0 +1,27 @@
+type: SteamVent
+allowCorePlacement: true
+size: 1
+variants: 0
+
+blendGroup: moss-stone
+parent: moss-stone
+
+effect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+lifetime: 240
+region: infestation-core-icon-satellite
+particles: 1
+colorTo: ffffff00
+sizeFrom: 24
+sizeTo: 24
+interp: pow4Out
+length: 0
+baseLength: 0
+}
+]
+}
+
+effectSpacing: 240

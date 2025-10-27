@@ -1,0 +1,54 @@
+type: StackConveyor
+requirements:[item-silver/1]
+speed: 0.099
+itemCapacity: 1
+health: 100
+size: 1
+buildTime: 1.5
+outputRouter: false
+recharge: 1
+
+research:{
+parent: filter-move-icon
+objective:[compact-laser-bore]
+}
+researchCost:[]
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}
+
+loadEffect: unitPickup
+unloadEffect: despawn

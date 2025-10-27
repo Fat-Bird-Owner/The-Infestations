@@ -1,0 +1,14 @@
+type: PayloadConveyor
+health: 200
+size: 3
+requirements:[item-hardened-calcite/10]
+category: units
+
+description: "move stuff."
+moveTime: 30
+interp: linear
+
+research:{
+parent:unit-constructor
+}
+researchCost:[item-hardened-calcite/40]

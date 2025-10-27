@@ -1,0 +1,21 @@
+// general
+
+type: LogicBlock
+name: Micro Console
+category: logic
+health: 350
+
+description:"Runs inputted logic."
+
+// class related
+
+instructionsPerTick: 3
+range: 120
+
+// others
+
+requirements:[
+item-silver/50
+item-photon-sheet/20
+item-carbon-matter/25
+]

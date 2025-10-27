@@ -1,0 +1,72 @@
+type: legs
+name: Infested Blimp
+health: 50000
+speed: 0.3
+
+legCount: 6
+legMoveSpace: 2
+legPairOffset: 16
+stepShake: 1
+legLengthScl: 1
+legLength: 60
+legSpeed: 0.05
+
+weapons:[
+{
+y: 0
+x: 5
+mirror: true
+reload: 60
+shootSound: malignShoot
+bullet:{
+type: BasicBulletType
+sprite: "infestation-liberation-arrow"
+collideAir:
+lifetime: 30
+width: 25
+height: 45
+speed: 8
+damage: 125
+trailWidth:1
+trailLength: 10
+trailColor: ffffff55
+pierceArmor: turret
+collidesAir: true
+collidesGround: true
+hitSize: 8
+}}
+{
+Continuous: true
+reload: 0
+x: 3
+y: 4
+mirror: false
+bullet:{
+type: ContinuousFlameBulletType
+flareLength: 40
+flareColor: ff8800
+damage: 45
+colors: [ff8800,ff8800,ff8800,ff8800,ffffff]
+lightColor: ff8800
+hitEffect:{
+type: ParticleEffect
+colorFrom: fff900
+colorTo: f7f7f7
+lifetime: 30
+}
+
+}}
+]
+
+abilities:[
+{
+type: SpawnDeathAbility
+amount: 20
+unit: "infested-mass"
+}
+{
+type: LiquidExplodeAbility
+liquid: "acid"
+amount: 200
+}
+]

@@ -1,0 +1,13 @@
+type: SolarGenerator
+health: 650
+name: Conduction Panel
+category: power
+size: 2
+requirements:[item-silver/60,item-conduction-quartz/20,item-hardened-calcite/30]
+research:{
+parent: wire
+}
+researchCost:[item-silver/600,item-conduction-quartz/200,item-hardened-calcite/300]
+description: "Produces a small amount of power."
+hasPower: true
+powerProduction: 0.30

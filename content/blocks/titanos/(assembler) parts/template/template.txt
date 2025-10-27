@@ -1,0 +1,7 @@
+type: Block
+requirements:[]
+placeable: true
+breakable: false
+size: 2
+name: "Template Part"
+buildVisibility: hidden

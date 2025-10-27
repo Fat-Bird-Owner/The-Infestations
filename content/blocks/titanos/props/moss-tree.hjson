@@ -1,0 +1,5 @@
+type: TreeBlock
+variants: 0
+name: Moss Tree
+breakable: true
+buildTime: 300

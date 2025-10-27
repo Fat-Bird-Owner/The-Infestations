@@ -1,0 +1,61 @@
+type: flying
+flying: true
+name: Dive
+description: A mighty ship both well armored and well armed.
+health: 1000
+faceTarget: false
+armor: 5
+hitSize: 24
+speed: 3
+accel: 0.1
+drag: 0.035
+range: 240
+engineOffset: 10
+
+weapons:[
+{
+x: 0
+y: -4
+name: "artillerycannon"
+reload: 45
+shootSound: malignShoot
+recoilPow: 3.6
+mirror: false
+rotate: true
+bullet:{
+type: BasicBulletType
+width: 10
+height: 10
+lifetime:60
+speed: 4
+damage: 10
+splashDamage: 50
+splashDamageRadius: 32
+hitEffect:[{
+effect:[
+particles: 10
+capped: false
+]
+}]
+}
+
+}
+]
+
+abilities:[
+{
+type: MoveEffectAbility
+chance: 0
+minVelocity: 0
+y: -7
+teamColor: true
+interval: 2
+}
+{
+type: ForceFieldAbility
+radius: 30
+regen: 0.25
+max: 180
+sides: 4
+}
+]

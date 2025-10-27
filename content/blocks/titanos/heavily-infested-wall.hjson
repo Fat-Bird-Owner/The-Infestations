@@ -1,0 +1,20 @@
+type: wall
+health: 100
+drawTeamOverlay: false
+createRubble: false
+destroyBullet:{
+type: LiquidBulletType
+instantDisappear: true
+despawnHit: true
+liquid: blood
+puddleSize: 70
+}
+destroyEffect:{
+type:ParticleEffect
+particles: 16
+sizeFrom: 3
+sizeChangeStart: 40
+colorFrom:8f0000ff	
+colorTo:8f000000
+}
+name: Heavily Infested Wall

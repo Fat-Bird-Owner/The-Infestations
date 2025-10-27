@@ -1,0 +1,104 @@
+localizedName: Titanos
+description: A forgotten planet. home to something far worst then what you will ever fight.
+alwaysUnlocked: true
+mesh: [
+{
+    //ground and acid
+    type: NoiseMesh
+    planet: titanos
+    divisions: 4
+    seed: 4
+    radius: 1.218
+    color1: 00ff80
+    color2: 1d6b67
+    persistence: 8
+    octaves: 3
+}
+]
+
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: titanos
+   speed: 1.21
+   radius: 0.1
+   divisions: 7
+   color: 234f4455
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: titanos
+   speed: 1.01
+   radius: 0.11
+   divisions: 8
+   color: 00ff8033
+   octaves: 4
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.7
+  }
+  {
+   type: HexSkyMesh
+   planet: titanos
+   speed: 0.891
+   radius: 0.091
+   divisions: 5
+   color: 00ff8011
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.8
+  }
+]
+
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+
+orbitRadius: 50
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchToNumbered: true
+allowLaunchLoadout: false
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 2
+radius: 1.219
+minZoom: 0.25
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 17
+bloom: true
+visible: true
+atmosphereColor: a6babd3f
+showRtsAIRule: false
+iconColor: ffffff
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: true
+enemyInfiniteItems: false
+defaultCore: core-satellite
+parent: sun
+launchCandidates: []
+landCloudColor: 234f4455

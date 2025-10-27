@@ -1,0 +1,5 @@
+type: UnitCargoLoader
+requirements: [item-silver/50]
+itemCapaity: 30
+size: 2
+consumes:[]

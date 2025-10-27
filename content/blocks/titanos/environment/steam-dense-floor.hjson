@@ -1,0 +1,8 @@
+type: Floor
+variants: 0
+drawEdgeIn: false
+drawEdgeOut: false
+attributes:{
+steam: 0.25
+heat: 0.25
+}

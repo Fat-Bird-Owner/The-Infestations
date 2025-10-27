@@ -1,0 +1,5 @@
+type: Wall
+name: Corrosion Generator
+health: 400
+description: "requires world proccessors to function, produces alittle bit of [pink]Rad[] which is used for launchers to launch More Corrosion Generators."
+drawTeamOverlay: false

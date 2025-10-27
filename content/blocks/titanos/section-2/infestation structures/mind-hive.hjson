@@ -1,0 +1,30 @@
+type: LiquidTurret
+health: 1000
+size: 3
+outlineColor: 00000000
+range: 270
+reload: 9.5
+shoot:{
+shots: 15
+}
+inaccuracy: 180
+shootCone: 180
+rotateSpeed: 0
+recoil: 0
+shootY: 0
+
+description: ""
+
+shootSound: art-fire
+
+ammoTypes:{
+blood:{
+type: MissileBulletType
+damage: 3.5
+speed: 5
+lifetime: 90
+homingPower: 0.1
+homingRange: 120
+homingDelay: 15
+}
+}

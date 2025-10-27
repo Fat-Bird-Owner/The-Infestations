@@ -1,0 +1,18 @@
+// general
+type: HeatProducer
+size: 4
+health: 300
+category: crafting
+
+requirements:[
+item-silver/30
+item-carbon-matter/10
+item-hardened-calcite/20
+item-photon-sheet/5
+]
+
+consumes:{
+power: 1.25
+}
+
+heatOutput: 3.2

@@ -1,0 +1,21 @@
+type: Constructor
+health: 2000
+consumes:{
+power: 1.5
+}
+size: 2
+requirements:[item-silver/50,item-conduction-quartz/20]
+category: units
+
+description: "Creates components used to build units."
+
+filter: [
+light-engine
+mechanical-base
+basic-rifle
+]
+
+research:{
+parent: unit-constructor
+}
+researchCost:[item-silver/50,item-conduction-quartz/20]

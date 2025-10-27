@@ -1,0 +1,12 @@
+type: AutoDoor
+health: 500
+name: Gate
+size: 2
+category: defense
+requirements:[item-silver/35,item-hardened-calcite/10]
+research:{
+parent: large-silver-wall
+objectives:[item-hardened-calcite]
+}
+researchCost: [item-silver/350,item-hardened-calcite/100]
+

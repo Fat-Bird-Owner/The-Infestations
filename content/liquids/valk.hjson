@@ -1,0 +1,12 @@
+type: Liquid
+name: Valkarium
+description: A highly potent liquid too dangerous for any standard use.
+color: 38781f
+flammability: 10
+temperature: 10
+heatCapacity: 1
+capPuddles: false
+viscosity: 0.2
+moveThroughBlocks: true
+coolant: false
+explosiveness: 2

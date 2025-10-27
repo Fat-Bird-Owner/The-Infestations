@@ -1,0 +1,28 @@
+type: PowerTurret
+size: 1
+name: Infested Spore
+rotateSpeed: 0
+shootCone: 180
+range: 60
+shake: 1.5
+warmupMaintainTime: 6000
+minWarmup: 1
+shootWarmupSpeed: 0.083
+linearWarmup: true
+shootType:{
+type: BasicBulletType
+splashDamage: 65
+splashDamageRadius: 60
+speed: 6
+lifetime: 10
+instantDisappear: true
+despawnHit: true
+killShooter: true
+shootEffect:{
+type: ExplosionEffect
+waveRad: 60
+smokes: 12
+}
+
+}
+

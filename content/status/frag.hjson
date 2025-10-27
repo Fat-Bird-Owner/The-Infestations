@@ -1,0 +1,7 @@
+damage: 10
+name: Frag
+description: "The victim will receive secondary damage.[accent] usually applied by explosives."
+research:{
+parent: core-satellite
+}
+alwaysUnlocked: true

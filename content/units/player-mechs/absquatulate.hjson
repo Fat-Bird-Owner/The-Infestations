@@ -1,0 +1,74 @@
+type: tether
+name: "Absquatulate"
+description:"flying unit able to carry big payloads and can bolt forward a massive distance."
+health: 500
+armor: 1
+speed: 2.25
+range: 180
+mineTier: 0
+minesItem:[]
+mineWalls: true
+buildSpeed: 0.65
+mineSpeed: 0
+payloadCapacity: 192
+drag: 0.03
+accel: 0.1
+engineSize: 0
+flying: true
+itemCapacity: 40
+ammoCapacity: 1
+pickupUnits: true
+outlineColor: 2c2d38
+
+// mech pad module
+mineSpeed: 0
+buildSpeed: 0.65
+commands:[mine]
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+targetPriority: -0.1
+range: 0.1
+targetAir: false
+targetGround: false
+defaultCommand: mine
+immunities:[rallied]
+
+
+weapons:[
+{
+x:0
+y:0
+mirror: false
+reload: 180
+shoot:{
+firstShotDelay: 120
+}
+
+bullet:{
+instantDisappear: true
+despawnHit: true
+recoil: -25
+moveWhileCharging: false
+
+chargeEffect:{
+lifetime: 120
+type: WaveEffect
+sizeFrom: 80
+sizeTo: 0
+}
+
+}
+
+}
+]
+
+engines:[
+{
+radius: 4.5
+y: -8.5
+rotation: 90
+}
+]

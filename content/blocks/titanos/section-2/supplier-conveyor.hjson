@@ -1,0 +1,24 @@
+type: Router
+
+// general
+
+name: Supplier
+description: "Evenly distributes items to every output direction. Evenly. [red]praise the router"
+
+// general stats
+
+health: 80
+
+// class stats
+speed: 6
+
+// research
+research:{
+parent: silver-conveyor
+objectives:[silver-conveyor]
+}
+researchCost:[item-silver/50]
+
+// cost n more
+
+requirements:[item-silver/4,item-oxidium/2]

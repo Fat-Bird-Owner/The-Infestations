@@ -1,0 +1,16 @@
+type: liquid
+description: "Its alive."
+
+capPuddles: false
+
+moveThroughBlocks: true
+
+color: 4d0202
+particleEffect:{
+type:ParticleEffect
+particles: 16
+sizeFrom: 1
+sizeChangeStart: 40
+colorFrom:8f00005f
+colorTo:8f000000
+}

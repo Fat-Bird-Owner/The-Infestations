@@ -1,0 +1,30 @@
+type: Drill
+size: 2
+name: Ground Press
+description: Smashes the ground for resources, Mines faster.
+health: 600
+tier: 2
+requirements:[item-silver/80,item-conduction-quartz/10,item-hardened-calcite/15]
+category: production
+researchCostMultiplier: 0.05
+drillTime: 280
+liquidBoostIntensity: 1
+drillEffect:{
+type: MultiEffect
+effects:[smokePuff,shockwave]
+}
+
+drillEffectChance: 1
+updateEffect: none
+
+research:{
+parent: drill-icon
+objectives:[{
+type: onSector
+preset: uphill
+}]
+}
+
+researchCost:[
+item-silver/180
+]

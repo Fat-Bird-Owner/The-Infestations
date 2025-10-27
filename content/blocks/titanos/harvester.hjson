@@ -1,0 +1,35 @@
+type: Drill
+size: 2
+name: Harvester
+description: drills into the ground for minerals.
+health: 120
+tier: 1
+requirements:[item-silver/60]
+category: production
+researchCostMultiplier: 0.05
+drillTime: 380
+liquidBoostIntensity: 1
+drillEffectChance: 1
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawHeatRegion
+}
+]
+}
+
+research:{
+parent: drill-icon
+objectives:[{
+type: onSector
+preset: rain-forest
+}]
+}
+
+researchCost:[
+item-silver/180
+]

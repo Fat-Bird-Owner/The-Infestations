@@ -1,0 +1,5 @@
+research:{
+parent: item-hardened-calcite
+}
+description: A raw material usable for higher tier buildings.
+color: bc5452

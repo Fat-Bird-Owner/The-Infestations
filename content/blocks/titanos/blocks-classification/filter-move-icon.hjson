@@ -1,0 +1,8 @@
+type: Block
+name: "Filter/Transportation category"
+placeable: false
+alwaysUnlocked: true
+buildVisibility: hidden
+research:{
+parent: core-satellite
+}

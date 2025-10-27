@@ -1,0 +1,20 @@
+type: UnitCargoLoader
+size: 2
+name: Multi Purpose Base
+
+description: "Temporarily uses power to enable itself.[green]Able to damage enemies and heal units and blocks[]."
+
+itemCapacity: 0
+category: effect
+requirements:[
+item-silver/60
+item-conduction-quartz/20
+]
+unitType: reform
+
+buildTime: 300
+polyColor: 00000000
+
+consumes:{
+power: 5
+}

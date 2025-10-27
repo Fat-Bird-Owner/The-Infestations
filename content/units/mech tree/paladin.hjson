@@ -1,0 +1,100 @@
+type: mech
+name: Paladon
+description: "
+[accent]This mech unit is heavily equipped with strong automatic weapons, which it's bullets can also fragment. [red]Extremely slow.
+[grey]
+
+This massive hulking beast was made to fight many hordes of weak units, while also maintaining itself in a one on one. although it has a massive flaw
+of needing to turn to its target before shooting.
+
+// Thermal Core
+This unit also utilizes a thermal core, its required to power the weapon it shoots.
+"
+
+outlineColor: 2c2d38
+speed: 0.34
+health: 2500
+armor: 6
+hitSize: 18
+//
+
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 6
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -0.89
+    radius: 4
+    layer: 59.999
+    followRotation: true
+  }
+]
+
+//
+weapons:[
+{
+name: paladin-weapon
+mirror: true
+x: 12
+shootY: 3
+shake: 0.2 
+shootSound: art-fire
+reload: 6.5
+ejectEffect: casing2
+bullet:{
+type: BasicBulletType
+speed: 6
+lifetime: 33
+damage: 10
+trailWidth: 3
+width: 15
+height: 14
+trailLength: 4
+frontColor: f68859
+backColor: d06b53
+trailColor: f68859
+homingPower: 0.01
+homingRange: 180
+
+fragBullets: 1
+fragRandomSpread: 0
+fragSpread: 20
+//
+
+//
+fragBullet:{
+type: ShrapnelBulletType
+length: 11
+width: 8
+fromColor: f68859
+toColor: d06b53
+hitSize: 50
+damage: 30
+
+hitEffect:{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: b0fffc
+colorTo: dbfffe
+lifetime: 10
+}
+
+}
+
+hitEffect:{
+type: ParticleEffect
+line: true
+strokeFrom: 3
+colorFrom: f68859
+colorTo: d06b53
+lifetime: 25
+}
+
+}
+}
+]
+
+immunities:[corroded]

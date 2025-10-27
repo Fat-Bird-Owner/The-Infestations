@@ -1,0 +1,28 @@
+type: ConsumeGenerator
+health: 650
+name: Combustion Chamber
+category: power
+size: 3
+requirements:[item-silver/60,item-conduction-quartz/40,item-hardened-calcite/20,item-carbon-matter/20]
+research:{
+parent: carbon-furnace
+objectives:[]
+
+}
+
+researchCost:[item-silver/600,item-conduction-quartz/400,item-hardened-calcite/200,item-carbon-matter/100]
+
+description: "[accent]Burns carbon matter it produce a large amount of power.[red] May explode if destroyed."
+
+details:"A reliable source of power, just beware it can explode."
+
+consumes:{
+items:[item-carbon-matter/1]
+}
+
+powerProduction: 5
+outputLiquid: carbon-dioxide/0.06
+// explosion
+explosionDamage: 60
+explosionShake: 1.25
+explodeOnFull: true

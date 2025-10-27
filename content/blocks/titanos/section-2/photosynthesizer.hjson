@@ -1,0 +1,27 @@
+type: GenericCrafter
+health: 400
+name: Photosynthesizer
+size: 2
+consumes:{
+liquids:[carbon-dioxide/0.5]
+}
+requirements:[item-silver/10]
+category: production
+
+description: "Turns carbon dioxide into oxygen."
+outputLiquids: [oxygen/0.3]
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawCultivator
+plantColor: 2bbd41
+plantColorLight: 55f26d
+bottomColor: bcd1d46f
+}
+]
+}

@@ -1,0 +1,65 @@
+type: ItemTurret
+name: Qwake
+rotateSpeed: 5
+range: 80
+reload: 60
+shootCone: 30
+size: 2
+category: turret
+requirements: [
+item-silver/100
+item-hardened-calcite/40
+]
+buildTime: 300
+
+description: "Creates very strong shockwaves."
+
+shootSound:pound
+
+ammoTypes:{
+item-hardened-calcite:{
+splashDamage: 75
+splashDamageRadius: 35
+hitEffect: shockwave
+width: 0
+height: 0
+hitSize: 12
+damage: 25
+speed: 8
+lifetime: 10
+trailChance: 100
+trailEffect: shockwave
+trailInterval: 2.5
+shootEffect: shockwave
+pierceBuilding: true
+pierceCap: 80
+}
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-c"
+progress: recoil
+x: -2
+y: 0
+rotation:45
+moveRot: -45
+moveX: 6
+moveY: 6
+under: true
+}
+{
+suffix: "-w"
+progress: recoil
+x: 2
+y: 0
+rotation: -45
+moveRot: 45
+moveX: -6
+moveY: 6
+under: true
+}
+]
+}

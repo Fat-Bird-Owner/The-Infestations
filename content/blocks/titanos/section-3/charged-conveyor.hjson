@@ -1,0 +1,29 @@
+type: StackConveyor
+requirements:[item-silver/2,item-conduction-quartz/1]
+
+description:"
+[accent]Able to moves items faster and also carries 3 items per batch.
+
+[grey]
+With the use of conduction quartz this conveyor propels items foward at a much greater speed then the Silver cenveyor.
+"
+
+speed: 0.18
+itemCapacity: 3
+health: 150
+size: 1
+buildTime: 3
+outputRouter: false
+recharge: 1
+
+research:{
+parent: silver-conveyor
+objective:[
+{
+type: SectorComplete
+preset: rain-forest
+}
+
+]
+}
+researchCost:[item-silver/300,item-conduction-quartz/100]

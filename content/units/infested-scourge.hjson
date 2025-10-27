@@ -1,0 +1,46 @@
+// general stats
+type: crawl
+hitSize: 19
+health: 1200
+armor: 9
+speed: 0.35
+range: 30
+
+
+//worm
+
+crushDamage: 10
+segments: 3
+segmentScl: 4
+segmentPhase: 5
+segmentMag: 2
+rotateSpeed: 7
+omniMovement: false
+
+// bullet
+
+weapons:[
+{
+x:0
+y:0
+inaccuracy: 12.5
+reload: 1
+bullet:{
+type: LiquidBulletType
+liquid: acid
+puddleSize: 3
+damage: 5
+lifetime: 30
+speed: 3
+}
+
+}
+]
+
+abilities:[
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 1200
+}
+]

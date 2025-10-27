@@ -1,0 +1,8 @@
+// general
+type: SolidPump
+name: Mass Cultivator
+result: acid
+baseEfficiency: 1.5
+category: effect
+visibility: sandboxOnly
+requirements:[]

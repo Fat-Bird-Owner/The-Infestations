@@ -1,0 +1,41 @@
+// general
+
+type: LaunchPad
+name: Sender
+category: effect
+health: 750
+size: 2
+
+itemCapacity: 10
+
+description: "Sends 10 resources into orbit."
+// class related
+
+
+
+// others
+
+consumes:{
+power: 2.25
+}
+
+requirements:[
+item-silver/75
+item-conduction-quartz/25
+item-hardened-calcite/50
+]
+
+research:{
+parent: supplier-conveyor
+objective:[
+{
+type: sectorComplete
+preset: uphill
+}]
+}
+
+researchCost:[
+item-silver/215
+item-conduction-quartz/75
+item-hardened-calcite/150
+]

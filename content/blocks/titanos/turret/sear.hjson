@@ -1,0 +1,38 @@
+type: ContinuousLiquidTurret
+size: 2
+name: sear
+shootCone: 30
+requirements:[]
+category: turret
+range: 100
+shootSound: flux
+ammoTypes:{
+oxygen:{
+type: ContinuousFlameBulletType
+flareLength: 40
+flareColor: ff8800
+damage: 45
+colors: [ff8800,ff8800,ff8800,ff8800,ffffff]
+lightColor: ff8800
+hitEffect:{
+type: ParticleEffect
+colorFrom: fff900
+colorTo: f7f7f7
+lifetime: 30
+}
+
+}
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-mouth"
+progress: recoil
+mirror: true
+moveRot: 15
+under: true
+}
+]
+}

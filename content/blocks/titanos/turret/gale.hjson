@@ -1,0 +1,79 @@
+type: ItemTurret
+health: 1000
+size: 3
+outlineColor: 00000000
+range: 160
+reload: 3.25
+
+description: ""
+
+requirements:[item-silver/100,item-hardened-calcite/75,item-carbon-matter/50]
+shootSound: art-fire
+
+ammoTypes:{
+item-carbon-matter:{
+ammoMultiplier: 2
+inaccuracy: 25
+type: BasicBulletType
+speed: 4
+lifetime: 40
+homingPower: 0.03
+homingDelay: 20
+damage: 15
+status: frag
+statusDuration: 0
+
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 10
+frontColor: 7b7b7b
+backColor: 646469
+trailColor: 4d4e58
+
+}
+item-silver:{
+type: BasicBulletType
+ammoMultiplier: 3
+inaccuracy: 15
+speed: 3
+lifetime: 60
+homingDelay: 10
+homingPower: 0.01
+damage: 6.5
+status: shocked
+
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 10
+frontColor: 515151
+backColor: 626f9b
+trailColor: 313131
+
+}
+item-hardened-calcite:{
+type: BasicBulletType
+ammoMultiplier: 5
+inaccuracy: 10
+speed: 3
+lifetime: 60
+homingDelay: 10
+homingPower: 0.01
+damage: 6.5
+status: unmoving
+statusDuration: 1
+
+knockback: 2
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 10
+frontColor: b0bac0
+backColor: 989aa4
+trailColor: 6e7080
+
+}
+
+
+}

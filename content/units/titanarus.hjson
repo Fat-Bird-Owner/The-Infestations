@@ -1,0 +1,38 @@
+type: mech
+name: "[red]Titanarus"
+health: 20000
+armor: 10
+range: 240
+description: A hardened war mech able to shred buildings down in a blink of en eye.
+
+
+weapons:[
+{
+x: 5
+name: cannon
+layerOffset: -1
+bullet:{
+type: BasicBulletType
+width: 15
+height: 21
+damage: 100
+lifetime: 60
+speed: 4
+fragBullets: 10
+fragBullet:{
+type: BasicBulletType
+splashDamage: 20
+splashDamageRadius: 16
+makeFire: true
+despawnEffect:[{
+effect: [
+particles: 10
+cap: false
+]}]
+
+}
+
+}
+
+}
+]

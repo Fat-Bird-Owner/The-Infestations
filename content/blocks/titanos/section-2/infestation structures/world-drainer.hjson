@@ -1,0 +1,13 @@
+// general
+type: MendProjector
+health:9991000 
+name: "Word Drainer"
+size: 5
+targetable: false
+
+// class stats
+
+reload:6
+useTime: 6
+healPercent: 0.008
+range: 1200

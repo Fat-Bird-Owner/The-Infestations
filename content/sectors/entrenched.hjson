@@ -1,0 +1,23 @@
+localizedName: "Entrenched"
+difficulty: 5
+planet: titanos
+sector: 84
+
+description: "
+[accent]Due to massive eruptions from thousands of years back, it caused the frail ground beneath to crumble.
+the enemy has entrenched themselves in defenses.
+destroy there core to capture the sector.
+
+Units will be required to capture this sector.
+"
+
+research: {
+  parent: rain-forest
+  objectives:[
+  {
+  type: SectorComplete
+  preset: rain-forest
+  }
+  mech-forge-framework
+  ]
+}

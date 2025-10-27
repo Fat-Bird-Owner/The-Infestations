@@ -1,0 +1,19 @@
+type: GenericCrafter
+health: 840
+name: Hydrothermal Circulator
+category: crafting
+size: 4
+requirements:[item-silver/6]
+research:{
+parent: mineral-seive
+}
+researchCost:[item-silver/100]
+
+description:"Cools down slag to produce silver."
+
+consumes:{
+liquids:[slag/0.083]
+}
+
+outputItem: item-silver/10
+craftTime: 60
