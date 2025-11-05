@@ -1,5 +1,6 @@
 name: "Infestation"
 displayName: "[][accent]The Infestation[]"
+repo: Fat-Bird-Owner/The-Infestations
 subtitle: "V1-TheEntry"
 author: Fat Bird's Owner
 description: "
@@ -14,6 +15,7 @@ Thanks for playing.
 :)
 
 "
+
 
 version: "V1-TheEntry"
 minGameVersion: "153"
