@@ -1,6 +1,14 @@
 type: mech
 name: Frontier
-description: Capable of shooting basic projectiles.
+description: "
+Type:[salmon] Assault[]
+Class:[orange] Flamethrower[]
+
+First tier mech unit able to [accent]shoot lasers[] and heal off [accent]Blood.
+[grey]Very Effective against crowds and organic life.
+
+"
+
 speed: 0.55
 health: 340
 armor: 0
@@ -11,51 +19,123 @@ outlineColor: 2c2d38
 
 weapons:[
 {
+// Death Effect
+shootCone: 180
+shootOnDeath: true
+shootSound: none
+controllable: false
+x: 4
+y: 2
+mirror: true
+alternate: false
+
+bullet:{
+instantDisappear: true
+inaccuracy: 25
+despawnEffect:{
+type: ParticleEffect
+region: "infestation-frontier-leg"
+offset: -90
+sizeFrom: 8
+sizeTo: 8
+colorFrom: 2f2f2f
+colorTo: 00000000
+lifetime: 4800
+length: 0
+particles: 1
+rotWithParent: true
+lightScl: 0
+layer: 15
+}
+
+}}
+{
+// Death Effect
+shootCone: 180
+shootOnDeath: true
+shootSound: none
+controllable: false
+alternate: false
+x: 7
+y: 1
+
+bullet:{
+instantDisappear: true
+inaccuracy: 45
+despawnEffect:{
+type: ParticleEffect
+region: "infestation-frontier-weapon"
+offset: -90
+sizeFrom: 8
+sizeTo: 8
+colorFrom: 2f2f2f
+colorTo: 00000000
+lifetime: 4800
+length: 0
+particles: 1
+rotWithParent: true
+lightScl: 0
+layer: 15
+}
+
+}}
+{
+// Death Effect
+shootCone: 180
+shootOnDeath: true
+shootSound: none
+controllable: false
+x: 0
+mirror: false
+
+bullet:{
+instantDisappear: true
+inaccuracy: 45
+despawnEffect:{
+type: ParticleEffect
+region: "infestation-frontier"
+offset: -90
+sizeFrom: 8
+sizeTo: 8
+colorFrom: 2f2f2f
+colorTo: 00000000
+lifetime: 4800
+length: 0
+particles: 1
+rotWithParent: true
+lightScl: 0
+layer: 15
+}
+
+}}
+{
 name: frontier-weapon
 top: false
 mirror: true
+alternate: false
 x: 7
 y: 1
 shootSound: art-fire
-reload: 25
-ejectEffect: {
-type: MultiEffect
-effects:[casing1,smoke,fireSmoke]
-}
+rotationLimit: 15
+rotateSpeed: 1
+rotate: true
+continuous: true
+alwaysContinuous: true
+shootStatus: slow
+shootStatusDuration: 5
+
 bullet:{
-type: BasicBulletType
-speed: 6
-weaveScale: 0.75
-weaveMag: 1.25
-lifetime: 30
-damage: 12
-width: 5
-height: 14
-trailWidth: 1
-trailLength: 4
-frontColor: ffa665
-backColor: e28654
-trailColor: ffa665
-sprite: "infestation-arrow-bullet"
-backSprite: "infestation-arrow-bullet-back"
-
-hitEffect:{
-type: MultiEffect
-effects:[
-{
-type: ParticleEffect
-line: true
-strokeFrom: 3
-colorFrom: ffa665
-colorTo: d06b53
-lifetime: 25
-}
-smoke
-blastExplosion
-]
-}
+type: ContinuousFlameBulletType
+pierceBuildings: false
+width: 1.5
+flareLength: 20
+damage: 1.6667
+colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
+flareColor: ff795e8c
+hitEffect: fireHit
 
 }
+
 
 }
 ]
@@ -69,6 +149,17 @@ type: SoundEffect
 sound: big-boom
 effect: none
 }
+explosion
+
 ]
 
 }
+
+abilities:[
+{
+type: LiquidRegenAbility
+liquid: blood
+slurpSpeed: 1
+regenPerSlurp: 5
+}
+]

@@ -1,14 +1,12 @@
 type: mech
 name: Paladon
 description: "
-[accent]This mech unit is heavily equipped with strong automatic weapons, which it's bullets can also fragment. [red]Extremely slow.
-[grey]
+Type:[salmon] Assault[]
+Class:[] Juggernaut[]
 
-This massive hulking beast was made to fight many hordes of weak units, while also maintaining itself in a one on one. although it has a massive flaw
-of needing to turn to its target before shooting.
+Very durable assault mech unit, equipped with a flamethrower and Shell Cannon.
+[lightgrey]Suffers from the slowness during when it's Flamethrowers is firing.
 
-// Thermal Core
-This unit also utilizes a thermal core, its required to power the weapon it shoots.
 "
 
 outlineColor: 2c2d38
@@ -36,13 +34,19 @@ parts: [
 weapons:[
 {
 name: paladin-weapon
-mirror: true
+mirror: false
 x: 12
 shootY: 3
 shake: 0.2 
 shootSound: art-fire
-reload: 6.5
+reload: 50
 ejectEffect: casing2
+
+shoot:{
+shots: 4
+shotDelay: 5
+}
+
 bullet:{
 type: BasicBulletType
 speed: 6
@@ -72,6 +76,7 @@ fromColor: f68859
 toColor: d06b53
 hitSize: 50
 damage: 30
+serrations: 3
 
 hitEffect:{
 type: ParticleEffect
@@ -91,10 +96,46 @@ strokeFrom: 3
 colorFrom: f68859
 colorTo: d06b53
 lifetime: 25
+}}}
+{
+name: fleet-weapon
+top: false
+mirror: false
+alternate: false
+x: -12
+y: 0
+shootSound: art-fire
+rotationLimit: 15
+rotateSpeed: 1
+rotate: true
+continuous: true
+alwaysContinuous: true
+shootStatus: slow
+shootStatusDuration: 5
+
+bullet:{
+
+type: ContinuousFlameBulletType
+width: 4
+pierceBuildings: false
+flareLength: 28
+damage: 3.3
+colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
+flareColor: f15454ff
+hitEffect: fireHit
+intervalDelay: 2.5
+
+intervalBullet: {
+type: LightningBulletType
+damage: 5
+lightningColor: f15454ff
+lightningLength: 15
 }
 
 }
+
+
 }
 ]
 
-immunities:[corroded]
+immunities:[corroded,flamethrow-fail]

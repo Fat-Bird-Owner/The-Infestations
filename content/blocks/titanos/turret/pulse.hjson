@@ -1,0 +1,24 @@
+type: PowerTurret
+size: 2
+reload: 600
+range: 160
+
+requirements:[item-silver/1000]
+
+consumes:{
+power: 4.5
+}
+
+shootType: {
+type: ExplosionBulletType
+shootEffect: {
+type: ShockWaveEffect
+lifetime: 60
+sizeFrom: 160
+sizeTo: 160
+}
+status: flamethrow-fail
+statusDuration: 300
+splashDamage: 10
+splashDamageRadius: 160
+}

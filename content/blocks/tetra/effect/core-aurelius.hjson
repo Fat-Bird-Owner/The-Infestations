@@ -1,0 +1,20 @@
+type: CoreBlock
+name: "[blue]Core: Aurelius[]"
+requirements:[]
+health: 10000
+unitType: ethereal
+size: 5
+itemCapacity: 150
+squareSprite: false
+category: effect
+alwaysUnlocked: true
+unitCapModifier: 5
+buildVisilbilty: SandBox
+requiresCoreZone: false
+isFirstTier: true
+research: {
+  planet: tetra
+  root: true
+  name: Tetra
+  requiresUnlock: false
+}

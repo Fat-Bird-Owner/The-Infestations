@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Reinforced Boiler
+description: "Boils acid evaporating it into acrogen."
+size: 3
+requirements:[]
+
+consumes:{
+liquids: [acid/0.1667] 
+power: 2.5
+}
+outputLiquid: acrogen/0.01667
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+padding: 0.35
+drawLiquid: acrogen
+}
+{
+type: DrawBubbles
+}
+{
+type: DrawDefault
+}
+]
+}

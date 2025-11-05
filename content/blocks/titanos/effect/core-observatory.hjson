@@ -1,0 +1,22 @@
+type: CoreBlock
+name: "[accent]Core: Observatory"
+description:"
+[accent]The heart of the base, well armored and durable. once destroyed, the sector will be lost.
+Able to carry much more items and may also allows for more advanced core schematics.
+[grey]
+"
+
+health: 6000
+armor: 7.5
+unitType: observent
+size: 4
+itemCapacity: 5000
+squareSprite: false
+requirements:[item-silver/1500,item-oxidium/750,item-conduction-quartz/300,item-hardened-calcite/500]
+category: effect
+unitCapModifier: 20
+requiresCoreZone: false
+isFirstTier: true
+research: {
+parent: core-satellite
+}

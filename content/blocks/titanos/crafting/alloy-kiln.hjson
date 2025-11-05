@@ -1,0 +1,45 @@
+type: GenericCrafter
+size: 3
+description: "Fuses oxidium and steam to make Monoxium."
+requirements:[]
+
+category: crafting
+
+consumes:{
+liquids:[steam/0.0166]
+items:[item-oxidium/1]
+}
+
+outputItem: item-monoxium/1
+
+craftTime: 120
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawPistons
+sides: 2
+sideOffset: 2
+}
+{
+type: DrawBlurSpin
+rotateSpeed: 3
+}
+{
+type: DrawArcSmelt
+}
+]
+
+}
+
+craftingEffect:{
+type: RadialEffect
+amount: 2
+rotationOffset: 90
+effect:{
+type: ParticleEffect
+cone: 45
+}
+
+}

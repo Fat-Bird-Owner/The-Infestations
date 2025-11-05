@@ -87,5 +87,6 @@ abilities:[
 type: LiquidExplodeAbility
 liquid: blood	
 amount: 180.0
+radAmountScale: 7.5
 }
 ]

@@ -3,7 +3,8 @@ health: 500
 name: Silver Wall
 category: defense
 requirements:[item-silver/6]
+
 research:{
 parent: core-satellite
+requirements: [item-silver/18]
 }
-researchCost:[item-silver/100]

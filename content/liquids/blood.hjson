@@ -4,6 +4,8 @@ description: "Its alive."
 capPuddles: false
 
 moveThroughBlocks: true
+viscosity: 0
+coolant: false
 
 color: 4d0202
 particleEffect:{

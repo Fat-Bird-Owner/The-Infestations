@@ -1,0 +1,6 @@
+name: Acrogen
+description: Obtained by evaporating acid. This gas can be used as coolant or for production purposes.
+gasColor: 84f491
+heatCapacity: 0.85
+gas: true
+color: 84f491

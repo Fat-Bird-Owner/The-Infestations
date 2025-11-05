@@ -1,0 +1,62 @@
+type: flying
+flying: true
+hitSize: 49
+speed: 0.45
+
+weapons:[
+{
+name: "rellish-pelt"
+x: 0
+y: 0
+mirror: true
+
+shoot:{
+type: ShootAlternate
+shots: 2
+spread: 5
+shotDelay: 0
+}
+
+bullet:{
+damage: 12.5
+speed: 5
+lifetime: 42
+height: 14
+width: 10
+status: flamethrow-fail
+statusDuration: 5
+// bounce
+fragBullets: 1
+fragBullet: {
+type: ArtilleryBulletType
+splashDamage: 10
+splashDamageRadius: 24
+height: 14
+width: 10
+speed: 2.5
+status: flamethrow-fail
+statusDuration: 10
+}
+}}
+// pelt end
+{
+name: "rellish-rail-cannon"
+x: 0
+y: 9
+continous: true
+alwaysContinous: true
+
+bullet:{
+type: ContinuousLaserBulletType
+// charge FX
+status: ichor-burn
+statusDuration: 300
+chargeEffect:{
+type: WaveEffect
+lifeTime: 60
+sizeFrom: 60
+sizeTo: 0
+}}
+
+}
+]

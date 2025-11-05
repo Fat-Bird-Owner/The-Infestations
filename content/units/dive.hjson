@@ -11,6 +11,7 @@ accel: 0.1
 drag: 0.035
 range: 240
 engineOffset: 10
+controller: ObserventBuilderAI
 
 weapons:[
 {

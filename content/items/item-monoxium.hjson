@@ -1,0 +1,8 @@
+name: Monoxium
+charge: 0.75
+description: "Charge potent item made from fusing oxidium and steam. Can also be found naturally deep in titanos."
+color: ac8675
+
+research:{
+parent: Item-oxidium
+}

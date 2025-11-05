@@ -17,14 +17,6 @@ effects:[smokePuff,shockwave]
 drillEffectChance: 1
 updateEffect: none
 
-research:{
-parent: drill-icon
-objectives:[{
-type: onSector
-preset: uphill
-}]
-}
-
 researchCost:[
 item-silver/180
 ]

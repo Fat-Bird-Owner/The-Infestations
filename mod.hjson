@@ -1,18 +1,21 @@
 name: "Infestation"
 displayName: "[][accent]The Infestation[]"
+subtitle: "V1-TheEntry"
 author: Fat Bird's Owner
 description: "
 [accent]They are waiting.
 [lightgrey]
 A mod inspired by neoplasm and the creeper world series.
 []
-featuring [accent]30+[] buildings and additional new serpulo sectors.
+featuring [accent]30+[] buildings with a barely finished planet.
+There is only 1 act as of now.
 
-!UNFINISHED!
+Thanks for playing.
+:)
+
 "
 
-version: "TheEntry-V1"
-minGameVersion: "150.1"
+version: "V1-TheEntry"
+minGameVersion: "153"
 dependencies: []
 hidden: false
-hideBrowser: true

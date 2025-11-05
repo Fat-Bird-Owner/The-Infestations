@@ -9,6 +9,10 @@ Learn to extract and seperate shale to build a defensive line before the horde o
 [lightgrey]
 Tip: A number of derelict wrecks have been located here, destroy or repair to make use of them.
 "
+// allow launch scheme even tho its now possible
+allowLaunchSchematics: true
+generateEnemyBase: true
+
 research: {
   parent: directory
   objectives:[

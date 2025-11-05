@@ -1,0 +1,89 @@
+type: flying
+name: "Ethereal"
+description: "Protector of the aurelius."
+health: 2000
+armor: 1
+speed: 3.5
+range: 80
+mineTier: 0
+minesItem:[]
+mineWalls: true
+mineSpeed: 5
+buildSpeed: 1
+mineSpeed: 0
+payloadCapacity: 32
+drag: 0.005
+accel: 0.01
+engineSize: 0
+flying: true
+outlineColor: 2c2d38
+omniMovement: true
+
+weapons:[
+{
+x: 0
+y: 0
+mirror: false
+Continuous: true
+alwaysContinuous: true
+shake: 2
+
+bullet:{
+type: ContinuousFlameBulletType
+damage: 1.667
+recoil: 0.01
+length: 80
+
+colors:[5c5e9f8c,5c5e9fb2,8a73c6cc,8a73c6ff,ffffffff]
+
+intervalDelay: 0
+
+intervalBullet: {
+type: LightningBulletType
+damage: 7.5
+lightningColor: 5c5e9f8c
+lightningLength: 15
+}
+
+}}
+// engine thingy
+{
+x: 8
+y: -16
+alternate: false
+baseRotation: 180
+alwaysShooting: true
+shootCone: 360
+continuous: true
+mirror: true
+shootSound: none
+minShootVelocity: 1.5
+recoil: 0
+display: false
+shoot:{
+shots: 10
+shotDelay: 1
+}
+
+bullet:{
+type: ContinuousFlameBulletType
+collides: false
+continuous: false
+damage: 0
+length: 30
+width: 1.85
+shake: 0.25
+flareLength: 20
+flareRotSpeed: 0
+lengthInterp: pow10Out
+oscScl: 1
+oscMag: 0.1
+hitEffect: none
+lightStroke: 9
+lightOpacity: 0.4
+
+colors:[5c5e9f8c,5c5e9fb2,8a73c6cc,8a73c6ff,ffffffff]
+}
+
+}
+]

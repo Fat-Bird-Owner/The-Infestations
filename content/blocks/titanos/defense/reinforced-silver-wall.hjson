@@ -1,0 +1,6 @@
+type: Wall
+health: 825
+
+requirements:[item-silver/6,item-carbon-matter/4]
+
+name: "Reinforced Carbon Wall"

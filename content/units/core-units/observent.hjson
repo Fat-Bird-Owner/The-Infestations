@@ -7,10 +7,10 @@ range: 180
 mineTier: 1
 minesItem:[item-silver]
 mineWalls: true
-mineRange: 240
-buildRange: 240
+mineRange: 320
+buildRange: 320
 buildSpeed: 1
-mineSpeed: 2
+mineSpeed: 5
 speed: 0
 bounded: false
 shadowElevation: 0
@@ -19,6 +19,7 @@ drag: 1000
 engineSize: 0
 flying: true
 itemCapacity: 40
+hitSize: 5
 ammoCapacity: 1
 payloadCapacity: 196
 pickupUnits: true
@@ -30,6 +31,8 @@ wobble: false
 coreUnitDock: true
 isEnemy: false
 commands: [move, repair, rebuild, assist]
+defaultCommand: rebuild
+controller: BuilderAI
 
 immunities:[rallied]
 
@@ -41,7 +44,7 @@ hitUnits: false
 maxTargets: 15
 healPercent: 5.5
 reload: 120
-range: 240
+range: 320
 effectRadius: 0
 layer: 10
 hitEffect: heal
@@ -52,7 +55,7 @@ type: MultiEffect
 effects:[
 {
 type: WaveEffect
-sizeTo: 240
+sizeTo: 320
 colorFrom: e2865455
 colorTo: e2865455
 followParent: true
@@ -84,13 +87,13 @@ followParent: true
 lifetime: 7.5
 strokeFrom: 3.5
 strokeTo: 3.5
-sizeFrom: 240
-sizeTo: 240
+sizeFrom: 320
+sizeTo: 320
 followParent: true
 layer: 86
 }
 
 duration: 5
-range: 240
+range: 320
 }
 ]

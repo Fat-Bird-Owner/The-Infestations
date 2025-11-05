@@ -55,28 +55,14 @@ cloudMesh: [
   }
 ]
 
-generator: {
-  octaves: 3
-  persistence: 0.52
-  scale: 22
-  mag: 0.721
-  thresh: 1.152
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
-  iceChance: 0.51
-  carbonChance: 0.32
-  berylChance: 0
-  ferricChance: 0.26
-}
+generator: TantrosPlanetGenerator
 
 orbitRadius: 50
 sectorSize: 2
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: true
-allowLaunchLoadout: false
-allowSectorInvasion: true
+allowLaunchLoadout: true
+allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
 radius: 1.219

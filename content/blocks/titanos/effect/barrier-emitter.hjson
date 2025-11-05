@@ -1,0 +1,14 @@
+type: DirectionalForceProjector
+name: Barrier Emitter
+health: 750
+size: 2
+description: "Emits a shield which absorbs bullets and lasers, unfortunatly the shield is a one time use."
+
+requirements:[item-silver/45,item-oxidium/25,item-conduction-quartz/15,item-hardened-calcite/15]
+width: 40
+length: 16
+shieldHealth: 2000
+cooldownBrokenBase: 0.125
+consumes:{
+power: 0.75
+}

@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "[#bc5452]Vanadium Blast Furnace[]"
+description: "Heats up silver and combines it with acid, acrogen is required to cool it down."
+size: 2
+health: 350
+category: crafting
+
+consumes:{
+power: 3.5
+liquids: [acid/0.1667,acrogen/0.01667]
+items:[item-silver/2]
+}
+
+craftTime: 120
+outputItem: item-vanadium/1
+
+requirements:[]
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawArcSmelt
+}
+{
+type: DrawDefault
+}
+]
+}

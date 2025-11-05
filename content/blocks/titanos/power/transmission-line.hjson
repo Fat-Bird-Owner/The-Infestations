@@ -1,0 +1,14 @@
+type: PowerNode
+name: Transmission Line
+description: Transmit power to its connection.
+requirements:[item-silver/10]
+category: power
+
+consumes:{
+powerBuffered: 25
+}
+
+laserRange: 7.5
+laserScale: 0.5
+laserColor2: 7b7b7b 
+laserColor1: 565666

@@ -1,0 +1,16 @@
+research:{
+parent: rallied
+}
+
+name: Flamethrower Failure
+description: "Completly stops the unit's weapon from working.[salmon] only works with flamethrower units.[]"
+disarm: true
+
+reloadMultiplier: 0
+effect:{
+type: ParticleEffect
+length: 0
+line: true
+colorFrom: f15454ff
+colorTo: f15454ff
+}

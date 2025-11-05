@@ -1,7 +1,14 @@
 type: mech
 name: Fleet
-description: ""
-speed: 0.75
+description: "
+Type:[salmon] Assault[]
+Class:[orange] Flamethrower[]
+
+Medium durability assault unit equipped with Flamethrowers and a Frag Cannon.
+[lightgrey]suffers from slowness when using Flamethrowers.
+
+"
+speed: 0.45
 health: 750
 armor: 10
 hitSize: 14
@@ -11,39 +18,40 @@ controller: HugAI
 weapons:[
 {
 name: fleet-weapon
+top: false
 mirror: true
+alternate: false
 x: 8
-ejectEffect: {
-type: MultiEffect
-effects:[casing1,fireSmoke]
-}y: 2
+y: 2
 shootSound: art-fire
-reload: 17.5
-ejectEffect: casing2
+rotationLimit: 15
+rotateSpeed: 1
+rotate: true
+continuous: true
+alwaysContinuous: true
+shootStatus: slow
+shootStatusDuration: 5
+
 bullet:{
-type: BasicBulletType
-speed: 6
-lifetime: 30
-damage: 17.5
-trailWidth: 1.2
-width: 6.0	
-trailLength: 4
-frontColor: f68859
-backColor: e28654
-trailColor: f68859
-sprite: "infestation-arrow-bullet"
-backSprite: "infestation-arrow-bullet-back"
+type: ContinuousFlameBulletType
+width: 3
+pierceBuildings: false
+flareLength: 20
+damage: 3.1667
+colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
+flareColor: ff795e8c
+hitEffect: fireHit
+intervalDelay: 5
 
-hitEffect:{
-type: ParticleEffect
-line: true
-strokeFrom: 3
-colorFrom: f68859
-colorTo: d06b53
-lifetime: 25
+intervalBullet: {
+type: LightningBulletType
+damage: 5
+lightningColor: ff795e8c
+lightningLength: 15
 }
 
 }
+
 
 }
 // shotgun weapon
@@ -53,6 +61,7 @@ x: 0
 mirror: false
 reload: 35
 shootSound: shoot-shotgun
+shootCone: 45
 bullet:{
 speed: 1
 lifetime: 30 
@@ -61,6 +70,7 @@ instantDisappear: true
 fragBullets: 3
 fragRandomSpread: 0
 fragSpread: 30
+recoil: 1
 
 fragBullet:{
 type: ShrapnelBulletType
@@ -68,9 +78,8 @@ length: 11.25
 width: 4
 fromColor: f68859
 toColor: dbfffe
-hitSize: 50
 damage: 25
-serrations: 1
+serrations: 3
 
 hitEffect:{
 type: ParticleEffect

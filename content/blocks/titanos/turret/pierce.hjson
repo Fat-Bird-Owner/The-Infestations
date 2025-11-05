@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Pierce
+health: 350
+size: 3
+category: turret
+description: "
+Type:[green] Defensive Turret[]
+Class:[] Juggernaut[]
+
+Shoots a piercing bullet ignoring armor and heavily weakening the unit for a short duration.
+
+[]
+Class Effect:
+(+) 
+[]
+
+"
+range: 240
+reload: 100
+
+ammoTypes:{
+item-oxidium: {
+type: BasicBulletType
+lifetime: 60
+speed: 4
+trailWidth: 2
+trailLength: 24
+width: 10
+height: 14
+damage: 60
+pierceArmor: true
+pierce: true
+
+splashDamage: 35
+splashDamageRadius: 24
+despawnHit: true
+despawnEffect: blockCrash
+
+}
+}
