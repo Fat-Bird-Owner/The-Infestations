@@ -1,6 +1,6 @@
 type: wall
-health: 1507
-size: 2
+health: 4500
+size: 3
 name: Large Silver Wall
 category: defense
-requirements:[item-silver/24]
+requirements:[item-silver/54]
