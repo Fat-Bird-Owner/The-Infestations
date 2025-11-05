@@ -1,10 +1,12 @@
 type: wall
-health: 500
+health: 2000
 name: Silver Wall
+size: 2
 category: defense
-requirements:[item-silver/6]
+requirements:[item-silver/24]
 
 research:{
 parent: core-satellite
-requirements: [item-silver/18]
 }
+
+researchCostMultiplier: 0.05

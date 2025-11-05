@@ -4,7 +4,3 @@ size: 2
 name: Large Silver Wall
 category: defense
 requirements:[item-silver/24]
-research:{
-parent: silver-wall
-}
-researchCost:[item-silver/240]
