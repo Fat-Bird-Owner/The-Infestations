@@ -35,13 +35,14 @@ shootStatusDuration: 5
 bullet:{
 type: ContinuousFlameBulletType
 width: 3
-pierceBuildings: false
+pierce: false
 flareLength: 20
 damage: 3.1667
 colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
 flareColor: ff795e8c
 hitEffect: fireHit
 intervalDelay: 5
+pierceDamageFactor: 1
 
 intervalBullet: {
 type: LightningBulletType

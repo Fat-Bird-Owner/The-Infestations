@@ -38,11 +38,14 @@ drawer: {
       color: 85c278
       layer: 110
     }
-    
+    {
+      type: DrawGlowRegion
+      color: 85c278
+    }
   ]
 } 
 
 research:{
-parent: wire
+parent: transmission-line
 }
-researchCost:[item-silver/160,item-conduction-quartz/60]
+researchCostMultiplier: 0.15

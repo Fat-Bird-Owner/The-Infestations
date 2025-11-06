@@ -13,6 +13,7 @@ inaccuracy: 1
 
 
 shootEffect:{
+type: MultiEffect
 effects:[
 {
 type: WaveEffect
@@ -128,37 +129,7 @@ splashDamage: 1
 splashDamageRadius: 40
 hitEffect:{
 type: ExplosionEffect
-}
-
-}
-
-item-hardened-calcite:{
-type: BasicBulletType
-
-ammoMultiplier: 9
-reloadMultiplier:9
-speed: 3
-width: 10
-height: 14
-inaccuracy: 5
-lifetime: 60
-damage: 2
-fragSpread: 30
-frontColor: b0bac0
-backColor: 989aa4
-trailColor: 6e7080
-trailWidth: 2
-trailLength: 6
-status: frag
-statusDuration: 1
-splashDamage: 1
-splashDamageRadius: 40
-hitEffect:{
-type: ExplosionEffect
-}
-
-}
-
+}}
 }
 
 category: turret
@@ -175,4 +146,41 @@ basePrefix: -base
 }
 ]
 
+}
+// hehe
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
 }

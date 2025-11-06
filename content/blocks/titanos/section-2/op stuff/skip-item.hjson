@@ -2,3 +2,4 @@ type: ItemSource
 itemsPerSecond: 1000
 alwaysUnlocked: true
 requirements:[]
+buildVisibility: sandboxOnly

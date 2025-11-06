@@ -16,3 +16,4 @@ range: 8000
 requirements:[]
 
 alwaysUnlocked: true
+buildVisibility: sandboxOnly

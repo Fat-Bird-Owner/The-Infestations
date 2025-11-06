@@ -4,7 +4,7 @@ consumes: {
   powerBuffered: 500
 } 
 research:{
-parent: wire
+parent: transmission-line
 }
 requirements:[item-silver/20,item-conduction-quartz/10]
-researchCost:[item-silver/200,item-conduction-quartz/100]
+researchCostMultiplier: 0.1

@@ -4,11 +4,49 @@ description: Transmit power to its connection.
 requirements:[item-silver/10]
 category: power
 
-consumes:{
-powerBuffered: 25
+research:{
+parent: convection-generator
 }
+alwaysUnlocked: true
+
 
 laserRange: 7.5
 laserScale: 0.5
 laserColor2: 7b7b7b 
 laserColor1: 565666
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}

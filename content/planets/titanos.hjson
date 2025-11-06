@@ -1,5 +1,4 @@
 localizedName: Titanos
-description: A forgotten planet. home to something far worst then what you will ever fight.
 alwaysUnlocked: true
 mesh: [
 {
@@ -55,15 +54,19 @@ cloudMesh: [
   }
 ]
 
-generator: TantrosPlanetGenerator
+campaignRuleDefaults: {
+	showSpawns: true
+}
 
+generator: SerpuloPlanetGenerator
 orbitRadius: 50
 sectorSize: 2
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: false
-startSector: 0
+enemyCoreSpawnReplace: true
+startSector: 86
 orbitSpacing: 2
 radius: 1.219
 minZoom: 0.25
@@ -81,9 +84,7 @@ iconColor: ffffff
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
-allowWaves: true
 prebuildBase: true
-enemyInfiniteItems: false
 defaultCore: core-satellite
 parent: sun
 launchCandidates: []

@@ -26,6 +26,7 @@ shootSound: none
 controllable: false
 x: 4
 y: 2
+display: false
 mirror: true
 alternate: false
 
@@ -52,6 +53,7 @@ layer: 15
 {
 // Death Effect
 shootCone: 180
+display: false
 shootOnDeath: true
 shootSound: none
 controllable: false
@@ -85,6 +87,7 @@ shootCone: 180
 shootOnDeath: true
 shootSound: none
 controllable: false
+display: false
 x: 0
 mirror: false
 
@@ -126,7 +129,8 @@ shootStatusDuration: 5
 
 bullet:{
 type: ContinuousFlameBulletType
-pierceBuildings: false
+pierce: false
+pierceDamageFactor: 1
 width: 1.5
 flareLength: 20
 damage: 1.6667

@@ -3,7 +3,7 @@ name: "[accent]Observent"
 targetable: false
 speed: 2.25
 drawSoftShadow: false
-range: 180
+range: 320
 mineTier: 1
 minesItem:[item-silver]
 mineWalls: true
@@ -25,14 +25,20 @@ payloadCapacity: 196
 pickupUnits: true
 outlineColor: 2c2d38
 drawCell: false
-controller: RepairAI
 drawBody: false
+drawMinimap: false
 wobble: false
-coreUnitDock: true
 isEnemy: false
+softShadowScl: 0
 commands: [move, repair, rebuild, assist]
 defaultCommand: rebuild
 controller: BuilderAI
+rotateToBuilding: false
+miningBeamOffset: -2
+buildBeamOffset: -2
+fogRadius: 320
+lightRadius: 320
+rotateSpeed: 0
 
 immunities:[rallied]
 
@@ -50,50 +56,45 @@ layer: 10
 hitEffect: heal
 shootSound: heal
 
-damageEffect:{
-type: MultiEffect
-effects:[
-{
-type: WaveEffect
-sizeTo: 320
-colorFrom: e2865455
-colorTo: e2865455
-followParent: true
-lifetime: 120
-strokeFrom: 3.5
-strokeTo: 3.5
-followParent: true
-layer: 86
-}
-{
-type: SoundEffect
-sound: sonar-ping
-effect: none
-}
-]
-}
+damageEffect: none
 
 }
 {
 type: StatusFieldAbility
 reload: 2.5
 effect: rallied
-activeEffect: {
-type: WaveEffect
-sizeTo: 60
-colorFrom: e28654
-colorTo: e28654
-followParent: true
-lifetime: 7.5
-strokeFrom: 3.5
-strokeTo: 3.5
-sizeFrom: 320
-sizeTo: 320
-followParent: true
-layer: 86
-}
+activeEffect: none
 
 duration: 5
 range: 320
+}
+]
+
+parts:[
+{
+# taken from meld. thanks for the code :D
+type: HoverPart
+x: 0
+y: 0
+sides: 60
+mirror: false
+radius: 320
+phase: 420
+stroke: 3
+circles: 2
+minStroke: 1
+layer: 122
+color: ff795e
+}
+{
+x: 0
+y: 0
+type: ShapePart
+circle: true
+hollow: true
+radius: 320
+stroke: 8
+layer: 122
+color: ff795e
 }
 ]

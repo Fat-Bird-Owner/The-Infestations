@@ -5,5 +5,6 @@ consumes: {
 range: 3
 
 requirements:[item-silver/40,item-conduction-quartz/5,item-hardened-calcite/20]
+buildVisibility: sandboxOnly
 
 category: power

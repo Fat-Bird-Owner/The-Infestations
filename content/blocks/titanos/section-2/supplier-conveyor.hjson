@@ -22,3 +22,41 @@ researchCost:[item-silver/50]
 // cost n more
 
 requirements:[item-silver/4,item-oxidium/2]
+
+// effect
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}

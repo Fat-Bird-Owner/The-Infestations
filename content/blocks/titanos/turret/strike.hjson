@@ -1,0 +1,74 @@
+type: ItemTurret
+name: Strike
+health: 350
+size: 2
+category: turret
+description: "
+Type:[green] Defensive Turret[]
+Class:[] Juggernaut[]
+
+Fires a bullet that ignores armor and does heavy damage.
+Always targets the strongest unit.
+
+[]
+Class Effect:
+(+) Heavily weakens the target for a short duration
+[]
+
+"
+range: 240
+category: turret
+requirements:[]
+reload: 180
+ammoPerShot: 5
+maxAmmo: 10
+unitSort: strongest
+cooldownTime: 180
+
+ammoTypes:{
+item-hardened-calcite: {
+type: BasicBulletType
+lifetime: 30
+speed: 8
+trailWidth: 2
+trailLength: 24
+width: 10
+height: 14
+damage: 125
+knockback: 7.5
+pierceArmor: true
+hitShake: 5
+frontColor: 7b7b7b
+backColor: 656565
+
+hitEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+spin: 45
+length: 80
+particles: 8
+lifetime: 60
+}
+{
+type: WaveEffect
+sizeFrom: 80
+sizeTo: 80
+strokeFrom: 6
+strokeTo: 0
+lifetime: 180
+}
+{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 80
+strokeFrom: 6
+strokeTo: 3
+lifetime: 120
+}
+]
+}
+
+}
+}

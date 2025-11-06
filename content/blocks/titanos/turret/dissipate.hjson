@@ -32,3 +32,39 @@ research:{
 parent: retaliation
 requirements:[item-silver/90,item-oxidium/60]
 }
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 4
+sizeTo: 4
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}

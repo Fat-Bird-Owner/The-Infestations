@@ -15,8 +15,4 @@ liquidCapacity: 0
 consumes: {
   powerBuffered: 5
 } 
-
-research:{
-parent: convection-generator
-}
-alwaysUnlocked: true
+buildVisibility: sandboxOnly

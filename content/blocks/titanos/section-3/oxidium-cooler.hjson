@@ -26,13 +26,14 @@ drawLiquid: slag
 padding: 0.7
 }
 {
-type: DrawRegion
-suffix: -rotator
-rotateSpeed: 5
-}
-{
 type: DrawDefault
 }
+{
+type: DrawGlowRegion
+suffix: -heat
+color: ff795e
+}
+
 ]
 }
 
