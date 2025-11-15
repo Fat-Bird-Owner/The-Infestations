@@ -5,8 +5,10 @@ health: 400
 reload: 60
 range: 180
 size: 2
-outlineColor: 00000000
-
+outlineColor: 2c2d38
+shootWarmupSpeed: 0.015
+minWarmup: 1
+linearWarmup: true
 shootSound: shoot-low-cal
 ejectEffect: casing2
 inaccuracy: 1
@@ -82,7 +84,7 @@ speed: 3
 width: 10
 height: 14
 lifetime: 60
-damage: 14
+damage: 9
 fragSpread: 30
 frontColor: d4fdff
 backColor: ffffff
@@ -90,9 +92,20 @@ trailColor: d4fdff
 trailWidth: 2
 trailLength: 6
 status: frag
-statusDuration: 2
+statusDuration: 1
 splashDamage: 1
 splashDamageRadius: 40
+fragLifeMin: 0.1
+fragLifeMax: 1
+
+fragBullet:{
+type: LiquidBulletType
+liquid: pyrid
+puddleSize: 14
+lifetime: 10
+speed: 2
+}
+
 hitEffect:{
 type: ExplosionEffect
 }
@@ -143,6 +156,50 @@ drawers:[
 {
 type: DrawTurret
 basePrefix: -base
+parts:[
+{
+suffix: -wing-r
+mirror: false
+moveX: 2
+moveY: -2
+x: 0
+y: 0
+moveRot: -25
+progress: warmup
+}
+{
+suffix: -wing-l
+mirror: false
+moveX: -2
+moveY: -2
+x: 0
+y: 0
+moveRot: 25
+progress: warmup
+}
+{
+type: ShapePart
+progress: warmup
+rotateSpeed: 3
+radius: 0
+radiusTo: 3
+color: FFD700FF
+layer: 122
+x: 0
+y: 4
+}
+{
+type: ShapePart
+progress: warmup
+rotateSpeed: -3
+radius: 0
+radiusTo: 3.5
+color: FFD700FF
+layer: 122
+x: 0
+y: 4
+}
+]
 }
 ]
 

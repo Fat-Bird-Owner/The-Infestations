@@ -1,0 +1,18 @@
+type: PowerTurret
+range: 300
+reload: 100
+consumes:{
+liquids: [blood/0.01]
+}
+shootType:{
+type: ArtilleryBulletType
+splashDamage: 50
+lifetime: 100
+width: 10
+height: 14
+speed: 3
+splashDamageRadius: 24
+effect: flakExplosionBig
+}
+requirements:[]
+buildVisibility: sandboxOnly

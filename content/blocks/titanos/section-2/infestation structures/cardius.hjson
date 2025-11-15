@@ -1,0 +1,22 @@
+type: GenericCrafter
+hasLiquid: true
+consumes:{
+liquids:[blood/0.01667]
+}
+solid: false
+outputLiquid: blood/0.01666
+liquidCapacity: 100
+rotate: true
+liquidOutputDirections: [0]
+requirements:[]
+leaks: false
+buildVisibility: sandboxOnly
+drawer:{
+type: DrawFrames
+frames: 3
+}
+
+destroyBullet:{
+type: LiquidBulletType
+liquid: blood
+}

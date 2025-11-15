@@ -24,69 +24,6 @@ shootCone: 180
 shootOnDeath: true
 shootSound: none
 controllable: false
-x: 4
-y: 2
-display: false
-mirror: true
-alternate: false
-
-bullet:{
-instantDisappear: true
-inaccuracy: 25
-despawnEffect:{
-type: ParticleEffect
-region: "infestation-frontier-leg"
-offset: -90
-sizeFrom: 8
-sizeTo: 8
-colorFrom: 2f2f2f
-colorTo: 00000000
-lifetime: 4800
-length: 0
-particles: 1
-rotWithParent: true
-lightScl: 0
-layer: 15
-}
-
-}}
-{
-// Death Effect
-shootCone: 180
-display: false
-shootOnDeath: true
-shootSound: none
-controllable: false
-alternate: false
-x: 7
-y: 1
-
-bullet:{
-instantDisappear: true
-inaccuracy: 45
-despawnEffect:{
-type: ParticleEffect
-region: "infestation-frontier-weapon"
-offset: -90
-sizeFrom: 8
-sizeTo: 8
-colorFrom: 2f2f2f
-colorTo: 00000000
-lifetime: 4800
-length: 0
-particles: 1
-rotWithParent: true
-lightScl: 0
-layer: 15
-}
-
-}}
-{
-// Death Effect
-shootCone: 180
-shootOnDeath: true
-shootSound: none
-controllable: false
 display: false
 x: 0
 mirror: false
@@ -107,7 +44,7 @@ length: 0
 particles: 1
 rotWithParent: true
 lightScl: 0
-layer: 15
+layer: 10
 }
 
 }}

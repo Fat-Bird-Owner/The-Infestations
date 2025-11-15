@@ -5,12 +5,12 @@ mesh: [
     //ground and acid
     type: NoiseMesh
     planet: titanos
-    divisions: 4
+    divisions: 5
     seed: 4
-    radius: 1.218
+    radius: 1.2155
     color1: 00ff80
     color2: 1d6b67
-    persistence: 8
+    persistence: 16
     octaves: 3
 }
 ]

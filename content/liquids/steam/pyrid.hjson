@@ -1,7 +1,7 @@
 type: Liquid
 name: Pyrid
-description: "An [salmon]extremely [orange]volitile fluid[] created with the only purpose of [scarlet]destruction.[]"
-flammability: 35
+description: "A highly flammable liquid.[]"
+flammability: 1.25
 temperature: 0.85
-explosiveness: 25
 color: fc8e6c
+effect: ichor-burn

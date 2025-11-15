@@ -1,0 +1,20 @@
+type: ThermalGenerator
+name: Soakened Tablet
+description: "The tablet, it had many stories to tell but the all forgotten because the patience of the [blue]Rain[]. "
+size: 2
+displayEfficiency: false
+destructible: false
+attribute: "rain-forest-key"
+category: effect
+requirements:[item-silver/60,item-oxidium/45]
+minEfficiency: 0.99
+
+research: {
+parent: rain-forest
+objectives:[
+{
+type: SectorComplete
+preset: rain-forest
+}
+]
+}

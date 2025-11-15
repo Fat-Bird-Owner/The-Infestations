@@ -1,19 +1,25 @@
 name: "Infestation"
-displayName: "[][accent]The Infestation[]"
+displayName: "[salmon[]]The Infestation[[]]"
 repo: Fat-Bird-Owner/The-Infestations
-subtitle: "V1-TheEntry"
-author: Fat Bird's Owner
+subtitle: "
+[salmon[]]PAINT THE PLANET[red[]] DEEP RED.
+"
+author: "Fat Bird's Owner"
 description: "
-[accent]They are waiting.
-[lightgrey]
+
+[lightgrey[]]
 A mod inspired by neoplasm and the creeper world series.
-[]
-featuring [accent]30+[] buildings with a barely finished planet.
+[accent[]]
+featuring 30+ buildings with a barely finished planet.
 There is only 1 act as of now.
 
+[[]]
 Thanks for playing.
 :)
 
+[accent[]]
+If you like this mod please show support by giving a star in the github.
+[]
 "
 
 
