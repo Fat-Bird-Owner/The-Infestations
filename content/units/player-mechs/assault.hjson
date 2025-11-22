@@ -1,0 +1,73 @@
+type: mech
+canBoost: true
+boostMultiplier: 1.5
+health: 500
+armor: 5
+speed: 0.95
+
+// mech pad module
+mineSpeed: 0
+buildSpeed: 1.75
+commands:[mine]
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+targetPriority: -0.1
+range: 0.1
+targetAir: false
+targetGround: false
+defaultCommand: mine
+immunities:[rallied]
+
+// weapons
+
+weapons:[
+{
+type: PointDefenseWeapon
+range: 60
+reload: 25
+x: 5
+y: 0.5
+alternate: false
+}
+{
+x: 0
+y: 0
+reload: 45
+
+shoot:{
+type: ShootAlternate
+spread: 5
+shots: 6
+shotDelay: 2.5
+}
+
+bullet:{
+damage: 10
+speed: 5
+lifetime: 42
+height: 14
+width: 10
+status: flamethrow-fail
+statusDuration: 7.5
+backColor: 9c88c3
+frontColor: 5c5e9f
+// bounce
+fragBullets: 1
+fragBullet: {
+type: ArtilleryBulletType
+splashDamage: 15
+splashDamageRadius: 24
+height: 14
+width: 10
+speed: 2.5
+status: blasted
+backColor: 9c88c3
+frontColor: 5c5e9f
+}
+}
+
+}
+]

@@ -1,0 +1,16 @@
+type: LongPowerNode
+armor: 5
+health: 350
+priority: 0.25
+size: 2
+maxNodes: 1
+laserRange: 1800
+sameBlockConnection: true
+category: power
+
+requirements:[item-silver/60,item-oxidium/40,item-conduction-quartz/35]
+
+research:{
+parent: transmittion-line
+researchCostMultiplier: 0.15
+}

@@ -103,4 +103,8 @@ liquid: blood
 slurpSpeed: 1
 regenPerSlurp: 5
 }
+{
+type: ArmorPlateAbility
+healthMultiplier: 0.25
+}
 ]

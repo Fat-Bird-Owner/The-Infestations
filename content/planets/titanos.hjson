@@ -34,8 +34,8 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 8
-   color: 00ff8033
-   octaves: 4
+   color: 00ff8077
+   octaves: 2
    persistence: 0.4
    scl: 0.9
    thresh: 0.7
@@ -46,8 +46,8 @@ cloudMesh: [
    speed: 0.891
    radius: 0.091
    divisions: 5
-   color: 00ff8011
-   octaves: 3
+   color: 00ff8044
+   octaves: 2
    persistence: 0.5
    scl: 1.1
    thresh: 0.8

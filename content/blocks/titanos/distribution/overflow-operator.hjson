@@ -1,0 +1,10 @@
+type: OverflowGate
+name: Overflow Operator
+health: 75
+
+requirements:[item-oxidium/3,item-silver/2]
+
+research:{
+parent: unload-operator
+researchCostMultiplier: 0.015
+}

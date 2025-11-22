@@ -1,0 +1,9 @@
+type: DuctBridge
+range: 5
+itemCapacity: 30
+
+requirements:[item-silver/15,item-oxidium/10]
+research:{
+parent: unload-operator
+researchCostMultiplier: 0.15
+}

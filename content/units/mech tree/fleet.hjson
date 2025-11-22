@@ -4,7 +4,7 @@ description: "
 Type:[salmon] Assault[]
 Class:[orange] Flamethrower[]
 
-Medium durability assault unit equipped with Flamethrowers and a Frag Cannon.
+Medium durability assault unit equipped with Flamethrowers, Frag Cannon and a Missile Battery.
 [lightgrey]suffers from slowness when using Flamethrowers.
 
 "
@@ -51,10 +51,8 @@ lightningColor: ff795e8c
 lightningLength: 15
 }
 
-}
+}}
 
-
-}
 // shotgun weapon
 {
 name: "Shotgun"
@@ -89,4 +87,50 @@ strokeFrom: 3
 colorFrom: f68859
 colorTo: dbfffe
 lifetime: 10
-}}}}]
+}}}}
+
+// missile
+{
+name: missile-battery
+reload: 45
+
+shoot:{
+shots: 5
+shotDelay: 0
+}
+x: 5
+y: 0
+mirror: false
+inaccuracy: 25
+rotate: true
+rotateSpeed: 5
+
+bullet:{
+type: MissileBulletType
+weaveMag: 2
+weaveScale: 10
+damage: 15
+lifetime: 45
+speed: 4
+splashDamage: 5
+splashDamageRadius: 24
+homingDelay: 15
+}
+
+}
+
+]
+
+
+abilities:[
+{
+type: LiquidRegenAbility
+liquid: blood
+slurpSpeed: 0.75
+regenPerSlurp: 5
+}
+{
+type: ArmorPlateAbility
+healthMultiplier: 0.15
+}
+]

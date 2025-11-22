@@ -1,0 +1,11 @@
+type: OverflowGate
+name: Underflow Operator
+health: 75
+invert: true
+
+requirements:[item-silver/3,item-oxidium/2]
+
+research:{
+parent: overflow-operator
+researchCostMultiplier: 0.015
+}

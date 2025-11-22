@@ -10,7 +10,7 @@ rotateSpeed: 4.5
 health: 300
 armor: 5
 
-outlineColor: "000000ff"
+outlineColor: "2c2d38"
 
 hitSize: 8
 treadPullOffset: 3
@@ -19,48 +19,43 @@ faceTarget: false
 
 weapons: [
 {
-name: "main-cannon"
+name: "raid-weapon"
 shootSound: artillery
 x: 0
 mirror: false
 rotate: true
-reload: 45
+reload: 60
 layerOffset: 1
 rotateSpeed: 2
 bullet: {
 type: BasicBulletType
 speed: 6
 lifetime: 20
-pierceCap: 3
-width: 4
+peirce: true
+
+height: 14
+width: 20
 trailWidth: 4
 trailLength: 15
 damage: 60
 pierceBuilding: true
 splashDamage: 15
 splashDamageRadius: 12
-}
+
+bulletInterval: 2
+intervalSpread: 45
+intervalRandomSpread: 0
+intervalBullets: 2
+intervalBullet:{
+type: BasicBulletType
+width: 10
+lifetime: 20
+trailWidth: 2
+trailLength: 6
+speed: 3
+damage: 5
 }
 
-{
-shootSound: shootAlt
-name: "side-cannon"
-x: 4
-mirror: true
-rotate: true
-alternate: true
-reload: 15
-rotateSpeed: 4
-bullet: {
-type: BasicBulletType
-speed: 3
-lifetime: 40
-pierceCap: 2
-width: 3
-trailWidth: 3
-trailLength: 5
-damage: 20
-pierceBuilding: true
 }
 }
 

@@ -1,0 +1,92 @@
+type: ImpactReactor
+name: Detonation Reactor
+description: "[accent]An impact reactor variant,[] Produces much more power but requires a longer start up and resources." 
+category: power
+
+// block section
+health: 4500
+size: 8
+
+// class related
+warmupSpeed: 0.00027
+itemDuration: 90
+
+consumes:{
+power: 200
+items:[blast-compound/1]
+liquids:[oil/0.75,cryofluid/0.8]
+}
+
+powerProduction: 440
+
+explosionPuddleLiquid: slag
+explosionPuddleRange: 128
+explosionPuddles: 500
+explosionPuddleAmount: 1000
+explosionDamage: 10000
+explosionRadius: 16
+explodeSound: massive-explosion
+explodeEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+particles: 75
+length: 256
+sizeFrom: 16
+sizeTo: 45
+colorFrom: ea887877
+colorTo: ea887800
+lifetime: 150
+}
+{
+type: ParticleEffect
+particles: 4
+length: 128
+sizeFrom: 16
+sizeTo: 45
+colorFrom: ea887877
+colorTo: ea887800
+lifetime: 300
+interp: sine
+}
+]
+} 
+
+// requirement related
+
+requirements:[lead/2000,metaglass/1000,graphite/1600,thorium/500,silicon/1500,surge-alloy/1250]
+
+research:{
+parent: impact-reactor
+objectives:[
+{
+type: SectorComplete
+preset: planetaryTerminal
+}
+omura
+reign
+]
+}
+
+// drawer
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawPlasma
+}
+{
+type: DrawDefault
+}
+{
+type: DrawGlowRegion
+color: feb38044
+}
+]
+}

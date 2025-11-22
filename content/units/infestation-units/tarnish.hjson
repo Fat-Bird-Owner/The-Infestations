@@ -1,0 +1,29 @@
+type: crawl
+name: Tarnish
+description: "..."
+speed: 0.85
+segments: 3
+segmentMag: 0.5
+health: 500
+armor: 10
+omniMovement: false
+rotateSpeed: 6
+
+crawlSlowdown: 0.75
+crushDamage: 1
+
+controller: HugAI
+drawCell: false
+
+abilities:[
+{
+type: RegenAbility
+percentAmount: 0.16667
+}
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 500
+radAmountScale: 7.5
+}
+]

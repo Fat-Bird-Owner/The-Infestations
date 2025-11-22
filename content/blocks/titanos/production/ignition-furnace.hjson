@@ -1,0 +1,15 @@
+type: GenericCrafter
+itemCapacity: 50
+size: 3
+category: crafting
+requirements:[]
+
+consumes:{
+itemFlammable:{
+minFlammability: 0.25
+amount: 15
+}
+items:[item-silver/50]
+}
+craftTime: 4800
+

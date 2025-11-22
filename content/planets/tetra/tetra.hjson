@@ -1,18 +1,15 @@
 localizedName: Tetra
-description: A planet lacking with life but not under ground.
+description: A simulation planet.
 alwaysUnlocked: true
 mesh: [
 {
     //ground and acid
-    type: NoiseMesh
+    type: SunMesh
     planet: tetra
-    divisions: 5
-    seed: 13
-    radius: 1.2
-    color1: 000000
-    color2: 000000
-    persistence: 5.5
-    octaves: 3
+    colors: [eb4634,eb3434,ff866b,f0afa1,ff5100]
+    divisions: 3
+    persistence: 5
+    octaves: 8
 }
 ]
 
@@ -72,7 +69,7 @@ generator: {
 }
 
 orbitRadius: 20
-sectorSize: 1
+sectorSize: 0
 allowLaunchSchematics: false
 allowLaunchToNumbered: true
 allowLaunchLoadout: false
@@ -97,6 +94,3 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: core-satellite
-parent: sun
-solarSystem: sun
-launchCandidates: [erekir]

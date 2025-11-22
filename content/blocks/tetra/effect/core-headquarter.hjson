@@ -1,15 +1,15 @@
 type: CoreBlock
-name: "[blue]Core: Aurelius[]"
+name: "Headquarter"
 requirements:[]
-health: 10000
-unitType: ethereal
-size: 5
+health: 3500
+unitType: burner
+size: 4
 itemCapacity: 150
 squareSprite: false
 category: effect
 alwaysUnlocked: true
 unitCapModifier: 5
-buildVisilbilty: SandBox
+solid: false
 requiresCoreZone: false
 isFirstTier: true
 research: {

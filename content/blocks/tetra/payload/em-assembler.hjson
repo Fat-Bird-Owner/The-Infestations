@@ -1,0 +1,23 @@
+type: UnitFactory
+health: 750
+size: 3
+name: Electromechanical Assembler
+category: units
+requirements:[item-credit/30]
+research:{
+parent: core-headquarter
+requirements:[item-credit/90]
+}
+
+plans:[
+{
+unit: stell
+requirements:[item-credit/25]
+time: 220
+}
+{
+unit: dagger
+requirements:[item-credit/5]
+time: 110
+}
+]

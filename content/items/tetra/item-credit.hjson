@@ -1,0 +1,5 @@
+name: Credit
+description: Credits used to buy buildings.
+research:{
+parent: core-headquarter
+}
