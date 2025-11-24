@@ -1,5 +1,5 @@
-name: Conduction Quartz
-description: "A [red]VERY[] conductive fragile material."
+name: "[#f5b642]Conduction Quartz"
+description: "A conductive material used to store power."
 charge: 0.5
 research:{
 parent: item-shale
