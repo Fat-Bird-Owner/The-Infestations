@@ -56,6 +56,7 @@ cloudMesh: [
 
 campaignRuleDefaults: {
 	showSpawns: true
+	sectorInvasion: true
 }
 
 generator: SerpuloPlanetGenerator
@@ -74,6 +75,7 @@ drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
+allowCampaignRules: false
 updateLighting: false
 sectorSeed: 17
 bloom: true
@@ -82,7 +84,7 @@ atmosphereColor: a6babd3f
 showRtsAIRule: false
 iconColor: 9ad44a
 hasAtmosphere: true
-allowWaveSimulation: false
+allowWaveSimulation: true
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-satellite
