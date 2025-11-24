@@ -80,9 +80,9 @@ bloom: true
 visible: true
 atmosphereColor: a6babd3f
 showRtsAIRule: false
-iconColor: ffffff
+iconColor: 9ad44a
 hasAtmosphere: true
-allowWaveSimulation: true
+allowWaveSimulation: false
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-satellite
