@@ -4,3 +4,8 @@ size: 3
 name: Large Silver Wall
 category: defense
 requirements:[item-silver/54]
+
+research:{
+parent: silver-wall
+}
+researchCostMultiplier: 0.05
