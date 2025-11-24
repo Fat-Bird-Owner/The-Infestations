@@ -1,5 +1,5 @@
 localizedName: Tetra
-description: A simulation planet.
+description: A desert like planet.
 alwaysUnlocked: true
 mesh: [
 {
@@ -19,8 +19,8 @@ cloudMesh: [
    planet: tetra
    speed: 1.21
    radius: 0.1
-   divisions: 7
-   color: 234f4455
+   divisions: 4
+   color: eb3434
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -60,13 +60,13 @@ atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
 sectorSeed: 27392
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: a6babd3f
-iconColor: a6babd
+iconColor: eb3434
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: false
+prebuildBase: true
 defaultCore: core-satellite
