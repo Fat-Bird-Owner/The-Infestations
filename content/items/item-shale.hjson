@@ -1,5 +1,5 @@
-name: Shale
-description: A material commonly found on the ground, but dont underestimate it, it contains  high amount of other materials.
+name: "[#5f5f5f]Shale"
+description: "Powder like material found on the ground. Seperated into valuable items."
 research:{
 parent: item-silver
 }
