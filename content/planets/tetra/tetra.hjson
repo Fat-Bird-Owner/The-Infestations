@@ -1,4 +1,4 @@
-localizedName: Tetra
+localizedName: Tekera
 description: A desert like planet.
 alwaysUnlocked: true
 mesh: [
@@ -24,7 +24,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.6
+   thresh: 0.3
   }
  {
    type: HexSkyMesh
@@ -32,7 +32,7 @@ cloudMesh: [
    speed: 1.225
    radius: 0.1
    divisions: 4
-   color: eb343433
+   color: eb343466
    octaves: 3
    persistence: 0.3
    scl: 1
