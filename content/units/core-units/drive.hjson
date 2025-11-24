@@ -8,12 +8,13 @@ range: 180
 mineTier: 0
 minesItem:[]
 mineWalls: true
-buildSpeed: 0.65
+buildSpeed: 1.15
 mineSpeed: 0
 payloadCapacity: 32
 drag: 0.03
 accel: 0.1
-engineSize: 0
+trailScl: 1
+trailLength: 16
 flying: true
 itemCapacity: 40
 ammoCapacity: 1
@@ -69,7 +70,7 @@ lifetime: 120
 strokeFrom: 3.5
 strokeTo: 3.5
 followParent: true
-layer: 86
+layer: 122
 }
 {
 type: SoundEffect
@@ -88,9 +89,14 @@ strokeTo: 3.5
 sizeFrom: 60
 sizeTo: 60
 followParent: true
-layer: 86
+layer: 122
 }
 ]
 
 }
 ]
+
+research:{
+parent: drive-pad
+requiresUnlock: false
+}
