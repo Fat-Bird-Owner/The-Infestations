@@ -5,14 +5,11 @@ requirements:[item-silver/16]
 category: production
 description: "crushes the wall to look for silver. requires and conducts power."
 range: 3
-drillTime: 240
+drillTime: 180
 researchCost:[item-silver/60]
 research:{
 parent: drill-icon
 }
-conductivePower: true
-hasPower: true
-outputsPower: true
 consumes:{
 power: 0.035
 }
