@@ -62,9 +62,9 @@ generator: SerpuloPlanetGenerator
 orbitRadius: 50
 sectorSize: 2
 allowLaunchSchematics: true
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowLaunchLoadout: true
-allowSectorInvasion: false
+allowSectorInvasion: true
 enemyCoreSpawnReplace: true
 startSector: 86
 orbitSpacing: 2
