@@ -5,7 +5,7 @@ itemCapacity: 0
 consumes:{
 power: 0.6
 }
-name: "Mech Bay: [accent]Drive[]"
+name: "Drive Air Bay"
 
 size: 2
 unitType: drive
