@@ -1,4 +1,5 @@
-name: Hardened Calcite
+name: "[#9f9f9f]Hardened Calcite"
+description: "A rough hard material used to fortify buildings and units."
 research:{
 parent: item-shale
 }
