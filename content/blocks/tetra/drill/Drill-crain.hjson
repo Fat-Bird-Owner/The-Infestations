@@ -1,19 +1,24 @@
 type: Drill
-size: 3
 tier: 2
-drillTime: 240
+drillTime: 360
+category: production
 
-requirements:[item-credit/35]
+requirements:[item-andesite/15]
 research:{
 parent: core-headquarter
-requirements:[item-credit/70]
+requiresUnlock: false
 }
 drillEffectChance: 0.1
 drillEffect: {
+type: RadialEffect
+amount: 1
+rotationOffset: 45
+effect: {
 type: ParticleEffect
 colorTo: ffffff00
 cone: 45
 length: 12
 lightScl: 0
 sizeTo: 3.5
+}
 }
