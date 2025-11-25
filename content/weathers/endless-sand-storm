@@ -1,0 +1,11 @@
+type: ParticleWeather
+name: Endless Sand Storm
+color: cfca93
+sizeMin: 8
+sizeMax: 20
+maxAlpha: 0.5
+minAlpha: 0.2
+baseSpeed: 24
+
+drawNoise: true
+noiseColor: aba57d
