@@ -1,6 +1,8 @@
 type: Drill
+name: Drill Crain
+description: "A standard ground drill."
 tier: 2
-drillTime: 360
+drillTime: 280
 category: production
 
 requirements:[item-andesite/15]
@@ -8,13 +10,14 @@ research:{
 parent: core-headquarter
 requiresUnlock: false
 }
-drillEffectChance: 0.1
+drillEffectChance: 1
 drillEffect: {
 type: RadialEffect
 amount: 1
 rotationOffset: 45
 effect: {
 type: ParticleEffect
+colorTo: 3f3f3f55
 colorTo: ffffff00
 cone: 45
 length: 12
