@@ -1,0 +1,5 @@
+type: AttributeCrafter
+name: "Trench Digger"
+description: "Gathers sand from the ground"
+attribute: sand
+baseEfficiency: 0
