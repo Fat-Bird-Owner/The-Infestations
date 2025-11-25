@@ -1,5 +1,5 @@
 type: NuclearReactor
-name: Detonation Reactor
+name: Thorium Core
 description: "[accent]A thorium reactor variant,[] Produces more power but needs more cyrofluid." 
 category: power
 
@@ -29,7 +29,8 @@ sizeFrom: 16
 sizeTo: 45
 colorFrom: bf92f955
 colorTo: 3f3f3f00
-lifetime: 180
+lifetime: 240
+interp: sine
 }
 {
 type: ParticleEffect
@@ -50,7 +51,7 @@ liquids:[cryofluid/0.65]
 items:[thorium/10]
 }
 
-powerProduction: 46.5
+powerProduction: 65
 
 // requirement related
 
