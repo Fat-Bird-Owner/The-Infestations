@@ -80,8 +80,10 @@ backColor: 676486
 damage: 1
 splashDamage: 1
 splashDamageRadius: 20
-lifetime: 60
-speed: 2
+lifetime: 15
+trailWidth: 2
+trailLength: 8
+speed: 8
 }
 
 }
