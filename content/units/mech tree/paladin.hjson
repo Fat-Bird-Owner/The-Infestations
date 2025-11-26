@@ -14,8 +14,14 @@ speed: 0.34
 health: 2500
 armor: 6
 hitSize: 18
-//
-
+// abilties
+abilities:[
+{
+type: ArmorPlateAbility
+healthMultiplier: 0.15
+}
+]
+// 
 parts: [
   {
     type: FlarePart
