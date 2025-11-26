@@ -1,8 +1,15 @@
 type: PowerTurret
-range: 120
+range: 100
+name: Charge
+description: "Rapidly fires lightning at the target."
 
 requirements:[item-silver/35,item-oxidium/25,item-conduction-quartz/15]
 category: turret
+
+shoot:{
+shots: 2
+shotDelay: 0
+}
 
 reload: 5
 consumes:{
@@ -13,4 +20,6 @@ shootType:{
 type: LightningBulletType
 damage: 5
 length: 15
+status: flamethrow-fail
+statusDuration: 15
 }
