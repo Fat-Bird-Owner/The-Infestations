@@ -1,0 +1,5 @@
+name: Andesite
+description: Basic building material.
+research:{
+parent: core-headquarter
+}

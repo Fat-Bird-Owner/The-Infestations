@@ -1,0 +1,16 @@
+type: PowerTurret
+range: 120
+
+requirement:[item-silver/35,item-oxidium/25,item-conduction-quartz/15]
+category: turret
+
+reload: 5
+consumes:{
+power: 1
+}
+
+shootType:{
+type: LightningBulletType
+damage: 5
+length: 15
+}
