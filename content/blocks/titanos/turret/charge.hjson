@@ -34,10 +34,11 @@ lightningCone: 50
 chargeEffect:{
 type: WaveEffect
 strokeFrom: 1
-strokeTo: 1
-sizeFrom: 26
-sizeTo: 32
+strokeTo: 0
+sizeFrom: 8
+sizeTo: 16
 colorTo: ffffff00
+lifetime: 60
 }
 
 hitEffect:{
