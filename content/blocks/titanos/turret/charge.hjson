@@ -1,5 +1,5 @@
 type: PowerTurret
-range: 100
+range: 60
 name: Charge
 description: "
 type: [green]Defensive Turret[]
@@ -12,19 +12,39 @@ requirements:[item-silver/35,item-oxidium/25,item-conduction-quartz/15]
 category: turret
 
 shoot:{
-shots: 2
-shotDelay: 0
+shots: 3
+shotDelay: 10
+firstShotDelay: 25
 }
 
-reload: 15
+reload: 85
 consumes:{
-power: 1
+power: 0.3337
 }
 
 shootType:{
 type: LightningBulletType
-damage: 10
-length: 15
+damage: 17.5
+length: 7.5
 status: flamethrow-fail
 statusDuration: 15
+lightningColor: FA8072FF
+
+chargeEffect:{
+type: WaveEffect
+strokeFrom: 1
+strokeTo: 1
+sizeFrom: 26
+sizeTo: 32
+colorTo: ffffff00
+}
+
+hitEffect:{
+type: WaveEffect
+strokeFrom: 1
+strokeTo: 0
+sizeFrom: 8
+sizeTo: 8
+lifetime: 20
+}
 }
