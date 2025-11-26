@@ -39,6 +39,27 @@ parts: [
 //
 weapons:[
 {
+x: 4 
+mirror: false
+reload: 45
+shoot:{
+shots: 5
+shotDelay: 3
+}
+
+bullet:{
+type: BasicBulletType
+frontColor: 9c88c3
+backColor: 676486
+damage: 1
+splashDamage: 1
+splashDamageRadius: 20
+lifetime: 60
+speed: 2
+}
+
+}
+{
 name: paladin-weapon
 mirror: false
 x: 12
