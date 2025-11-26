@@ -7,11 +7,11 @@ requirements:[item-silver/35,item-oxidium/25,item-conduction-quartz/15]
 category: turret
 
 shoot:{
-shots: 2
-shotDelay: 0
+shots: 60
+shotDelay: 2
 }
 
-reload: 5
+reload: 180
 consumes:{
 power: 1
 }
