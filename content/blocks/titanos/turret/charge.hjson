@@ -1,7 +1,12 @@
 type: PowerTurret
 range: 100
 name: Charge
-description: "Quickly fires lightning at the target."
+description: "
+type: [green]Defensive Turret[]
+class: [orange]Flamethrower
+
+Quickly fires lightning at the target, perfect for fighting crowds of flamethrower units.
+"
 
 requirements:[item-silver/35,item-oxidium/25,item-conduction-quartz/15]
 category: turret
