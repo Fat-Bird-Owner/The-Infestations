@@ -39,11 +39,34 @@ parts: [
 //
 weapons:[
 {
+reload: 300
+shoot:{
+shots: 3
+shotDelay: 30
+}
+inaccuracy: 20
+x: 0
+y: 0
+mirror: false
+
+bullet:{
+type: ArtilleryBulletType
+splashDamageRadius: 24
+splashDamage: 50
+speed: 3.5
+lifetime: 60
+hitShake: 3.5
+}
+
+}
+{
 x: 4 
 mirror: false
 reload: 45
+inaccuracy: 15
+rotates: true
 shoot:{
-shots: 5
+shots: 15
 shotDelay: 3
 }
 
