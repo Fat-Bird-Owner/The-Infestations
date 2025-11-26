@@ -29,16 +29,16 @@ length: 7.5
 status: flamethrow-fail
 statusDuration: 15
 lightningColor: FA8072FF
-lightningCone: 50
+lightningCone: 15
 
 chargeEffect:{
 type: WaveEffect
 strokeFrom: 1
 strokeTo: 0
-sizeFrom: 8
+sizeFrom: 4
 sizeTo: 16
 colorTo: ffffff00
-lifetime: 60
+lifetime: 25
 }
 
 hitEffect:{
