@@ -51,20 +51,23 @@ mirror: false
 
 bullet:{
 type: ArtilleryBulletType
+width: 10
+height: 14
 splashDamageRadius: 24
 splashDamage: 50
-speed: 3.5
-lifetime: 60
+speed: 1.75
+lifetime: 120
 hitShake: 3.5
 }
 
 }
 {
+name: "low-caliber-lfr"
 x: 4 
 mirror: false
 reload: 45
 inaccuracy: 15
-rotates: true
+rotate: true
 shoot:{
 shots: 15
 shotDelay: 3
