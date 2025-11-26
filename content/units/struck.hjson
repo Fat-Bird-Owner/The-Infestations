@@ -1,0 +1,40 @@
+type: flying
+flying: true
+health: 450
+armor: 5
+speed: 1.25
+rotateSpeed: 3.5
+omniMovement: false
+engineSize: 0
+
+parts:[
+{
+type: RegionPart
+rotateSpeed: 35
+}
+]
+
+weapons:[
+{
+x: 4
+y: 2
+reload: 45
+inaccuracy: 15
+shoot:{
+shots: 10
+shotDelay: 2
+}
+
+bullet:{
+type: MissileBulletType
+lifetime: 60
+speed: 2.5
+homingRange: 180
+homingDelay: 25
+damage: 2.5
+weaveScl: 2
+weaveMag: 3.5
+}
+
+}
+]
