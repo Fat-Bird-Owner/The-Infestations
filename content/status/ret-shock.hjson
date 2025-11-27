@@ -1,0 +1,4 @@
+name: "Ret Shocked"
+transitionDamage: 10
+
+affinities: [burning, melting]
