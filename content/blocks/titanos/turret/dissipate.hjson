@@ -4,7 +4,11 @@ health: 200
 category: turret
 range: 120
 outlineColor: 2c2d38
-description: "Cheaper alternative to the retaliation. Able rapidly fire volleys of bullets at it's target. "
+description: "
+Type: [green]Defensive Turret[]
+Class: [teal]Burst[]
+
+Cheaper alternative to the retaliation. Able rapidly fire volleys of bullets at it's target. "
 
 shoot:{
 shots: 10
