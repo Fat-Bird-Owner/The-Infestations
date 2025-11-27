@@ -1,6 +1,10 @@
 type: ItemTurret
 name: Retaliation
-description: "Fires bullets at it's target and can use a varity of ammo."
+description: "
+Type: [green]Defensive Turret[]
+Class: [lightgrey]Fragmentation[]
+
+Fires bullets at it's target and can use a varity of ammo."
 health: 400
 reload: 60
 range: 180
