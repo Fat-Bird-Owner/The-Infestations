@@ -28,7 +28,12 @@ shootX: 0
 shootY: 0
 mirror: true
 rotate: true
-reloa: 10
+reloa: 60
+inaccuracy: 15
+shoot:{
+shot: 5
+shotDelay: 5
+}
 shake: 0.54
 shootSound: malignShoot
 ejectEffect: casing1
