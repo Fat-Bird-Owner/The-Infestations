@@ -1,22 +1,12 @@
 // general stats
-type: legs
-hitSize: 18
+type: flying
+flying: true
+hitSize: 6
 health: 400
-speed: 0.5
+speed: 2
 omniMovement: true
 shootCone: 30
 range: 60
-
-// funni spider
-legCount: 6
-legMoveSpace: 1.8
-emitWalkEffect: false
-legPairOffset: 2
-stepShake: 0.5
-legLengthScl: 0.95
-legSpeed: 0.1
-LegStraightness: 0.35
-legLength: 35
 
 // bullet
 
@@ -58,5 +48,17 @@ abilities:[
 type: LiquidExplodeAbility
 liquid: blood	
 amount: 180.0
+}
+{
+type: MoveEffectAbility
+effect:{
+type: ParticleEffect
+particles: 3
+sizeFrom: 4
+sizeTo: 8
+lifetime: 300
+colorFrom: 9effab55
+colorTo: 9effab5500
+}
 }
 ]
