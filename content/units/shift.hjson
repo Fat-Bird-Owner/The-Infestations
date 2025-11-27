@@ -10,6 +10,7 @@ hovering: true
 canDrown: false
 trailLength: 8
 outlineColor: 2c2d38
+faceTarget: false
 engines:[
 {
 y: -5
@@ -23,22 +24,20 @@ name: "shift-weapon"
 x: 0.1
 y: 0
 top: false
-shootX: 6
-shootY: 6
+shootX: 0
+shootY: 0
 mirror: true
-reload: 25
+rotate: true
+reloa: 10
+shake: 0.54
 shootSound: malignShoot
 ejectEffect: casing1
 bullet:{
-type: BasicBulletType
-damage: 20
-speed: 8
-lifetime: 10
-trailWidth: 2
-trailLength: 6
-backColor: ff0000	
-frontColor: 7f0000
-trailColor: 7f0000
+type: MissileBulletType
+speed: 3
+lifetime: 90
+damage: 15
+
 }}
 ]
 // "ff0000"
