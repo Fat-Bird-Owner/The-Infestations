@@ -105,10 +105,12 @@ type: DrawTurret
 parts:[
 {
 rotation: 45
-moveX: 6
-moveY: -4
+moveX: 4
+moveY: -3.5
 progress: warmup
 mirror: true
+heatColor: FA8072FF
+heatLight: true
 }
 ]
 }
