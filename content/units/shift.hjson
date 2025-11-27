@@ -28,7 +28,7 @@ shootX: 0
 shootY: 0
 mirror: true
 rotate: true
-reloa: 60
+reload: 60
 inaccuracy: 15
 shoot:{
 shot: 5
