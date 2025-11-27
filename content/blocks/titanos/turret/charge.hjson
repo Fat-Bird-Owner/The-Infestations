@@ -39,10 +39,12 @@ lightningCone: 15
 shootEffect:{
 type: ParticleEffect
 particles: 9
+cone: 360
 line: true
 length: 0
-lenFrom: 4
-lenTo: 0
+lenFrom: 16
+lenTo: 16
+strokeTo: 0
 colorFrom: FA8072FF
 colorTo: FA8072FF
 }
