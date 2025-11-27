@@ -31,7 +31,7 @@ shootType:{
 type: LightningBulletType
 damage: 17.5
 length: 7.5
-status: flamethrow-fail
+status: ret-shock
 statusDuration: 15
 lightningColor: FA8072FF
 lightningCone: 15
