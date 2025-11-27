@@ -35,6 +35,7 @@ status: ret-shock
 statusDuration: 15
 lightningColor: FA8072FF
 lightningCone: 15
+shake: 0.75
 
 shootEffect:{
 type: ParticleEffect
