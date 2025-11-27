@@ -38,8 +38,11 @@ lightningCone: 15
 shake: 0.75
 
 shootEffect:{
+type: MultiEffect
+effects:[
+{
 type: ParticleEffect
-particles: 9
+particles: 3
 cone: 360
 line: true
 length: 0.2
@@ -48,6 +51,33 @@ lenTo: 6
 strokeTo: 0
 colorFrom: FA8072FF
 colorTo: FA8072FF
+}
+{
+type: ParticleEffect
+particles: 2
+cone: 360
+line: true
+length: 0.2
+lenFrom: 12
+lenTo: 12
+strokeTo: 0
+colorFrom: FA8072FF
+colorTo: FA8072FF
+lifetime: 30
+}
+{
+type: ParticleEffect
+particles: 1
+cone: 360
+line: true
+length: 0.2
+lenFrom: 18
+lenTo: 18
+strokeTo: 0
+colorFrom: FA8072FF
+colorTo: FA8072FF
+}
+]
 }
 
 chargeEffect:{
@@ -68,4 +98,17 @@ sizeFrom: 8
 sizeTo: 8
 lifetime: 20
 }
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+rotation: 45
+moveX: 6
+moveY: -4
+progress: warmup
+mirror: true
+}
+]
 }
