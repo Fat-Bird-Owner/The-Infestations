@@ -42,9 +42,9 @@ type: ParticleEffect
 particles: 9
 cone: 360
 line: true
-length: 0
-lenFrom: 16
-lenTo: 16
+length: 0.2
+lenFrom: 6
+lenTo: 6
 strokeTo: 0
 colorFrom: FA8072FF
 colorTo: FA8072FF
