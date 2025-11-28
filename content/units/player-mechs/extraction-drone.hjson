@@ -1,0 +1,9 @@
+type: tether
+playerControllable: false
+defaultCommand: mine
+mineWalls: true
+mineItems:[item-silver]
+mineFloor: false
+mineSpeed: 0.65
+itemCapacity: 25
+mineTier: 2
