@@ -1,0 +1,25 @@
+type: UnitCargoLoader
+category: effect
+solid: false
+itemCapacity: 0
+consumes:{
+power: 0.6
+}
+name: "Extraction Control Bay"
+
+size: 2
+unitType: extraction-drone
+unitBuildTime: 750
+requirements:[item-silver/200,item-oxidium/100,item-hardened-calcite/45,item-conduction-quartz/35]
+
+polyRadius: 6
+polySides: 9
+polyStroke: 1
+polyRotateSpeed: 1.5
+polyColor: ffcd6677
+description:"
+Uses power to fabricate a drive unit, this unit will stay idle and can be controlled by the player.
+[accent]
+Drive[grey]
+Support unit able to fly and heal nearby blocks.
+"
