@@ -10,6 +10,7 @@ Charges and Quickly fires bursts of lightning at the target, perfect for fightin
 
 requirements:[item-silver/35,item-oxidium/25,item-conduction-quartz/15]
 category: turret
+outlineColor: 2c2d38
 
 research:{
 parent: dissipate
