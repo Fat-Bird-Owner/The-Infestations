@@ -27,3 +27,11 @@ type: DrawGlowRegion
 }
 ]
 }
+
+research:{
+parent: convection-generator
+objectives:[{
+type: SectorComplete
+preset: rain-forest
+}]
+}
