@@ -1,14 +1,15 @@
 type: OverdriveProjector
 name: Overclock Projector
-description: "Boost the efficiency of most allied buildings in it's radius."
+description: "Boost the efficiency of [salmon]most[] allied buildings in it's radius.[accent] Can use phase fabric to decrease range but Increase efficiency.[]"
 size: 3
 health: 650
 
 requirements:[beryllium/300,surge-alloy/100,tungsten/125,carbide/75,thorium/65,phase-fabric/25]
 
-range: 140
-speedBoost: 1.35
-speedBoostPhase: 0.35
+range: 180
+speedBoost: 1.25
+speedBoostPhase: 0.45
+phaseRangeBoost: -60
 consumes:{
 power: 4.5
 liquids:[water/0.01667]
