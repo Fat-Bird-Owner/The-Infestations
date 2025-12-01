@@ -1,0 +1,22 @@
+type: OverdriveProjector
+name: Overclock Projector
+description: "Boost the efficiency of most allied buildings in it's radius."
+size: 3
+health: 650
+
+requirements:[beryllium/300,surge-alloy/100,tungsten/125,carbide/75,thorium/65,phase-fabric/25]
+
+range: 140
+speedBoost: 1.35
+speedBoostPhase: 0.35
+consumes:{
+power: 4.5
+liquids:[water/0.01667]
+items:{
+items:[
+phase-fabric/1
+]
+optional: true
+boost: true
+}
+}
