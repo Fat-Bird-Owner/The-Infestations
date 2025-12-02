@@ -1,5 +1,5 @@
 type: RegenProjector
-name Ameliorate Wall
+name: Ameliorate Wall
 description: "Protects building from enemy fire. able to slowly repair itself."
 category: defense
 group: walls
