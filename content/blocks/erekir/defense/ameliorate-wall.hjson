@@ -7,12 +7,26 @@ size: 2
 priority: 0
 health: 5000
 
-requirements:[phase-fabric/15,tungsten/25]
-  
-healPercent: 0.025
+requirements:[phase-fabric/25,tungsten/45]
+
+research:{
+parent: shielded-wall
+}
+
+healPercent: 0.0025
 range: 0.001
 effect: none
 
 drawer:{
+type: DrawMulti
+drawers:[
+{
 type: DrawDefault
+}
+{
+type: DrawGlowRegion
+color: EFE4CAFF
+suffix: "-heal"
+}
+]
 }
