@@ -1,0 +1,18 @@
+type: RegenProjector
+name Ameliorate Wall
+description: "Protects building from enemy fire. able to slowly repair itself."
+category: defense
+group: walls
+size: 2
+priority: 0
+health: 5000
+
+requirements:[phase-fabric/15,tungsten/25]
+  
+healPercent: 0.025
+range: 0.001
+effect: none
+
+drawer:{
+type: DrawDefault
+}
