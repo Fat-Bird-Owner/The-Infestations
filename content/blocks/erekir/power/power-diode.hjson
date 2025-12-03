@@ -1,0 +1,11 @@
+type: PowerDiode
+name: Power Diode
+description: "Transports power from towards the beam node infront of it. Only if the other side has more power."
+health: 350
+
+requirements:[silicon/15,beryllium/20,graphite/20]
+
+research:{
+parent: beam-node
+}
+researchCostMultiplier: 0.05
