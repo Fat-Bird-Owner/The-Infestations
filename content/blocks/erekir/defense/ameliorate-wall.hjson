@@ -1,19 +1,23 @@
 type: RegenProjector
 name: Ameliorate Wall
-description: "Protects building from enemy fire. able to slowly repair itself."
+description: "Protects allied buildings from enemy projectiles. Able to slowly repair itself."
+details: "An experimental technology using phase fabric's self constructing properties
+Allowing it to slowly repair itself, Although it's tungsten shell doesnt allow it
+to reflect bullets.
+"
 category: defense
 group: walls
 size: 2
 priority: 0
 health: 5000
 
-requirements:[phase-fabric/25,tungsten/45]
+requirements:[phase-fabric/25,tungsten/45,surge-alloy/15]
 
 research:{
 parent: shielded-wall
 }
 
-healPercent: 0.01
+healPercent: 0.0125
 range: 0.001
 effect: none
 
@@ -25,7 +29,7 @@ type: DrawDefault
 }
 {
 type: DrawGlowRegion
-color: EFE4CAFF
+color: EFE4CAFF55
 suffix: "-heal"
 }
 ]
