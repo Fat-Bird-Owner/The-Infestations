@@ -13,7 +13,7 @@ research:{
 parent: shielded-wall
 }
 
-healPercent: 0.0025
+healPercent: 0.01
 range: 0.001
 effect: none
 
