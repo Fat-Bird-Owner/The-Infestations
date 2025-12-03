@@ -1,9 +1,12 @@
 type: RegenProjector
 name: Ameliorate Wall
 description: "Protects allied buildings from enemy projectiles. Able to slowly repair itself."
-details: "An experimental technology using phase fabric's self constructing properties
-Allowing it to slowly repair itself, Although it's tungsten shell doesnt allow it
-to reflect bullets.
+details: "An experimental technology using phase fabric's self constructing properties Allowing it to slowly repair itself, Although it's tungsten shell doesnt allow it to reflect bullets.
+
+Counters:
+- [purple]Repair Disruption Ability[]
+- [blue]Piercing Bullet[]
+- [orange]Shear Crush Damage[]
 "
 category: defense
 group: walls
