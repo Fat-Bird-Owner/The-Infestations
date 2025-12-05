@@ -91,7 +91,7 @@ status: shocked
 despawnHit: true
 splashDamage: 10
 splashDamageRadius: 20
-despawnEffect: hitBullet
+despawnEffect: hitBulletSmall
 
 bulletInterval: 5
 
