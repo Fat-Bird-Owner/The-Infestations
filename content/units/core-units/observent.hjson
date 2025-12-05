@@ -74,35 +74,22 @@ inaccuracy: 2.5
 
 bullet:{
 type: LaserBulletType
-length: 80
+length: 160
 shootEffect: explosion
-damage: 15
+damage: 30
 impact: true
-knockback: 0.25
+knockback: 1.5
 lifetime: 50
 
 spawnBullets:[
 {
 type: BasicBulletType
-speed: 2
+damage: 0
+collides: false
+speed: 4
 lifetime: 30
-impact: true
-knockback: 10
-damage: 10
-status: blasted
-despawnHit: true
-splashDamage: 10
-splashDamageRadius: 20
-despawnEffect: dynamicExplosion
-bulletInterval: 5
-
-intervalBullet: {
-type: EmptyBulletType
-instantDisappear: true
-despawnEffect: sparkShoot
-despawnHit: true
-}
-
+width: 26
+height: 8
 }
 ]
 
