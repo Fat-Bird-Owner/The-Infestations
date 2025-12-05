@@ -85,7 +85,7 @@ speed: 2
 lifetime: 30
 pierce: true
 damage: 10
-status: shock
+status: shocked
 despawnHit: true
 splashDamage: 10
 splashDamageRadius: 20
