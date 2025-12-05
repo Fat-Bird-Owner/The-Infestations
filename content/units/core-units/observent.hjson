@@ -83,16 +83,17 @@ lifetime: 50
 
 spawnBullets:[
 {
+type: BasicBulletType
 speed: 2
 lifetime: 30
-pierce: true
+impact: true
+knockback: 10
 damage: 10
-status: shocked
+status: blasted
 despawnHit: true
 splashDamage: 10
 splashDamageRadius: 20
-despawnEffect: hitBulletSmall
-
+despawnEffect: dynamicExplosion
 bulletInterval: 5
 
 intervalBullet: {
