@@ -23,12 +23,23 @@ shotDelay: 10
 bullet:{
 type: BasicBulletType
 speed: 3
+lifetime: 90
 width: 10
 height: 14
 trailWidth: 2
 trailLength: 10
 damage: 65
 hitShake: 2.5
+
+bulletInterval: 10
+intervalRandomSpread: 9
+intervalBullet:{
+type: SharpnelBulletType
+serrations: 3
+damage: 35
+length: 20
+}
+
 }
 
 }
