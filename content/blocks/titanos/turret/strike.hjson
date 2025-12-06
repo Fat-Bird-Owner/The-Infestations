@@ -32,7 +32,7 @@ lifetime: 60
 speed: 4
 trailWidth: 2
 trailLength: 24
-trailChance: 0.25
+trailChance: 1
 trailEffect: smoke
 width: 10
 height: 14
@@ -43,6 +43,7 @@ hitShake: 5
 frontColor: 7b7b7b
 backColor: 656565
 despawnEffect: sparkExplosion
+despawnHit: true
 
 fragBullets: 1
 fragBullet: {
@@ -52,6 +53,7 @@ lifetime: 30
 despawnHit: true
 splashDamage: 50
 splashDamageRadius: 80
+despawnEffect: sparkExplosion
 }
 
 }
