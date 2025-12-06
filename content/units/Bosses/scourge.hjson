@@ -48,6 +48,7 @@ width: 8
 x: 0
 y: 0
 mirror: false
+reload: 240
 
 shoot:{
 firstShotDelay: 180
@@ -55,7 +56,7 @@ firstShotDelay: 180
 
 bullet:{
 type: BasicBulletType
-accel: 0.025
+accel: 0.001 
 speed: 5
 spin: 5
 width: 20
