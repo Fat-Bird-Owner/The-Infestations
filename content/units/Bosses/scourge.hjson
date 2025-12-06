@@ -2,114 +2,26 @@ type: mech
 name: Scourge
 hitSize: 20
 speed: 0.35
-health: 6500
-armor: 15
+health: 3000
+armor: 6.5
 
 weapons:[
 {
-name: missile-battery
-reload: 300
-x: -8
-y: -4
-inaccuracy: 15
-rotate: true
-rotateSpeed: 1.5
-shoot:{
-shots: 35
-shotDelay: 2.5
-}
-
-bullet:{
-type: MissileBulletType
-speed: 1.5
-lifetime: 500
-keepVelocity: false
-homingRange: 0
-homingPower: 0
-weaveScale: 3
-weaveMag: 7.5
-hitShake: 7.5
-damage: 25
-splashDamage: 15
-splashDamageRadius: 20
-makeFire: true
-despawnHit: true
-despawnEffect: explosion
-}
-
-}
-{
-name: dissipate
-mirror: false
-x: 8
-y: -4
-rotate: true
-rotateSpeed: 2.5
-shootCone: 45
-reload: 45
-inaccuracy: 5
-
-shoot:{
-shots: 10
-shotDelay: 2.5
-}
-
-bullet:{
-type: BasicBulletType
-speed: 2
-lifetime: 60
-makeFire: true
-damage: 10
-hitShake: 2.5
-}
-
-}
-{
 x: 12
 y: 0
-name: paladin-weapon
 layerOffset: -0.01
-reload: 60
-under: true
-inaccuracy: 5
-
-shoot:{
-shots: 3
-shotDelay: 0
-}
+rotate: true
+rotationLimit: 10
+linearWarmup: true
+continuous: true
+alwaysContinuous: true
 
 bullet:{
-type: BasicBulletType
-speed: 3
-lifetime: 30
-width: 10
-height: 10
-trailWidth: 2
-trailLength: 8
-weaveMag: 2
-weaveScale: 1.5
-damage: 45
-
-fragBullets: 1
-fragBullet:{
-type: BombBulletType
-lifetime: 90
-despawnHit: true
-despawnShake: 3.5
-splashDamage: 15
-scaledSplashDamage: true
-makeFire: true
+type: ContinuousLaserBulletType
+damage: 15
+status: ichor-burn
+pierceDamageFactor: 0.65
 }
 
-bulletInterval: 10
-intervalBullet:{
-type: EmptyBulletType
-instantDisappear: true
-despawnHit: true
-despawnEffect: explosion
-}
-  
-}
-  
 }
 ]
