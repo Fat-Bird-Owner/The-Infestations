@@ -31,13 +31,14 @@ trailLength: 10
 damage: 65
 hitShake: 2.5
 
-bulletInterval: 10
+bulletInterval: 2.5
 intervalRandomSpread: 9
 intervalBullet:{
 type: ShrapnelBulletType
-serrations: 3
+serrations: 1
 damage: 35
-length: 20
+length: 16
+width: 8
 }
 
 }
