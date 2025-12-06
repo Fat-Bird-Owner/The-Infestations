@@ -11,6 +11,7 @@ name: missile-battery
 reload: 300
 x: -8
 y: -4
+inaccuracy: 15
 rotate: true
 rotateSpeed: 1.5
 shoot:{
@@ -23,6 +24,7 @@ type: MissileBulletType
 speed: 1.5
 lifetime: 500
 keepVelocity: false
+homingRange: 0
 weaveScale: 4.5
 weaveMag: 5
 hitShake: 7.5
