@@ -78,7 +78,8 @@ splashDamage: 225
 splashDamageRadius: 80
 scaledSplashDamage: true
 despawnHit: true
-hitEffect: reactorExplosion
+hitEffect: dynamicExplosion
+hitSound: largeExplosion
 hitShake: 15
 
 bulletInterval: 10
