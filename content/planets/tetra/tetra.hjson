@@ -57,7 +57,7 @@ generator: {
 }
 
 orbitRadius: 20
-sectorSize: 0
+sectorSize: 4
 allowLaunchSchematics: false
 allowLaunchToNumbered: true
 allowLaunchLoadout: false
