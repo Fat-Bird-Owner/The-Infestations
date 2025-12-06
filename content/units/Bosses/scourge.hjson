@@ -5,6 +5,15 @@ speed: 0.35
 health: 3000
 armor: 6.5
 
+abilities:[
+{
+type: ForceFieldAbility
+radius: 30
+max: 2000
+regen: 1
+}
+]
+
 weapons:[
 {
 name: paladin-weapon
