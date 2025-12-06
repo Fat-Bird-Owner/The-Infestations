@@ -1,0 +1,44 @@
+type: mech
+name: Scourge
+hitSize: 20
+speed: 0.35
+health: 6500
+
+weapons:[
+{
+x: 8
+y: 0
+name: paladin-weapon
+reload: 60
+under: true
+inaccuracy: 5
+
+shoot:{
+shots: 3
+shotDelay: 0
+}
+
+bullet:{
+type: BasicBulletType
+speed: 3
+lifetime: 60
+width: 10
+height: 10
+trailWidth: 2
+trailLength: 8
+weaveMag: 2
+weaveScale: 1.5
+damage: 25
+
+bulletInterval: 5
+intervalBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+despawnEffect: explosion
+}
+  
+}
+  
+}
+]
