@@ -3,12 +3,37 @@ name: Scourge
 hitSize: 20
 speed: 0.35
 health: 6500
+armor: 15
 
 weapons:[
 {
+name: dissipate
 x: 8
+y: -4
+rotate: true
+rotateSpeed: 2.5
+shootCone: 45
+reload: 45
+
+shoot:{
+shots: 10
+shotDelay: 2.5
+}
+
+bullet:{
+type: BasicBulletType
+speed: 2
+lifetime: 60
+makeFire: true
+damage: 3.5
+}
+
+}
+{
+x: 12
 y: 0
 name: paladin-weapon
+layerOffset: -0.01
 reload: 60
 under: true
 inaccuracy: 5
@@ -30,7 +55,18 @@ weaveMag: 2
 weaveScale: 1.5
 damage: 25
 
-bulletInterval: 5
+fragBullets: 1
+fragBullet:{
+type: BombBulletType
+lifetime: 90
+despawnHit: true
+despawnShake: 3.5
+splashDamage: 15
+scaledSplashDamage: true
+makeFire: true
+}
+
+bulletInterval: 10
 intervalBullet:{
 type: EmptyBulletType
 instantDisappear: true
