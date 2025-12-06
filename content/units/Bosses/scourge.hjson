@@ -35,10 +35,43 @@ bulletInterval: 2.5
 intervalRandomSpread: 9
 intervalBullet:{
 type: ShrapnelBulletType
-serrations: 1
+serrations: 0
 damage: 35
 length: 16
 width: 8
+}
+
+}
+
+}
+{
+x: 0
+y: 0
+mirror: false
+
+shoot:{
+firstShotDelay: 180
+}
+
+bullet:{
+type: BasicBulletType
+accel: 0.025
+speed: 5
+spin: 5
+width: 20
+height: 17
+homingRange: 800
+homingPower: 0.15
+damage: 225
+
+chargeEffect:{
+type: WaveEffect
+sizeFrom: 80
+sizeTo: 0
+lifetime: 180
+interp: sine
+strokeFrom: 5
+colorTo: ffffff00
 }
 
 }
