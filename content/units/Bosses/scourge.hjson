@@ -10,21 +10,23 @@ weapons:[
 name: paladin-weapon
 x: 12
 y: 0
-alternate: false
 layerOffset: -0.01
 rotate: true
 rotationLimit: 10
-linearWarmup: true
-continuous: true
-alwaysContinuous: true
-warmupSpeed: 0.01667
+reload: 60
+
+shoot:{
+shors: 3
+shotDelay: 10
+}
 
 bullet:{
-type: ContinuousLaserBulletType
-damage: 15
-status: ichor-burn
-pierceDamageFactor: 0.65
-width: 2.5
+type: BasicBulletType
+speed: 3
+weaveMag: 3
+weaveScale: 2
+damage: 65
+hitShake: 2.5
 }
 
 }
