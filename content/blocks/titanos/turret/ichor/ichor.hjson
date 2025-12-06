@@ -27,6 +27,17 @@ power: 3.45
 
 shootType:{
 type: ContinuousLaserBulletType
+bulletInterval: 5
+intervalBullet:{
+type: BasicBulletType
+frontColor: ffffff64
+backColor: ffffff64
+speed: 5
+lifetime: 40
+width: 6.5
+height: 5
+collides: false
+}
 // charge FX
 status: ichor-burn
 statusDuration: 300
