@@ -34,7 +34,7 @@ hitShake: 2.5
 bulletInterval: 10
 intervalRandomSpread: 9
 intervalBullet:{
-type: SharpnelBulletType
+type: ShrapnelBulletType
 serrations: 3
 damage: 35
 length: 20
