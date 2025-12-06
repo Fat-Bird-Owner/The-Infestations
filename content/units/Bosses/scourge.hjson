@@ -73,11 +73,13 @@ despawnEffect: reactorExplosion
 makeFire: true
 
 bulletInterval: 10
+intervalRandomSpread: 0
 intervalBullets: 4
 intervalSpread: 90
 intervalBullet:{
 type: LaserBulletType
 damage: 0
+length: 20
 colors: [ffffff,ffffff64,ffffff22]
 }
 
