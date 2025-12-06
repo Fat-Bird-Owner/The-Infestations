@@ -16,15 +16,17 @@ rotationLimit: 10
 reload: 60
 
 shoot:{
-shors: 3
+shots: 3
 shotDelay: 10
 }
 
 bullet:{
 type: BasicBulletType
 speed: 3
-weaveMag: 3
-weaveScale: 2
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 10
 damage: 65
 hitShake: 2.5
 }
