@@ -71,19 +71,19 @@ lifetime: 300
 spin: 5
 width: 40
 height: 38
-homingRange: 800
-homingPower: 0.15
+frontColor: 00000000
+backColor: 00000000
 damage: 225
-splashDamage: 150
+splashDamage: 225
 splashDamageRadius: 80
 scaledSplashDamage: true
 despawnHit: true
-despawnEffect: reactorExplosion
-makeFire: true
+hitEffect: reactorExplosion
+hitShake: 15
 
 bulletInterval: 10
 intervalRandomSpread: 0
-intervalBullets: 4
+intervalBullets: 8
 intervalSpread: 90
 intervalBullet:{
 type: LaserBulletType
