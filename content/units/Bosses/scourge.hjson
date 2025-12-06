@@ -7,13 +7,44 @@ armor: 15
 
 weapons:[
 {
+name: missile-battery
+reload: 300
+x: -8
+y: -4
+rotate: true
+rotateSpeed: 1.5
+shoot:{
+shots: 35
+shotDelay: 2.5
+}
+
+bullet:{
+type: MissileBulletType
+speed: 1.5
+lifetime: 500
+keepVelocity: false
+weaveScale: 4.5
+weaveMag: 5
+hitShake: 7.5
+damage: 25
+splashDamage: 15
+splashDamageRadius: 20
+makeFire: true
+despawnEffect: dynamicExplosion
+
+}
+
+}
+{
 name: dissipate
+mirror: false
 x: 8
 y: -4
 rotate: true
 rotateSpeed: 2.5
 shootCone: 45
 reload: 45
+inaccuracy: 5
 
 shoot:{
 shots: 10
@@ -25,7 +56,8 @@ type: BasicBulletType
 speed: 2
 lifetime: 60
 makeFire: true
-damage: 3.5
+damage: 10
+hitShake: 2.5
 }
 
 }
@@ -46,14 +78,14 @@ shotDelay: 0
 bullet:{
 type: BasicBulletType
 speed: 3
-lifetime: 60
+lifetime: 30
 width: 10
 height: 10
 trailWidth: 2
 trailLength: 8
 weaveMag: 2
 weaveScale: 1.5
-damage: 25
+damage: 45
 
 fragBullets: 1
 fragBullet:{
