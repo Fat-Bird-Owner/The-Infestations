@@ -25,15 +25,16 @@ speed: 1.5
 lifetime: 500
 keepVelocity: false
 homingRange: 0
-weaveScale: 4.5
-weaveMag: 5
+homingPower: 0
+weaveScale: 3
+weaveMag: 7.5
 hitShake: 7.5
 damage: 25
 splashDamage: 15
 splashDamageRadius: 20
 makeFire: true
-despawnEffect: dynamicExplosion
-
+despawnHit: true
+despawnEffect: explosion
 }
 
 }
