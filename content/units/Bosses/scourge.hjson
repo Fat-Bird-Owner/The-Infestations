@@ -56,23 +56,40 @@ firstShotDelay: 180
 
 bullet:{
 type: BasicBulletType
-accel: 0.001 
-speed: 5
+accel: 0.075
+lifetime: 300
+
 spin: 5
-width: 20
-height: 17
+width: 40
+height: 38
 homingRange: 800
 homingPower: 0.15
 damage: 225
+splashDamage: 150
+splashDamageRadius: 80
+scaledSplashDamage: true
+despawnHit: true
+despawnEffect: reactorExplosion
+makeFire: true
+
+bulletInterval: 10
+intervalBullets: 4
+intervalSpread: 90
+intervalBullet:{
+type: LaserBulletType
+damage: 0
+colors: [ffffff,ffffff64,ffffff22]
+}
 
 chargeEffect:{
 type: WaveEffect
-sizeFrom: 80
+sizeFrom: 40
 sizeTo: 0
 lifetime: 180
 interp: sine
 strokeFrom: 5
 colorTo: ffffff00
+colorFrom: ffffff66
 }
 
 }
