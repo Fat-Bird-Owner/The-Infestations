@@ -40,7 +40,7 @@ regen: 1
 }
 {
 type: ShieldArcAbility
-radius: 27
+radius: 26
 max: 1000
 regen: 1
 angle: 90
@@ -55,7 +55,7 @@ x: 12
 y: 0
 layerOffset: -0.01
 rotate: true
-rotationLimit: 10
+rotationLimit: 12.5
 reload: 60
 shootSound: largeCannon
 
@@ -94,7 +94,7 @@ x: 0
 y: 0
 mirror: false
 reload: 240
-shootSound: pulse
+shootSound: shockBlast
 
 shoot:{
 firstShotDelay: 180
@@ -131,6 +131,9 @@ colors: [ffffff,ffffff64,ffffff22]
 }
 
 chargeEffect:{
+type: MultiEffect
+effects:[
+{
 type: WaveEffect
 sizeFrom: 40
 sizeTo: 0
@@ -139,6 +142,19 @@ interp: sine
 strokeFrom: 5
 colorTo: ffffff00
 colorFrom: ffffff66
+}
+{
+type: ParticleEffect
+sizeFrom: 8
+sizeTo: 0
+lenFrom: 40
+lenTo: 0
+colorFrom: ffffff66
+colorTo: ffffff09
+interp: sine
+lifetime: 140
+}
+]
 }
 
 }
