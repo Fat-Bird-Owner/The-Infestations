@@ -3,7 +3,7 @@ localizedName: "Scrap Yard Bunker"
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 overrideLaunchDefaults: true
-difficulty: 5
+difficulty: 4
 planet: titanos
 sector: 85
 description: "
