@@ -16,7 +16,7 @@ regen: 1
 
 weapons:[
 {
-name: paladin-weapon
+name: magnetic-repeater
 x: 12
 y: 0
 layerOffset: -0.01
@@ -46,7 +46,7 @@ intervalBullet:{
 type: ShrapnelBulletType
 serrations: 0
 damage: 35
-length: 16
+length: 10
 width: 8
 }
 
@@ -65,7 +65,7 @@ firstShotDelay: 180
 
 bullet:{
 type: BasicBulletType
-accel: 0.075
+speed: 3
 lifetime: 300
 
 spin: 5
@@ -82,14 +82,14 @@ hitEffect: massiveExplosion
 hitSound: largeExplosion
 hitShake: 15
 
-bulletInterval: 10
+bulletInterval: 5
 intervalRandomSpread: 0
 intervalBullets: 8
 intervalSpread: 90
 intervalBullet:{
 type: LaserBulletType
 damage: 0
-length: 20
+length: 15
 colors: [ffffff,ffffff64,ffffff22]
 }
 
