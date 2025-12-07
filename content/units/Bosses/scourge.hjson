@@ -53,7 +53,10 @@ weapons:[
 display: false
 shootOnDeath: true
 controllable: false
+shootCone: 360
+
 bullet:{
+type: EmptyBulletType
 instantDisappear: true
 despawnHit: true
 scaledSplashDamage: true
