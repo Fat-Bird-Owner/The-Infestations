@@ -21,11 +21,13 @@ parts:[
 type: FlarePart
 sides: 2
 y: 6
-x: 9
+x: 0
 layer: 60.1
 followRotation: false
-radius: 10
+radius: 6
 color1: ffffff
+color2: ffffff
+stroke: 3
 }
 ]
 
@@ -38,7 +40,7 @@ regen: 1
 }
 {
 type: ShieldArcAbility
-radius: 30
+radius: 27
 max: 1000
 regen: 1
 angle: 90
