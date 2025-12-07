@@ -34,13 +34,13 @@ stroke: 3
 abilities:[
 {
 type: ForceFieldAbility
-radius: 26
+radius: 24
 max: 1000
 regen: 1
 }
 {
 type: ShieldArcAbility
-radius: 26
+radius: 22
 max: 1000
 regen: 1
 angle: 90
@@ -49,6 +49,19 @@ whenShooting: false
 ]
 
 weapons:[
+{
+display: false
+shootOnDeath: true
+controllable: false
+bullet:{
+instantDisappear: true
+despawnHit: true
+scaledSplashDamage: true
+splashDamage: 2000
+splashDamageRadius: 80
+hitEffect: impactReactorExplosion
+}
+}
 {
 name: magnetic-repeater
 x: 12
@@ -126,7 +139,7 @@ intervalSpread: 45
 intervalBullet:{
 type: LaserBulletType
 damage: 0
-length: 15
+length: 8
 colors: [ffffff,ffffff64,ffffff22]
 }
 
@@ -150,7 +163,7 @@ sizeFrom: 16
 sizeTo: 0
 baseLength: -40
 length: 40
-colorFrom: ffffff99
+colorFrom: ffffff77
 colorTo: ffffff09
 interp: exp5
 lifetime: 140
