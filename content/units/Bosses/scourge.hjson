@@ -2,7 +2,7 @@ type: mech
 name: Scourge
 hitSize: 20
 speed: 0.35
-health: 3000
+health: 3250
 armor: 6.5
 
 parts:[
@@ -102,8 +102,8 @@ firstShotDelay: 180
 
 bullet:{
 type: BasicBulletType
-speed: 3
-lifetime: 300
+speed: 6
+lifetime: 75
 
 spin: 5
 width: 40
@@ -122,7 +122,7 @@ hitShake: 15
 bulletInterval: 5
 intervalRandomSpread: 0
 intervalBullets: 8
-intervalSpread: 90
+intervalSpread: 45
 intervalBullet:{
 type: LaserBulletType
 damage: 0
