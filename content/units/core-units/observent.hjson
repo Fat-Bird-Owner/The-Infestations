@@ -69,30 +69,28 @@ weapons:[
 {
 x: 0
 y: 0
-reload: 50
+reload: 5
 inaccuracy: 2.5
+shootSound: shootAlt
+inaccuracy: 5
 
 bullet:{
-type: LaserBulletType
-length: 160
-shootEffect: explosion
-damage: 30
-impact: true
-knockback: 1.5
-lifetime: 50
-
-spawnBullets:[
-{
 type: BasicBulletType
-damage: 0
-collides: false
-speed: 4
-lifetime: 30
-width: 26
-height: 8
-}
-]
-
+speed: 3
+lifetime: 60
+range: 175
+width: 10
+height: 14
+homingPower: 0.015
+homingDelay: 20
+damage: 15
+knockback: 0.35
+impact: true
+splashDamage: 10
+splashDamageRadius: 8
+scaledSplashDamage: true
+trailWidth: 2
+trailLength: 6
 }
 
 }
@@ -104,7 +102,7 @@ type: HoverPart
 x: 0
 y: 0
 color: ffbb00
-radius: 12
+radius: 9.5
 }
 {
 # taken from meld. thanks for the code :D
