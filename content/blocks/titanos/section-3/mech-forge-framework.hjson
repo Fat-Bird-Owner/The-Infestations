@@ -34,6 +34,12 @@ plans: [
 
 research:{
 parent: core-satellite
+objectives:[
+{
+type: SectorComplete
+preset: scrap-yard-bunker
+}
+]
 }
 researchCostMultiplier: 0.1
 droneType: construct-drone
