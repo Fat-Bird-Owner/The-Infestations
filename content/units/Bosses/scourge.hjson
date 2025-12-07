@@ -145,13 +145,14 @@ colorFrom: ffffff66
 }
 {
 type: ParticleEffect
-sizeFrom: 8
+particles: 18
+sizeFrom: 16
 sizeTo: 0
-lenFrom: 40
-lenTo: 0
-colorFrom: ffffff66
+baseLength: -40
+length: 40
+colorFrom: ffffff99
 colorTo: ffffff09
-interp: sine
+interp: exp5
 lifetime: 140
 }
 ]
