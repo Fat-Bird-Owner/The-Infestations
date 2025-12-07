@@ -35,6 +35,7 @@ reverse: true
 ]
 }
 
+/*
 research:{
 parent: core-satellite
 objectives:[
@@ -45,6 +46,7 @@ preset: rain-forest
 ]
 
 }
+*/
 
 drawer:{
 type: DrawMulti
