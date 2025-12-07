@@ -1,5 +1,5 @@
 captureWave: 16
-localizedName: "Scrap Yard"
+localizedName: "Scrap Yard Bunker"
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 overrideLaunchDefaults: true
@@ -7,7 +7,7 @@ difficulty: 5
 planet: titanos
 sector: 85
 description: "
-An unmaintained bunker was picked up by the radar. This facility 
+An unmaintained bunker was picked up by the radar. This bunker 
 has many derelict wrecks though due to long term damage repairing
 them is not possible. Most enemies here are dorment
 and are damaged an [accent]Adminary Oversear[] is located be careful.
