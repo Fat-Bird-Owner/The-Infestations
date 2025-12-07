@@ -1,7 +1,7 @@
 type: UnitAssembler
 health: 1500
 name: "Mech Forge Framework"
-requirements:[item-silver/75,item-oxidium/20]
+requirements:[item-silver/75,item-oxidium/40,item-conduction-quartz/15,item-hardened-calcite/30]
 size: 2
 areaSize: 9
 dronesCreated: 4
@@ -16,8 +16,9 @@ plans: [
     unit: frontier
     time: 1200
     requirements: [
-	  infestation-mechanical-base/1
-    infestation-basic-rifle/2
+	infestation-silver-wall/2
+    infestation-dissipate/1
+	infestation-unload-operator/2
     ]
   }
     {
@@ -34,7 +35,7 @@ plans: [
 research:{
 parent: core-satellite
 }
-researchCost:[item-silver/75,item-conduction-quartz/25,item-carbon-matter/100]
+researchCostMultiplier: 0.1
 droneType: construct-drone
 
-description:"[accent]Assembles mech units are met, but till tier three."
+description:"[accent]Assembles mech units when the required block is inputted, May only construct units upto tier three."
