@@ -5,12 +5,44 @@ speed: 0.35
 health: 3000
 armor: 6.5
 
+parts:[
+{
+    type: FlarePart
+    x: 0
+    y: 6
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -1
+    radius: 4
+    layer: 59.999
+    followRotation: true
+  }
+{
+type: FlarePart
+sides: 2
+y: 6
+x: 9
+layer: 60.1
+followRotation: false
+radius: 10
+color1: ffffff
+}
+]
+
 abilities:[
 {
 type: ForceFieldAbility
-radius: 30
-max: 2000
+radius: 26
+max: 1000
 regen: 1
+}
+{
+type: ShieldArcAbility
+radius: 30
+max: 1000
+regen: 1
+angle: 90
+whenShooting: false
 }
 ]
 
@@ -31,6 +63,7 @@ shotDelay: 10
 
 bullet:{
 type: BasicBulletType
+shootSound: largeCannon
 speed: 3
 lifetime: 90
 width: 10
@@ -68,6 +101,7 @@ type: BasicBulletType
 speed: 3
 lifetime: 300
 
+shootSound: pulse
 spin: 5
 width: 40
 height: 38
