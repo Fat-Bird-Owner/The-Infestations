@@ -2,6 +2,7 @@ captureWave: 16
 localizedName: "Scrap Yard"
 allowLaunchSchematics: false
 allowLaunchLoadout: false
+overrideLaunchDefaults: true
 difficulty: 5
 planet: titanos
 sector: 85
