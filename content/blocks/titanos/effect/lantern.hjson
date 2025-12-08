@@ -10,3 +10,13 @@ consumes:{
 power: 0.45
 liquids:[slag/0.01667]
 }
+
+research:{
+parent: convection-generator
+objectives:[
+{
+type: OnSector
+preset: rain-forest
+}
+]
+}
