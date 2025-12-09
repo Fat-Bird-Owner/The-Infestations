@@ -12,18 +12,7 @@ Always targets the strongest unit.
 
 "
 
-parts:[
-{
-type: FlarePart
-y: 6
-x: 0
-progress: warmup
-color1: ff000000
-followRotation: false
-radius: 12
-}
-]
-
+shootSound: largeCannon
 range: 400
 category: turret
 requirements:[]
