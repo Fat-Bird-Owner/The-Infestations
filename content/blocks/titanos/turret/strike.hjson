@@ -5,18 +5,27 @@ size: 2
 category: turret
 description: "
 Type:[green] Defensive Turret[]
-Class:[] Juggernaut[]
+Class:[lightgrey] None[]
 
-Fires a bullet that ignores armor and does heavy damage.
+Fires a compressed bullets doing heavy damage.
 Always targets the strongest unit.
 
-[]
-Class Effect:
-(+) Heavily weakens the target for a short duration
-[]
-
 "
-range: 240
+
+parts:[
+{
+type: FlarePart
+y: 6
+x: 0
+progress: warmup
+color1: ff000000
+color2: ff0000ff
+followRotation: false
+radius: 12
+}
+]
+
+range: 400
 category: turret
 requirements:[]
 reload: 180
@@ -28,32 +37,68 @@ cooldownTime: 180
 ammoTypes:{
 item-hardened-calcite: {
 type: BasicBulletType
-lifetime: 60
-speed: 4
-trailWidth: 2
+lifetime: 80
+speed: 5
+trailWidth: 0
 trailLength: 24
-trailChance: 1
-trailEffect: smoke
+trailChance: 25
+
+trailEffect: {
+type: ParticleEffect
+sizeFrom: 4
+sizeTo: 10
+interp: sine
+colorFrom: 4f4f4ff
+colorTo: 8f8f8f00
+}
+
 width: 10
 height: 14
-damage: 125
-knockback: 7.5
+damage: 165
+knockback: 45
 pierceArmor: true
 hitShake: 5
 frontColor: 7b7b7b
 backColor: 656565
-despawnEffect: sparkExplosion
-despawnHit: true
-
-fragBullets: 1
-fragBullet: {
-keepVelocity: false
-speed: 0
-lifetime: 30
 despawnHit: true
 splashDamage: 50
 splashDamageRadius: 80
-despawnEffect: sparkExplosion
+scaledSplashDamage: true
+
+hitEffect:{
+type: SeqEffect
+effects:[
+{
+type: ParticleEffect
+length: 40
+baseLength: -40
+lifetime: 35
+}
+{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+length: 80
+sizeFrom: 4
+sizeTo: 20
+colorFrom: 2f2f2fff
+colorTo: 7f7f7f00
+interp: sine
+lifetime: 75
+}
+{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 80
+lifetime: 30
+colorTo: ffffff00
+}
+]
+
+
+}
+]
 }
 
 }
