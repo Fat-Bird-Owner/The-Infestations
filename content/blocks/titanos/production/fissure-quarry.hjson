@@ -9,6 +9,7 @@ category: production
 requirements:[item-silver/45,item-oxidium/30,item-conduction-quartz/10,item-hardened-calcite/20]
 
 displayEfficiency: false
+baseEfficiency: 0
 
 craftTime: 90
 consumes:{
