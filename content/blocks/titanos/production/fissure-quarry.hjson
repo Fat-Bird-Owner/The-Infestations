@@ -10,6 +10,7 @@ requirements:[item-silver/45,item-oxidium/30,item-conduction-quartz/10,item-hard
 
 displayEfficiency: false
 baseEfficiency: 0
+minEfficiency: 1
 
 craftTime: 90
 consumes:{
