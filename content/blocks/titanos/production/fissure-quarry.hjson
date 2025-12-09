@@ -4,6 +4,7 @@ description: "Extracts crystallite geodes from the fissures and also produces ca
 size: 3
 health: 250
 attribute: crystallite-geode
+category: production
 
 requirements:[item-silver/45,item-oxidium/30,item-conduction-quartz/10,item-hardened-calcite/20]
 
