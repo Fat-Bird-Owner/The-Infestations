@@ -187,8 +187,7 @@ progress: warmup
 rotateSpeed: 3
 radius: 0
 radiusTo: 3
-color: FFD700FF
-layer: 122
+color: FF341CFF
 x: 0
 y: 4
 }
@@ -198,8 +197,7 @@ progress: warmup
 rotateSpeed: -3
 radius: 0
 radiusTo: 3.5
-color: FFD700FF
-layer: 122
+color: FF341CFF
 x: 0
 y: 4
 }
