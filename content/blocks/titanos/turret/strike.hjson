@@ -19,7 +19,6 @@ y: 6
 x: 0
 progress: warmup
 color1: ff000000
-color2: ff0000ff
 followRotation: false
 radius: 12
 }
@@ -75,9 +74,6 @@ baseLength: -40
 lifetime: 35
 }
 {
-type: MultiEffect
-effects:[
-{
 type: ParticleEffect
 length: 80
 sizeFrom: 4
@@ -86,13 +82,6 @@ colorFrom: 2f2f2fff
 colorTo: 7f7f7f00
 interp: sine
 lifetime: 75
-}
-{
-type: WaveEffect
-sizeFrom: 0
-sizeTo: 80
-lifetime: 30
-colorTo: ffffff00
 }
 ]
 
