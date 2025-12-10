@@ -1,5 +1,6 @@
 type: payload
 name: "[accent]Observent"
+physics: false
 targetable: false
 hittable: false
 range: 320
@@ -65,45 +66,7 @@ range: 320
 }
 ]
 
-weapons:[
-{
-x: 0
-y: 0
-reload: 5
-inaccuracy: 2.5
-shootSound: shootAlt
-inaccuracy: 5
-
-bullet:{
-type: BasicBulletType
-speed: 3
-lifetime: 60
-range: 175
-width: 10
-height: 14
-homingPower: 0.015
-homingDelay: 20
-damage: 15
-knockback: 0.35
-impact: true
-splashDamage: 10
-splashDamageRadius: 8
-scaledSplashDamage: true
-trailWidth: 2
-trailLength: 6
-}
-
-}
-]
-
 parts:[
-{
-type: HoverPart
-x: 0
-y: 0
-color: ffbb00
-radius: 9.5
-}
 {
 # taken from meld. thanks for the code :D
 type: HoverPart
