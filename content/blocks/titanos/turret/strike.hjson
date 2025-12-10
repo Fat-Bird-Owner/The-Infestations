@@ -3,6 +3,7 @@ name: Strike
 health: 350
 size: 2
 category: turret
+requirements:[item-silver/80,item-oxidium/65,item-hardened-calcite/35]
 description: "
 Type:[green] Defensive Turret[]
 Class:[lightgrey] None[]
@@ -65,15 +66,21 @@ lifetime: 35
 {
 type: ParticleEffect
 length: 80
+particles: 34
 sizeFrom: 4
-sizeTo: 20
+sizeTo: 12
 colorFrom: 2f2f2fff
 colorTo: 7f7f7f00
 interp: sine
-lifetime: 75
+lifetime: 40
 }
 ]
 }
 
 }
+}
+
+drawer:{
+type: DrawTurret
+basePrefix: "retaliation-base"
 }
