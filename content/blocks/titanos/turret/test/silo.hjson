@@ -46,6 +46,7 @@ preset: rain-forest
 }
 ]
 }
+researchCostMultiplier: 0.2
 
 drawer:{
 type: DrawTurret
