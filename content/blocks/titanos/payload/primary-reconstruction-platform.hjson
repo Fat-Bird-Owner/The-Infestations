@@ -2,6 +2,8 @@ type: Reconstructor
 size: 3
 health: 350
 name: Primary Reconstruction Platform
+
+/*
 requirements:[]
 constructTime: 600
 solid: false
@@ -17,3 +19,6 @@ frontier
 fleet
 ]
 ]
+*/
+
+buildVisibility: hidden
