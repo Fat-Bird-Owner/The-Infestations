@@ -8,7 +8,9 @@ attribute: "rain-forest-key"
 category: effect
 requirements:[item-silver/60,item-oxidium/45]
 minEfficiency: 0.99
+buildVisibility: sandboxOnly
 
+/*
 research: {
 parent: rain-forest
 objectives:[
@@ -18,3 +20,4 @@ preset: rain-forest
 }
 ]
 }
+*/
