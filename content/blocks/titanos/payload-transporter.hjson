@@ -1,7 +1,10 @@
 type: PayloadConveyor
 health: 200
 size: 3
-requirements:[item-hardened-calcite/10]
+requirements:[item-silver/15,item-hardened-calcite/10]
+consumes:{
+power: 0.05
+}
 category: units
 
 description: "move stuff."
@@ -9,6 +12,6 @@ moveTime: 30
 interp: linear
 
 research:{
-parent:unit-constructor
+parent: mech-forge-framework
 }
-researchCost:[item-hardened-calcite/40]
+researchCostMultiplier: 0.075
