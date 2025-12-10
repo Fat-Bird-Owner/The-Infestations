@@ -26,8 +26,9 @@ plans: [
     unit: fleet
     time: 2600
     requirements: [
-	  infestation-mechanical-base/2
-    infestation-basic-rifle/4
+	  infestation-silver-wall/4
+	infestation-charge/1
+	infestation-dissipate/1
     ]
   }
 ]
