@@ -10,6 +10,7 @@ shootSound: flux
 inaccuracy: 180
 reload: 1200
 rotateSpeed: 0
+ammoPerShot: 15
 shootY: 0
 rotatable: false
 recoil: 0
@@ -24,7 +25,7 @@ shotDelay: 3
 parts:[
 {
 type: shapePart
-sides: 2
+sides: 3
 radius: 0
 radiusTo: 12
 x: 0
