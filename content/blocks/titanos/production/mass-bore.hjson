@@ -3,14 +3,15 @@ name: Mass Bore
 description: "An expensive piece of equipment with high maintainance. Very rapidly bores silver from the walls."
 attribute: silver
 output: item-silver
-drillTime: 112.5
+drillTime: 45
 size: 5
 category: production
+rotateSpeed: 10
 
 requirements:[item-silver/150,item-oxidium/80,item-hardened-calcite/65,item-conduction-quartz/50,item-carbon-matter/35]
 consumes:{
 power: 2.25
 liquids:[
-oxygen/0.01667
+oxygen/0.03334
 ]
 }
