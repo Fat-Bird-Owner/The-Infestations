@@ -3,7 +3,7 @@ name: Strike
 health: 350
 size: 2
 category: turret
-requirements:[item-silver/80,item-oxidium/65,item-hardened-calcite/35]
+requirements:[item-silver/80,item-oxidium/65,item-hardened-calcite/45,item-carbon-matter/35]
 description: "
 Type:[green] Defensive Turret[]
 Class:[lightgrey] None[]
