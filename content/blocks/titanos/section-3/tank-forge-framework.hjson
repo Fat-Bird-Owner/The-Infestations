@@ -17,7 +17,7 @@ plans: [
     time: 1450
     requirements: [
 	infestation-silver-wall/3
-    infestation-retliation/1
+    infestation-retaliation/1
 	infestation-unload-operator/1
     ]
   }
