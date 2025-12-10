@@ -8,7 +8,7 @@ category: turret
 range: 320
 shootSound: flux
 inaccuracy: 180
-reload: 5
+reload: 1200
 rotateSpeed: 0
 shootY: 0
 rotatable: false
@@ -16,8 +16,24 @@ recoil: 0
 rotate: false
 
 shoot:{
-shots: 5
+firstShotDelay: 120
+shots: 300
+shotDelay: 3
 }
+
+parts:[
+{
+type: shapePart
+sides: 2
+radius: 0
+radiusTo: 12
+x: 0
+y: 0
+color: FA8072FF00
+colorTo: FA8072FF
+progress: warmup
+}
+]
 
 ammoTypes:{
 item-conduction-quartz:{
@@ -27,7 +43,7 @@ ammoMultiplier: 25
 homingPower: 0.15
 homingRange: 180
 damage: 6
-trailLength: 16
+trailLength: 5
 hitEffect: formsmoke
 knockback: 1.5
 lifetime: 50
@@ -46,7 +62,6 @@ preset: rain-forest
 }
 ]
 }
-researchCostMultiplier: 0.2
 
 drawer:{
 type: DrawTurret
