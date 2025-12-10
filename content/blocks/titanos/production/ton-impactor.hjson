@@ -4,6 +4,7 @@ description: "Pounds the ground for ores."
 size: 7
 category: production
 
+liquidCapacity: 15
 requirements:[]
 consumes:{
 power: 3.5
