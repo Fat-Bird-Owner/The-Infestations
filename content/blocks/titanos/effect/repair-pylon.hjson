@@ -1,0 +1,47 @@
+type: PowerTurret
+range: 125
+size: 2
+targetAir: false
+targetHealing: true
+inacurracy: 7.5
+category: effect
+requirements:[]
+consumes:{
+power: 0.74
+}
+  
+shoot:{
+firstShotDelay: 90
+shots: 3
+shotDelay: 5
+}
+  
+shootType:{
+
+chargeEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+particles: 3
+length: -15
+baseLength: 15
+interp: sine
+}
+{
+type: WaveEffect
+sizeFrom: 40
+sizeTo: 0
+colorFrom: ffffff00
+}
+]
+}
+  
+type: LaserBulletType
+collidesTeam: true
+collidesAir: false
+healAmount: 45
+length: 130
+damage: 0
+color:[00000000,00000000,00ff00]
+}
