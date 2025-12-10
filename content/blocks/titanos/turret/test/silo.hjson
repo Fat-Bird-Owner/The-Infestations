@@ -16,9 +16,24 @@ recoil: 0
 rotate: false
 
 shoot:{
+firstShotDelay: 120
 shots: 300
 shotDelay: 3
 }
+
+parts:[
+{
+type: shapePart
+sides: 2
+radius: 0
+radiusTo: 12
+x: 0
+y: 0
+color: FA8072FF00
+colorTo: FA8072FF
+progress: warmup
+}
+]
 
 ammoTypes:{
 item-conduction-quartz:{
