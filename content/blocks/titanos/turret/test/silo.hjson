@@ -8,7 +8,7 @@ category: turret
 range: 320
 shootSound: flux
 inaccuracy: 180
-reload: 5
+reload: 1200
 rotateSpeed: 0
 shootY: 0
 rotatable: false
@@ -16,7 +16,8 @@ recoil: 0
 rotate: false
 
 shoot:{
-shots: 5
+shots: 300
+shotDelay: 3
 }
 
 ammoTypes:{
@@ -27,7 +28,7 @@ ammoMultiplier: 25
 homingPower: 0.15
 homingRange: 180
 damage: 6
-trailLength: 16
+trailLength: 5
 hitEffect: formsmoke
 knockback: 1.5
 lifetime: 50
