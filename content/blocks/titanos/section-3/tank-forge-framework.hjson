@@ -1,0 +1,36 @@
+type: UnitAssembler
+health: 1500
+name: "Tank Forge Framework"
+requirements:[item-silver/80,item-oxidium/45,item-conduction-quartz/25,item-hardened-calcite/15]
+size: 3
+areaSize: 6
+dronesCreated: 4
+category: units
+consumes:{
+power: 1.75
+}
+hasLiquids: false
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: raid
+    time: 1450
+    requirements: [
+	infestation-silver-wall/3
+    infestation-retliation/1
+	infestation-unload-operator/1
+    ]
+  }
+]
+
+research:{
+parent: core-satellite
+objectives:[
+{
+type: SectorComplete
+preset: scrap-yard-bunker
+}
+]
+}
+researchCostMultiplier: 0.1
+droneType: construct-drone
