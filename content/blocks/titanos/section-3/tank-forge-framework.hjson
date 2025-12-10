@@ -24,13 +24,7 @@ plans: [
 ]
 
 research:{
-parent: core-satellite
-objectives:[
-{
-type: SectorComplete
-preset: scrap-yard-bunker
+parent: mech-forge-framework
 }
-]
-}
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.25
 droneType: construct-drone
