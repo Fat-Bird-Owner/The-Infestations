@@ -16,9 +16,10 @@ retaliation
 unload-operator
 cache
 charge
+retaliation
 ]
 
 research:{
 parent: mech-forge-framework
 }
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.15
