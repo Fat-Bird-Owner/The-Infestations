@@ -3,7 +3,7 @@ name: Quake Drill
 size: 4
 drilltime: 345
 category: production
-requirements:[]
+requirements:[item-andesite/65]
 tier: 1
 itemCapacity: 50
 
