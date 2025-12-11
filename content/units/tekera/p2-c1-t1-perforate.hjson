@@ -14,11 +14,19 @@ type: HoverPart
 x: 6
 y: -4
 mirror: true
+radius: 6
 }
 {
 type: HoverPart
 y: 6
 x: 0
+radius: 8
+}
+{
+type: HoverPart
+radius: 16
+x: 0
+y: 0
 }
 ]
 
@@ -30,18 +38,20 @@ x: 0
 y: 0
 mirror: false
 
+shootSound: shootAlt
+
 bullet:{
 type: BasicBulletType
 width: 15
 height: 15
 spin: 7.5
 trailColor: f2d97e44
-speed: 3
+speed: 6
 trailWidth: 3
 trailLength: 8
-lifetime: 60
+lifetime: 30
 damage: 50
-homingPower: 0.01
+homingPower: 0.025
 }
   
 }
