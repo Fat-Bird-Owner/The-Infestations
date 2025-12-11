@@ -3,5 +3,7 @@ name: Fissure Cracker
 description: "Cracks into the ground turn it into sand tiles."
 category: effect
 
-requirements:[andesite/45]
+requirements:[item-andesite/45]
 warmupSpeed: 0.04
+
+consumes:{}
