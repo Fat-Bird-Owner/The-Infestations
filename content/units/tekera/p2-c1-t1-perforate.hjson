@@ -62,7 +62,8 @@ trailWidth: 1.5
 trailLength: 8
 lifetime: 60
 damage: 75
-homingPower: 0.025
+hitShake: 7.5
+
 
 hitEffect:{
 type: ParticleEffect
