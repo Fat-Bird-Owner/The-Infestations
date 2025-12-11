@@ -1,0 +1,7 @@
+type: BurstDrill
+name: Quake Drill
+size: 4
+drilltime: 345
+category: production
+requirements:[]
+tier: 1
