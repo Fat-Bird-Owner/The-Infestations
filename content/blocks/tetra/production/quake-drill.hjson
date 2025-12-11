@@ -5,3 +5,8 @@ drilltime: 345
 category: production
 requirements:[]
 tier: 1
+itemCapacity: 50
+
+consumes:{
+liquids:[steam/0.01667]
+}
