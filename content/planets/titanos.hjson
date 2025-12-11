@@ -88,6 +88,6 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-satellite
-parent: sun
+parent: photomos
 launchCandidates: []
 landCloudColor: 234f4455
