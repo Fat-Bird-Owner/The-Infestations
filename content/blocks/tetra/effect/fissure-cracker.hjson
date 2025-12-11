@@ -2,8 +2,11 @@ type: ImpactReactor
 name: Fissure Cracker
 description: "Cracks into the ground turn it into sand tiles."
 category: effect
+size: 2
 
 requirements:[item-andesite/45]
 warmupSpeed: 0.04
 
-consumes:{}
+consumes:{
+power: 0
+}
