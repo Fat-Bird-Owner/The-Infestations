@@ -58,16 +58,17 @@ generator: {
 }
 
 parent: photomos
-orbitRadius: 20
-sectorSize: 3
+orbitRadius: 3
+sectorSize: 2
 allowLaunchSchematics: false
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
 radius: 0.65
 minZoom: 0.6
+maxZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
