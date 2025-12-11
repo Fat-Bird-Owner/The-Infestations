@@ -1,13 +1,12 @@
 type: ParticleWeather
 localizedName: Endless Sand Storm
-color: cfca93
-sizeMin: 8
+color: ded1ab
+sizeMin: 4
 sizeMax: 20
 maxAlpha: 0.35
 density: 1000
 minAlpha: 0.5
-baseSpeed: 2
-yspeed: -2
+baseSpeed: 8
 
 drawNoise: true
 noiseColor: aba57d
