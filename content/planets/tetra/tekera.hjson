@@ -6,7 +6,7 @@ mesh: [
         planet: tekera
     divisions: 5
     seed: 24
-    radius: 0.65
+    radius: 0.6
     color1: dbcf9c
     color2: dbc09c
     persistence: 17
@@ -19,7 +19,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tekera
    speed: 1.21
-   radius: 0.15
+   radius: 0.05
    divisions: 4
    color: dbc09c88
    octaves: 3
@@ -31,7 +31,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tekera
    speed: 2.5
-   radius: 0.25
+   radius: 0.05
    divisions: 4
    color: dbc09c77
    octaves: 3
