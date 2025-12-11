@@ -4,7 +4,7 @@ description: ""
 
 speed: 0.85
 rotateSpeed: 1.5
-rotateMoveFirst: false
+rotateMoveFirst: true
 omniMovement: false
 faceTarget: false
 
