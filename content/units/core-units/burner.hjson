@@ -9,6 +9,7 @@ hitSize: 14
 buildSpeed: 1
 hovering: true
 canDrown: false
+fogRadius: 0
 
 abilities:[
 {
@@ -16,7 +17,7 @@ type: EnergyFieldAbility
 range: 160
 hitUnits: false
 healPercent: 5
-layer: 122
+layer: 140
 reload: 60
 }
 ]
