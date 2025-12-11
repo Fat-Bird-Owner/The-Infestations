@@ -13,8 +13,11 @@ solid: false
 requiresCoreZone: false
 isFirstTier: true
 research: {
-  planet: tetra
+  planet: tekera
   root: true
-  name: Tetra
-  requiresUnlock: false
+  name: tekera
+  requiresUnlock: true
+objectives:[
+interplanetary-accelerator
+]
 }
