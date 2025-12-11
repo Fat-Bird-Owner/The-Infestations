@@ -58,7 +58,7 @@ generator: {
 }
 
 parent: photomos
-orbitRadius: 3
+orbitRadius: 10
 sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
