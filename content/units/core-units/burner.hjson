@@ -17,7 +17,7 @@ type: EnergyFieldAbility
 range: 160
 hitUnits: false
 healPercent: 5
-layer: 140
+layer: 125
 reload: 60
 }
 ]
