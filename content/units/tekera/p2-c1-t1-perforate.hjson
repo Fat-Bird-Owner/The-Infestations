@@ -3,8 +3,8 @@ name: Perforate
 description: ""
 
 speed: 0.85
-rotateSpeed: 3.5
-rotateMoveFirst: true
+rotateSpeed: 1.5
+rotateMoveFirst: false
 omniMovement: false
 faceTarget: false
 
@@ -17,7 +17,7 @@ mirror: true
 }
 {
 type: HoverPart
-y: 4
+y: 6
 x: 0
 }
 ]
@@ -30,7 +30,7 @@ x: 0
 y: 0
 mirror: false
 
-bullets:{
+bullet:{
 type: BasicBulletType
 width: 15
 height: 15
