@@ -10,3 +10,9 @@ itemCapacity: 50
 consumes:{
 liquids:[steam/0.01667]
 }
+
+research:{
+parent: core-headquarter
+}
+
+researchCostMultiplier: 0.05
