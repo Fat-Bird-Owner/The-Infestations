@@ -15,9 +15,12 @@ isFirstTier: true
 research: {
   planet: tekera
   root: true
-  name: tekera
+  name: Tekera
   requiresUnlock: true
 objectives:[
-interplanetary-accelerator
+{
+type: SectorComplete
+preset: scrap-yard-bunker
+}
 ]
 }
