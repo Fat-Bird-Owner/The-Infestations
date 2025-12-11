@@ -2,6 +2,7 @@ localizedName: Photomos
 accessible: false
 radius: 2.35
 
+atmosphereColor: ff0000
 mesh: [
 {
     //ground and acid
