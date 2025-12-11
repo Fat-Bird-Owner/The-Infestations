@@ -55,7 +55,7 @@ hitShake: 7.5
 shootEffect:{
 type: ParticleEffect
 cone: 55
-particles: 35
+particles: 15
 length: 35
 sizeFrom: 8
 sizeTo: 16
@@ -67,7 +67,7 @@ colorTo: f2d97e00
 hitEffect:{
 type: ParticleEffect
 cone: 35
-particles: 65
+particles: 10
 length: 55
 sizeFrom: 8
 sizeTo: 0
