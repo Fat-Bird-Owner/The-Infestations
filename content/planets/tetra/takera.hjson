@@ -57,14 +57,14 @@ generator: {
 }
 
 orbitRadius: 20
-sectorSize: 4
+sectorSize: 3
 allowLaunchSchematics: false
 allowLaunchToNumbered: true
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
-radius: 1.219
+radius: 0.65
 minZoom: 0.25
 drawOrbit: true
 atmosphereRadIn: 0
