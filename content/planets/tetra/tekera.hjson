@@ -3,13 +3,14 @@ description: A desert like planet.
 alwaysUnlocked: true
 mesh: [
 {
-    //ground and acid
-    type: SunMesh
-    planet: tetra
-    colors: [eb4634,eb3434,ff866b,f0afa1,ff5100]
-    divisions: 4
-    persistence: 5
-    octaves: 8
+        planet: titanos
+    divisions: 5
+    seed: 24
+    radius: 0.65
+    color1: dbcf9c
+    color2: dbc09c
+    persistence: 17
+    octaves: 3
 }
 ]
 
