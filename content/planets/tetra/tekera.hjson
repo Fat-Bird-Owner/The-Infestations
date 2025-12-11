@@ -21,7 +21,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 4
-   color: eb343488
+   color: dbc09c88
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -30,10 +30,10 @@ cloudMesh: [
  {
    type: HexSkyMesh
    planet: tetra
-   speed: 1.225
+   speed: 2.5
    radius: 0.1
    divisions: 4
-   color: eb343466
+   color: dbc09c55
    octaves: 3
    persistence: 0.3
    scl: 1
