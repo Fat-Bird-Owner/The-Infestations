@@ -3,9 +3,9 @@ localizedName: Endless Sand Storm
 color: ded1ab
 sizeMin: 4
 sizeMax: 20
-maxAlpha: 0.35
-density: 1000
-minAlpha: 0.5
+maxAlpha: 1
+density: 2500
+minAlpha: 0.65
 baseSpeed: 8
 
 drawNoise: true
