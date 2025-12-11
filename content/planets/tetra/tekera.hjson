@@ -67,8 +67,8 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
 radius: 0.65
-minZoom: 0.6
-maxZoom: 1
+minZoom: 0.95
+maxZoom: 2.25
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
