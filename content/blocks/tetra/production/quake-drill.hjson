@@ -12,7 +12,7 @@ liquids:[steam/0.01667]
 }
 
 research:{
-parent: core-headquarter
+parent: item-andesite
 }
 
 researchCostMultiplier: 0.05
