@@ -1,3 +1,5 @@
 
 
-A mod with the aim of making planets with werid gimmicks. No discord server exist yet
+A mod with the aim of making planets with werid gimmicks.
+
+##Discord Link:##
