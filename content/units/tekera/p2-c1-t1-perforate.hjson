@@ -1,0 +1,48 @@
+type: tank
+name: Perforate
+description: ""
+
+speed: 0.85
+rotateSpeed: 3.5
+rotateMoveFirst: true
+omniMovement: false
+faceTarget: false
+
+parts:[
+{
+type: HoverPart
+x: 6
+y: -4
+mirror: true
+}
+{
+type: HoverPart
+y: 4
+x: 0
+}
+]
+
+weapons:[
+{
+reload: 50
+rotate: true
+x: 0
+y: 0
+mirror: false
+
+bullets:{
+type: BasicBulletType
+width: 15
+height: 15
+spin: 7.5
+trailColor: f2d97e44
+speed: 3
+trailWidth: 3
+trailLength: 8
+lifetime: 60
+damage: 50
+homingPower: 0.01
+}
+  
+}
+]
