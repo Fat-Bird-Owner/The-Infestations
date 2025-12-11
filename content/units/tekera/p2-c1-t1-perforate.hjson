@@ -32,26 +32,51 @@ y: 0
 
 weapons:[
 {
-reload: 50
+reload: 60
 rotate: true
 x: 0
 y: 0
 mirror: false
 
 shootSound: shootAlt
+shootEffect:{
+type: ParticleEffect
+cone: 90
+particles: 35
+length: 35
+sizeFrom: 8
+sizeTo: 16
+interp: sine
+lifetime: 45
+colorFrom: fcba03
+colorTo: fcba0300
+}
 
 bullet:{
 type: BasicBulletType
-width: 15
+width: 7.5
 height: 15
-spin: 7.5
 trailColor: f2d97e44
 speed: 6
-trailWidth: 3
+trailWidth: 1.5
 trailLength: 8
-lifetime: 30
-damage: 50
+lifetime: 60
+damage: 75
 homingPower: 0.025
+
+hitEffect:{
+type: ParticleEffect
+cone: 90
+particles: 65
+length: 55
+sizeFrom: 8
+sizeTo: 16
+interp: sine
+lifetime: 85
+colorFrom: fcba0388
+colorTo: fcba0300
+}
+
 }
   
 }
