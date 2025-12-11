@@ -5,6 +5,7 @@ category: effect
 size: 2
 
 requirements:[item-andesite/45]
+region: "placeholder-2x2"
 warmupSpeed: 0.04
 
 consumes:{
