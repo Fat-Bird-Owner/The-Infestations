@@ -3,7 +3,7 @@ description: A desert like planet.
 alwaysUnlocked: true
 mesh: [
 {
-        planet: titanos
+        planet: tekera
     divisions: 5
     seed: 24
     radius: 0.65
@@ -67,7 +67,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
 radius: 0.65
-minZoom: 0.375
+minZoom: 0.6
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
@@ -83,4 +83,4 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: true
-defaultCore: core-satellite
+defaultCore: core-headquarter
