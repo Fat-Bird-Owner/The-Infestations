@@ -1,0 +1,15 @@
+localizedName: Photomos
+accessible: false
+radius: 2.35
+
+mesh: [
+{
+    //ground and acid
+    type: SunMesh
+    planet: tetra
+    colors: [eb8274,eb3847,ff8637,f0af47,ff0027]
+    divisions: 4
+    persistence: 5
+    octaves: 5
+}
+]
