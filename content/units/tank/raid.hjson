@@ -12,6 +12,11 @@ armor: 5
 
 outlineColor: "2c2d38"
 
+// research
+research:{
+parent: tank-forge-framework
+}
+
 hitSize: 8
 treadPullOffset: 3
 omniMovement: false
