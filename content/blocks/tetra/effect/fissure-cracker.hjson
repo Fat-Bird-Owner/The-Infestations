@@ -10,10 +10,6 @@ explosionDamage: 0
 explosionRadius: 0
 explosionEffect: explosion
 
-consumes:{
-liquids:[steam/0.01667]
-}
-
 research:{
 parent: item-andesite
 }
