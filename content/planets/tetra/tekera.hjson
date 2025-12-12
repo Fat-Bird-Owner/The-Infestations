@@ -78,7 +78,9 @@ maxZoom: 2.25
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-accessible: true
+
+accessible: false
+
 updateLighting: false
 sectorSeed: 27392
 bloom: true
