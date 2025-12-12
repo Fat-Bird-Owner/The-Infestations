@@ -16,8 +16,7 @@ plans: [
     unit: frontier
     time: 1200
     requirements: [
-	infestation-silver-wall/2
-    infestation-dissipate/1
+	infestation-silver-wall/1
 	infestation-unload-operator/2
     ]
   }
