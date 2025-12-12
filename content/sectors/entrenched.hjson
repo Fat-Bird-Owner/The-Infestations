@@ -6,6 +6,7 @@ sector: 84
 // allow launch scheme even tho its now possible
 allowLaunchSchematics: false
 allowLaunchLoadouts: true
+overrideLaunchDefaults: true
 
 description: "
 One of many [acid]grenarc[] built bases, this base poccesses 2 well protected [acid]cores[].
@@ -32,5 +33,8 @@ research: {
   preset: rain-forest
   }
   mech-forge-framework
+  frontier
+  fleet
+  raid
   ]
 }
