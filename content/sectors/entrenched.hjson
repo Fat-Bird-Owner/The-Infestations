@@ -1,18 +1,27 @@
 localizedName: "Entrenched"
-difficulty: 5
+difficulty: 6
 planet: titanos
 sector: 84
 
 // allow launch scheme even tho its now possible
-allowLaunchSchematics: true
-generateEnemyBase: true
+allowLaunchSchematics: false
+allowLaunchLoadouts: true
 
 description: "
-[accent]Due to massive eruptions from thousands of years back, it caused the frail ground beneath to crumble.
-the enemy has entrenched themselves in defenses.
-destroy there core to capture the sector.
+One of many [acid]grenarc[] built bases, this base poccesses 2 well protected [acid]cores[].
 
-Units will be required to capture this sector.
+Expect to be met with immediate response on your arrival.
+Night fall will soon arrive.
+The waves will follow.
+[accent]
+Utilize unit production to beat this sector.
+[tan]
+Modifiers:
+- Faster enemy unit production
+- Weaker enemy blocks
+[lightgrey]
+Tip: Utilize payload carrying units on areas of the bases.
+- Enemy waves are quite dangerous, Avoid stalling for too long.
 "
 
 research: {
