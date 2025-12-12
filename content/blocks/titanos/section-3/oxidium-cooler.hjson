@@ -4,7 +4,7 @@ category: crafting
 consumes:{
 liquids:[slag/0.0166]
 }
-requirements:[item-silver/80]
+requirements:[item-silver/50]
 craftTime: 120
 outputItem: item-oxidium/1
 
