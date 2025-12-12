@@ -5,7 +5,7 @@ sector: 84
 
 // allow launch scheme even tho its now possible
 allowLaunchSchematics: false
-allowLaunchLoadouts: true
+allowLaunchLoadout: true
 overrideLaunchDefaults: true
 
 description: "
