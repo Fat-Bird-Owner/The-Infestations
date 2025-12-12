@@ -40,40 +40,60 @@ mirror: false
 
 shootSound: shootBig
 
-bullet:{
-type: BasicBulletType
-width: 7.5
-height: 15
-trailColor: f2d97e44
-speed: 6
-trailWidth: 1.5
-trailLength: 8
-lifetime: 60
-damage: 75
-hitShake: 7.5
-
-shootEffect:{
+ejectEffect:{
+type: MultiEffect
+effects:[{
 type: ParticleEffect
-cone: 55
+cone: 35
 particles: 15
-length: 35
+length: 65
 sizeFrom: 8
-sizeTo: 16
-lifetime: 55
+sizeTo: 12
+lifetime: 33
 colorFrom: f2d97e44
 colorTo: f2d97e00
 }
+casing2
+]
+}
+
+bullet:{
+type: BasicBulletType
+width: 7.5
+height: 20
+trailColor: f2d97e44
+speed: 12
+trailWidth: 1.5
+trailLength: 8
+lifetime: 30
+damage: 75
+hitShake: 7.5
+despawnHit: true
 
 hitEffect:{
+type: MultiEffect
+effects:[{
 type: ParticleEffect
 cone: 35
 particles: 10
 length: 55
-sizeFrom: 8
+sizeFrom: 6
 sizeTo: 0
-lifetime: 45
+lifetime: 25
 colorFrom: f2d97e
 colorTo: f2d97e
+}
+{
+type: ParticleEffect
+particles: 14
+length: 45
+sizeFrom: 10
+sizeTo: 40
+lifetime: 90
+colorFrom: 4f4f4f
+colorTo: 9f9f9f00
+}
+]
 }
 
 }
