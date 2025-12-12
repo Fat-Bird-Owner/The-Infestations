@@ -12,15 +12,20 @@ weapons:[
 x: 0
 y: 0
 
+reload: 120
 rotate: true
 rotateSpeed: 2.5
 
 bullet:{
 type: BasicBulletType
-speed: 5
-lifetime: 60
+speed: 2.5
+lifetime: 120
 damage: 205
 splashDamage: 150
+width: 25
+height: 40
+trailWidth: 5
+trailLength: 16
 splashDamageRadius: 40
 
 despawnEffect: massiveExplosion
@@ -31,7 +36,8 @@ spawnBullets:[
 {
 type: LaserBulletType
 colors:[ffffff00,ffffff0,ffffff]
-sideWidth: 0.15
+sideWidth: 1
+length: 300
 damage: 175
 lifetime: 120
 }
