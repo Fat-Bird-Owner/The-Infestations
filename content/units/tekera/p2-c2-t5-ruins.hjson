@@ -1,0 +1,43 @@
+type: tank
+name: Ruins
+hitSize: 60
+health: 60250
+  
+speed: 0.77
+omniMovement: false
+rotateMoveFirst: true
+
+weapons:[
+{
+x: 0
+y: 0
+
+rotate: true
+rotateSpeed: 2.5
+
+bullet:{
+type: BasicBulletType
+speed: 5
+lifetime: 60
+damage: 205
+splashDamage: 150
+splashDamageRadius: 40
+
+despawnEffect: massiveExplosion
+despawnHit: true
+despawnShake: 35
+
+spawnBullets:[
+{
+type: LaserBulletType
+colors:[ffffff00,ffffff0,ffffff]
+sideWidth: 0.15
+damage: 175
+lifetime: 120
+}
+]
+  
+}
+
+}
+]
