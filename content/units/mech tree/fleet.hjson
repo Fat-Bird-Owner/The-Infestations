@@ -19,7 +19,7 @@ controller: HugAI
 research:{
 parent: frontier
 }
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.2
 
 weapons:[
 {
