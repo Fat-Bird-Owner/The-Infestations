@@ -1,13 +1,21 @@
 type: ImpactReactor
 name: Fissure Cracker
-description: "Cracks into the ground turn it into sand tiles."
+description: "Cracks into certain sand stone tiles turning it into sand tiles."
 category: effect
 size: 2
 
 requirements:[item-andesite/45]
 region: "placeholder-2x2"
-warmupSpeed: 0.04
+warmupSpeed: 0.005
+explosionDamage: 0
+explosionRadius: 0
+explosionEffect: explosion
 
 consumes:{
-power: 0
+liquids:[steam/0.01667]
 }
+
+research:{
+parent: item-andesite
+}
+researchCostMultiplier: 0.05
