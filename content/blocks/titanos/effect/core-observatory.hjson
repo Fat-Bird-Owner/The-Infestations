@@ -17,6 +17,9 @@ category: effect
 unitCapModifier: 20
 requiresCoreZone: false
 isFirstTier: true
+
+/*
 research: {
 parent: core-satellite
 }
+*/
