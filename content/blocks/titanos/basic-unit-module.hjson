@@ -3,4 +3,14 @@ health: 1000
 name: Basic Unit Module
 size: 3
 tier: 1
+categort: units
 requirements:[item-silver/50,item-conduction-quartz/25,item-hardened-calcite/25]
+
+consumes:{
+power: 0.75
+}
+
+research:{
+parent: mech-forge-framework
+}
+researchCostMultiplier: 0.65
