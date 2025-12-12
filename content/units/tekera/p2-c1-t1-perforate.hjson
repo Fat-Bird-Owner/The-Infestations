@@ -87,11 +87,12 @@ colorTo: f2d97e
 }
 {
 type: ParticleEffect
+cone: 45
 particles: 14
 length: 45
 sizeFrom: 10
 sizeTo: 18
-lifetime: 50
+lifetime: 45
 colorFrom: 4f4f4f55
 colorTo: 6f6f6f00
 }
