@@ -16,7 +16,7 @@ outlineColor: "2c2d38"
 research:{
 parent: tank-forge-framework
 }
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.25
 
 hitSize: 8
 treadPullOffset: 3
