@@ -3,6 +3,7 @@ accessible: false
 radius: 2.35
 
 atmosphereColor: 7ee1f2
+bloom: true
 mesh: [
 {
     //ground and acid
