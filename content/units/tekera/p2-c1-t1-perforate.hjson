@@ -88,10 +88,10 @@ type: ParticleEffect
 particles: 14
 length: 45
 sizeFrom: 10
-sizeTo: 40
-lifetime: 90
-colorFrom: 4f4f4f
-colorTo: 9f9f9f00
+sizeTo: 18
+lifetime: 50
+colorFrom: 4f4f4f55
+colorTo: 6f6f6f00
 }
 ]
 }
