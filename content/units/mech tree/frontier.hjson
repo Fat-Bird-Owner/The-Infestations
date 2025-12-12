@@ -19,6 +19,7 @@ outlineColor: 2c2d38
 research:{
 parent: mech-forge-framework
 }
+researchCostMultiplier: 0.05
 
 //smoke
 
