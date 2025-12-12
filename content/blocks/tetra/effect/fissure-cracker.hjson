@@ -7,7 +7,12 @@ size: 2
 requirements:[item-andesite/45]
 warmupSpeed: 0.005
 explosionDamage: 0
-explosionEffect: explosion
+explosionEffect: none
+
+consumes:{
+power: 0
+liquids:[steam/0.01667]
+}
 
 research:{
 parent: item-andesite
