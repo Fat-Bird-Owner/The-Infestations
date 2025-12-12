@@ -42,9 +42,10 @@ shake: 0.75
 spawnBullets:[
 {
 type: LaserBulletType
-length: 60
-color: [FA8072FF00,FA8072FF00,FA8072FF]
-sideWidth: 0.25
+length: 100
+colors: [FA8072FF00,FA8072FF00,FA8072FF]
+laserEffect: none
+sideWidth: 0.95
 damage: 20
 }
 ]
