@@ -18,19 +18,21 @@ rotateSpeed: 2.5
 
 bullet:{
 type: BasicBulletType
+keepVelocity: false
 speed: 2.5
 lifetime: 120
 damage: 205
 splashDamage: 150
+scaledSplashDamage: true
 width: 25
 height: 40
 trailWidth: 5
 trailLength: 16
 splashDamageRadius: 40
 
-despawnEffect: massiveExplosion
+hitEffect: massiveExplosion
 despawnHit: true
-despawnShake: 35
+hitShake: 35
 
 spawnBullets:[
 {
