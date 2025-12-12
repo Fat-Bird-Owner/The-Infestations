@@ -46,7 +46,7 @@ length: 100
 colors: [FA8072FF00,FA8072FF00,FA8072FF]
 laserEffect: none
 sideWidth: 0.95
-damage: 20
+damage: 10
 }
 ]
 
