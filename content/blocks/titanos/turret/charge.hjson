@@ -39,6 +39,16 @@ lightningColor: FA8072FF
 lightningCone: 15
 shake: 0.75
 
+spawnBullets:[
+{
+type: LaserBulletType
+length: 60
+color: [FA8072FF00,FA8072FF00,FA8072FF]
+sideWidth: 0.25
+damage: 20
+}
+]
+
 shootEffect:{
 type: MultiEffect
 effects:[
