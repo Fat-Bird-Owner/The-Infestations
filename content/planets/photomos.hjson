@@ -4,6 +4,8 @@ radius: 2.35
 
 atmosphereColor: 7ee1f2
 bloom: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
 mesh: [
 {
     //ground and acid
