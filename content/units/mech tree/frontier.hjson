@@ -15,6 +15,12 @@ armor: 0
 hitSize: 15
 outlineColor: 2c2d38
 
+// research
+research:{
+parent: mech-forge-framework
+}
+researchCostMultiplier: 0.2
+
 //smoke
 
 weapons:[

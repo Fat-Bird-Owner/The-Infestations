@@ -1,5 +1,7 @@
 type: ItemTurret
 maxAmmo: 5
+shootSound: shootAlt
+shootSoundVolume: 0.5
 health: 200
 category: turret
 range: 120
@@ -24,8 +26,8 @@ item-oxidium:{
 type: BasicBulletType
 frontColor: 9c88c3
 backColor: 676486
-damage: 1
-splashDamage: 1
+damage: 2.5
+splashDamage: 2.5
 splashDamageRadius: 20
 lifetime: 60
 speed: 2

@@ -7,15 +7,18 @@ size: 2
 requirements:[item-silver/50,item-conduction-quartz/20]
 category: units
 
-description: "Creates components used to build units."
+description: "Creates blocks used to build units."
 
 filter: [
-light-engine
-mechanical-base
-basic-rifle
+dissipate
+silver-wall
+retaliation
+unload-operator
+cache
+charge
 ]
 
 research:{
-parent: unit-constructor
+parent: mech-forge-framework
 }
-researchCost:[item-silver/50,item-conduction-quartz/20]
+researchCostMultiplier: 0.15

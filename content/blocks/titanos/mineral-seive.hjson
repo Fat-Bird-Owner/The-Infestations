@@ -13,7 +13,7 @@ item-hardened-calcite/55
 ]
 
 health: 300
-requirements:[item-silver/30]
+requirements:[item-silver/30,item-oxidium/25]
 craftTime: 60
 drawer:{
 type: DrawMulti
@@ -58,4 +58,4 @@ reverse: true
 ]
 }
 
-researchCost:[item-silver/120]
+researchCostMultiplier: 0.05

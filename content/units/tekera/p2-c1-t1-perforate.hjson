@@ -1,0 +1,105 @@
+type: tank
+name: Perforate
+description: ""
+
+health: 500
+armor: 15
+speed: 0.85
+rotateSpeed: 2.5
+rotateMoveFirst: true
+omniMovement: false
+faceTarget: false
+
+parts:[
+{
+type: HoverPart
+x: 6
+y: -4
+mirror: true
+radius: 6
+}
+{
+type: HoverPart
+y: 6
+x: 0
+radius: 8
+}
+{
+type: HoverPart
+radius: 16
+x: 0
+y: 0
+}
+]
+
+weapons:[
+{
+reload: 60
+rotate: true
+x: 0
+y: 0
+mirror: false
+
+shootSound: shootBig
+
+ejectEffect:{
+type: MultiEffect
+effects:[{
+type: ParticleEffect
+cone: 35
+particles: 15
+length: 65
+sizeFrom: 8
+sizeTo: 12
+lifetime: 33
+colorFrom: f2d97e44
+colorTo: f2d97e00
+}
+casing2
+]
+}
+
+bullet:{
+type: BasicBulletType
+width: 7.5
+height: 20
+trailColor: f2d97e44
+speed: 12
+trailWidth: 1.5
+trailLength: 8
+lifetime: 30
+damage: 75
+hitShake: 7.5
+despawnHit: true
+
+hitEffect:{
+type: MultiEffect
+effects:[{
+type: ParticleEffect
+cone: 35
+particles: 10
+length: 55
+sizeFrom: 6
+sizeTo: 0
+lifetime: 25
+colorFrom: f2d97e
+colorTo: f2d97e
+}
+{
+type: ParticleEffect
+cone: 45
+particles: 14
+length: 45
+sizeFrom: 10
+sizeTo: 18
+lifetime: 45
+colorFrom: 4f4f4f55
+colorTo: 6f6f6f00
+}
+]
+}
+
+}
+  
+}
+]

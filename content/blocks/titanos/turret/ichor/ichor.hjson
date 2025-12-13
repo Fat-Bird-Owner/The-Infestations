@@ -27,6 +27,13 @@ power: 3.45
 
 shootType:{
 type: ContinuousLaserBulletType
+bulletInterval: 5
+intervalRandomSpread: 0
+intervalBullet:{
+type: LightningBulletType
+damage: 2
+status: ret-shock
+}
 // charge FX
 status: ichor-burn
 statusDuration: 300

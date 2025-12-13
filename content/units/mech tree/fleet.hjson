@@ -15,6 +15,12 @@ hitSize: 14
 outlineColor: 2c2d38
 controller: HugAI
 
+// research
+research:{
+parent: basic-unit-module
+}
+researchCostMultiplier: 0.25
+
 weapons:[
 {
 name: fleet-weapon

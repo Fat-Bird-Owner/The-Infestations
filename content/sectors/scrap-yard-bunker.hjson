@@ -1,0 +1,33 @@
+captureWave: 16
+localizedName: "Scrap Yard Bunker"
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+overrideLaunchDefaults: true
+difficulty: 4
+planet: titanos
+sector: 85
+description: "
+An unmaintained bunker was picked up by the radar. This bunker 
+has many derelict wrecks though due to long term damage repairing
+them is not possible. Most enemies here are dorment
+and are damaged an [accent]Adminary Oversear[] is located be careful.
+
+[tan]Modifiers:
+- Derelict Buildings cannot be repaired
+- Weaker Enemies
+- No Custom loadouts and schematics
+[]
+"
+
+
+research: {
+  parent: rain-forest
+  objectives:[
+  {
+  type: SectorComplete
+  preset: rain-forest
+  }
+  drive-pad
+  decay-chamber
+  ]
+}

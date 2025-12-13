@@ -13,7 +13,7 @@ outlineColor: 2c2d38
 shootWarmupSpeed: 0.015
 minWarmup: 1
 linearWarmup: true
-shootSound: shoot-low-cal
+shootSound: shootBig
 ejectEffect: casing2
 inaccuracy: 1
 
@@ -187,8 +187,7 @@ progress: warmup
 rotateSpeed: 3
 radius: 0
 radiusTo: 3
-color: FFD700FF
-layer: 122
+color: FF341CFF
 x: 0
 y: 4
 }
@@ -198,8 +197,7 @@ progress: warmup
 rotateSpeed: -3
 radius: 0
 radiusTo: 3.5
-color: FFD700FF
-layer: 122
+color: FF341CFF
 x: 0
 y: 4
 }

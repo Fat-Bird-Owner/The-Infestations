@@ -1,0 +1,37 @@
+type: ConsumeGenerator
+name: Decay Chamber
+descrption: "Uses radioactive items to generate power."
+size: 2
+category: power
+requirements:[item-silver/40,item-oxidium/20,item-hardened-calcite/15,item-conduction-quartz/10]
+warmupSpeed: 0.01
+powerProduction: 2.5
+itemDuration: 60
+
+consumes:{
+itemRadioactive:{
+minRadioactivity: 0.15
+}
+}
+
+explosionDamage: 45
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawGlowRegion
+}
+]
+}
+
+research:{
+parent: convection-generator
+objectives:[{
+type: SectorComplete
+preset: rain-forest
+}]
+}

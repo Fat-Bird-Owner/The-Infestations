@@ -28,8 +28,10 @@ plans: [
   }
 ]
 
+/*
 research:{
 parent: core-satellite
 }
 researchCost:[item-silver/75,item-conduction-quartz/25]
+*/
 droneType: construct-drone

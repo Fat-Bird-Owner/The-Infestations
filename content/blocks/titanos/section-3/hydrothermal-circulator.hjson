@@ -4,9 +4,12 @@ name: Hydrothermal Circulator
 category: crafting
 size: 4
 requirements:[item-silver/6]
+buildVisibility: sandboxOnly
+/*
 research:{
 parent: mineral-seive
 }
+*/
 researchCost:[item-silver/100]
 
 description:"Cools down slag to produce silver."

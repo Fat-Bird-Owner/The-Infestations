@@ -3,24 +3,31 @@ description: A desert like planet.
 alwaysUnlocked: true
 mesh: [
 {
-    //ground and acid
-    type: SunMesh
-    planet: tetra
-    colors: [eb4634,eb3434,ff866b,f0afa1,ff5100]
-    divisions: 4
-    persistence: 5
-    octaves: 8
+        planet: tekera
+    divisions: 5
+    seed: 24
+    radius: 0.6
+    color1: dbcf9c
+    color2: dbc09c
+    persistence: 17
+    octaves: 3
 }
 ]
+
+allowCampaignRules: false
+campaignRuleDefaults: {
+	showSpawns: true
+	fog: true
+}
 
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: tetra
+   planet: tekera
    speed: 1.21
-   radius: 0.1
+   radius: 0.05
    divisions: 4
-   color: eb343488
+   color: dbc09c88
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -28,11 +35,11 @@ cloudMesh: [
   }
  {
    type: HexSkyMesh
-   planet: tetra
-   speed: 1.225
-   radius: 0.1
+   planet: tekera
+   speed: 2.5
+   radius: 0.05
    divisions: 4
-   color: eb343466
+   color: dbc09c77
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -56,29 +63,33 @@ generator: {
   ferricChance: 0.26
 }
 
-orbitRadius: 20
-sectorSize: 0
+parent: photomos
+orbitRadius: 10
+sectorSize: 2
 allowLaunchSchematics: false
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-orbitSpacing: 2
-radius: 1.219
-minZoom: 0.25
+orbitSpacing: 12
+radius: 0.65
+minZoom: 1
+maxZoom: 2.25
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-accessible: true
+
+accessible: false
+
 updateLighting: false
 sectorSeed: 27392
 bloom: true
 visible: true
-atmosphereColor: a6babd3f
-iconColor: eb3434
+atmosphereColor: dbcf9c55
+iconColor: dbcf9c
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: true
-defaultCore: core-satellite
+defaultCore: core-headquarter

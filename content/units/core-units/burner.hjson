@@ -9,6 +9,18 @@ hitSize: 14
 buildSpeed: 1
 hovering: true
 canDrown: false
+fogRadius: 0
+
+abilities:[
+{
+type: EnergyFieldAbility
+range: 160
+hitUnits: false
+healPercent: 5
+layer: 125
+reload: 60
+}
+]
 
 engines:[
 {
@@ -16,30 +28,3 @@ y: -13
 radius: 1
 }
 ]
-
-weapons:[
-{
-name: "shift-weapon"
-x: 0
-y: 0
-top: false
-shootX: 6
-shootY: 6
-mirror: true
-reload: 2.5
-shootSound: low-cal-fire
-ejectEffect: casing1
-bullet:{
-type: BasicBulletType
-damage: 10
-speed: 8
-lifetime: 20
-trailWidth: 2
-trailLength: 6
-backColor: ff0000	
-frontColor: 7f0000
-trailColor: 7f0000
-homingPower: 0.01
-}}
-]
-// "ff0000"

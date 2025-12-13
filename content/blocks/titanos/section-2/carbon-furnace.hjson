@@ -5,6 +5,7 @@ name: Carbon Furnace
 category: power
 health: 500
 size: 3
+buildVisibility: sandboxOnly
 
 description: "Rapidly burns shale to produce power."
 
@@ -25,10 +26,12 @@ item-conduction-quartz/15
 item-hardened-calcite/20
 ]
 
+/*
 research:{
 parent: power
 objectives:[mineral-seive]
 }
+*/
 
 researchCost:[
 item-silver/40

@@ -1,0 +1,7 @@
+type: RainWeather
+name: Downpour
+sound: rain
+soundVol: 0.50
+density: 4500
+xspeed: 8
+yspeed: 8

@@ -1,0 +1,38 @@
+type: AttributeCrafter
+name: Fissure Quarry
+description: "Extracts crystallite geodes from the fissures and also produces carbon dioxide as a byproduct."
+size: 3
+health: 250
+attribute: crystallite-geode
+category: production
+
+requirements:[item-silver/45,item-oxidium/30,item-conduction-quartz/10,item-hardened-calcite/20]
+
+displayEfficiency: false
+baseEfficiency: 0
+minEfficiency: 1
+
+craftTime: 90
+consumes:{
+power: 2.33334
+}
+
+outputItem: item-crystallite-geode/1
+outputLiquid: carbon-dioxide/0.01667
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawBlurSpin
+}
+{
+type: DrawLiquidTile
+drawLiquid: carbon-dioxide
+padding: 0.35
+}
+{
+type: DrawDefault
+}
+]
+}

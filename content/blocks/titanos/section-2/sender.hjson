@@ -25,6 +25,7 @@ item-conduction-quartz/25
 item-hardened-calcite/50
 ]
 
+/*
 research:{
 parent: supplier-conveyor
 objective:[
@@ -33,6 +34,7 @@ type: sectorComplete
 preset: uphill
 }]
 }
+*/
 
 researchCost:[
 item-silver/215

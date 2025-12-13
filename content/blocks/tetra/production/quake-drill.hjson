@@ -1,0 +1,18 @@
+type: BurstDrill
+name: Quake Drill
+size: 4
+drilltime: 345
+category: production
+requirements:[item-andesite/65]
+tier: 1
+itemCapacity: 50
+
+consumes:{
+liquids:[steam/0.01667]
+}
+
+research:{
+parent: item-andesite
+}
+
+researchCostMultiplier: 0.05

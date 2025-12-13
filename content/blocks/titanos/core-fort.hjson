@@ -1,6 +1,7 @@
 type: CoreBlock
 name: "Core: Fort"
 description: " A small core, armored and produces a less mobile unit which can attack."
+buildVisibility: sandboxOnly
 health: 4500
 unitType: meadow
 size: 3

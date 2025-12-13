@@ -1,4 +1,4 @@
 type: OreBlock
 name: Silver Deposit
-variants: 1
+variants: 3
 itemDrop: item-silver

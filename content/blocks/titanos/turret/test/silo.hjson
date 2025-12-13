@@ -10,6 +10,7 @@ shootSound: flux
 inaccuracy: 180
 reload: 1200
 rotateSpeed: 0
+ammoPerShot: 10
 shootY: 0
 rotatable: false
 recoil: 0

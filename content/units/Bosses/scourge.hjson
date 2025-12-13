@@ -1,0 +1,180 @@
+type: mech
+name: Scourge
+hitSize: 20
+speed: 0.35
+health: 3250
+armor: 6.5
+
+parts:[
+{
+    type: FlarePart
+    x: 0
+    y: 6
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -1
+    radius: 4
+    layer: 59.999
+    followRotation: true
+  }
+{
+type: FlarePart
+sides: 2
+y: 6
+x: 0
+layer: 60.1
+followRotation: false
+radius: 6
+color1: ffffff
+color2: ffffff
+stroke: 3
+}
+]
+
+abilities:[
+{
+type: ForceFieldAbility
+radius: 24
+max: 1000
+regen: 1
+}
+{
+type: ShieldArcAbility
+radius: 22
+max: 1000
+regen: 1
+angle: 90
+whenShooting: false
+}
+]
+
+weapons:[
+{
+display: false
+shootOnDeath: true
+controllable: false
+shootCone: 360
+
+bullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+scaledSplashDamage: true
+splashDamage: 2000
+splashDamageRadius: 80
+hitEffect: impactReactorExplosion
+}
+}
+{
+name: magnetic-repeater
+x: 12
+y: 0
+layerOffset: -0.01
+rotate: true
+rotationLimit: 12.5
+reload: 60
+shootSound: largeCannon
+
+shoot:{
+shots: 3
+shotDelay: 10
+}
+
+bullet:{
+type: BasicBulletType
+
+speed: 3
+lifetime: 90
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 10
+damage: 65
+hitShake: 2.5
+
+bulletInterval: 2.5
+intervalRandomSpread: 9
+intervalBullet:{
+type: ShrapnelBulletType
+serrations: 0
+damage: 35
+length: 10
+width: 8
+}
+
+}
+
+}
+{
+x: 0
+y: 0
+mirror: false
+reload: 240
+shootSound: shockBlast
+
+shoot:{
+firstShotDelay: 180
+}
+
+bullet:{
+type: BasicBulletType
+speed: 6
+lifetime: 75
+
+spin: 5
+width: 40
+height: 38
+frontColor: 00000000
+backColor: 00000000
+damage: 225
+splashDamage: 225
+splashDamageRadius: 80
+scaledSplashDamage: true
+despawnHit: true
+hitEffect: massiveExplosion
+hitSound: largeExplosion
+hitShake: 15
+
+bulletInterval: 5
+intervalRandomSpread: 0
+intervalBullets: 8
+intervalSpread: 45
+intervalBullet:{
+type: LaserBulletType
+damage: 0
+length: 8
+colors: [ffffff,ffffff64,ffffff22]
+}
+
+chargeEffect:{
+type: MultiEffect
+effects:[
+{
+type: WaveEffect
+sizeFrom: 40
+sizeTo: 0
+lifetime: 180
+interp: sine
+strokeFrom: 5
+colorTo: ffffff00
+colorFrom: ffffff66
+}
+{
+type: ParticleEffect
+particles: 18
+sizeFrom: 16
+sizeTo: 0
+baseLength: -40
+length: 40
+colorFrom: ffffff77
+colorTo: ffffff09
+interp: exp5
+lifetime: 140
+}
+]
+}
+
+}
+
+}
+]

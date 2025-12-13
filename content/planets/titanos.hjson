@@ -80,7 +80,7 @@ updateLighting: false
 sectorSeed: 17
 bloom: true
 visible: true
-atmosphereColor: a6babd3f
+atmosphereColor: a6babd44
 showRtsAIRule: false
 iconColor: 9ad44a
 hasAtmosphere: true
@@ -88,6 +88,6 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-satellite
-parent: sun
+parent: photomos
 launchCandidates: []
 landCloudColor: 234f4455

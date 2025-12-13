@@ -1,8 +1,8 @@
 type: payload
 name: "[accent]Observent"
+physics: false
 targetable: false
-speed: 2.25
-drawSoftShadow: false
+hittable: false
 range: 320
 mineTier: 1
 minesItem:[item-silver]
@@ -18,14 +18,13 @@ hidden: true
 drag: 1000
 engineSize: 0
 flying: true
-itemCapacity: 40
+itemCapacity: 0
 hitSize: 5
 ammoCapacity: 1
-payloadCapacity: 196
+payloadCapacity: 0
 pickupUnits: true
 outlineColor: 2c2d38
 drawCell: false
-drawBody: false
 drawMinimap: false
 wobble: false
 isEnemy: false
@@ -33,12 +32,9 @@ softShadowScl: 0
 commands: [move, repair, rebuild, assist]
 defaultCommand: rebuild
 controller: BuilderAI
-rotateToBuilding: false
-miningBeamOffset: -2
-buildBeamOffset: -2
 fogRadius: 320
 lightRadius: 320
-rotateSpeed: 0
+rotateSpeed: 5
 
 immunities:[rallied]
 
@@ -61,7 +57,7 @@ damageEffect: none
 }
 {
 type: StatusFieldAbility
-reload: 2.5
+reload: 4.5
 effect: rallied
 activeEffect: none
 

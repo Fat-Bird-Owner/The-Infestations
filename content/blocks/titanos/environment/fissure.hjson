@@ -1,0 +1,16 @@
+type: SteamVent
+name: "Fissure [lightgrey](Crack)[]"
+parent: obsidian-floor
+
+attributes:{
+crystallite-geode: 0.11112
+}
+
+effect: {
+type: ParticleEffect
+particles: 4
+colorFrom: 5f5f5f
+colorTo: 7f7f7f00
+sizeFrom: 8
+sizeTo: 12
+}

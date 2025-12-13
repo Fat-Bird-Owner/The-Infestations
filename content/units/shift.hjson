@@ -20,8 +20,9 @@ radius: 1
 
 weapons:[
 {
-name: "shift-weapon"
-x: 0.1
+name: "missile-battery"
+x: 0
+mirror: false
 y: 0
 top: false
 shootX: 0
@@ -41,7 +42,11 @@ bullet:{
 type: MissileBulletType
 speed: 3
 lifetime: 90
-damage: 15
+damage: 35
+hitShake: 2.5
+hitSound: explosion
+despawnHit: true
+makeFire: true
 
 }}
 ]

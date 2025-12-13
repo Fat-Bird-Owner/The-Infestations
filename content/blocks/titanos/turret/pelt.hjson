@@ -1,6 +1,7 @@
 type: ItemTurret
 size: 2
 health: 500
+name: Pelt
 description: "
 Type:[green] Defensive Turret[]
 Class:[orange] Flamethrower[]

@@ -10,6 +10,8 @@ Charges and Quickly fires bursts of lightning at the target, perfect for fightin
 
 requirements:[item-silver/35,item-oxidium/25,item-conduction-quartz/15]
 category: turret
+outlineColor: 2c2d38
+shootSound: spark
 
 research:{
 parent: dissipate
@@ -36,6 +38,17 @@ statusDuration: 15
 lightningColor: FA8072FF
 lightningCone: 15
 shake: 0.75
+
+spawnBullets:[
+{
+type: LaserBulletType
+length: 100
+colors: [FA8072FF00,FA8072FF00,FA8072FF]
+laserEffect: none
+sideWidth: 0.15
+damage: 10
+}
+]
 
 shootEffect:{
 type: MultiEffect
@@ -98,19 +111,4 @@ sizeFrom: 8
 sizeTo: 8
 lifetime: 20
 }
-}
-
-drawer:{
-type: DrawTurret
-parts:[
-{
-rotation: 45
-moveX: 4
-moveY: -3.5
-progress: warmup
-mirror: true
-heatColor: FA8072FF
-heatLight: true
-}
-]
 }

@@ -1,0 +1,19 @@
+type: BurstDrill
+name: Ton Impactor
+description: "Pounds the ground for ores."
+size: 7
+category: production
+
+liquidCapacity: 15
+requirements:[]
+consumes:{
+power: 3.5
+liquids:[
+steam/0.1667
+slag/0.01667
+]
+}
+
+drillTime: 600
+tier: 6
+shake: 75
