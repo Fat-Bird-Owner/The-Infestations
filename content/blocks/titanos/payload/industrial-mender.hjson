@@ -1,0 +1,30 @@
+type: RepairTower
+name: Industrial Mender
+description: "Slowly mends units in its radius, repairing them using any metal particles found in the slag."
+// requiresment N research
+requirements:[item-silver/50,item-oxidium/40,item-hardened-calcite/25,item-conduction-quartz/30]
+
+research:{
+parent: mech-forge-framework
+objectives:[frontier]
+}
+researchCostMultiplier: 0.15
+  
+// consume
+consumes:{
+power: 0.85
+liquids:[slag/0.01667]
+}
+
+// class
+
+range: 65
+circleColor:	98ffa9ff	
+glowColor:	98ffa97f	
+circleSpeed: 60
+circleStroke:	5
+squareRad: 4
+squareSpinScl:	0.65
+glowMag:	0.35
+glowScl:	16
+healAmount:	1.75
