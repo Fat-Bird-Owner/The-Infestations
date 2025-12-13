@@ -1,6 +1,8 @@
 type: RepairTower
 name: Industrial Mender
 description: "Slowly mends units in its radius, repairing them using any metal particles found in the slag."
+category: units
+size: 2
 // requiresment N research
 requirements:[item-silver/50,item-oxidium/40,item-hardened-calcite/25,item-conduction-quartz/30]
 
