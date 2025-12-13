@@ -10,7 +10,7 @@ Class:[orange] Tank[]
 
 immunities:[flamethrower-fail,ret-shock]
 
-hitsize: 18
+hitSize: 18
 range: 120
 omniMovement: false
 rotateMoveFirst: true
