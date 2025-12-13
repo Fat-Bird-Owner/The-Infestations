@@ -2,15 +2,14 @@
 type: tank
 name: Raid 
 description: "A well armored assault vehicle. Is able to heal from blood puddles."
-
-hitSize: 22
+hitSize: 30
 range: 120
 omniMovement: false
 rotateMoveFirst: true
 rotateSpeed: 4.5
 allowedinPayloads: false
 health: 500
-drag: 0.025
+drag: 0.25
 armor: 5
 
 outlineColor: "2c2d38"
