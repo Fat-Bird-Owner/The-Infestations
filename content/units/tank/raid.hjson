@@ -2,12 +2,15 @@
 type: tank
 name: Raid 
 description: "A well armored assault vehicle. Is able to heal from blood puddles."
-hitSize: 18
+
+hitSize: 22
 range: 120
 omniMovement: false
+rotateMoveFirst: true
 rotateSpeed: 4.5
-
-health: 300
+allowedinPayloads: false
+health: 500
+drag: 0.025
 armor: 5
 
 outlineColor: "2c2d38"
@@ -16,7 +19,7 @@ outlineColor: "2c2d38"
 research:{
 parent: tank-forge-framework
 }
-researchCostMultiplier: 0.25
+researchCostMultiplier: 0.65
 
 hitSize: 8
 treadPullOffset: 3
@@ -38,6 +41,7 @@ type: BasicBulletType
 speed: 6
 lifetime: 20
 peirce: true
+pierceCap: 2
 
 height: 14
 width: 20
@@ -47,6 +51,11 @@ damage: 60
 pierceBuilding: true
 splashDamage: 15
 splashDamageRadius: 12
+frontColor: b59c69
+backColor: b8a276
+trailColor: b8a27677
+despawnHit: true
+hitEffect: explosion
 
 bulletInterval: 2
 intervalSpread: 45
@@ -55,6 +64,9 @@ intervalBullets: 2
 intervalBullet:{
 type: BasicBulletType
 width: 10
+frontColor: b59c69
+trailColor: b8a27677
+backcolor: b8a276
 lifetime: 20
 trailWidth: 2
 trailLength: 6
