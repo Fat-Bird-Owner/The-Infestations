@@ -8,7 +8,7 @@ Type:[orange] Assault[]
 Class:[orange] Tank[]
 "
 
-immunities:[flamethrower-fail,ret-shock]
+immunities:[flamethrow-fail,ret-shock]
 
 hitSize: 18
 range: 120
