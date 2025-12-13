@@ -9,7 +9,7 @@ craftTime: 120
 outputItem: item-oxidium/1
 
 research:{
-parent: core-satellite
+parent: crafting
 }
 alwaysUnlocked: true
 
