@@ -25,7 +25,7 @@ shotDelay: 3
 parts:[
 {
 type: shapePart
-sides: 3
+sides: 2
 radius: 0
 radiusTo: 12
 x: 0

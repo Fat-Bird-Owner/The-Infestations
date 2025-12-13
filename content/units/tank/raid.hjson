@@ -33,6 +33,10 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 
+research:{
+parent: tank-forge-framework
+}
+
 weapons: [
 {
 name: "raid-weapon"

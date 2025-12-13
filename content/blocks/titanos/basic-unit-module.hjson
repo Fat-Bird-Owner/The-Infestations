@@ -17,4 +17,4 @@ power: 0.75
 research:{
 parent: mech-forge-framework
 }
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.25

@@ -102,6 +102,11 @@ explosion
 
 }
 
+research:{
+parent: mech-forge-framework
+requiresUnlock: false
+}
+
 abilities:[
 {
 type: LiquidRegenAbility
