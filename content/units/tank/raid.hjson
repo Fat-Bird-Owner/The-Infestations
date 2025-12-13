@@ -1,7 +1,15 @@
 // general
 type: tank
 name: Raid 
-description: "A well armored assault vehicle. Is able to heal from blood puddles."
+description: "
+A well armored assault vehicle. Is able to heal from blood puddles.
+
+Type:[orange] Assault[]
+Class:[orange] Tank[]
+"
+
+immunities:[flamethrower-fail,ret-shock]
+
 hitsize: 18
 range: 120
 omniMovement: false
