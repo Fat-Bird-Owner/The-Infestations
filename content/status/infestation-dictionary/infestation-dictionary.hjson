@@ -1,0 +1,10 @@
+type: StatusEffect
+name: The Infestation Dictionary
+description: "Most things found in this mod can be here and explained in more detail regarding usage and lore."
+show: false
+  
+research:{
+root: true
+planet: titanos
+name: "The Remnants"
+}
