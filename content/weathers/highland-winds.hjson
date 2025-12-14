@@ -5,6 +5,6 @@ drawNoise:	true
 drawParticles: false
 noiseColor: 5c6a73
 baseSpeed: 14
-sound: wind
+sound: windhowl
 soundVol: 0.75
 soundVolMin: 0.5
