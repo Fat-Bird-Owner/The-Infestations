@@ -12,39 +12,36 @@ weapons:[
 x: 0
 y: 0
 
-reload: 120
+reload: 35
 rotate: true
-rotateSpeed: 2.5
+rotateSpeed: 1.5
+
+shoot:{
+type: ShootAlternate
+spread: 8
+}
 
 bullet:{
 type: BasicBulletType
 keepVelocity: false
 speed: 2.5
 lifetime: 120
-damage: 205
-splashDamage: 150
+damage: 125
+splashDamage: 35
 scaledSplashDamage: true
-width: 25
-height: 40
-trailWidth: 5
-trailLength: 16
-splashDamageRadius: 40
+width: 12.5
+height: 20
+trailWidth: 2.5
+trailLength: 8
+splashDamageRadius: 25
+frontColor: d9c689
+backColor: a19777
+trailColor: a1977766
 
 hitEffect: massiveExplosion
 despawnHit: true
-hitShake: 35
+hitShake: 3.5
 
-spawnBullets:[
-{
-type: LaserBulletType
-colors:[ffffff00,ffffff0,ffffff]
-sideWidth: 1
-length: 300
-damage: 175
-lifetime: 120
-}
-]
-  
 }
 
 }
