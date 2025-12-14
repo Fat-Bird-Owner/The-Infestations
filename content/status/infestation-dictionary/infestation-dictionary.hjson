@@ -7,4 +7,5 @@ research:{
 root: true
 planet: titanos
 name: "The Remnants"
+requiresUnlock: false
 }
