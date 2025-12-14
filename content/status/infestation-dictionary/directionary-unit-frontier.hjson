@@ -2,7 +2,7 @@ name: Frontier
 show: false
 
 research:{
-parent: directionary-planet-titanos
+parent: dictionary-planet-titanos
 objectives:[
 {
 type: SectorComplete
