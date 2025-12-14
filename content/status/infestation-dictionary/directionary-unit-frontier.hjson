@@ -6,7 +6,7 @@ parent: directionary-planet-titanos
 objectives:[
 {
 type: SectorComplete
-preser: rain-forest
+preset: directory
 }
 ]
 }
