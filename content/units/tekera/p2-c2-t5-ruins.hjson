@@ -3,7 +3,7 @@ name: Ruins
 hitSize: 60
 health: 60250
   
-speed: 0.77
+speed: 0.55
 omniMovement: false
 rotateMoveFirst: true
 
@@ -15,6 +15,17 @@ y: 0
 reload: 35
 rotate: true
 rotateSpeed: 1.5
+
+parts:[
+{
+type: FlarePart
+color1: ffffff
+sides: 2
+radius: 14
+x: 0
+y: -8
+}
+]
 
 shoot:{
 type: ShootAlternate
