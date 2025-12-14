@@ -1,6 +1,7 @@
 name: Titanos
 description: "An oddly suitable planet, Filled with lush green trees and sometimes bastions."
 detail: "Though what can be found here is heyond any common threat."
+show: false
 
 research:{
 parent: infestation-directionary
