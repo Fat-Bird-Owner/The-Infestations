@@ -11,7 +11,7 @@ weapons:[
 {
 x: 0
 y: 0
-
+mirror: false
 reload: 35
 rotate: true
 rotateSpeed: 1.5
@@ -35,14 +35,14 @@ spread: 8
 bullet:{
 type: BasicBulletType
 keepVelocity: false
-speed: 2.5
-lifetime: 120
+speed: 5
+lifetime: 60
 damage: 125
 splashDamage: 35
 scaledSplashDamage: true
-width: 12.5
+width: 10
 height: 20
-trailWidth: 2.5
+trailWidth: 2
 trailLength: 8
 splashDamageRadius: 25
 frontColor: d9c689
