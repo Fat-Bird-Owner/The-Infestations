@@ -1,0 +1,50 @@
+type: AmmoTurret
+name: Align
+description: "
+Fires high velocity bullets at laser speeds.
+Is used to kill high health enemies, Suffers from killing weak ones.
+Can't target blocks.
+"
+
+category: turret
+requirements:[
+item-silver/350
+item-oxidium/200
+item-hardened-calcite/150
+item-conduction-quartz/135
+item-carbon-matter/100
+]
+
+unitSort: strongest
+shake: 7.5
+range: 300
+rotateSpeed: 1.85
+size: 3
+reload: 300
+maxAmmo: 10
+targetBlocks: false
+recoilTime: 180
+  
+linearWarmup: true
+shootWarmupSpeed: 0.015
+
+shootEffect: railShoot
+  
+ammoTypes:{
+conduction-quartz:{
+type: RailBulletType
+damage: 225
+buildingDamageMultiplier: 0.35
+maxDamageFraction: 35
+
+  
+hitShake: 15
+pierceEffect: railHit
+pointEffect: railShoot
+lineEffect: railTrail
+endEffect: MassiveExplosion
+length:	100.0	
+pointEffectSpace: 10
+
+}
+}
