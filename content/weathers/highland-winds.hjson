@@ -1,3 +1,4 @@
+type: ParticleWeather
 name: Highland Winds
 localizedName: Highland Winds
 drawNoise:	true	
