@@ -29,22 +29,26 @@ linearWarmup: true
 shootWarmupSpeed: 0.015
 
 shootEffect: railShoot
-  
+
 ammoTypes:{
 item-conduction-quartz:{
 type: RailBulletType
 damage: 225
 buildingDamageMultiplier: 0.35
-maxDamageFraction: 35
+maxDamageFraction: 0.35
 
   
 hitShake: 15
 pierceEffect: railHit
 pointEffect: railShoot
-lineEffect: railTrail
+lineEffect:{
+type: WrapEffect
+effect: railTrail
+rotation: 90
+}
 endEffect: massiveExplosion
-length:	100.0	
-pointEffectSpace: 10
+length:	300
+pointEffectSpace: 25
 
 }
 }
