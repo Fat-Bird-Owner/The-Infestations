@@ -1,4 +1,4 @@
-type: AmmoTurret
+type: ItemTurret
 name: Align
 description: "
 Fires high velocity bullets at laser speeds.
@@ -22,6 +22,7 @@ rotateSpeed: 1.85
 size: 3
 reload: 300
 maxAmmo: 10
+ammoPerShot: 5
 targetBlocks: false
 recoilTime: 180
   
