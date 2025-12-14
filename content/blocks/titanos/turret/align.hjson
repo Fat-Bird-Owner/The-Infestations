@@ -42,7 +42,7 @@ hitShake: 15
 pierceEffect: railHit
 pointEffect: railShoot
 lineEffect: railTrail
-endEffect: MassiveExplosion
+endEffect: massiveExplosion
 length:	100.0	
 pointEffectSpace: 10
 
