@@ -1,0 +1,18 @@
+type: PayloadAmmoTurret
+range: 240
+category: turret
+requirements:[]
+size: 3
+  
+ammoTypes:{
+infestation-silver-wall:{
+type: RailBulletType
+
+pierceEffect:	hitBulletSmall	
+pointEffect:	massiveExplosion
+lineEffect:	breakBlock	
+endEffect:	impactReactorExplosion	
+length: 250
+pointEffectSpace: 8
+}
+}
