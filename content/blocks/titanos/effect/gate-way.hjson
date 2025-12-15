@@ -30,7 +30,7 @@ chargeRings: 8
 ringRadSpacing: 8
 ringStroke: 6
 
-launchDuration: 300
+launchDuration: 90
 chargeDuration: 600
 buildDuration: 1200
 
