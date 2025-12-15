@@ -48,7 +48,7 @@ trailColor: EFE4CAFF66
 speed: 10
 lifetime: 30
 
-damage: 50
+damage: 75
 pierce: true
 pierceBuildings: true
 pierceCap: 3
@@ -58,8 +58,8 @@ fragBullets: 1
 fragBullet:{
 type: ExplosionBulletType
 despawnHit: true
-splashDamageRadius: 275
-splashDamage: 75
+splashDamageRadius: 40
+splashDamage: 275
 scaledSplashDamage: true
 killShooter: false
 
