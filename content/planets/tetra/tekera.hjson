@@ -1,6 +1,6 @@
 localizedName: Tekera
 description: A desert like planet.
-alwaysUnlocked: true
+alwaysUnlocked: false
 mesh: [
 {
         planet: tekera
