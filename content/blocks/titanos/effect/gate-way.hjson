@@ -1,0 +1,37 @@
+type: Accelerator
+name: Gate Way
+size: 4
+category: effect
+requirements:[
+item-silver/350
+item-oxidium/285
+item-conduction-quartz/200
+item-hardened-calcite/150
+]
+
+consumes:{
+power: 3
+}
+  
+research:{
+type: core-satellite
+objectives:[
+{
+type: SectorComplete
+preset: scrap-yard-bunker
+}
+mech-forge-framework
+tank-forge-framework
+]
+}
+
+chargeRings: 8
+ringRadSpacing: 8
+ringStroke: 6
+
+launchDuration: 300
+chargeDuration: 600
+buildDuration: 1200
+
+launchBlock: core-satellite
+launchCandidates: [tekera]
