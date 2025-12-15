@@ -4,6 +4,7 @@ health: 101000
 speed: 0.25
 rotateSpeed: 2.35
 hitSize: 45
+range: 300
 
 parts:[
 {
@@ -38,14 +39,16 @@ height: 15
 trailWidth: 3 
 trailLength: 15
 
+shootSound: shootBig
+
 frontColor: EFCA98FF
 backColor: EFE4CAFF
 trailColor: EFE4CAFF66
 
-speed: 5
-lifetime: 60
+speed: 10
+lifetime: 30
 
-damage: 275
+damage: 50
 pierce: true
 pierceBuildings: true
 pierceCap: 3
@@ -55,7 +58,7 @@ fragBullets: 1
 fragBullet:{
 type: ExplosionBulletType
 despawnHit: true
-splashDamageRadius: 40
+splashDamageRadius: 275
 splashDamage: 75
 scaledSplashDamage: true
 killShooter: false
