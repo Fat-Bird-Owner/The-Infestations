@@ -89,5 +89,5 @@ clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-satellite
 parent: photomos
-launchCandidates: []
+launchCandidates: [tekera]
 landCloudColor: 234f4455
