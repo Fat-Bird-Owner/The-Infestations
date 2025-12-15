@@ -14,7 +14,7 @@ power: 3
 }
   
 research:{
-preset: core-satellite
+parent: core-satellite
 objectives:[
 {
 type: SectorComplete
