@@ -14,6 +14,7 @@ rotateSpeed: 4.5
 sides: 4
 color1: D2806CFF
 radius: 10
+followRotation: true
 }
 ]
 
@@ -21,14 +22,14 @@ weapons:[
 {
 name: weapon-smg
 reload: 30
-x: 35
+x: 17.5
 y: 0
 under: true
 rotate: true
 rotateSpeed: 2.5
-rotationLimit: 7.5
+rotationLimit: 15
 shake: 4.5
-shootCone: 7.5
+shootCone: 15
 
 bullet:{
 type: BasicBulletType
