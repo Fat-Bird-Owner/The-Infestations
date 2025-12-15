@@ -1,6 +1,7 @@
 type: mech
 name: Convoy
-health: 101000
+description: "The first ever inhabitor ever created, Though its despite being the first it's durability is near unmatched being able almost wipe out an entire large base by it's self."
+health: 103500
 speed: 0.25
 rotateSpeed: 2.35
 hitSize: 45
