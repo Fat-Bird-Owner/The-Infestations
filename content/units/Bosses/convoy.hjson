@@ -35,11 +35,22 @@ shoot:{
 firstShotDelay: 180
 }
 
+ejectEffect:{
+type: Particle
+particles: 15
+sizeTo: 16
+sizeFrom: 8
+colorFrom: D2806CFF
+colorTo: D2806C00
+length: 250
+cone: 45
+}
+
 bullet:{
 type: LaserBulletType
-length: 240
+length: 480
 lifetime: 180
-damage: 450
+damage: 1500
 pierce: true
 colors:[D2806CFF,D2806C77,D2806C33]
 
@@ -50,9 +61,10 @@ effects:[
 type: WaveEffect
 sizeFrom: 80
 sizeTo: 0
-colorFrom: ffffff66
-colorTo: ffffff00
+colorFrom: D2806C66
+colorTo: D2806CFF00
 lifetime: 90
+strokeTo: 5
 }
 {
 type: ParticleEffect
@@ -62,6 +74,8 @@ sizeTo: 0
 length: 40
 baseLength: -40
 lifetime: 160
+colorFrom: D2806CFF
+colorTo: D2806CFF
 }
 ]
 }
