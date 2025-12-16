@@ -4,7 +4,7 @@ description: "The first ever inhabitor ever created, Though its despite being th
 health: 103500
 speed: 0.25
 rotateSpeed: 2.35
-hitSize: 45
+hitSize: 35
 range: 300
 
 outlineColor: 313131FF
@@ -54,6 +54,9 @@ mirror: false
 shoot:{
 firstShotDelay: 180
 }
+
+shootSound: laserblast
+chargeSound: lasercharge
 
 ejectEffect:{
 type: Particle
@@ -116,6 +119,8 @@ rotateSpeed: 2.5
 rotationLimit: 15
 shake: 4.5
 shootCone: 30
+
+shootSound: largeCannon
 
 bullet:{
 type: BasicBulletType
