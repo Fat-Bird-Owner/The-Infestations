@@ -3,6 +3,7 @@ name: "[accent]Observent"
 physics: false
 targetable: false
 hittable: false
+drawBody: false
 range: 320
 mineTier: 1
 minesItem:[item-silver]
