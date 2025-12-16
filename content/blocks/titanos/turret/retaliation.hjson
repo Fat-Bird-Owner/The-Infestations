@@ -84,21 +84,23 @@ sizeTo: 0
 ]
 }
 
-speed: 3
+speed: 6
 width: 10
 height: 14
-lifetime: 60
+lifetime: 30
 damage: 9
 fragSpread: 30
 frontColor: d4fdff
 backColor: ffffff
-trailColor: d4fdff
+trailColor: d4fdff66
 trailWidth: 2
 trailLength: 6
 status: frag
 statusDuration: 1
 splashDamage: 1
 splashDamageRadius: 40
+pierce: true
+fragBullets: 0
 fragLifeMin: 0.1
 fragLifeMax: 1
 
