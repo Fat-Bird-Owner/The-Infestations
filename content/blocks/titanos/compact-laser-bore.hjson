@@ -4,6 +4,7 @@ size: 2
 requirements:[item-silver/16]
 category: production
 description: "crushes the wall to look for silver. requires and conducts power."
+squareSprite: false
 range: 3
 drillTime: 180
 researchCost:[item-silver/60]
