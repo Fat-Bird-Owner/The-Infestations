@@ -3,6 +3,7 @@ name: Convoy
 description: "The first ever inhabitor ever created, Though its despite being the first it's durability is near unmatched being able almost wipe out an entire large base by it's self."
 health: 103500
 speed: 0.25
+armor: 15
 rotateSpeed: 2.35
 hitSize: 35
 range: 300
@@ -14,7 +15,7 @@ parts:[
 type: FlarePart
 x: 0
 y: 14.75
-spinSpeed: 4.5
+spinSpeed: 2.25
 sides: 4
 color1: D2806CFF
 radius: 10
@@ -63,15 +64,17 @@ type: Particle
 particles: 15
 sizeTo: 16
 sizeFrom: 8
-colorFrom: D2806CFF
+lifetime: 180
+colorFrom: D2806C77
 colorTo: D2806C00
 length: 250
-cone: 45
+cone: 35
 }
 
 bullet:{
 type: LaserBulletType
 length: 480
+width: 30
 lifetime: 180
 damage: 1500
 pierce: true
@@ -97,7 +100,7 @@ sizeTo: 0
 length: 40
 baseLength: -40
 lifetime: 160
-colorFrom: D2806CFF
+colorFrom: D2806C44
 colorTo: D2806CFF
 interp: sine
 }
