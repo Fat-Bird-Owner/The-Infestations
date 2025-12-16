@@ -5,7 +5,7 @@ health: 100000
 speed: 0.25
 armor: 12.5
 rotateSpeed: 2.35
-hitSize: 40
+hitSize: 32
 range: 300
 previewRegion: convoy-preview
 
