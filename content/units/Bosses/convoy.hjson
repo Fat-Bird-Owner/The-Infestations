@@ -27,14 +27,13 @@ y: 14.75
 effect:{
 type: ParticleEffect
 particles: 3
-baseLength: -40
-length: 40
-sizeFrom: 10
+baseLength: -20
+length: 20
+sizeFrom: 8
 sizeTo: 0
-colorTo: D280633
-colorFrom: D2806CFF
+colorTo: D2806ff
+colorFrom: D2806C55
 interp: sine
-layer: 59.999
 }
 
 effectColor:D2806CFF
