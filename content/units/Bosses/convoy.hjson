@@ -21,9 +21,23 @@ radius: 10
 followRotation: true
 }
 {
-type: HaloPart
-shapes: 4
-color:D2806CFF
+type: EffectSpawnerPart
+x: 0
+y: 14.75
+effect:{
+type: ParticleEffect
+particles: 3
+baseLength: -40
+length: 40
+sizeFrom: 10
+sizeTo: 0
+colorTo: D280633
+colorFrom: D2806CFF
+interp: sine
+layer: 59.999
+}
+
+effectColor:D2806CFF
 haloRotateSpeed: 2.25
 radius: 14
 }
