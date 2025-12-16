@@ -20,6 +20,13 @@ color1: D2806CFF
 radius: 10
 followRotation: true
 }
+{
+type: HaloPart
+shapes: 4
+color:D2806CFF
+haloRotateSpeed: 2.25
+radius: 14
+}
 ]
 
 weapons:[
@@ -76,6 +83,7 @@ baseLength: -40
 lifetime: 160
 colorFrom: D2806CFF
 colorTo: D2806CFF
+interp: sine
 }
 ]
 }
