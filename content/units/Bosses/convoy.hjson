@@ -22,9 +22,9 @@ followRotation: true
 
 weapons:[
 {
-name: weapon-smg
-reload: 30
-x: 17.5
+name: ash-spread
+reload: 15
+x: 24
 y: 0
 under: true
 rotate: true
@@ -49,7 +49,7 @@ trailColor: EFE4CAFF66
 speed: 10
 lifetime: 30
 
-damage: 75
+damage: 37.5
 pierce: true
 pierceBuildings: true
 pierceCap: 3
@@ -60,7 +60,7 @@ fragBullet:{
 type: ExplosionBulletType
 despawnHit: true
 splashDamageRadius: 40
-splashDamage: 275
+splashDamage: 137.5
 scaledSplashDamage: true
 killShooter: false
 
