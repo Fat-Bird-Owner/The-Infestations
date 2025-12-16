@@ -88,13 +88,13 @@ speed: 6
 width: 10
 height: 14
 lifetime: 30
-damage: 9
+damage: 20
 fragSpread: 30
 frontColor: d4fdff
 backColor: ffffff
 trailColor: d4fdff66
 trailWidth: 2
-trailLength: 6
+trailLength: 14
 status: frag
 statusDuration: 1
 splashDamage: 1
