@@ -24,6 +24,52 @@ followRotation: true
 
 weapons:[
 {
+name: Core-beam
+reload: 450
+shake: 35
+x: 0
+y: 14.75
+mirror: false
+
+shoot:{
+firstShotDelay: 180
+}
+
+bullet:{
+type: LaserBulletType
+length: 240
+lifetime: 180
+damage: 450
+pierce: true
+colors:[D2806CFF,D2806C77,D2806C33]
+
+chargeEffect:{
+type: MultiEffect
+effects:[
+{
+type: WaveEffect
+sizeFrom: 80
+sizeTo: 0
+colorFrom: ffffff66
+colorTo: ffffff00
+lifetime: 90
+}
+{
+type: ParticleEffect
+particles: 15
+sizeFrom: 16
+sizeTo: 0
+length: 40
+baseLength: -40
+lifetime: 160
+}
+]
+}
+
+}
+
+}
+{
 name: ash-spread
 shootY: 25.5
 reload: 15
