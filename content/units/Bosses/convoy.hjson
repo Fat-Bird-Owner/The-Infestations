@@ -1,9 +1,9 @@
 type: mech
 name: Convoy
 description: "The first ever inhabitor ever created, Though its despite being the first it's durability is near unmatched being able almost wipe out an entire large base by it's self."
-health: 101000
+health: 100000
 speed: 0.25
-armor: 15
+armor: 12.5
 rotateSpeed: 2.35
 hitSize: 40
 range: 300
@@ -55,6 +55,8 @@ radius: 14
 }
 ]
 
+immunities:[flamethrow-fail,ret-shock,burning,melting,electrified]
+
 weapons:[
 {
 name: Core-beam
@@ -91,6 +93,8 @@ lifetime: 180
 damage: 1500
 pierce: true
 colors:[D2806CFF,D2806C77,D2806C33]
+status: melting
+statusDuration: 300
 
 chargeEffect:{
 type: MultiEffect
@@ -158,6 +162,8 @@ pierce: true
 pierceBuildings: true
 pierceCap: 3
 despawnHit: true
+status: burning
+statusDuration: 120
 
 fragBullets: 1
 fragBullet:{
@@ -170,7 +176,7 @@ killShooter: false
 
 hitEffect: massiveExplosion
 hitShake: 9.5
-
+status: blasted
 }
 
 }
