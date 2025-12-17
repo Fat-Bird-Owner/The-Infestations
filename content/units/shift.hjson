@@ -10,43 +10,53 @@ hovering: true
 canDrown: false
 trailLength: 8
 outlineColor: 2c2d38
-faceTarget: false
+faceTarget: true
 engines:[
 {
-y: -5
-radius: 1
+y: -3
+radius: 2
+}
+]
+
+abilities:[
+{
+type: SuppressionFieldAbility
+reload: 180
+orbRadius: 4.5
+layer: 59.99
+x: 0
+y: -3
 }
 ]
 
 weapons:[
 {
-name: "missile-battery"
 x: 0
 mirror: false
-y: 0
+y: -3
 top: false
 shootX: 0
 shootY: 0
 mirror: true
-rotate: true
-reload: 60
+rotate: false
+reload: 40
 inaccuracy: 15
-shoot:{
-shot: 5
-shotDelay: 5
-}
+
 shake: 0.54
 shootSound: malignShoot
 ejectEffect: casing1
 bullet:{
-type: MissileBulletType
-speed: 3
-lifetime: 90
+type: BasicBulletType
+speed: 6
+lifetime: 30
 damage: 35
 hitShake: 2.5
 hitSound: explosion
 despawnHit: true
-makeFire: true
+
+frontColor: 9C88C3FF
+backColor: 8175A5FF
+backColor: 8175A566
 
 }}
 ]
