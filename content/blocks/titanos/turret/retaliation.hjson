@@ -17,6 +17,11 @@ shootSound: shootBig
 ejectEffect: casing2
 inaccuracy: 1
 
+coolant:{
+type: ConsumeCoolant
+allowGas: true
+amount: 0.1
+}
 
 shootEffect:{
 type: MultiEffect
