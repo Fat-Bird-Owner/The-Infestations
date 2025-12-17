@@ -22,8 +22,10 @@ abilities:[
 {
 type: SuppressionFieldAbility
 reload: 180
-orbRadius: 4.5
+orbRadius: 2.25
+particleSize: 2
 layer: 59.99
+range: 40
 x: 0
 y: -3
 }
@@ -40,20 +42,31 @@ shootY: 0
 mirror: true
 rotate: false
 reload: 40
-inaccuracy: 15
+inaccuracy: 7.5
+
+shoot:{
+shots: 3
+shotDelay: 7.5
+}
 
 shake: 0.54
-shootSound: malignShoot
+shootSound: shockBlast
 ejectEffect: casing1
 bullet:{
 type: BasicBulletType
-speed: 6
-lifetime: 30
-damage: 35
+speed: 3
+lifetime: 60
+damage: 15
 hitShake: 2.5
 hitSound: explosion
 despawnHit: true
+weaveScl: 1.5
+weaveMag: 2.25
 
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 14
 frontColor: 9C88C3FF
 backColor: 8175A5FF
 backColor: 8175A566
