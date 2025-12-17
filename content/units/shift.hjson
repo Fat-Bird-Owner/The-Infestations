@@ -11,7 +11,7 @@ health: 345
 speed: 2
 accel: 0.1
 drag: 0.025
-range: 80
+range: 180
 hitSize: 13
 hovering: true
 canDrown: false
