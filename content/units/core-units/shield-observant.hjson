@@ -36,6 +36,8 @@ defaultCommand: rebuild
 controller: BuilderAI
 fogRadius: 260
 lightRadius: 260
+  
+immunities:[rallied]
 
 abilities:[
 {
@@ -46,11 +48,6 @@ regen: 10
 sides: 4
 rotation: 45
 }
-]
-  
-immunities:[rallied]
-
-abilities:[
 {
 type: EnergyFieldAbility
 damage: 0
