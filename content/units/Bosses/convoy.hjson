@@ -105,6 +105,7 @@ despawnHit: true
 fragBullets: 1
 fragBullet:{
 type: EmptyBulletType
+instantDisappear: true
 splashDamage: 1750
 splashDamageRadius: 400
 despawnHit: true
