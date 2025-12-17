@@ -8,7 +8,7 @@ Able to carry much more items and may also allows for more advanced core schemat
 
 health: 6000
 armor: 7.5
-unitType: shield-observent
+unitType: shield-observant
 size: 4
 itemCapacity: 5000
 squareSprite: false
