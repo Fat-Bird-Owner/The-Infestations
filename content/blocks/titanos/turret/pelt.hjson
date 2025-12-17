@@ -4,7 +4,7 @@ health: 500
 name: Pelt
 description: "
 Type:[green] Defensive Turret[]
-Class:[orange] Flamethrower[]
+Class:[orange] Flamethrower[]/[purple]Hover[]
 
 Fires a barrage of bullets which will bounce on hit. can be boosted.
 [orange]
@@ -61,8 +61,10 @@ speed: 5
 lifetime: 42
 height: 14
 width: 10
-status: flamethrow-fail
-statusDuration: 7.5
+status: hover-anchored
+knockback: 10
+impact: true
+statusDuration: 15
 backColor: 9c88c3
 frontColor: 5c5e9f
 // bounce
