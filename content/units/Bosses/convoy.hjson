@@ -40,6 +40,7 @@ x: 0
 y: 14.75
 effect:{
 type: ParticleEffect
+followParent: true
 particles: 3
 baseLength: -20
 length: 20
@@ -99,6 +100,7 @@ statusDuration: 300
 
 chargeEffect:{
 type: MultiEffect
+followParent: true
 effects:[
 {
 type: WaveEffect
