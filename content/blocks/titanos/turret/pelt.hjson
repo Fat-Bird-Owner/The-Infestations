@@ -7,9 +7,10 @@ Type:[green] Defensive Turret[]
 Class:[orange] Flamethrower[]/[purple]Hover[]
 
 Fires a barrage of bullets which will bounce on hit. can be boosted.
-[orange]
-Class Effect:
-(+) Enemies hitted by this turret's bullet will have there weapon temporarily disabled.
+
+Class Effect:[orange]
+(+) Flamethrower class enemies will receive having there weapon temporarily disabled.
+[purple](+) Hover class enemies will temporary be unable to move for a short duration.
 []
 "
 
