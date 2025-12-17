@@ -25,6 +25,8 @@ radius: 2
 }
 ]
 
+immunities:[flamethrow-fail]
+
 abilities:[
 {
 type: SuppressionFieldAbility
