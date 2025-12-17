@@ -9,6 +9,8 @@ First tier mech unit able to [accent]shoot lasers[] and heal off [accent]Blood.
 
 "
 
+immunities:[hover-anchored]
+
 speed: 0.55
 health: 340
 armor: 0
