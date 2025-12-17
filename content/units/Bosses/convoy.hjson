@@ -98,6 +98,31 @@ colors:[D2806CFF,D2806C77,D2806C33]
 status: melting
 statusDuration: 300
 
+fragLifeMax: 1
+fragLifeMin: 1
+despawnHit: true
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+splashDamage: 1750
+splashDamageRadius: 400
+despawnHit: true
+collidesGround: false
+
+hitEffect:{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 400
+lifetime: 300
+strokeFrom: 8
+strokeTo: 8
+colorFrom: ffffff88
+colorTo: ffffff00
+}
+
+}
+
 chargeEffect:{
 type: MultiEffect
 followParent: true
