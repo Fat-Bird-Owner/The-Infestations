@@ -1,9 +1,16 @@
 type: hover
 name: Shift
-health: 450
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+First hover unit tier.
+Armed with basic weapon and [accent]poccesses the ability to stop nearby reformers from working in a small radius.[]
+"
+health: 345
 speed: 2
 accel: 0.1
-drag: 0.05
+drag: 0.025
 range: 80
 hitSize: 13
 hovering: true
