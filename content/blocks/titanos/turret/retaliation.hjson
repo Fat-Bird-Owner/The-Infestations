@@ -121,12 +121,13 @@ type: ExplosionEffect
 item-conduction-quartz:{
 type: BasicBulletType
 
-speed: 3
+speed: 6
 width: 10
 height: 14
-lifetime: 60
-damage: 14
+lifetime: 30
+damage: 28
 fragSpread: 30
+pierce: true
 frontColor: e28654
 backColor: ffcd66
 trailColor: ffffa3
@@ -139,7 +140,7 @@ fragBullet:{
 type: LightningBulletType
 lightningColor: ffcd66
 lightningLength: 4.5
-damage: 7
+damage: 10
 lifetime: 30
 }
 
