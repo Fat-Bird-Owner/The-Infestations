@@ -58,7 +58,7 @@ sizeFrom: 8
 sizeTo: 2
 colorFrom: 665c9fff
 colorTo: 665c9fff
-interp: pow4in
+interp: pow5Out
 }
 
 trailWidth: 3
