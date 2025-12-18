@@ -47,6 +47,7 @@ type: BasicBulletType
 speed: 3
 lifetime: 60
 shieldDamageMultiplier: 15
+recoil: 9
 damage: 125
 hitShake: 6.5
 trailColor: a393feff
@@ -56,6 +57,7 @@ backColor: 665c9f55
 chargeEffect:{
 type: ParticleEffect
 particles: 25
+lifetime: 130
 length: 25
 baseLength: -25
 sizeFrom: 8
@@ -70,8 +72,8 @@ type: ParticleEffect
 sizeFrom: 4
 sizeTo: 16
 colorFrom: 665c9fff
-colorTo: 665c9f
-lifetime: 120
+colorTo: 665c9f00
+lifetime: 60
 interp: sine
 }
 
