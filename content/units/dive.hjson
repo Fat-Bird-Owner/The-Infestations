@@ -44,11 +44,15 @@ firstShotDelay: 150
 
 bullet:{
 type: BasicBulletType
-speed: 3
-lifetime: 60
+speed: 6
+lifetime: 30
+keepVelocity: false
 shieldDamageMultiplier: 15
-recoil: 9
+recoil: 3.5
 damage: 125
+splashDamage: 60
+scaledSplashDamage: true
+splashDamageRadius: 40
 hitShake: 6.5
 trailColor: a393feff
 frontColor: 665c9fff
@@ -79,7 +83,7 @@ interp: sine
 
 despawnHit: true
 trailWidth: 3
-trailLength: 21
+trailLength: 41
 width: 15
 height: 21
 }
