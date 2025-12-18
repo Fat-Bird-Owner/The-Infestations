@@ -5,6 +5,13 @@ description:"
 [grey]
 "
 
+hasPower: true
+outputsPower: true
+
+consumes:{
+powerBuffered: 5000
+}
+
 health: 2500
 unitType: observent
 size: 3
