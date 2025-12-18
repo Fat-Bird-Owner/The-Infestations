@@ -29,16 +29,23 @@ x: 9.5
 y: 5
 under: true
 name: "dive-weapon"
-reload: 30
+reload: 60
 shootSound: malignShoot
 recoilPow: 3.6
 rotateSpeed: 1.85
 mirror: true
 layerOffset: -0.001
+inaccuracy: 5
+
+shoot:{
+shots: 3
+shotDelay: 10
+}
+
 bullet:{
 type: LaserBulletType
 width: 3.5
-damage: 25
+damage: 20
 pierce: false
 colors:[a393feff,a393fe77,a393fe44]
 length: 160
@@ -52,21 +59,25 @@ shoot:{
 firstShotDelay: 150
 }
 
+shootStatus: slow
+shootStatusDuration: 200
+
 bullet:{
 type: BasicBulletType
 speed: 6
-lifetime: 30
+lifetime: 60
 keepVelocity: false
-shieldDamageMultiplier: 15
-recoil: 3.5
+shieldDamageMultiplier: 2.25
+recoil: 1.75
 damage: 125
 splashDamage: 60
 scaledSplashDamage: true
 splashDamageRadius: 40
-hitShake: 6.5
+hitShake: 7.5
 trailColor: a393feff
 frontColor: 665c9fff
 backColor: 665c9f55
+hitSound: massiveExplosion
 
 chargeEffect:{
 type: ParticleEffect
@@ -77,7 +88,10 @@ baseLength: -25
 sizeFrom: 8
 sizeTo: 2
 colorFrom: 665c9fff
-colorTo: 665c9fff
+colorTo: 665c9f00
+line: true
+lenFrom: 8
+lenTo: 0
 interp: pow5Out
 }
 
@@ -86,9 +100,13 @@ type: ParticleEffect
 sizeFrom: 4
 sizeTo: 16
 colorFrom: 665c9fff
+length: 40
 colorTo: 665c9f00
-lifetime: 60
+lifetime: 30
 interp: sine
+line: true
+lenFrom: 4
+lenTo: 0
 }
 
 despawnHit: true
