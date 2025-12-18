@@ -9,8 +9,7 @@ hasPower: true
 outputsPower: true
 
 consumes:{
-powerBuffered: 450
-power: 0.0834
+powerBuffered: 650
 }
 
 health: 2500
