@@ -72,8 +72,8 @@ shoot:{
 firstShotDelay: 180
 }
 
-shootSound: laserblast
-chargeSound: lasercharge
+shootSound: shootCorvus
+chargeSound: chargeCorvus
 
 ejectEffect:{
 type: Particle
@@ -170,7 +170,7 @@ rotationLimit: 15
 shake: 4.5
 shootCone: 30
 
-shootSound: largeCannon
+shootSound: shootSpectre
 
 bullet:{
 type: BasicBulletType
