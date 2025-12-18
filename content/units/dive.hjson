@@ -24,14 +24,50 @@ shootSound: malignShoot
 recoilPow: 3.6
 rotateSpeed: 1.85
 mirror: true
+layer: 59.99
 bullet:{
 type: LaserBulletType
-width: 2.75
-damage: 15
+width: 3.5
+damage: 25
 pierce: false
 colors:[a393feff,a393fe77,a393fe44]
 length: 160
 }}
+{
+x: 0
+y: -5
+reload: 300
+
+bullet:{
+type: BasicBulletType
+speed: 3
+lifetime: 60
+shieldDamageMultiplier: 15
+damage: 125
+shake: 6.5
+trailColor: a393feff
+frontColor: 665c9fff
+backColor: 665c9f55
+
+chargeEffect:{
+type: ParticleEffect
+particles: 25
+length: 25
+baseLength: -25
+sizeFrom: 8
+sizeTo: 2
+colorFrom: 665c9fff
+colorTo: 665c9fff
+interp: pow4in
+}
+
+trailWidth: 3
+trailLength: 21
+width: 15
+height: 21
+}
+
+}
 ]
 
 abilities:[
@@ -40,7 +76,7 @@ type: MoveEffectAbility
 chance: 0
 minVelocity: 0.5
 y: -5
-color: a393feff
+color: 665c9fff
 }
 {
 type: SuppressionFieldAbility
@@ -49,6 +85,6 @@ y: -5
 range: 120
 orbRadius: 7.5
 reload: 300
-layer: 59.99
+layer: 59.9
 }
 ]
