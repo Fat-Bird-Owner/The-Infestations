@@ -1,7 +1,17 @@
 type: hover
 canDrown: false
 name: Dive
-description: A mighty ship both well armored and well armed.
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+Increased armor and durability.
+Poccesses duel lasercannons and an Anti-shield Railcannon
+Higher disrupt range
+"
+
+immunities:[flamethrow-fail]
+
 health: 850
 faceTarget: true
 armor: 5
