@@ -29,6 +29,10 @@ immunities:[flamethrow-fail]
 
 abilities:[
 {
+type: MoveEffectAbility
+color: 665c9fff
+}
+{
 type: SuppressionFieldAbility
 reload: 180
 orbRadius: 2.25
@@ -63,13 +67,14 @@ shootSound: shockBlast
 ejectEffect: casing1
 bullet:{
 type: BasicBulletType
+keepVelocity: false
 speed: 3
 lifetime: 60
 damage: 15
 hitShake: 2.5
 hitSound: explosion
 despawnHit: true
-weaveScl: 4
+weaveScl: 2
 weaveMag: 3
 
 width: 10
@@ -85,13 +90,15 @@ despawnHit: true
 hitEffect:{
 type: ParticleEffect
 particles: 5
-lifetime: 120
+lifetime: 45
 length: 40
 colorFrom: 8175A5FF
 colorTo: 8175A522
+line: true
+lenFrom: 4
+lenTo: 0
 sizeFrom: 2
-sizeTo: 4.5
-interp: sine
+sizeTo: 2
 }
 
 }}
