@@ -1,62 +1,52 @@
-type: flying
-flying: true
+type: hover
+canDrown: false
 name: Dive
 description: A mighty ship both well armored and well armed.
 health: 1000
 faceTarget: false
 armor: 5
-hitSize: 24
+hitSize: 16
 speed: 3
 accel: 0.1
 drag: 0.035
-range: 240
+range: 160
 engineOffset: 10
-controller: ObserventBuilderAI
 
 weapons:[
 {
-x: 0
-y: -4
-name: "artillerycannon"
-reload: 45
+x: 9.5
+y: -5
+name: "dive-weapon"
+reload: 30
 shootSound: malignShoot
 recoilPow: 3.6
-mirror: false
-rotate: true
+rotateSpeed: 1.85
+mirror: true
 bullet:{
-type: BasicBulletType
-width: 10
-height: 10
-lifetime:60
-speed: 4
-damage: 10
-splashDamage: 50
-splashDamageRadius: 32
-hitEffect:[{
-effect:[
-particles: 10
-capped: false
-]
-}]
-}
-
-}
+type: LaserBulletType
+width: 2.75
+damage: 15
+pierce: false
+colors:[a393feff,a393fe77,a393fe44]
+length: 160
+}}
 ]
 
 abilities:[
 {
 type: MoveEffectAbility
 chance: 0
-minVelocity: 0
-y: -7
-teamColor: true
-interval: 2
+minVelocity: 0.5
+y: -5
+color: a393feff
 }
 {
-type: ForceFieldAbility
-radius: 30
-regen: 0.25
-max: 180
-sides: 4
+type: SuppressionFieldAbility
+x: 0
+y: -5
+range: 120
+orbRadius: 7.5
+reload: 300
+layer: 59.99
 }
 ]
