@@ -1,0 +1,9 @@
+type: AttributeCrafter
+size: 3
+
+category: production
+requirements:[item-andesite/45]
+outputItem: item-andesite/1
+baseEfficiency: 0
+maxBoost: 1.0
+minEfficiency:	1
