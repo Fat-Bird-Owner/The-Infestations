@@ -2,8 +2,8 @@ type: hover
 canDrown: false
 name: Dive
 description: A mighty ship both well armored and well armed.
-health: 1000
-faceTarget: false
+health: 850
+faceTarget: true
 armor: 5
 hitSize: 16
 speed: 3
@@ -11,11 +11,13 @@ accel: 0.1
 drag: 0.035
 range: 160
 engineOffset: 10
+outlineColor: 313131FF
 
 weapons:[
 {
 x: 9.5
-y: -5
+y: 5
+under: true
 name: "dive-weapon"
 reload: 30
 shootSound: malignShoot
