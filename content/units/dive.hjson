@@ -30,7 +30,7 @@ y: 5
 under: true
 name: "dive-weapon"
 reload: 60
-shootSound: malignShoot
+shootSound: shootEclipse
 recoilPow: 3.6
 rotateSpeed: 1.85
 mirror: true
@@ -78,6 +78,7 @@ trailColor: a393feff
 frontColor: 665c9fff
 backColor: 665c9f55
 hitSound: massiveExplosion
+makeFire: true
 
 chargeEffect:{
 type: ParticleEffect
@@ -89,10 +90,7 @@ sizeFrom: 8
 sizeTo: 2
 colorFrom: 665c9fff
 colorTo: 665c9f00
-line: true
-lenFrom: 8
-lenTo: 0
-interp: pow5Out
+interp: pow4In
 }
 
 hitEffect:{
