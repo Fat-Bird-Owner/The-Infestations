@@ -1,6 +1,6 @@
 type: ItemTurret
 maxAmmo: 5
-shootSound: shootAlt
+shootSound: shootBreach
 shootSoundVolume: 0.5
 health: 200
 category: turret
