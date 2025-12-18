@@ -61,6 +61,7 @@ firstShotDelay: 150
 
 shootStatus: slow
 shootStatusDuration: 200
+shootSound: shootLaser
 
 bullet:{
 type: BasicBulletType
@@ -91,6 +92,7 @@ sizeTo: 2
 colorFrom: 665c9fff
 colorTo: 665c9f00
 interp: pow4In
+followParent: true
 }
 
 hitEffect:{
@@ -121,7 +123,7 @@ abilities:[
 {
 type: MoveEffectAbility
 chance: 0
-minVelocity: 0.5
+minVelocity: 0.25
 y: -5
 color: 665c9fff
 }
