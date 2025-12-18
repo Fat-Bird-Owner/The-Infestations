@@ -64,7 +64,7 @@ shotDelay: 7.5
 }
 
 shake: 0.54
-shootSound: shockBlast
+shootSound: shootLaser
 ejectEffect: casing1
 bullet:{
 type: BasicBulletType
