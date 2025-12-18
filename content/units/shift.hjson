@@ -31,6 +31,7 @@ abilities:[
 {
 type: MoveEffectAbility
 color: 665c9fff
+offsetY: -3
 }
 {
 type: SuppressionFieldAbility
@@ -38,7 +39,7 @@ reload: 180
 orbRadius: 2.25
 particleSize: 2
 layer: 59.99
-range: 60
+range: 75
 x: 0
 y: -3
 }
