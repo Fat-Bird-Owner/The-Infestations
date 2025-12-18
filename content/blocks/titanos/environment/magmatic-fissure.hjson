@@ -1,0 +1,5 @@
+type: OverlayFloor
+
+attributes:{
+heat: 0.25
+}
