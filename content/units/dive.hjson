@@ -24,7 +24,7 @@ shootSound: malignShoot
 recoilPow: 3.6
 rotateSpeed: 1.85
 mirror: true
-layer: 59.99
+layerOffset: -0.001
 bullet:{
 type: LaserBulletType
 width: 3.5
@@ -38,13 +38,17 @@ x: 0
 y: -5
 reload: 300
 
+shoot:{
+firstShotDelay: 150
+}
+
 bullet:{
 type: BasicBulletType
 speed: 3
 lifetime: 60
 shieldDamageMultiplier: 15
 damage: 125
-shake: 6.5
+hitShake: 6.5
 trailColor: a393feff
 frontColor: 665c9fff
 backColor: 665c9f55
@@ -61,6 +65,17 @@ colorTo: 665c9fff
 interp: pow5Out
 }
 
+hitEffect:{
+type: ParticleEffect
+sizeFrom: 4
+sizeTo: 16
+colorFrom: 665c9fff
+colorTo: 665c9f
+lifetime: 120
+interp: sine
+}
+
+despawnHit: true
 trailWidth: 3
 trailLength: 21
 width: 15
