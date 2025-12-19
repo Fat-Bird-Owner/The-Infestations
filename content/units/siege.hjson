@@ -8,17 +8,40 @@ armor: 15
 hitSize: 32
 speed: 2.75
 drag: 0.05
-range: 45
-circleTarget: true
+range: 160
 engineOffset: 16
 engineSize: 7.5
 payloadCapacity: 16
 
+weapons:[
+{
+reload: 5
+inaccuracy: 8.5
+x: -1
+y: -3.5
+
+bullet:{
+speed: 3
+lifetime: 60
+trailWidth: 2
+trailLength: 14
+damage: 25
+width: 10
+height: 14
+
+frontColor: a393fe88
+backColor: a393feff
+trailColor: a393fe55
+}
+
+}
+]
+
 abilities:[
 {
 type: MoveLightningAbility
-heatRegion: "siege-heat"
-chance: 0.35
+heatRegion: "-heat"
+chance: 0
 damage: 22.5
 minSpeed: 0.25
 maxSpeed: 0.75
@@ -26,7 +49,7 @@ color: a393feff
 }
 {
 type: SuppressionFieldAbility
-x: 0
+x: -1
 y: -3.5
 orbRadius: 10.75
 layer: 59.99
