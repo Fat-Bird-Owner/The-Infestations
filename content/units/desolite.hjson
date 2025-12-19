@@ -26,16 +26,16 @@ x: -0.5
 y: 4.5
 baseRotation: 45
 inacurracy: 7.5
-reload: 180
+reload: 60
 shootCone: 180
-alternate: true
+alternate: false
 shootSound: shootArtillerySmall
 
 shoot:{
 type: ShootAlternate
-barrels: 8
-spread: 1.25
-shot: 8
+barrels: 6
+spread: 2
+shot: 6
 }
 
 bullet:{
@@ -89,7 +89,7 @@ width: 32
 recoil: 2.5
 colors:[a393feff,a393fe88,a393fe44]
 damage: 275
-length: 180
+length: 300
 lifetime: 120
 makeFire: true
 
@@ -135,7 +135,7 @@ abilities:[
 type: MoveEffectAbility
 color:665c9fff
 x: -0.5
-y: -3.5
+y: 5
 }
 {
 type: EnergyFieldAbility
@@ -161,5 +161,31 @@ layer: 59.99
 reload:	180
 maxDelay:	65
 range: 220
+}
+// engine visuals
+{
+type: SuppressionFieldAbility
+range: 0
+x: -0.5
+y: -18
+layer: 59.9 
+orbRadius: 9
+// 64 y: 7
+}
+{
+type: SuppressionFieldAbility
+range: 0
+x: -16
+y: -7
+layer: 59.8
+orbRadius: 4.5
+}
+{
+type: SuppressionFieldAbility
+range: 0
+x: 16
+y: -7
+layer: 59.8
+orbRadius: 4.5
 }
 ]
