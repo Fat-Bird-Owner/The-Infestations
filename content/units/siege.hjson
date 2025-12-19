@@ -41,7 +41,7 @@ sizeFrom: 8
 sizeTo: 0
 colorFrom: a393fe88
 colorTo: a393fe00
-interp: pow5Out
+interp: po4In
 lifetime: 160
 }
 
@@ -75,7 +75,8 @@ range: 80
 reload: 60
 status: sapped
 sectors: 4
-effectRadius: 4.75
+effectRadius: 0
+sectorRad: 4.75
 }
 {
 type: SuppressionFieldAbility
