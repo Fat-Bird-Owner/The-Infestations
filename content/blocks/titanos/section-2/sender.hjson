@@ -5,10 +5,10 @@ name: Sender
 category: effect
 health: 750
 size: 2
-
+acceptMultipleItems: true
 itemCapacity: 10
 
-description: "Sends 10 resources into orbit."
+description: "Sends resources into orbit, items will take a while to arrive into the target sector."
 // class related
 
 
@@ -16,25 +16,25 @@ description: "Sends 10 resources into orbit."
 // others
 
 consumes:{
-power: 2.25
+power: 1.75
 }
 
 requirements:[
 item-silver/75
+item-oxiddium/50
 item-conduction-quartz/25
-item-hardened-calcite/50
+item-hardened-calcite/35
 ]
 
-/*
 research:{
-parent: supplier-conveyor
+parent: gateway
 objective:[
 {
 type: sectorComplete
-preset: uphill
+preset: entrecnhed
 }]
 }
-*/
+
 
 researchCost:[
 item-silver/215
