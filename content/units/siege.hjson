@@ -80,6 +80,7 @@ effectRadius: 3.5
 sectorRad: 4.75
 x: -0.5
 y: -3.5
+layer: 59.999
 }
 {
 type: SuppressionFieldAbility
