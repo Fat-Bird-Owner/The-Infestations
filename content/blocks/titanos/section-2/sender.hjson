@@ -27,11 +27,11 @@ item-hardened-calcite/35
 ]
 
 research:{
-parent: gateway
+parent: gate-way
 objective:[
 {
 type: sectorComplete
-preset: entrecnhed
+preset: entrenched
 }]
 }
 
