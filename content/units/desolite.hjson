@@ -11,7 +11,7 @@ Higher ability radius.
 immune to basic counter measures.
 "
 
-immunities:[red-shock,flamethrow-fail,hover-anchored]
+immunities:[ret-shock,flamethrow-fail,hover-anchored]
 
 health: 4500
 faceTarget: true
