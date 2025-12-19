@@ -6,7 +6,7 @@ health: 1450
 faceTarget: true
 armor: 15
 hitSize: 32
-speed: 2.75
+speed: 1.25
 drag: 0.05
 range: 180
 engineOffset: 16
@@ -15,12 +15,12 @@ outlineColor: 2c2d38
 
 weapons:[
 {
-reload: 240
+reload: 180
 x: -0.5
 y: -3.5
 
 shoot:{
-firstShotDelay: 180
+firstShotDelay: 120
 }
 shake: 7.5
 
@@ -42,7 +42,7 @@ sizeTo: 0
 colorFrom: a393fe88
 colorTo: a393fe00
 interp: pow4In
-lifetime: 160
+lifetime: 120
 }
 
 fragBullets: 1
@@ -75,8 +75,10 @@ range: 80
 reload: 60
 status: sapped
 sectors: 4
-effectRadius: 0
+effectRadius: 3.5
 sectorRad: 4.75
+x: -0.5
+y: -3.5
 }
 {
 type: SuppressionFieldAbility
