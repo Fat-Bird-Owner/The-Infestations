@@ -15,23 +15,22 @@ payloadCapacity: 16
 
 weapons:[
 {
-reload: 450
+reload: 90
 inaccuracy: 15
 x: -0.5
 y: -3.5
 
 shoot:{
-firstShotDelay: 180
-shots: 75
-shotDelay: 1
+firstShotDelay: 60
 }
+shake: 7.5
 
 bullet:{
 type: LaserBulletType
-width: 3.5
+width: 8
 colors:[a393feff,a393fe88,a393fe44]
-damage: 2.5
-length: 120
+damage: 65
+length: 180
 
 chargeEffect:{
 type: ParticleEffect
@@ -39,7 +38,7 @@ particles: 10
 length: 40
 baseLength: -40
 sizeFrom: 8
-sizeFrom: 0
+sizeTo: 0
 colorFrom: a393fe88
 colorTo: a393fe00
 interp: pow5Out
@@ -49,10 +48,13 @@ fragBullets: 1
 fragBullet:{
 type: EmptyBulletType
 scaledSplashDamage: true
-splashDamage: 1.5
-splashDamageRadius: 24
+splashDamage: 8.5
+splashDamageRadius: 32
 makeFire: true
-suppressionRange: 24
+suppressionRange: 36
+instantDisappear: true
+despawnHit: true
+hitShake: 2.5
 }
 
 }
