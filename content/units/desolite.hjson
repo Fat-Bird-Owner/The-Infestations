@@ -33,9 +33,9 @@ shootSound: shootArtillerySmall
 
 shoot:{
 type: ShootAlternate
-barrels: 6
-spread: 2
-shots: 6
+barrels: 8
+spread: 1.75
+shots: 8
 shotDelay: 6.5
 }
 
@@ -53,14 +53,14 @@ trailLength: 18.5
 status: blasted
 statusDuration: 60
 
-damage: 25
+damage: 20
 
 splashDamage: 50
-splashDamageRadius: 24
+splashDamageRadius: 16
 scaledSplashDamage: true
 
 despawnHit: true
-hitSound: massiveExplosion
+hitEffect: massiveExplosion
 hitSound: blockExplode1Alt
 hitShake: 6.75
 makeFire: true
@@ -74,11 +74,12 @@ trailColor: a393feff
 {
 reload: 300
 x: 0
-y: 0
+y: 2.5
 
 name: "desolite-laser"
+cooldownTime: 120
 
-shootY: 4.5
+shootY: 2
 shootX: -0.4
 mirror: false
 
