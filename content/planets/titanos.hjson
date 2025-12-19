@@ -57,6 +57,7 @@ cloudMesh: [
 campaignRuleDefaults: {
 	showSpawns: true
 	sectorInvasion: true
+	legacyLaunchPads: true
 }
 
 generator: SerpuloPlanetGenerator
