@@ -77,12 +77,12 @@ trailColor: a393feff
 {
 reload: 300
 x: 0
-y: 1.5
+y: 1.25
 
 name: "desolite-laser"
 cooldownTime: 120
 
-shootY: 3
+shootY: 3.25
 shootX: -0.4
 mirror: false
 
@@ -104,6 +104,9 @@ lifetime: 120
 makeFire: true
 
 chargeEffect:{
+type: MultiEffect
+effects:[
+{
 type: ParticleEffect
 particles: 25
 length: 60
@@ -114,6 +117,8 @@ colorFrom: a393fe88
 colorTo: a393fe00
 interp: pow5In
 lifetime: 160
+}
+]
 }
 
 fragBullets: 1
