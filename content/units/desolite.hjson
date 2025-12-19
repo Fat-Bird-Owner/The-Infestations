@@ -94,9 +94,9 @@ shootSound: shootCorvus
 chargeSound: chargeCorvus
 
 bullet:{
-
 chargeEffect:{
 type: MultiEffect
+followParent: true
 lifetime: 200
 effects:[
 {
@@ -106,9 +106,10 @@ length: 60
 baseLength: -60
 sizeFrom: 8
 sizeTo: 2
-colorFrom: a393fe88
-colorTo: a393fe00
+colorFrom: a393feff
+colorTo: a393feff
 interp: pow5In
+sizeInterp: pow4In
 lifetime: 160
 layer: 61
 }
