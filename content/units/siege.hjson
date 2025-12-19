@@ -29,6 +29,7 @@ y: -3.5
 baseRotation: 45
 inacurracy: 7.5
 reload: 4.5
+shootCone: 180
 
 bullet:{
 type: BasicBulletType
