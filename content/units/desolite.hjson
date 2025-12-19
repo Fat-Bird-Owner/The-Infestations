@@ -94,14 +94,6 @@ shootSound: shootCorvus
 chargeSound: chargeCorvus
 
 bullet:{
-type: LaserBulletType
-width: 32
-recoil: 2.5
-colors:[a393feff,a393fe88,a393fe44]
-damage: 275
-length: 300
-lifetime: 120
-makeFire: true
 
 chargeEffect:{
 type: MultiEffect
@@ -120,6 +112,15 @@ lifetime: 160
 }
 ]
 }
+
+type: LaserBulletType
+width: 32
+recoil: 2.5
+colors:[a393feff,a393fe88,a393fe44]
+damage: 275
+length: 300
+lifetime: 120
+makeFire: true
 
 fragBullets: 1
 fragBullet:{
