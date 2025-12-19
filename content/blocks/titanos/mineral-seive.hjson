@@ -6,6 +6,7 @@ consumes:{
 items:[
 item-shale/2
 ]
+power: 0.45
 }
 results:[
 item-conduction-quartz/45
@@ -23,8 +24,8 @@ type: DrawDefault
 }
 {
 type: DrawParticles
-particle: 15
-color: 3f3f3f5f
+particle: 6
+color: 3f3f3f55
 reverse: true
 }
 ]
