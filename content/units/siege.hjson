@@ -16,13 +16,15 @@ payloadCapacity: 16
 weapons:[
 {
 reload: 5
-inaccuracy: 8.5
+inaccuracy: 15
 x: -1
 y: -3.5
 
 bullet:{
-speed: 3
-lifetime: 60
+speed: 6
+lifetime: 30
+keepVeolcity: false
+homingPower: 0.035
 trailWidth: 2
 trailLength: 14
 damage: 25
