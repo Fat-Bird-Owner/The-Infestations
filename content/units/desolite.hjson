@@ -10,7 +10,7 @@ Equipped with long range artilleries and an empowered laser.
 Higher ability radius.
 "
 
-health: 6550
+health: 4500
 faceTarget: true
 armor: 17.5
 hitSize: 32
@@ -73,8 +73,13 @@ trailColor: a393feff
 }
 {
 reload: 300
-x: -0.5
-y: 4.5
+x: 0
+y: 0
+
+name: "desolite-laser"
+
+shootY: 4.5
+shootX: -0.4
 mirror: false
 
 shoot:{
