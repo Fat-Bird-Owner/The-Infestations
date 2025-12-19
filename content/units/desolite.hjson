@@ -8,7 +8,10 @@ Class: [purple]Specialist[]
 Increased durability and armor.
 Equipped with long range artilleries and an empowered laser.
 Higher ability radius.
+immune to basic counter measures.
 "
+
+immunities:[red-shock,flamethrow-fail,hover-anchored]
 
 health: 4500
 faceTarget: true
@@ -74,12 +77,12 @@ trailColor: a393feff
 {
 reload: 300
 x: 0
-y: 2.5
+y: 1.5
 
 name: "desolite-laser"
 cooldownTime: 120
 
-shootY: 2
+shootY: 3
 shootX: -0.4
 mirror: false
 
