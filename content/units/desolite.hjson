@@ -97,6 +97,7 @@ bullet:{
 
 chargeEffect:{
 type: MultiEffect
+lifetime: 200
 effects:[
 {
 type: ParticleEffect
@@ -109,6 +110,7 @@ colorFrom: a393fe88
 colorTo: a393fe00
 interp: pow5In
 lifetime: 160
+layer: 61
 }
 ]
 }
