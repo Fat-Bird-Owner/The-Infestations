@@ -35,18 +35,18 @@ shoot:{
 type: ShootAlternate
 barrels: 6
 spread: 2
-shot: 6
+shots: 6
 shotDelay: 6.5
 }
 
 bullet:{
 type: BasicBulletType
-speed: 4
-lifetime: 90
+speed: 8
+lifetime: 45
 width: 7.5
 height: 10.35
 homingPower: 0.1
-homingDelay: 15
+homingDelay: 7.5
 trailWidth: 2
 trailLength: 18.5
 
