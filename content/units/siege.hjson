@@ -6,7 +6,7 @@ health: 1450
 faceTarget: true
 armor: 15
 hitSize: 32
-speed: 0.75
+speed: 2.75
 drag: 0.05
 range: 45
 circleTarget: true
@@ -17,8 +17,8 @@ payloadCapacity: 16
 abilities:[
 {
 type: MoveLightningAbility
-heatRegion: "-heat"
-chance: 0.65
+heatRegion: "siege-heat"
+chance: 0.35
 damage: 22.5
 minSpeed: 0.25
 maxSpeed: 0.75
