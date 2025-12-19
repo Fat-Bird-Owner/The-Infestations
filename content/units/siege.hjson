@@ -11,17 +11,16 @@ drag: 0.05
 range: 180
 engineOffset: 16
 engineSize: 7.5
-payloadCapacity: 16
+outlineColor: 2c2d38
 
 weapons:[
 {
-reload: 90
-inaccuracy: 15
+reload: 240
 x: -0.5
 y: -3.5
 
 shoot:{
-firstShotDelay: 60
+firstShotDelay: 180
 }
 shake: 7.5
 
@@ -43,7 +42,7 @@ sizeTo: 0
 colorFrom: a393fe88
 colorTo: a393fe00
 interp: pow5Out
-lifetime: 60
+lifetime: 160
 }
 
 fragBullets: 1
@@ -52,11 +51,11 @@ type: EmptyBulletType
 scaledSplashDamage: true
 splashDamage: 8.5
 splashDamageRadius: 32
-makeFire: true
 suppressionRange: 36
 instantDisappear: true
 despawnHit: true
 hitShake: 2.5
+despawnEffect: none
 }
 
 }
@@ -66,13 +65,14 @@ hitShake: 2.5
 
 abilities:[
 {
-type: MoveLightningAbility
-heatRegion: "-heat"
-chance: 0
-damage: 22.5
-minSpeed: 0.25
-maxSpeed: 0.75
+type: EnergyFieldAbility
 color: a393feff
+damage: 15
+range: 80
+reload: 60
+status: sapped
+sectors: 4
+effectRadius: 4.75
 }
 {
 type: SuppressionFieldAbility
