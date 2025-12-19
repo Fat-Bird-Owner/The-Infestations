@@ -1,6 +1,7 @@
 type: hover
 canDrown: false
 name: Dive
+hovering: true
 description: "
 Type: [purple]Hover[]
 Class: [purple]Specialist[]
