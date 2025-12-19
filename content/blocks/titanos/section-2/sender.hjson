@@ -1,12 +1,13 @@
 // general
 
 type: LaunchPad
-name: Loadmap Accelerator
+name: Load Accelerator
 category: effect
 health: 750
 size: 3
 acceptMultipleItems: true
 itemCapacity: 25
+launchTime: 450
 
 description: "Sends resources into orbit, items will take a while to arrive into the target sector."
 // class related
