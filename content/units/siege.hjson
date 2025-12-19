@@ -1,7 +1,15 @@
 type: hover
 hovering: true
 name: "Siege"
-description: A massive ship cable of mass destruction, more armored and can now drop off a Shift once in a while.
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+Increased durability.
+Fires charges to fire a strong lasers, additionally is equipped with long range missiles.
+Increased suppression range and now has an energy field.
+"
+
 health: 1450
 faceTarget: true
 armor: 15
@@ -16,9 +24,34 @@ outlineColor: 2c2d38
 
 weapons:[
 {
+x: -0.5
+y: -3.5
+baseRotation: 45
+inacurracy: 7.5
+reload: 4.5
+
+bullet:{
+type: BasicBulletType
+speed: 2
+lifetime: 120
+homingPower: 0.05
+homingDelay: 30
+trailWidth: 1 
+trailLength: 16
+
+damage: 15
+
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+}
+
+}
+{
 reload: 180
 x: -0.5
 y: -3.5
+mirror: false
 
 shoot:{
 firstShotDelay: 120
