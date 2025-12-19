@@ -49,13 +49,16 @@ fragBullets: 1
 fragBullet:{
 type: EmptyBulletType
 scaledSplashDamage: true
-splashDamage: 8.5
+splashDamage: 1
 splashDamageRadius: 32
 suppressionRange: 36
 instantDisappear: true
 despawnHit: true
 hitShake: 2.5
 despawnEffect: none
+lightning: 5
+lightningColor: a393feff
+lightninDamage: 7.5
 }
 
 }
