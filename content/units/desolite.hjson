@@ -36,6 +36,7 @@ type: ShootAlternate
 barrels: 6
 spread: 2
 shot: 6
+shotDelay: 6.5
 }
 
 bullet:{
@@ -167,11 +168,20 @@ range: 220
 type: SuppressionFieldAbility
 range: 0
 x: -0.5
-y: -18
+y: -12
 layer: 59.9 
 orbRadius: 9
 // 64 y: 7
+display: false
 }
+
+{
+type: MoveEffectAbility
+color: 665c9fff
+x: -0.5
+y: -13
+}
+
 {
 type: SuppressionFieldAbility
 range: 0
@@ -179,7 +189,16 @@ x: -16
 y: -7
 layer: 59.8
 orbRadius: 4.5
+display: false
 }
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -16
+y: -7.5
+}
+
 {
 type: SuppressionFieldAbility
 range: 0
@@ -187,5 +206,14 @@ x: 16
 y: -7
 layer: 59.8
 orbRadius: 4.5
+display: false
 }
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: 16
+y: -7.5
+}
+
 ]
