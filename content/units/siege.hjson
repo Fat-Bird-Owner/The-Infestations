@@ -32,6 +32,7 @@ recoil: 2.5
 colors:[a393feff,a393fe88,a393fe44]
 damage: 65
 length: 180
+lifetime: 120
 
 chargeEffect:{
 type: ParticleEffect
@@ -69,7 +70,14 @@ lightninDamage: 7.5
 
 abilities:[
 {
+type: MoveEffectAbility
+color:665c9fff
+x: -0.5
+y: -3.5
+}
+{
 type: EnergyFieldAbility
+healPercent: 1.5
 color: a393feff
 damage: 15
 range: 80
@@ -77,7 +85,7 @@ reload: 60
 status: sapped
 sectors: 4
 effectRadius: 3.5
-sectorRad: 4.75
+sectorRad: 4
 x: -0.5
 y: -3.5
 layer: 59.999
