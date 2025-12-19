@@ -15,25 +15,46 @@ payloadCapacity: 16
 
 weapons:[
 {
-reload: 5
+reload: 450
 inaccuracy: 15
-x: -1
+x: -0.5
 y: -3.5
 
-bullet:{
-speed: 6
-lifetime: 30
-keepVeolcity: false
-homingPower: 0.035
-trailWidth: 2
-trailLength: 14
-damage: 25
-width: 10
-height: 14
+shoot:{
+firstShotDelay: 180
+shots: 75
+shotDelay: 1
+}
 
-frontColor: a393fe88
-backColor: a393feff
-trailColor: a393fe55
+bullet:{
+type: LaserBulletType
+width: 3.5
+colors:[a393feff,a393fe88,a393fe44]
+damage: 2.5
+length: 120
+
+chargeEffect:{
+type: ParticleEffect
+particles: 10
+length: 40
+baseLength: -40
+sizeFrom: 8
+sizeFrom: 0
+colorFrom: a393fe88
+colorTo: a393fe00
+interp: pow5Out
+}
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+scaledSplashDamage: true
+splashDamage: 1.5
+splashDamageRadius: 24
+makeFire: true
+suppressionRange: 24
+}
+
 }
 
 }
@@ -51,9 +72,9 @@ color: a393feff
 }
 {
 type: SuppressionFieldAbility
-x: -1
+x: -0.5
 y: -3.5
-orbRadius: 10.75
+orbRadius: 9.5
 layer: 59.99
 reload:	180
 maxDelay:	65
