@@ -10,6 +10,7 @@ speed: 1.25
 drag: 0.05
 range: 180
 engineOffset: 16
+canDrown: false
 engineSize: 7.5
 outlineColor: 2c2d38
 
