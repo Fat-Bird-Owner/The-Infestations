@@ -13,7 +13,7 @@ Increased suppression range and now has an energy field.
 health: 1450
 faceTarget: true
 armor: 15
-hitSize: 32
+hitSize: 24
 speed: 1.25
 drag: 0.05
 range: 180
