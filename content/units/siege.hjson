@@ -31,6 +31,7 @@ inacurracy: 7.5
 reload: 4.5
 shootCone: 180
 alternate: true
+shootSound: shootArtillerySmall
 
 shoot:{
 type: ShootAlternate
@@ -68,6 +69,7 @@ shoot:{
 firstShotDelay: 120
 }
 shake: 7.5
+shootSound: explosionReactor
 
 bullet:{
 type: LaserBulletType
