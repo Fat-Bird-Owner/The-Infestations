@@ -1,5 +1,8 @@
 type: ItemTurret
 name: Retaliation
+
+suppressable: true
+
 description: "
 Type: [green]Defensive Turret[]
 Class: [lightgrey]Fragmentation[]
