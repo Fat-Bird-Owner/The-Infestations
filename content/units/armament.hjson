@@ -18,7 +18,7 @@ faceTarget: true
 armor: 17.5
 hitSize: 44
 rotateSpeed: 3.5
-speed: 0.40
+speed: 0.75
 drag: 0.45
 canDrown: false
 outlineColor: 2c2d38
@@ -38,6 +38,10 @@ lifetime: 100
 fragBullets: 3
 fragSpread: 45
 fragRandomSpread: 0
+fragLifeMin: 1
+fragLifeMax: 1
+fragVelocityMin: 1
+fragVelocityMax: 1
 
 fragBullet:{
 type: ArtilleryBulletType
@@ -45,7 +49,7 @@ splashDamage: 85
 makeFire: true
 splashDamageRadius: 48
 despawnHit: true
-hitEffect: titanExplosion
+hitEffect: titanExplosionLarge
 speed: 4
 lifetime: 100
 
@@ -67,7 +71,7 @@ x: -0.5
 y: 15.5
 baseRotation: 45
 inacurracy: 7.5
-reload: 180
+reload: 240
 shootCone: 180
 alternate: false
 shootSound: shootArtillerySmall
@@ -277,7 +281,7 @@ layer: 59.999
 type: SuppressionFieldAbility
 x: -0.5
 y: 5
-orbRadius: 32
+orbRadius: 20
 layer: 59.99
 reload:	120
 maxDelay:	30
@@ -305,7 +309,7 @@ y: 27
 {
 type: SuppressionFieldAbility
 range: 0
-x: -12.5
+x: -18.5
 y: -17.5
 layer: 59.8
 orbRadius: 4.5
@@ -315,14 +319,14 @@ display: false
 {
 type: MoveEffectAbility
 color:665c9fff
-x: -12.5
+x: -18.5
 y: -17.5
 }
 
 {
 type: SuppressionFieldAbility
 range: 0
-x: 12.5
+x: 18.5
 y: -17.5
 layer: 59.8
 orbRadius: 4.5
@@ -332,7 +336,7 @@ display: false
 {
 type: MoveEffectAbility
 color:665c9fff
-x: 12.5
+x: 18.5
 y: -17.5
 }
 
