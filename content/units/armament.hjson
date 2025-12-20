@@ -303,7 +303,7 @@ display: false
 type: MoveEffectAbility
 color: 665c9fff
 x: -0.5
-y: 27
+y: -27.5
 }
 
 {
