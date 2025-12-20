@@ -139,6 +139,7 @@ colorTo: 473b64
 
 type: BasicBulletType
 despawnHit: true
+instantDisappear: true
 
 fragBullets: 1
 fragLifeMin: 1
