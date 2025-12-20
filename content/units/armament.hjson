@@ -10,6 +10,7 @@ fires triple artillery shells, Stronger homing shells and an Eviceration Beam.
 "
 
 immunities:[ret-shock,flamethrow-fail,hover-anchored]
+loopSound: loopMachine
 
 health: 35000
 faceTarget: true
