@@ -1,11 +1,11 @@
 type: GenericCrafter
 consumes:{
-liquids:[water/0.0333333]
+liquids:[water/0.3334]
 power: 1
 }
 name: "Steam Accumulator"
 size: 2
-requirements:[item-silver/40,item-oxidium/35]
+requirements:[item-silver/40,item-oxidium/35,item-hardened-calcite/25]
 category: crafting
 
 research:{
