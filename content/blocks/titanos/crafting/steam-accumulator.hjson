@@ -1,15 +1,24 @@
 type: ConsumeGenerator
 consumes:{
-liquids:[slag/0.02]
+liquids:[water/0.0333333]
+power: 1
 }
 name: "Steam Accumulator"
 size: 2
 requirements:[item-silver/40,item-oxidium/35]
 category: crafting
 
+research:{
+parent: crafting
+objectives:[
+steam
+pressured-pump
+water
+]
+}
+
 powerProduction: 0.25
 outputLiquid: steam/0.04
-explodeOnFull: true
 liquidCapacity: 25
 
 drawer:{
