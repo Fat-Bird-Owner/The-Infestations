@@ -94,6 +94,7 @@ colorFrom: 665c9fff
 colorTo: 665c9f00
 interp: pow4In
 followParent: true
+rotWithParent: true
 }
 
 hitEffect:{
