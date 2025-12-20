@@ -7,6 +7,7 @@ Class: [purple]Specialist[]
 
 Improved base stats, but moves slower.
 fires triple artillery shells, Stronger homing shells and an Eviceration Beam.
+Improved ability range.
 "
 
 immunities:[ret-shock,flamethrow-fail,hover-anchored]
@@ -27,6 +28,7 @@ weapons:[
 reload: 180
 x: -0.5
 y: 15.5
+useAttackRange: true
 
 bullet:{
 type: EmptyBulletType
@@ -135,9 +137,6 @@ shootY: 3.25
 shootX: -0.4
 mirror: false
 
-shootStatus: unmoving
-shootStatusDuration: 185
-
 shoot:{
 firstShotDelay: 235
 }
@@ -145,7 +144,7 @@ shake: 12.5
 shootSound: explosionReactorNeoplasm
 chargeSound: chargeCorvus
 
-shootStatus: slow
+shootStatus: spore-slowed
 shootStatusDuration: 220
 
 useAttackRange: true
@@ -209,17 +208,6 @@ speed: 5.5
 lifetime: 100
 range: 550
 
-fragBullet:{
-
-type: LaserBulletType
-width: 32
-recoil: 2.5
-colors:[a393feff,a393fe88,a393fe44]
-damage: 275
-length: 550
-lifetime: 120
-makeFire: true
-
 spawnBullets:[
 {
 type: BasicBulletType
@@ -243,6 +231,17 @@ hitEffect: railHit
   
 }
 ]
+
+fragBullet:{
+
+type: LaserBulletType
+width: 32
+recoil: 2.5
+colors:[a393feff,a393fe88,a393fe44]
+damage: 275
+length: 550
+lifetime: 120
+makeFire: true
   
 fragBullets: 1
 fragBullet:{
