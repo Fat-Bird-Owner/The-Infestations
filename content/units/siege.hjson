@@ -71,6 +71,9 @@ firstShotDelay: 120
 shake: 7.5
 shootSound: explosionReactor
 
+shootStatus: unmoving
+shootStatusDuration: 140
+
 bullet:{
 type: LaserBulletType
 width: 16
@@ -91,6 +94,7 @@ colorFrom: a393fe88
 colorTo: a393fe00
 interp: pow4In
 lifetime: 120
+rotWithParent: true
 }
 
 fragBullets: 1
