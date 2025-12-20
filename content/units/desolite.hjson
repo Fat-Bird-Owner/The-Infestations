@@ -159,6 +159,9 @@ fragLifeMin: 1
 fragLifeMax: 1
 fragRandomSpread: 0
 
+// for the sake of it attacking
+speed: 3
+lifetime: 300
 range: 300
 
 fragBullet:{
