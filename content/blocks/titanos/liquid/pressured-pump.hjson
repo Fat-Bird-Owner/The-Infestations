@@ -1,7 +1,7 @@
 type: Pump
 name: Pressured Pump
 description: "Pumps liquids from the ground, requires power."
-pumpAmount:	1
+pumpAmount:	0.16667
 warmupSpeed: 0.005
 
 requirements:[item-silver/20,item-oxidium/15,item-hardened-calcite/10]
