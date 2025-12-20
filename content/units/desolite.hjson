@@ -137,12 +137,13 @@ colorTo: 473b64
 ]
 }
 
-type: EmptyBulletType
+type: BasicBulletType
 despawnHit: true
 
 fragBullets: 1
 fragLifeMin: 1
 fragLifeMax: 1
+fragRandomSpread: 0
 
 range: 300
 
