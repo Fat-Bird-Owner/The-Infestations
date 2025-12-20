@@ -96,6 +96,8 @@ chargeSound: chargeCorvus
 shootStatus: slow
 shootStatusDuration: 220
 
+useAttackRange: true
+
 bullet:{
 chargeEffect:{
 type: MultiEffect
@@ -135,6 +137,17 @@ colorTo: 473b64
 ]
 }
 
+type: EmptyBulletType
+despawnHit: true
+
+fragBullets: 1
+fragLifeMin: 1
+fragLifeMax: 1
+
+range: 300
+
+fragBullet:{
+
 type: LaserBulletType
 width: 32
 recoil: 2.5
@@ -165,6 +178,7 @@ makeFire: true
 
 }
 
+}
 }
 ]
 
