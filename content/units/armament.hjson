@@ -49,18 +49,25 @@ splashDamage: 85
 makeFire: true
 splashDamageRadius: 48
 despawnHit: true
-hitEffect: titanExplosionLarge
+hitEffect: hitEffect: {
+type: WrapEffect
+effect: scatheExplosion
+color: a393feff
+}
 speed: 4
 lifetime: 100
 
 width: 20
 height: 14
 
+hitEffect: explosionTitan
+
 frontColor: ffffff
 backColor: ffffff
 trailColor: a393feff
 trailEffect: none
 trailWidth: 4
+trailLength: 28
 }
   
 }
@@ -74,14 +81,14 @@ inacurracy: 7.5
 reload: 240
 shootCone: 180
 alternate: false
-shootSound: shootArtillerySmall
+shootSound: blockExplodeFlammable
 
 shoot:{
 type: ShootAlternate
 barrels: 3
 spread: 2.5
-shots: 3
-shotDelay: 30
+shots: 6
+shotDelay: 15
 }
 
 bullet:{
@@ -105,8 +112,12 @@ splashDamageRadius: 24
 scaledSplashDamage: true
 
 despawnHit: true
-hitEffect: scatheExplosion
-hitSound: blockExplode1Alt
+hitEffect: {
+type: WrapEffect
+effect: scatheExplosion
+color: a393feff
+}
+hitSound: wreckFallBig
 hitShake: 6.75
 makeFire: true
   
@@ -133,7 +144,7 @@ shoot:{
 firstShotDelay: 235
 }
 shake: 12.5
-shootSound: shootCorvus
+shootSound: explosionReactorNeoplasm
 chargeSound: chargeCorvus
 
 shootStatus: slow
@@ -224,7 +235,7 @@ intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 despawnHit: true
-despawnEffect: railHit
+hitEffect: railHit
 }
   
 }
@@ -309,7 +320,7 @@ y: -27.5
 {
 type: SuppressionFieldAbility
 range: 0
-x: -18.5
+x: -16
 y: -17.5
 layer: 59.8
 orbRadius: 4.5
@@ -319,14 +330,14 @@ display: false
 {
 type: MoveEffectAbility
 color:665c9fff
-x: -18.5
+x: -16
 y: -17.5
 }
 
 {
 type: SuppressionFieldAbility
 range: 0
-x: 18.5
+x: 16
 y: -17.5
 layer: 59.8
 orbRadius: 4.5
@@ -336,7 +347,7 @@ display: false
 {
 type: MoveEffectAbility
 color:665c9fff
-x: 18.5
+x: 16
 y: -17.5
 }
 
