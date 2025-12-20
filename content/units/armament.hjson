@@ -49,7 +49,7 @@ splashDamage: 85
 makeFire: true
 splashDamageRadius: 48
 despawnHit: true
-hitEffect: hitEffect: {
+hitEffect: {
 type: WrapEffect
 effect: scatheExplosion
 color: a393feff
