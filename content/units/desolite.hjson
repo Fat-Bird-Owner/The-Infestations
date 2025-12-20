@@ -111,28 +111,41 @@ length: 60
 baseLength: -60
 sizeFrom: 8
 sizeTo: 2
-colorFrom: a393feff
-colorTo: a393feff
+colorFrom: a393fe88
+colorTo: a393fe44
 interp: pow5In
 sizeInterp: pow4In
 lifetime: 160
 layer: 61
-rotWithParent: true
-followParent: true
+
 }
 {
 type: ParticleEffect
-particles: 40
-lightOpacity: 0
-length: 50
-baseLength: -50
-lifetime: 115
-layer: 106
-interp: exp5
-sizeFrom: 6
-sizeTo: 2
-colorFrom: 8f7eb8
-colorTo: 473b64
+particles: 10
+length: 40
+baseLength: -40
+sizeFrom: 4
+sizeTo: 1
+colorFrom: a393fe66
+colorTo: a393fe22
+interp: pow3In
+sizeInterp: pow3In
+lifetime: 100
+layer: 60.85
+}
+{
+type: ParticleEffect
+particles: 5
+length: 20
+baseLength: -20
+sizeFrom: 2
+sizeTo: 0.5
+colorFrom: a393feff
+colorTo: a393feff
+interp: pow2In
+sizeInterp: pow2In
+lifetime: 40
+layer: 60.2
 }
 ]
 }
