@@ -5,17 +5,15 @@ description: "
 Type: [purple]Hover[]
 Class: [purple]Specialist[]
 
-Increased durability and armor.
-Equipped with long range artilleries and an empowered laser.
-Higher ability radius.
-immune to basic counter measures.
+Improved base stats, but moves slower.
+fires triple artillery shells, Stronger homing shells and an Eviceration Beam.
 "
 
 immunities:[ret-shock,flamethrow-fail,hover-anchored]
 
 health: 35000
 faceTarget: true
-armor: 17.5
+armor: 20
 hitSize: 44
 rotateSpeed: 3.5
 speed: 0.75
@@ -36,7 +34,7 @@ speed: 4
 lifetime: 100
 
 fragBullets: 3
-fragSpread: 45
+fragSpread: 22.5
 fragRandomSpread: 0
 fragLifeMin: 1
 fragLifeMax: 1
@@ -49,9 +47,10 @@ splashDamage: 85
 makeFire: true
 splashDamageRadius: 48
 despawnHit: true
+hitSound: explosionTitan
 hitEffect: {
 type: WrapEffect
-effect: scatheExplosion
+effect: scatheExplosionLarge
 color: a393feff
 }
 speed: 4
@@ -163,7 +162,7 @@ length: 60
 baseLength: -60
 sizeFrom: 8
 sizeTo: 2
-colorFrom: a393feff
+colorFrom: a393fe99
 colorTo: a393fe4ba
 interp: pow5In
 sizeInterp: pow4In
@@ -224,10 +223,15 @@ spawnBullets:[
 {
 type: BasicBulletType
 collides: false
+pierce: true
 speed: 5.5
+damage: 0
 lifetime: 100
+width: 45
+frontColor: ffffff77
+backColor: 00000000
 
-bulletInterval: 15
+bulletInterval: 10
 intervalRandomSpread: 0
 
 intervalBullet:{
