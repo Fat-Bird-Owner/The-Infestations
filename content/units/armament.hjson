@@ -184,8 +184,8 @@ length: 80
 baseLength: -80
 sizeFrom: 2
 sizeTo: 8
-colorFrom: a393feff
-colorTo: a393fe400
+colorFrom: a393fe22
+colorTo: a393feff
 interp: pow5In
 sizeInterp: pow4In
 lifetime: 225
@@ -226,7 +226,11 @@ intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 despawnHit: true
-hitEffect: railHit
+hitEffect: {
+type: WrapEffect
+effect: railHit
+color: a393feff
+}
 }
   
 }
