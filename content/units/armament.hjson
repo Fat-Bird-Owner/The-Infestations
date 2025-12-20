@@ -237,7 +237,7 @@ splashDamagwRadius: 80
 scaledSplashDamage: true
 makeFire: true
 }
-
+}
 ]
 
 fragBullet:{
