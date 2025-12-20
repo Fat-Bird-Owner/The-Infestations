@@ -50,7 +50,7 @@ despawnHit: true
 hitSound: explosionTitan
 hitEffect: {
 type: WrapEffect
-effect: scatheExplosionLarge
+effect: titanExplosionLarge
 color: a393feff
 }
 speed: 4
