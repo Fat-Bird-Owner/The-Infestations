@@ -93,6 +93,9 @@ shake: 12.5
 shootSound: shootCorvus
 chargeSound: chargeCorvus
 
+shootStatus: slow
+shootStatusDuration: 220
+
 bullet:{
 chargeEffect:{
 type: MultiEffect
@@ -112,6 +115,7 @@ interp: pow5In
 sizeInterp: pow4In
 lifetime: 160
 layer: 61
+rotWithParent: true
 }
 ]
 }
