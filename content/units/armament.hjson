@@ -226,14 +226,18 @@ intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 despawnHit: true
-hitEffect: {
-type: WrapEffect
-effect: railHit
-color: a393feff
+hitEffect: railHit
 }
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+splashDamage: 15
+splashDamagwRadius: 80
+scaledSplashDamage: true
+makeFire: true
 }
-  
-}
+
 ]
 
 fragBullet:{
