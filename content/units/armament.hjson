@@ -60,8 +60,6 @@ lifetime: 100
 width: 20
 height: 14
 
-hitEffect: explosionTitan
-
 frontColor: ffffff
 backColor: ffffff
 trailColor: a393feff
