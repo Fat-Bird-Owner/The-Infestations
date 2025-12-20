@@ -116,6 +116,21 @@ sizeInterp: pow4In
 lifetime: 160
 layer: 61
 rotWithParent: true
+followParent: true
+}
+{
+type: ParticleEffect
+particles: 40
+lightOpacity: 0
+length: 50
+baseLength: -50
+lifetime: 115
+layer: 106
+interp: exp5
+sizeFrom: 6
+sizeTo: 2
+colorFrom: 8f7eb8
+colorTo: 473b64
 }
 ]
 }
