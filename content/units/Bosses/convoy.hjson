@@ -9,6 +9,8 @@ hitSize: 32
 range: 300
 previewRegion: convoy-preview
 
+stepSound: wreckFallBig
+
 abilities:[
 {
 type: ShieldArcAbility
