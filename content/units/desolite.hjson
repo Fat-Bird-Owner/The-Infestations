@@ -86,6 +86,9 @@ shootY: 3.25
 shootX: -0.4
 mirror: false
 
+shootStatus: unmoving
+shootStatusDuration: 185
+
 shoot:{
 firstShotDelay: 180
 }
