@@ -1,4 +1,4 @@
-type: ConsumeGenerator
+type: GenericCrafter
 consumes:{
 liquids:[water/0.0333333]
 power: 1
@@ -12,11 +12,9 @@ research:{
 parent: crafting
 objectives:[
 pressured-pump
-water
 ]
 }
 
-powerProduction: 0.25
 outputLiquid: steam/0.04
 liquidCapacity: 25
 
@@ -44,4 +42,4 @@ type: DrawDefault
 
 }
 
-description: "Cools down slag to produce steam and abit of power, and will explode if the steam isnt used or removed."
+description: "heats up water to produce steam , and will explode if the steam isnt used or removed."
