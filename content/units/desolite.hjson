@@ -87,7 +87,6 @@ shootX: -0.4
 mirror: false
 
 shootStatus: unmoving
-shootStatusDuration: 185
 
 shoot:{
 firstShotDelay: 180
@@ -96,7 +95,6 @@ shake: 12.5
 shootSound: shootCorvus
 chargeSound: chargeCorvus
 
-shootStatus: slow
 shootStatusDuration: 220
 
 useAttackRange: true
