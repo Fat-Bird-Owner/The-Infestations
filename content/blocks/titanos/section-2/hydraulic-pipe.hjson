@@ -25,4 +25,9 @@ requirements:[
 item-silver/2
 item-hardened-calcite/1
 ]
+
+research:{
+parent: pressured-pump
+}
+
 category: liquid
