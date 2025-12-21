@@ -3,7 +3,7 @@ name: "Brontide"
 description"
 Shoots burst of lasers, requires water to operate.
 
-[salmon]Required it be crafted inside an industrial crafter.[]
+[salmon]Required to be crafted inside an industrial crafter.[]
 "
 size: 3
 reload: 150
