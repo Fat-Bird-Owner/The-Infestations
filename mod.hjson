@@ -31,3 +31,7 @@ version: "v2-Tekera"
 minGameVersion: "153"
 dependencies: []
 hidden: false
+
+contentOrder:[
+loadcost-apply
+]
