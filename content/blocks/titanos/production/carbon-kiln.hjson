@@ -4,8 +4,8 @@ localizedName: "Carbon Kiln"
 description: "Smelts carbon matter from silver, oxidium and steam."
 
 requirements:[item-silver/100,item-oxidium/80]
-
-buildVisibilty: sandboxOnly
+buildVisibility: sandboxOnly
+category: crafting
 
 consumes:{
 items:[item-silver/2,item-oxidium/1]
