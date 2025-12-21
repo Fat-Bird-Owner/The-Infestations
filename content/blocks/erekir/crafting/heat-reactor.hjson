@@ -1,1 +1,4 @@
 buildVisibility: sandboxOnly
+description: "
+A nuclear reactor using thorium and nitrogen to generate heat, Produces fissile matter as a byproduct.
+"
