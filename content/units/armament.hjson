@@ -1,6 +1,7 @@
 type: hover
 hovering: true
 name: "Armament"
+requirements:[copper/1]
 description: "
 Type: [purple]Hover[]
 Class: [purple]Specialist[]
