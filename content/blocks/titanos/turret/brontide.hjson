@@ -2,11 +2,12 @@ type: PowerTurret
 name: "Brontide [red](Unfinished)"
 size: 3
 reload: 150
-range: 120
+range: 280
 cooldownTime: 120
 requirements:[item-silver/150,item-oxidium/100,item-hardened-calcite/60,item-conduction-quartz/50]
 shootSound: shootReign
 inaccuracy: 1.5
+category: turret
 
 research:{
 parent: charge
@@ -17,7 +18,7 @@ preset: entrenched
 }
 ]
 }
-researchCostMultiplier: 0.65
+researchCostMultiplier: 0.35
   
 consumes:{
 liquids:[water/0.3334]
@@ -53,10 +54,10 @@ baseLength: -30
   
 fragBullet:{
 type: LaserBulletType
-width: 2.5
-length: 120
+width: 8
+length: 280
 colors:[FFD280FF,FFD280FF,FFD280FF]
-damage: 35
+damage: 55
 status: ichor-burn
 statusDuration: 120
 
@@ -64,6 +65,7 @@ fragBullets: 1
 fragBullet:{
 type: EmptyBulletType
 despawnHit: true
+instantDisappear: true
 lightning: 5
 lightningDamage: 10
 lightningLength: 3.5
