@@ -1,9 +1,11 @@
 type: GenericCrafter
 size: 2
-localizedName: Carbon Kiln
-description: Smelts carbon matter from silver, oxidium and steam.
+localizedName: "Carbon Kiln"
+description: "Smelts carbon matter from silver, oxidium and steam."
 
 requirements:[item-silver/100,item-oxidium/80]
+
+buildVisibilty: sandboxOnly
 
 consumes:{
 items:[item-silver/2,item-oxidium/1]
