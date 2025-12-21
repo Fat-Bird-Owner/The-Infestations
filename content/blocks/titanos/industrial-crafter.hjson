@@ -1,0 +1,17 @@
+type: Constructor
+name: Industrial Crafter
+size: 3
+description: "construct more advance blocks that are too complicated for normal construction tools."
+
+category: units
+  
+requirements:[
+item-silver/105
+item-oxidium/75
+item-hardened-calcite/45
+item-conduction-quartz/30
+]
+
+consumes:{
+power: 1.75
+}
