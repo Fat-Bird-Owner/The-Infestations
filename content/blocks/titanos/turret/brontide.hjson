@@ -57,7 +57,7 @@ type: LaserBulletType
 width: 8
 length: 280
 colors:[FFD280FF,FFD280FF,FFD280FF]
-damage: 150
+damage: 75
 status: ichor-burn
 statusDuration: 120
 
