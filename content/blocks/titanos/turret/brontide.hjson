@@ -6,7 +6,7 @@ range: 120
 cooldownTime: 120
 requirements:[item-silver/150,item-oxidium/100,item-hardened-calcite/60,item-conduction-quartz/50]
 shootSound: shootReign
-inaccuracy: 7.25
+inaccuracy: 1.5
 
 research:{
 parent: charge
@@ -53,12 +53,22 @@ baseLength: -30
   
 fragBullet:{
 type: LaserBulletType
-width: 1.35
+width: 2.5
 length: 120
 colors:[FFD280FF,FFD280FF,FFD280FF]
 damage: 35
 status: ichor-burn
 statusDuration: 120
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+despawnHit: true
+lightning: 5
+lightningDamage: 10
+lightningLength: 3.5
+}
+
 }
 
 }
