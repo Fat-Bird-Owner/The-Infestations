@@ -1,5 +1,5 @@
 type: PowerTurret
-name: "Brontide [red](Unfinished)"
+name: "Brontide"
 size: 3
 reload: 150
 range: 280
@@ -8,6 +8,7 @@ requirements:[item-silver/150,item-oxidium/100,item-hardened-calcite/60,item-con
 shootSound: shootReign
 inaccuracy: 1.5
 category: turret
+rotateSpeed: 2.5
 
 research:{
 parent: charge
