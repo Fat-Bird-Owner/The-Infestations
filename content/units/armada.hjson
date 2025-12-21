@@ -206,9 +206,9 @@ fragLifeMax: 1
 fragRandomSpread: 0
 
 // for the sake of it attacking
-speed: 5.5
+speed: 6
 lifetime: 100
-range: 550
+range: 600
 
 spawnBullets:[
 {
@@ -222,7 +222,7 @@ lifetime: 50
 width: 0
 frontColor: ffffff77
 backColor: 00000000
-keepVelocity
+keepVelocity: false
 bulletInterval: 5
 intervalRandomSpread: 0
 
