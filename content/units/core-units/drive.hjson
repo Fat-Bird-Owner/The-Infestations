@@ -1,6 +1,6 @@
 type: tether
 name: "Drive"
-description:"Basic mech unit able to build and heal blocks."
+description: "Basic mech unit able to build and heal blocks."
 health: 500
 armor: 1
 speed: 2.25
@@ -10,7 +10,7 @@ minesItem:[]
 mineWalls: true
 buildSpeed: 1.15
 mineSpeed: 0
-payloadCapacity: 32
+payloadCapacity: 576
 drag: 0.03
 accel: 0.1
 trailScl: 1
@@ -18,7 +18,7 @@ trailLength: 16
 flying: true
 itemCapacity: 40
 ammoCapacity: 1
-pickupUnits: true
+pickupUnits: false
 outlineColor: 2c2d38
 
 // mech pad module
