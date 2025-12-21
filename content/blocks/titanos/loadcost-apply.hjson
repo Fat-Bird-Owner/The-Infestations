@@ -1,0 +1,11 @@
+type: UnitFactory
+
+plans:[
+{
+unit: carbon-load
+
+requirements:[carbon-matter/10]
+}
+]
+
+buildVisibilty: debugOnly
