@@ -1,1 +1,4 @@
 buildVisibility: sandboxOnly
+description: "
+Produces gallium using slag and sand.
+"
