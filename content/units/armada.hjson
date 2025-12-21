@@ -15,11 +15,11 @@ loopSound: loopMachine
 
 health: 65000
 faceTarget: true
-armor: 22.4
+armor: 22.5
 hitSize: 52
 rotateSpeed: 2.5
 speed: 0.75
-drag: 1.25
+drag: 0.5
 canDrown: false
 outlineColor: 2c2d38
 
@@ -153,7 +153,6 @@ chargeSound: chargeCorvus
 shootStatus: spore-slowed
 shootStatusDuration: 220
 
-useAttackRange: true
 
 bullet:{
 chargeEffect:{
