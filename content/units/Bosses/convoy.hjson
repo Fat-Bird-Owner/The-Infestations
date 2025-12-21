@@ -94,7 +94,7 @@ type: LaserBulletType
 length: 480
 width: 30
 lifetime: 180
-damage: 1500
+damage: 3450
 pierce: true
 colors:[D2806CFF,D2806C77,D2806C33]
 status: melting
@@ -190,7 +190,7 @@ trailColor: EFE4CAFF66
 speed: 10
 lifetime: 30
 
-damage: 137.5
+damage: 450
 pierce: true
 pierceBuildings: true
 pierceCap: 3
