@@ -13,21 +13,21 @@ Has very good AOE weapons and starts fire very easily.
 immunities:[ret-shock,flamethrow-fail,hover-anchored]
 loopSound: loopMachine
 
-health: 75000
+health: 65000
 faceTarget: true
 armor: 22.4
 hitSize: 52
-rotateSpeed: 1.75
-speed: 0.6
-drag: 1.5
+rotateSpeed: 2.5
+speed: 0.75
+drag: 1.25
 canDrown: false
 outlineColor: 2c2d38
 
 weapons:[
 {
 reload: 180
-x: -0.5
-y: 15.5
+x: 0
+y: 8.5
 useAttackRange: true
 
 bullet:{
@@ -53,7 +53,7 @@ despawnHit: true
 hitSound: explosionTitan
 hitEffect: {
 type: WrapEffect
-effect: smokeAoeCloud
+effect: smokeCloud
 color: a393feff
 }
 speed: 4
@@ -74,8 +74,8 @@ trailLength: 28
 
 }
 {
-x: -0.5
-y: 15.5
+x: -0
+y: 8.5
 baseRotation: 45
 inacurracy: 7.5
 reload: 240
@@ -86,9 +86,9 @@ shootSound: blockExplodeFlammable
 shoot:{
 type: ShootAlternate
 barrels: 3
-spread: 2.5
-shots: 6
-shotDelay: 15
+spread: 5
+shots: 3
+shotDelay: 20
 }
 
 bullet:{
@@ -106,7 +106,7 @@ status: burning
 statusDuration: 175
 
 pierce: true
-pierceBuildings: true
+pierceBuilding: true
 
 damage: 65
 
@@ -134,7 +134,7 @@ trailColor: a393feff
 {
 reload: 450
 x: 0
-y: 15.5
+y: 8.5
 cooldownTime: 120
 
 shootY: 3.25
@@ -308,7 +308,7 @@ layer: 59.999
 type: SuppressionFieldAbility
 x: -0.5
 y: 8.4
-orbRadius: 20
+orbRadius: 24
 layer: 59.99
 reload:	120
 maxDelay:	30
@@ -321,7 +321,7 @@ range: 0
 x: -0.5
 y: -32.25
 layer: 59.9 
-orbRadius: 18.5
+orbRadius: 14
 // 64 y: 7
 display: false
 }
