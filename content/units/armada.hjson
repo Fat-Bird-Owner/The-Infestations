@@ -53,7 +53,7 @@ despawnHit: true
 hitSound: explosionTitan
 hitEffect: {
 type: WrapEffect
-effect: smokeCloud
+effect: titanSmokeLarge
 color: a393feff
 }
 speed: 4
@@ -105,20 +105,17 @@ trailLength: 28
 status: burning
 statusDuration: 175
 
-pierce: true
-pierceBuilding: true
+damage: 75
 
-damage: 65
-
-splashDamage: 104
-splashDamageRadius: 24
+splashDamage: 115
+splashDamageRadius: 32
 scaledSplashDamage: true
 makeFire: true
   
 despawnHit: true
 hitEffect: {
 type: WrapEffect
-effect: scatheExplosion
+effect: titanSmokeLarge
 color: a393feff
 }
 hitSound: wreckFallBig
@@ -218,13 +215,14 @@ spawnBullets:[
 type: BasicBulletType
 collides: false
 pierce: true
+keepVelocity: false
 speed: 11
 damage: 0
 lifetime: 50
 width: 0
 frontColor: ffffff77
 backColor: 00000000
-
+keepVelocity
 bulletInterval: 5
 intervalRandomSpread: 0
 
@@ -246,9 +244,9 @@ makeFire: true
 ]
 
 fragBullet:{
-
 type: LaserBulletType
 width: 32
+keepVelocity: false
 recoil: 2.5
 colors:[a393feff,a393fe88,a393fe44]
 damage: 145
@@ -320,7 +318,7 @@ range: 0
 x: -0.5
 y: -32.25
 layer: 59.9 
-orbRadius: 14
+orbRadius: 12
 // 64 y: 7
 display: false
 }
