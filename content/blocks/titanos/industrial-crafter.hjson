@@ -12,6 +12,15 @@ item-hardened-calcite/45
 item-conduction-quartz/30
 ]
 
+filter:[
+carbon-kiln
+]
+
+research:{
+parent: carbon-kiln
+}
+researchCostMultiplier: 0.45
+
 consumes:{
 power: 1.75
 }
