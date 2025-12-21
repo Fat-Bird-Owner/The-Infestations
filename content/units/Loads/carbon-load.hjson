@@ -1,0 +1,5 @@
+type: Missile
+lifetime: 180
+isEnemy: false
+hittable: false
+targetable: false
