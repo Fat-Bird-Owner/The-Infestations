@@ -9,6 +9,8 @@ buildTime: 1.5
 outputRouter: false
 recharge: 1
 
+shownPlanets: [titanos,tekera]
+
 research:{
 parent: filter-move-icon
 objective:[compact-laser-bore]
