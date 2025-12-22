@@ -8,9 +8,17 @@ squareSprite: false
 range: 3
 drillTime: 180
 researchCost:[item-silver/60]
+
+shownPlanets: [titanos,tekera]
+
 research:{
 parent: drill-icon
 }
+
+research:{
+parent: core-headquarter
+}
+
 consumes:{
 power: 0.035
 }
