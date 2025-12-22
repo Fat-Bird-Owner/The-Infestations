@@ -159,7 +159,7 @@ mirror: false
 
 shoot:{
 firstShotDelay: 235
-shots: 3
+shots: 1
 shotDelay: 35
 }
 shake: 12.5
@@ -235,9 +235,10 @@ type: BasicBulletType
 collides: false
 pierce: true
 keepVelocity: false
-speed: 11
+despawnHit: true
+speed: 22
 damage: 0
-lifetime: 50
+lifetime: 25
 width: 0
 frontColor: ffffff77
 backColor: 00000000
@@ -254,21 +255,22 @@ hitEffect: railHit
 fragBullets: 1
 fragBullet:{
 type: EmptyBulletType
-splashDamage: 15
-splashDamagwRadius: 80
+splashDamage: 650
+splashDamageRadius: 160
 scaledSplashDamage: true
 makeFire: true
+hitEffect: reactorExplosion
 }
 }
 ]
 
 fragBullet:{
 type: LaserBulletType
-width: 32
+width: 44
 keepVelocity: false
 recoil: 2.5
 colors:[a393feff,a393fe88,a393fe44]
-damage: 145
+damage: 1250
 length: 600
 lifetime: 120
 makeFire: true
