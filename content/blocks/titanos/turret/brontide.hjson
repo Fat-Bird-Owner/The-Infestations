@@ -7,6 +7,7 @@ Shoots burst of lasers, requires water to operate.
 "
 size: 3
 reload: 150
+predictTarget: false
 range: 280
 cooldownTime: 120
 requirements:[item-silver/150,item-oxidium/100,item-hardened-calcite/60,item-conduction-quartz/50]
