@@ -1,8 +1,0 @@
-type: LiquidJunction
-name: "Pipe Junction"
-requirements:[item-silver/15,item-oxidium/5,item-hardened-calcite/5]
-category: liquid
-
-research:{
-parent: hydraulic-pipe
-}
