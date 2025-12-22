@@ -4,6 +4,7 @@ type: Router
 
 name: Supplier
 description: "Evenly distributes items to every output direction. Evenly. [red]praise the router"
+shownPlanets: [titanos,tekera]
 
 // general stats
 
