@@ -51,6 +51,16 @@ makeFire: true
 splashDamageRadius: 56
 despawnHit: true
 hitSound: explosionTitan
+
+parts:[
+{
+type: FlarePart
+sides: 2
+radius: 40
+color1: a393feff
+}
+]
+
 hitEffect: {
 type: WrapEffect
 effect: titanSmokeLarge
@@ -101,6 +111,15 @@ homingPower: 0.15
 homingDelay: 20
 trailWidth: 2.5
 trailLength: 28
+
+parts:[
+{
+type: FlarePart
+sides: 2
+radius: 25
+color1: a393feff
+}
+]
 
 status: burning
 statusDuration: 175
