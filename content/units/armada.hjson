@@ -49,9 +49,10 @@ type: ArtilleryBulletType
 splashDamage: 50
 makeFire: true
 splashDamageRadius: 56
+homingPower: 0.0015
+homingDelay: 40
 despawnHit: true
 hitSound: explosionTitan
-
 parts:[
 {
 type: FlarePart
@@ -61,9 +62,10 @@ color1: a393feff
 }
 ]
 
+hitShake: 8.5
 hitEffect: {
 type: WrapEffect
-effect: titanSmokeLarge
+effect: titanExplosion
 color: a393feff
 }
 speed: 4
