@@ -1,5 +1,6 @@
-type: hover
+type: payload
 hovering: true
+payloadCapacity: 576
 name: "Siege"
 description: "
 Type: [purple]Hover[]
