@@ -1,6 +1,6 @@
 type: UnitFactory
 name: "General Constructor"
-category: payload
+category: units
 description: "Constructs all types units more efficently, required more than just power."
 size: 3
 
