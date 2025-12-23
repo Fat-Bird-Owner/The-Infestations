@@ -4,6 +4,8 @@ category: units
 description: "Constructs all types units more efficently, required more than just power."
 size: 3
 
+requirements:[itwm-silver/150,item-oxidium/95]
+
 consumes:{
 power: 1.65
 liquids:[water/0.33334,steam/0.33334]
