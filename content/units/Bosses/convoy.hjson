@@ -19,6 +19,7 @@ radius: 45
 drawArc: false
 max: 2500
 missileUnitMultiplier: 0.35
+chanceDeflect: 6.5
 regen: 0
 }
 ]
