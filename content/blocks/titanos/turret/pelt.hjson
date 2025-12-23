@@ -24,7 +24,7 @@ type: ShootAlternate
 shots: 2
 spread: 2.5
 shotDelay: 0
-barrel: 3
+barrels: 6
 }
 
 coolant:{
@@ -53,10 +53,11 @@ height: 7
 width: 5
 trailWidth: 1
 trailLength: 7
-lifetime: 20
+lifetime: 10
 speed: 5
 status: flamethrow-fail
 statusDuration: 10
+trailColor: ffffff55
 }
 
 }
@@ -76,17 +77,18 @@ frontColor: 5c5e9f
 fragBullets: 6
 fragBullet: {
 type: BasicBulletType
-damage: 4.5
+damage: 3.5
 height: 7
 pierce: true
 width: 5
 trailWidth: 1
 trailLength: 7
 speed: 5
-lifetime: 20
+lifetime: 10
 status: blasted
 backColor: 9c88c3
 frontColor: 5c5e9f
+trailColor: 9c88c355
 }
 
 }
