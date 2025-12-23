@@ -35,9 +35,30 @@ defaultCommand: rebuild
 controller: BuilderAI
 fogRadius: 320
 lightRadius: 320
-rotateSpeed: 5
+rotateSpeed: 0
 
 immunities:[rallied]
+
+weapons:[
+{
+type: BuildWeapon
+x: 12
+y: 12
+name: "construct-drone"
+rotateSpeed: 3.5
+shootCone: 25
+mirror: true
+}
+{
+type: BuildWeapon
+x: 12
+y: -12
+name: "construct-drone"
+rotateSpeed: 3.5
+shootCone: 25
+mirror: true
+}
+]
 
 abilities:[
 {
