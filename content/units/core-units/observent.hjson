@@ -55,6 +55,8 @@ type: HoverPart
 radius: 6.5
 x: 0
 y: -6.5
+layerOffset: -0.01
+color: ff795e
 }
 ]
 
@@ -74,6 +76,8 @@ type: HoverPart
 radius: 6.5
 x: 0
 y: -6.5
+layerOffset: -0.01
+color: ff795e
 }
 ]
 
