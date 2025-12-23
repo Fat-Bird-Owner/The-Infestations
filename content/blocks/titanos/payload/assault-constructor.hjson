@@ -23,7 +23,7 @@ requirements:[item-silver/50,item-oxidium/60,item-hardened-calcite/5]
 time: 850
 }
 {
-unit: shift
+unit: raid
 requirements:[item-silver/75,item-oxidium/55,item-hardened-calcite/25,item-conduction-quartz/20]
 time: 1200
 }
