@@ -7,6 +7,8 @@ shieldHealth: 1250
 consumeCoolant: false
 category: defense
 
+requirements:[item-silver/105,item-oxidium/85,item-hardened-calcite/65,item-conduction-quartz/35,item-carbon-matter/25]
+
 consumes:{
 power: 2.45
 }
