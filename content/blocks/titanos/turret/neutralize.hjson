@@ -15,8 +15,8 @@ type: MissileBulletType
 damage: 85
 splashDamage: 165
 splashDamageRadius: 48
-speed: -1
-accel: -0.05
+drag: 0.1
+accel: 0.05
 lifetime: 131
 width: 15
 height: 42
