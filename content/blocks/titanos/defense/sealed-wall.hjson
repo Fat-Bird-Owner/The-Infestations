@@ -20,7 +20,7 @@ barrier-emitter
 
 consumes:{
 liquids:[
-steam/0.01667
+water/0.01667
 ]
 }
 
