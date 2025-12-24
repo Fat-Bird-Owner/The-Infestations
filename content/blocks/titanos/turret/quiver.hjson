@@ -4,6 +4,9 @@ description: "Fires a massive missile, Such missiles cant be shot down."
 maxAmmo: 15
 ammoPerShot: 5
 
+range: 300
+requirements:[]
+category: turrets
 
 ammoTypes:{
 item-carbon-matter:{
@@ -15,6 +18,7 @@ width: 30
 height: 42
 despawnHit: true
 trailEffect: missileTrailSmoke
+hitSound: explosionReactor
 trailChance: 0.15
 hitShake: 17.5
 hitEffect: scatheExplosion
