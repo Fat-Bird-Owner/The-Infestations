@@ -8,7 +8,8 @@ isLiquid: true
 cacheLayer: water
 albedo: 0.9
 supportsOverlay: true
-  
+variants: 0
+
 attributes:{
-flowing: 0.25
+flow: 0.25
 }
