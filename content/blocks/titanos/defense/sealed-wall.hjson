@@ -1,6 +1,7 @@
 type: RegenProjector
 name: "Sealed Wall"
-description: "A tough wall, Absorbs lasers and slowly repair itself using steam. Immune to being supressed."
+description: "A tough wall, Absorbs lasers and slowly repair itself using steam.[purple] Immune to being suppressed.[]"
+connectedPower: false
 priority: -2.5
 health: 3250
 size: 2
