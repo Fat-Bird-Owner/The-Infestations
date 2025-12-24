@@ -31,8 +31,8 @@ minPitch: 1
 maxPitch: 1
 minVolume: 1
 maxVolume: 1
+effect: missileTrailSmoke
 }
-missileTrailSmoke
 ]
 }
 
