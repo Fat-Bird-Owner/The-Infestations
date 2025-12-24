@@ -3,7 +3,7 @@ name: Watermill
 size: 2
 displayEfficiency: false
 powerProduction: 0.75
-attribute: flowing
+attribute: flow
 category: power
 
 requirements:[item-silver/45,item-oxidium/25]
