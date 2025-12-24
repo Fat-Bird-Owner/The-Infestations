@@ -4,6 +4,7 @@ description: "Fires a massive missile, Such missiles cant be shot down."
 maxAmmo: 15
 ammoPerShot: 5
 
+reload: 340
 range: 300
 size: 3
 requirements:[]
@@ -28,8 +29,8 @@ type: SoundEffect
 sound: loopSpray
 minPitch: 1
 maxPitch: 1
-minVolume: 1
-maxVolume: 1
+minVolume: 0.5
+maxVolume: 0.5
 effect: missileTrailSmoke
 }
 ]
