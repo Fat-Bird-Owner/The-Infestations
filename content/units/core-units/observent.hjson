@@ -20,6 +20,7 @@ drag: 1000
 engineSize: 0
 flying: true
 itemCapacity: 0
+createWreck: false
 hitSize: 5
 ammoCapacity: 1
 payloadCapacity: 0
@@ -38,51 +39,6 @@ lightRadius: 320
 rotateSpeed: 0
 
 immunities:[rallied]
-
-weapons:[
-{
-type: BuildWeapon
-x: 16
-y: 16
-name: "construct-drone"
-rotateSpeed: 3.5
-shootCone: 25
-mirror: true
-
-parts:[
-{
-type: HoverPart
-radius: 6.5
-x: 0
-y: -6.5
-layerOffset: -0.01
-color: ff795e
-}
-]
-
-}
-{
-type: BuildWeapon
-x: 16
-y: -16
-name: "construct-drone"
-rotateSpeed: 3.5
-shootCone: 25
-mirror: true
-
-parts:[
-{
-type: HoverPart
-radius: 6.5
-x: 0
-y: -6.5
-layerOffset: -0.01
-color: ff795e
-}
-]
-
-}
-]
 
 abilities:[
 {
