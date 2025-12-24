@@ -1,0 +1,22 @@
+type: ItemTurret
+name: "Quiver"
+description: "Fires a massive missile, Such missiles cant be shot down."
+maxAmmo: 15
+ammoPerShot: 5
+
+
+ammoTypes:{
+item-carbon-matter:{
+type: MissileBulletType
+speed: -1
+accel: 0.05
+lifetime: 300
+width: 30
+height: 42
+despawnHit: true
+trailEffect: missileTrailSmoke
+trailChance: 0.15
+hitShake: 17.5
+hitEffect: scatheExplosion
+}
+}
