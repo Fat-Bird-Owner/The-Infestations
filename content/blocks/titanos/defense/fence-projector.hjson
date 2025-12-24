@@ -7,6 +7,8 @@ shieldHealth: 250
 consumeCoolant: false
 coolantConsumption: 0
 category: defense
+breakSound: explosionTitan
+
 
 requirements:[item-silver/105,item-oxidium/85,item-hardened-calcite/65,item-conduction-quartz/35,item-carbon-matter/25]
 
@@ -31,17 +33,18 @@ sizeTo: 0
 colorFrom: ffffff
 colorTo: ffffff00
 lifetime: 30
+interp: exp4
 }
 {
 type: ParticleEffect
 lengh: 80
-interp: pow4In
+interp: sine
 particles: 15
 colorFrom: 5f5f5f
-sizeFrom: 16
+sizeFrom: 4
 sizeTo: 24
 colorTo: 7f7f7f00
-lifetime: 180
+lifetime: 140
 }
 ]
 }
