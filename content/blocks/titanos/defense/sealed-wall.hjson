@@ -2,7 +2,7 @@ type: RegenProjector
 name: "Sealed Wall"
 description: "A tough wall, Absorbs lasers and slowly repair itself using steam. Immune to being supressed."
 priority: -2.5
-health: 1450
+health: 3250
 size: 2
 absorbLasers: true
 albedo: 0.35
