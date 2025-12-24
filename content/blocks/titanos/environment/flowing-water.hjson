@@ -1,5 +1,5 @@
 type: floor
-speedMultiplier = 0.5f;
+speedMultiplier: 0.5
 variant: 0
 status: wet
 statusDuration: 90
