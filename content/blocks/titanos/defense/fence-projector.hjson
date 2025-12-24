@@ -33,7 +33,7 @@ sizeTo: 0
 colorFrom: ffffff
 colorTo: ffffff00
 lifetime: 30
-interp: exp4
+interp: sine
 }
 {
 type: ParticleEffect
