@@ -1,0 +1,11 @@
+type: ForceProjector
+name: Fence Projector
+radius: 80
+sides: 4
+shieldRotation:	45
+shieldHealth: 1250
+consumeCoolant: false
+
+consumes:{
+power: 2.45
+}
