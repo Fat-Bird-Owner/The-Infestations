@@ -9,14 +9,13 @@ coolantConsumption: 0
 category: defense
 breakSound: explosionTitan
 
-
 requirements:[item-silver/105,item-oxidium/85,item-hardened-calcite/65,item-conduction-quartz/35,item-carbon-matter/25]
 
 absorbEffect:{
 type: WaveEffect
 sizeFrom: 8
 sizeTo: 0
-strokeFrom: 4
+strokeFrom: 2
 strokeTo: 0
 lifetime: 45
 }
@@ -26,25 +25,16 @@ type: MultiEffect
 effects:[
 {
 type: WaveEffect
-strokeFrom: 4
-strokeTo: 0
+strokeFrom: 8
+strokeTo: 4
 sizeFrom: 40
 sizeTo: 0
+rotation: 45
 colorFrom: ffffff
 colorTo: ffffff00
 lifetime: 30
+sides: 4
 interp: sine
-}
-{
-type: ParticleEffect
-lengh: 80
-interp: sine
-particles: 15
-colorFrom: 5f5f5f
-sizeFrom: 4
-sizeTo: 24
-colorTo: 7f7f7f00
-lifetime: 140
 }
 ]
 }
