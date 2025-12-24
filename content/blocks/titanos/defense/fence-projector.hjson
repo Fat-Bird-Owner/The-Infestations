@@ -25,11 +25,10 @@ type: MultiEffect
 effects:[
 {
 type: WaveEffect
-strokeFrom: 8
-strokeTo: 4
+strokeFrom: 4
+strokeTo: 2
 sizeFrom: 40
 sizeTo: 0
-rotation: 45
 colorFrom: ffffff
 colorTo: ffffff00
 lifetime: 30
