@@ -1,0 +1,14 @@
+type: floor
+speedMultiplier = 0.5f;
+variant: 0
+status: wet
+statusDuration: 90
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
+  
+attributes:{
+flowing: 0.25
+}
