@@ -5,6 +5,7 @@ sides: 4
 shieldRotation:	45
 shieldHealth: 1250
 consumeCoolant: false
+category: defense
 
 consumes:{
 power: 2.45
