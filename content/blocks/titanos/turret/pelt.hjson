@@ -22,9 +22,8 @@ outlineColor: 2c2d38
 shoot:{
 type: ShootAlternate
 shots: 2
-spread: 2.5
+spread: 3.5
 shotDelay: 0
-barrels: 6
 }
 
 coolant:{
@@ -53,7 +52,7 @@ height: 7
 width: 5
 trailWidth: 1
 trailLength: 7
-lifetime: 10
+lifetime: 5
 speed: 5
 status: flamethrow-fail
 statusDuration: 10
