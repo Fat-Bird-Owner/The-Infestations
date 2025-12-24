@@ -58,6 +58,7 @@ speed: 5
 status: flamethrow-fail
 statusDuration: 10
 trailColor: ffffff55
+despawnEffect: none
 }
 
 }
@@ -89,6 +90,7 @@ status: blasted
 backColor: 9c88c3
 frontColor: 5c5e9f
 trailColor: 9c88c355
+despawnEffect: none
 }
 
 }
