@@ -1,5 +1,6 @@
 type: ForceProjector
 name: Fence Projector
+description: "Creates a small barrier to stop bullets,[lightgrey] Use for piercing bullets."
 radius: 80
 sides: 4
 shieldRotation:	45
