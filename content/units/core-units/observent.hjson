@@ -33,7 +33,7 @@ softShadowScl: 0
 commands: [move, repair, rebuild, assist]
 defaultCommand: rebuild
 controller: BuilderAI
-fogRadius: 320
+fogRadius: 40
 lightRadius: 320
 rotateSpeed: 0
 
