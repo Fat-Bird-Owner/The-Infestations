@@ -5,6 +5,7 @@ maxAmmo: 15
 ammoPerShot: 5
 
 range: 300
+size: 3
 requirements:[]
 category: turret
 
@@ -15,12 +16,26 @@ damage: 85
 splashDamage: 165
 splashDamageRadius: 48
 speed: -1
-accel: 0.05
-lifetime: 300
-width: 30
+accel: -0.05
+lifetime: 131
+width: 15
 height: 42
 despawnHit: true
-trailEffect: missileTrailSmoke
+trailEffect:{
+type: MultiEffect
+effects:[
+{
+type: SoundEffect
+sound: loopSpray
+minPitch: 1
+maxPitch: 1
+minVolume: 1
+maxVolume: 1
+}
+missileTrailSmoke
+]
+}
+
 hitSound: explosionReactor
 trailChance: 0.15
 hitShake: 17.5
