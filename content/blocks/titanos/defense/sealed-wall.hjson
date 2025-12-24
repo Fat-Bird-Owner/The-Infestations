@@ -9,6 +9,7 @@ albedo: 0.35
 blockGroup: walls
 suppressable: false
 baseColor: 8f8f8f00
+category: defense
 
 research:{
 parent: silver-wall
