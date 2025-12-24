@@ -6,7 +6,9 @@ health: 1450
 size: 2
 absorbLasers: true
 albedo: 0.35
+blockGroup: walls
 suppressable: false
+baseColor: 8f8f8f00
 
 research:{
 parent: silver-wall
@@ -23,6 +25,6 @@ steam/0.01667
 
 requirements:[item-silver/25,item-hardened-calcite/15,item-conduction-quartz/5]
 range: 0.01
-healPercent: 0.0125
+healPercent: 0.025
 effect: none
   
