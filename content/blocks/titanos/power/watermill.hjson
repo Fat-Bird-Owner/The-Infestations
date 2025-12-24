@@ -1,0 +1,14 @@
+type: ThermalGenerator
+name: Watermill
+size: 2
+displayEfficiency: false
+powerProduction: 0.75
+attribute: flowing
+category: power
+
+requirements:[item-silver/45,item-oxidium/25]
+  
+research:{
+parent: convection-generator
+}
+researchCostMultiplier: 0.35
