@@ -2,7 +2,11 @@ type: WallCrafter
 name: Crystal Quarry
 attribute: oxidium
 output: item-oxidium
-drillTime: drillTime
+drillTime: 120
+
+consumes:{
+power: 0.2
+}
 
 requirements:[
 item-silver/35
