@@ -11,5 +11,5 @@ supportsOverlay: true
 variants: 0
 
 attributes:{
-flow: 0.25
+flowing: 1
 }
