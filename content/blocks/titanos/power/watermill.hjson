@@ -12,3 +12,17 @@ research:{
 parent: convection-generator
 }
 researchCostMultiplier: 0.35
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawBlurSpin
+suffix: "-wheel"
+rotateSpeed: 0.5
+}
+]
+}
