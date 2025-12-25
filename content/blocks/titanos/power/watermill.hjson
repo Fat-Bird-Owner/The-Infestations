@@ -1,7 +1,9 @@
-type: PowerGenerator
+type: ThermalGenerator
 name: Watermill
 size: 2
 powerProduction: 0.75
+attribute: flowing
+
 category: power
 
 requiresWater: true
