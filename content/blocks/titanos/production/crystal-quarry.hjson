@@ -1,0 +1,20 @@
+type: WallCrafter
+name: Crystal Quarry
+attribute: oxidium
+output: item-oxidium
+drillTime: drillTime
+
+requirements:[
+item-silver/35
+item-oxidium/25
+]
+
+research:{
+parent: compact-laser-bore
+objectives:[
+{
+type: SectorComplete
+preset: entrenched
+}
+]
+}
