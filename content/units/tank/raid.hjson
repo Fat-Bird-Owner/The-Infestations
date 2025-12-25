@@ -24,7 +24,7 @@ outlineColor: "2c2d38"
 
 // research
 research:{
-paret: assault-constructor
+paret: assualt-constructor
 }
 researchCostMultiplier: 0.65
 
