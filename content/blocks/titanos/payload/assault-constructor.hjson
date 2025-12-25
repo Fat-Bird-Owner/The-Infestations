@@ -1,10 +1,20 @@
 type: UnitFactory
 name: "General Constructor"
 category: units
-description: "Constructs all types units more efficently, required more than just power."
+description: "Constructs all types units more efficently, requires power."
 size: 3
 
-requirements:[item-silver/150,item-oxidium/95]
+requirements:[item-silver/150,item-oxidium/95,item-conduction-quartz/45,item-hardened-calcite/55]
+
+research:{
+parent: core-satellite
+objectives:[
+{
+type: SectorComplete
+preset: scrap-yard-bunker
+}
+]
+}
 
 consumes:{
 power: 1.65
