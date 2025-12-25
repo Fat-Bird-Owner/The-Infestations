@@ -105,7 +105,7 @@ explosion
 }
 
 research:{
-parent: mech-forge-framework
+parent: assualt-constructor
 requiresUnlock: false
 }
 
