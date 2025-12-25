@@ -1,15 +1,12 @@
-type: ThermalGenerator
+type: PowerGenerator
 name: Watermill
 size: 2
-displayEfficiency: false
 powerProduction: 0.75
-attribute: flowing
 category: power
 
+requiresWater: true
 requirements:[item-silver/45,item-oxidium/25]
 floating: true
-displayEfficiencyScale: 0.25
-minEfficiency: 1
 research:{
 parent: convection-generator
 }
