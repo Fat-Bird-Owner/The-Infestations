@@ -19,7 +19,7 @@ outlineColor: 2c2d38
 
 // research
 research:{
-parent: mech-forge-framework
+parent: assault-constructor
 }
 researchCostMultiplier: 0.2
 
