@@ -6,7 +6,6 @@ attribute: flowing
 
 category: power
 
-requiresWater: true
 requirements:[item-silver/45,item-oxidium/25]
 floating: true
 research:{
