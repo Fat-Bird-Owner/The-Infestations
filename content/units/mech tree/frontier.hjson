@@ -104,11 +104,6 @@ explosion
 
 }
 
-research:{
-parent: assualt-constructor
-requiresUnlock: false
-}
-
 abilities:[
 {
 type: LiquidRegenAbility
