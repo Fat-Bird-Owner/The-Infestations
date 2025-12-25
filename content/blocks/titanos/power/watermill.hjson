@@ -1,13 +1,13 @@
-type: ThermalGenerator
+type: ConsumeGenerator
 name: Watermill
 size: 2
 powerProduction: 0.75
-attribute: flowing
+consumes:[]
 
 category: power
 
+placeableLiquid: true
 requirements:[item-silver/45,item-oxidium/25]
-floating: true
 research:{
 parent: convection-generator
 }
