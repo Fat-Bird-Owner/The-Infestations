@@ -20,7 +20,7 @@ abilities:[
 {
 type: LiquidExplodeAbility
 liquid: blood	
-amount:450
+amount: 450
 radAmountScale:	5.0	
 radScale:	1.225
 noiseMag:	6.5	
