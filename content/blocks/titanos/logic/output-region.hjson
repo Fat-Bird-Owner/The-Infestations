@@ -1,11 +1,21 @@
 // general
 
 type: MessageBlock
-name: Output Region
+name: String Display
 category: logic
 health: 250
 
-description:"Displays messages, Can also be change via the console's logic."
+research:{
+parent: core-satellite
+objectives:[
+{
+type: SectorComplete
+preset: blast-site
+}
+]
+}
+
+description: "Displays strings, Can also be change via the console's logic."
 
 // class related
 
@@ -15,5 +25,7 @@ maxNewlines: 36
 // others
 
 requirements:[
-item-silver/30
+item-silver/25
+item-oxidium/15
+item-conduction-quartz/5
 ]
