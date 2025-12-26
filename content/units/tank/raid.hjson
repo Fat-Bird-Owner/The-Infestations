@@ -8,7 +8,7 @@ Type:[red] Assault[]
 Class:[orange] Tank[]
 "
 
-immunities:[flamethrow-fail,ret-shock]
+immunities:[flamethrow-fail,ret-shock,hover-anchored]
 
 hitSize: 18
 range: 120
@@ -24,7 +24,7 @@ outlineColor: "2c2d38"
 
 // research
 research:{
-paret: assault-constructor
+paret: frontier
 }
 researchCostMultiplier: 0.65
 
