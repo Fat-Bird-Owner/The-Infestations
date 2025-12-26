@@ -3,7 +3,7 @@ type: legs
 hitSize: 16
 health: 500
 name: Skull Collector
-armor: 4
+armor: -5
 speed: 1.25
 mineSpeed: 1
 omniMovement: true
@@ -16,11 +16,11 @@ itemCapacity: 50
 outlineColor: 313131FF
 
 // funni spider
-legGroupSize: 1
+legGroupSize: 2
 legCount: 6
-legMoveSpace: 2
+legMoveSpace: 1.25
 legPairOffset: 16
 stepShake: 0.4
 legLengthScl: 2
-legLength: 24
+legLength: 16
 legSpeed: 0.1
