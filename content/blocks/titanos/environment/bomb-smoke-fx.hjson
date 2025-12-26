@@ -1,6 +1,8 @@
 type: SteamVent
 parent: moss-stone
 effectSpacing: 5
+effectColor: 3f3f3f
+placeableOn: false
 
 effect:{
 type: WrapEffect
@@ -8,14 +10,14 @@ rotation: 35
 
 effect:{
 type: ParticleEffect
-cone: 35
+cone: 25
 particles: 6
 colorFrom: 3f3f3f
 colorTo: 3f3f3f00
 sizeFrom: 8
 sizeTo: 16
-lifetime: 90
-length: 110
+lifetime: 135
+length: 180
 }
 
 }
