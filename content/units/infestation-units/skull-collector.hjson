@@ -16,10 +16,11 @@ itemCapacity: 50
 outlineColor: 313131FF
 
 // funni spider
+legGroupSize: 1
 legCount: 6
-legMoveSpace: 3
+legMoveSpace: 4.5
 legPairOffset: 16
 stepShake: 0.4
 legLengthScl: 2
-legLength: 16
+legLength: 32
 legSpeed: 0.1
