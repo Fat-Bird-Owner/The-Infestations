@@ -6,11 +6,11 @@ consumes:{
 items:[
 item-shale/2
 ]
-power: 0.45
 }
+
 results:[
-item-conduction-quartz/45
-item-hardened-calcite/55
+item-conduction-quartz/40
+item-hardened-calcite/60
 ]
 
 health: 300
