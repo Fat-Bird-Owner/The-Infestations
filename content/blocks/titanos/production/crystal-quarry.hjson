@@ -3,6 +3,7 @@ name: Crystal Quarry
 attribute: oxidium
 output: item-oxidium
 drillTime: 120
+category: production
 
 consumes:{
 power: 0.2
