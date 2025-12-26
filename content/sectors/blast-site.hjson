@@ -11,8 +11,9 @@ Beware of the enemy reinforcement wave.
   
 [tan]
 Modifiers:
-- High amounts of constructor
+- Many constructors
 - Reinforcement wave
+- Slagless
 "
 
 research: {
