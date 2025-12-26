@@ -1,9 +1,10 @@
 type: LogicBlock
 name: Bind Tower
 description: "Very high binding range but low proccess rate, Requires power."
+size: 2
 
 range: 400
-instructionsPerTick: 0.3334
+instructionsPerTick: 1
 category: logic
 
 consumes:{
