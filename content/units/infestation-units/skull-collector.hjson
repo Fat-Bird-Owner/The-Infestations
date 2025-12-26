@@ -18,7 +18,7 @@ outlineColor: 313131FF
 // funni spider
 legCount: 6
 legMoveSpace: 3
-legPairOffset: 8
+legPairOffset: 16
 stepShake: 0.4
 legLengthScl: 2
 legLength: 16
