@@ -13,6 +13,7 @@ commands:[mine]
 mineItem:[item-silver]
 mineTier: 1
 itemCapacity: 50
+outlineColor: 313131FF
 
 // funni spider
 legCount: 4
