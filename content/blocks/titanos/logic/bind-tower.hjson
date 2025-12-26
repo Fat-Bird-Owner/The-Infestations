@@ -1,0 +1,22 @@
+type: LogicBlock
+name: Bind Tower
+description: "Very high binding range but low proccess rate, Requires power."
+
+range: 400
+instructionsPerTick: 0.3334
+category: logic
+
+consumes:{
+power: 0.1
+}
+
+requirements:[
+item-silver/50
+item-oxidium/35
+item-conduction-quartz/20
+item-hardened-calcite/15
+]
+
+research:{
+parent: micro-console
+}
