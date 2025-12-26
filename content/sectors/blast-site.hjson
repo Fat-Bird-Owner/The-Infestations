@@ -1,8 +1,8 @@
 localizedName: "Blast Site"
-difficulty: 7.5
+difficulty: 6.5
 planet: titanos
 showSectorLandInfo: false
-sector: 27
+sector: 70
 
 description: "
 A small facility is built here, This sector has no slag and instead pools of water.
