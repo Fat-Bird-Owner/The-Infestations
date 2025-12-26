@@ -15,7 +15,10 @@ category: defense
 research:{
 parent: silver-wall
 objectives:[
-barrier-emitter
+{
+type: SectorComplete
+preset: entrenched
+}
 ]
 }
 
