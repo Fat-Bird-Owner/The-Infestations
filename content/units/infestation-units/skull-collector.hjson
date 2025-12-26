@@ -15,6 +15,20 @@ mineTier: 1
 itemCapacity: 50
 outlineColor: 313131FF
 
+
+abilities:[
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount:450
+radAmountScale:	5.0	
+radScale:	1.225
+noiseMag:	6.5	
+display: false
+noiseScl: 2.34
+}
+]
+
 // funni spider
 legGroupSize: 2
 legCount: 6
