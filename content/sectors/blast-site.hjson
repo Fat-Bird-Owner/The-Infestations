@@ -1,0 +1,28 @@
+localizedName: "Blast Site"
+difficulty: 7.5
+planet: titanos
+showSectorLandInfo: false
+sector: 27
+
+description: "
+A small facility is built here, This sector has no slag and instead pools of water.
+Utilize watermill for power generation and Use crystal quarry to mine oxidium.
+Beware of the enemy reinforcement wave.
+  
+[tan]
+Modifiers:
+- Fog of war
+- Reinforcement wave
+"
+
+research: {
+  parent: entrenched
+  objectives:[
+  {
+  type: SectorComplete
+  preset: entrenched
+  }
+  crystal-quarry
+  watermill
+  ]
+}
