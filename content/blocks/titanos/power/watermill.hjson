@@ -10,6 +10,12 @@ requiresWater: true
 requirements:[item-silver/45,item-oxidium/25]
 research:{
 parent: convection-generator
+objectives:[
+{
+type: SectorComplete
+preset: entrenched
+}
+]
 }
 researchCostMultiplier: 0.35
 
