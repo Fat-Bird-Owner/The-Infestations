@@ -15,11 +15,11 @@ lockLegBase: true
 legContinuousMove: true
 emitWalkEffect: false
 legPairOffset: 2
-stepShake: 1.35
+stepShake: 0.45
 legLengthScl: 0.95
 legSpeed: 0.25
 LegStraightness: 0.35
-legLength: 16
+legLength: 32
 
 weapons:[
 {
