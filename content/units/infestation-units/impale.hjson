@@ -2,11 +2,12 @@
 type: legs
 hitSize: 16
 health: 850
-name: Ignition
+name: Swarm
 speed: 0.65
 omniMovement: true
 shootCone: 30
 outlineColor: 2c2d38
+drawCell: false
 
 // funni spider
 legCount: 6
@@ -19,40 +20,41 @@ stepShake: 0.45
 legLengthScl: 0.95
 legSpeed: 0.125
 LegStraightness: 0.35
-legLength: 32
+legLength: 4
 
-targetFlags:[generator, turret, core]
+targetFlags:[turret, generator, core]
 
 weapons:[
 {
-reload: 5
+reload: 120
 shootSound: shootArtillerySmall
 shootStatus: slow
-shootStatusDuration: 60
+shootStatusDuration: 180
 mirror: false
 x: 0
 y: 0
 
+shoot:{
+type: ShootSpreas
+barrels: 5
+spread: 2.5
+}
+
 bullet:{
-type: FireBulletType
-hitSize: 20
-damage: 10
-drag: 0
-accel: 0
-speed: 5
+type: MissileBulletType
+speed: 3
 lifetime: 60
+damage: 15
+hitShake: 2.5
 makeFire: true
-status: melting
+recoil: 0.15
+
+puddles: 5
+puddleRange: 4
+puddleLiquid: blood
+puddleAmount: 25
 }
 
 
-}
-]
-
-abilities:[
-{
-type: SpawnDeathAbility
-unit: infested-mass
-amount: 2
 }
 ]
