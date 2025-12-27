@@ -2,6 +2,7 @@
 type: legs
 hitSize: 16
 health: 850
+name: Ignition
 speed: 0.65
 omniMovement: true
 shootCone: 30
@@ -20,52 +21,21 @@ legSpeed: 0.125
 LegStraightness: 0.35
 legLength: 32
 
+targetFlags:[generator, core]
+
 weapons:[
 {
-reload: 180
+reload: 20
 shootSound: shootArtillerySmall
 shootStatus: slow
-shootStatusDuration: 240
+shootStatusDuration: 60
 
 bullet:{
-
-type: BasicBulletType
-puddles: 8
-puddleRange: 6
-puddleAmount: 35
-puddleLiquid: blood
-
-parts:[
-{
-type: FlarePart
-sides: 2
-color1: 8f0000ff
-radius: 18
-}
-]
-
-recoil: 2.5
-speed: 6
-hitShake: 15
-width: 12.5
-height: 18
-lifetime: 60
-damage: 105
-fragSpread: 30
-frontColor: 8f0000ff
-backColor: 8f0000ff
-trailColor: ff000088
-trailWidth: 2.4
-trailLength: 18
-status: frag
-statusDuration: 1
-splashDamage: 15
-scaledSplashDamage: true
-impact: true
-knockBack: 3.5
-splashDamageRadius: 60
-hitEffect: explosion
-
+type: FireBulletType
+hitSize: 20
+damage: 35
+makeFire: true
+status: melting
 }
 
 
