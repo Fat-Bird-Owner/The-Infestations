@@ -23,7 +23,8 @@ legLength: 32
 
 weapons:[
 {
-reload: 3
+reload: 50
+shootSound: shootArtillerySmall
 
 bullet:{
 
