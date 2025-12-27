@@ -40,12 +40,12 @@ type: ShootSpreas
 barrels: 5
 spread: 2.5
 shots: 10
-shotDelay: 1
+shotDelay: 5
 }
-inacurracy: 7.5
 
 bullet:{
 type: MissileBulletType
+inaccuracy: 7.5
 speed: 3
 lifetime: 60
 damage: 15
