@@ -2,7 +2,7 @@
 type: legs
 hitSize: 16
 health: 850
-speed: 1.35
+speed: 0.85
 omniMovement: true
 shootCone: 30
 range: 120
@@ -17,7 +17,7 @@ emitWalkEffect: false
 legPairOffset: 2
 stepShake: 0.45
 legLengthScl: 0.95
-legSpeed: 0.25
+legSpeed: 0.125
 LegStraightness: 0.35
 legLength: 32
 
@@ -26,16 +26,46 @@ weapons:[
 reload: 3
 
 bullet:{
-type: SapBulletType
-length: 120
-damage: 6
-lifeSteal: 1.25
-makeFire: true
-puddles: 5
+
+type: BasicBulletType
+puddles: 8
+puddleRange: 6
+puddleAmount: 35
 puddleLiquid: blood
-puddleAmount: 25
-puddleRange: 4
+
+parts:[
+{
+type: FlarePart
+sides: 2
+color1: 8f0000ff
+radius: 7.5
 }
+]
+
+speed: 3
+width: 12.5
+height: 18
+lifetime: 60
+damage: 45
+fragSpread: 30
+frontColor: 8f0000ff
+backColor: 8f0000ff
+trailColor: ff000088
+trailWidth: 2.4
+trailLength: 18
+status: frag
+statusDuration: 1
+splashDamage: 15
+scaledSplashDamage: true
+impact: true
+knockBack: 3.5
+splashDamageRadius: 60
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+
 
 }
 ]
