@@ -1,0 +1,69 @@
+type: hover
+name: Ignitia
+hover: true
+health: 300
+armor: -5
+speed: 2.5
+rotateSpeed: 1.25
+
+weapons:[
+{
+reload: 60
+
+bullet:{
+type: ExplosionBulletType
+despawnHit: true
+hitShake: 12.5
+hitEffect:{
+type: WrapEffect
+effect: neoplasmSplat
+color: 9C88C3FF
+}
+
+splashDamage: 1000
+scaledSplashDamage: true
+splashDamageRadius: 80
+  
+}
+
+}
+{
+alwaysShooting: true
+continous: true
+alwaysContinous: true
+baseRotation: 180
+useAttackRange: false
+  
+bullet:{
+type: ContinuousFlameBulletType
+width: 2.5
+length: 16
+
+flareColor: 9C88C3FF
+flareWidth: 1.5
+flareLength: 15
+
+display: false
+colors:[9C88C333,9C88C355,9C88C377,9C88C399,9C88C3FF]
+collides: false
+}
+
+}
+]
+
+abilties:[
+{
+type: SpawnDeathAbility
+unit: infested-mass
+amount: 5
+}
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount:	320
+radAmountScale:	5.0	
+radScale:	1.0	
+noiseMag: 6.5	
+noiseScl: 10
+}
+]
