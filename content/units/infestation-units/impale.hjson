@@ -21,7 +21,7 @@ legSpeed: 0.125
 LegStraightness: 0.35
 legLength: 32
 
-targetFlags:[generator, core]
+targetFlags:[generator, turret, core]
 
 weapons:[
 {
@@ -37,6 +37,8 @@ bullet:{
 type: FireBulletType
 hitSize: 20
 damage: 10
+drag: 0
+accel: 0
 speed: 5
 lifetime: 60
 makeFire: true
