@@ -25,15 +25,20 @@ targetFlags:[generator, core]
 
 weapons:[
 {
-reload: 20
+reload: 5
 shootSound: shootArtillerySmall
 shootStatus: slow
 shootStatusDuration: 60
+mirror: false
+x: 0
+y: 0
 
 bullet:{
 type: FireBulletType
 hitSize: 20
-damage: 35
+damage: 10
+speed: 5
+lifetime: 60
 makeFire: true
 status: melting
 }
