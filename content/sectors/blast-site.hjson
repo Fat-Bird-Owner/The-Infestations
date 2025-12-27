@@ -4,16 +4,23 @@ planet: titanos
 showSectorLandInfo: false
 sector: 70
 
+details: "
+Sector-70: Blast Site
+A safe facility built in the blast zone of there deadliest weapons.
+Likely, whatever they're hiding from seems not interested in this sector.
+Sector has some schematics of a few logic blocks, retrieve it.
+"
+
 description: "
-A small facility is built here, This sector has no slag and instead pools of water.
+A small facility is built here, This sector have no slag but many pools of water.
 Utilize watermill for power generation and Use crystal quarry to mine oxidium.
 Beware of the enemy reinforcement wave.
   
 [tan]
 Modifiers:
-- Many constructors
-- Reinforcement wave
-- Slagless
+- higher enemy constructor counts
+- Enemy reinforcement wave on a core loss
+- has no slag pools
 "
 
 research: {
