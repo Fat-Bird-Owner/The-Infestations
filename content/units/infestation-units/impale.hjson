@@ -20,7 +20,7 @@ stepShake: 0.45
 legLengthScl: 0.95
 legSpeed: 0.125
 LegStraightness: 0.35
-legLength: 10
+legLength: 20
 
 targetFlags:[turret, generator, core]
 
@@ -39,9 +39,10 @@ shoot:{
 type: ShootSpreas
 barrels: 5
 spread: 2.5
-shots: 25
-shotDelay: 1.5
+shots: 10
+shotDelay: 1
 }
+inacurracy: 7.5
 
 bullet:{
 type: MissileBulletType
