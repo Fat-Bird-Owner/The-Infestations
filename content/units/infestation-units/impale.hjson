@@ -3,7 +3,7 @@ type: legs
 hitSize: 16
 health: 850
 name: Swarm
-speed: 0.65
+speed: 0.35
 omniMovement: true
 shootCone: 30
 outlineColor: 2c2d38
@@ -20,7 +20,7 @@ stepShake: 0.45
 legLengthScl: 0.95
 legSpeed: 0.125
 LegStraightness: 0.35
-legLength: 4
+legLength: 10
 
 targetFlags:[turret, generator, core]
 
@@ -33,11 +33,14 @@ shootStatusDuration: 180
 mirror: false
 x: 0
 y: 0
+shake: 0.45
 
 shoot:{
 type: ShootSpreas
 barrels: 5
 spread: 2.5
+shots: 25
+shotDelay: 1.5
 }
 
 bullet:{
