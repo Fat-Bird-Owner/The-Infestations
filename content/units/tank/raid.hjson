@@ -24,7 +24,7 @@ outlineColor: "2c2d38"
 
 // research
 research:{
-paret: frontier
+parent: assault-constructor
 }
 researchCostMultiplier: 0.65
 
