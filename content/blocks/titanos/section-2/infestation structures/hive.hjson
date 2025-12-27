@@ -4,8 +4,8 @@ type: PowerTurret
 name: "Hive"
 consumes:[]
 size: 2
-health: 3000
-armor: 20
+health: 300
+armor: 12
 
 // turret related stats
 
