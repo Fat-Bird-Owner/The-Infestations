@@ -42,14 +42,6 @@ drawer: {
       type: DrawGlowRegion
       color: 85c278
     }
-{
-type: DrawShape
-x: 0
-y: 0
-layer: 125
-color: 85c27855
-radius: 40
-}
   ]
 } 
 
