@@ -2,19 +2,18 @@
 type: legs
 hitSize: 16
 health: 850
-speed: 0.85
+speed: 0.65
 omniMovement: true
 shootCone: 30
-range: 120
 outlineColor: 2c2d38
 
 // funni spider
 legCount: 6
-legMoveSpace: 1.75
+legMoveSpace: 1.25
 lockLegBase: true
 legContinuousMove: true
 emitWalkEffect: false
-legPairOffset: 2
+legPairOffset: 1
 stepShake: 0.45
 legLengthScl: 0.95
 legSpeed: 0.125
@@ -23,8 +22,10 @@ legLength: 32
 
 weapons:[
 {
-reload: 50
+reload: 180
 shootSound: shootArtillerySmall
+shootStatus: slow
+shootStatusDuration: 240
 
 bullet:{
 
@@ -39,15 +40,17 @@ parts:[
 type: FlarePart
 sides: 2
 color1: 8f0000ff
-radius: 7.5
+radius: 18
 }
 ]
 
-speed: 3
+recoil: 2.5
+speed: 6
+hitShake: 15
 width: 12.5
 height: 18
 lifetime: 60
-damage: 45
+damage: 105
 fragSpread: 30
 frontColor: 8f0000ff
 backColor: 8f0000ff
@@ -61,9 +64,7 @@ scaledSplashDamage: true
 impact: true
 knockBack: 3.5
 splashDamageRadius: 60
-hitEffect:{
-type: ExplosionEffect
-}
+hitEffect: explosion
 
 }
 
