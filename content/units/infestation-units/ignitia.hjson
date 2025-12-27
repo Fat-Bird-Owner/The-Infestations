@@ -4,8 +4,9 @@ hover: true
 health: 300
 armor: -5
 speed: 2.5
-rotateSpeed: 1.25
-
+rotateSpeed: 2.5
+outlineColor: 313131FF
+omniMovement: false
 weapons:[
 {
 reload: 60
@@ -16,7 +17,7 @@ despawnHit: true
 hitShake: 12.5
 hitEffect:{
 type: WrapEffect
-effect: neoplasmSplat
+effect: smokeAOECloud
 color: 9C88C3FF
 }
 
@@ -27,13 +28,42 @@ splashDamageRadius: 80
 }
 
 }
+// engines
 {
 alwaysShooting: true
 continous: true
 alwaysContinous: true
 baseRotation: 180
 useAttackRange: false
-  
+shootSound: none
+shootEffect: none
+x: 0
+mirror: false
+
+bullet:{
+type: ContinuousFlameBulletType
+width: 2.5
+length: 32
+
+flareColor: 9C88C3FF
+flareWidth: 1.5
+flareLength: 15
+drawFlare: false
+display: false
+colors:[9C88C333,9C88C355,9C88C377,9C88C399,9C88C3FF]
+collides: false
+}
+
+}
+// engine
+{
+alwaysShooting: true
+continous: true
+alwaysContinous: true
+baseRotation: 180
+useAttackRange: false
+shootSound: none
+
 bullet:{
 type: ContinuousFlameBulletType
 width: 2.5
@@ -42,6 +72,7 @@ length: 16
 flareColor: 9C88C3FF
 flareWidth: 1.5
 flareLength: 15
+drawFlare: false
 
 display: false
 colors:[9C88C333,9C88C355,9C88C377,9C88C399,9C88C3FF]
@@ -51,7 +82,7 @@ collides: false
 }
 ]
 
-abilties:[
+abilities:[
 {
 type: SpawnDeathAbility
 unit: infested-mass
