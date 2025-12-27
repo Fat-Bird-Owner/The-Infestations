@@ -1,9 +1,9 @@
-localizedName: Tekera
+localizedName: "D-3"
 description: A desert like planet.
 alwaysUnlocked: false
 mesh: [
 {
-        planet: tekera
+    planet: tekera
     divisions: 5
     seed: 24
     radius: 0.6
