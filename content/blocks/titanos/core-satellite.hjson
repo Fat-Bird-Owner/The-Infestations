@@ -4,7 +4,7 @@ description:"
 The heart of the base, durable but has a low item capacity. once destroyed, the sector will be lost.
 [accent]Additionally stores a small amount of power.
 "
-
+squareSprite: true
 hasPower: true
 outputsPower: true
 
