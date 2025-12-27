@@ -8,7 +8,7 @@ requirements:[item-silver/150,item-oxidium/95,item-conduction-quartz/45,item-har
 
 research:{
 parent: core-satellite
-root: true
+name: Unit
 objectives:[
 {
 type: SectorComplete
