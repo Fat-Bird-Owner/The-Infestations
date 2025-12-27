@@ -17,7 +17,7 @@ despawnHit: true
 hitShake: 12.5
 hitEffect:{
 type: WrapEffect
-effect: smokeAOECloud
+effect: smokeAoeCloud
 color: 9C88C3FF
 }
 
