@@ -1,1 +1,1 @@
-require("door-class")
+require("door-class");
