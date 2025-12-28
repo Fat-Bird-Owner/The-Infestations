@@ -4,6 +4,7 @@ description: "The first ever inhabitor ever created, Though its despite being th
 health: 100000
 speed: 0.25
 armor: 12.5
+crushDamage: 5
 rotateSpeed: 2.35
 hitSize: 32
 range: 300
