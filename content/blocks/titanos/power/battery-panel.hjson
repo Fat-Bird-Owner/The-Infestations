@@ -1,0 +1,12 @@
+type: Battery
+name: Battery Panel
+description: "Slowly generates and stores power, Has a hard cap of 5."
+// Uses Wproc logic dont look here
+
+consumes:{
+powerBuffered: 750
+}
+
+drawer:{
+type: DrawDefault
+}
