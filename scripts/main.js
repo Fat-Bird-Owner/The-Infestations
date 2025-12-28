@@ -1,11 +1,8 @@
 
-function makeTeam(id, name, color) {
-  let team = Team.all[id];
-  team.name = name;
-  team.color.set(color);
-  team.id = id;
-  team.setPalette(color);
-  return team;
-}
+Object.keys(Blocks).forEach(function(block){
+if (Blocks[block] != null){
+Blocks[block].researchCostMultiplier = 0
 
-const someTeam = makeTeam(5, "Grenarc", "5D964EFF");
+}
+})
+
