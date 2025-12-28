@@ -1,11 +1,6 @@
 // make door
 
-const killDoor = extend(Door, "kill-door", {})
+const killDoor = extend(Door, 'kill-door', {
+configurable: true
+});
 
-killDoor.buildType = () => extend(Door.DoorBuild,killDoor,{
-
-tapped(){
-this.health = 0
-}
-  
-})
