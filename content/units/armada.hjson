@@ -13,6 +13,7 @@ Has very good AOE weapons and starts fire very easily.
 immunities:[ret-shock,flamethrow-fail,hover-anchored]
 loopSound: loopMachine
 
+crushDamage: 3
 health: 65000
 faceTarget: true
 armor: 22.5
