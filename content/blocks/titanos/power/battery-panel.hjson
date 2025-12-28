@@ -16,6 +16,16 @@ consumes:{
 powerBuffered: 750
 }
 
+research:{
+parent: convection-generator
+objectives:[
+{
+type: SectorComplete
+preset: blast-site
+}
+]
+}
+
 drawer:{
 type: DrawDefault
 }
