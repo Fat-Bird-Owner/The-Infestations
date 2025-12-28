@@ -5,6 +5,7 @@ function makeTeam(id, name, color) {
   team.color.set(color);
   team.id = id;
   team.setPalette(color);
-};
+  return team;
+}
 
-const someTeam = makeTeam(5, "Grenarc", Color.valueOf("5D964EFF"));
+const someTeam = makeTeam(5, "Grenarc", "5D964EFF");
