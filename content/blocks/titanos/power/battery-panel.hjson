@@ -1,6 +1,15 @@
 type: Battery
 name: Battery Panel
 description: "Slowly generates and stores power, Has a hard cap of 5."
+details: "[scarlet]Wont work in the earlier sectors.[]"
+
+size: 2
+
+requirements:[
+item-silver/80
+item-oxidium/40
+item-conduction-quartz/20
+]
 // Uses Wproc logic dont look here
 
 consumes:{
