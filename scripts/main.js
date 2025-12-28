@@ -1,4 +1,7 @@
 Events.on(WithdrawEvent, event => {
+    
+    if (Vars.headless) return;
+    
     const build = event.build;
     const item = event.item;
     const amount = event.amount;
