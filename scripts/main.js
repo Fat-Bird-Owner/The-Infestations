@@ -1,5 +1,9 @@
 Events.on(WithdrawEvent, event => {
+    const build = event.build;
+    const item = event.item;
+    const amount = event.amount;
 
-Vars.ui.hudfrag.showToast("taken");
- 
+    const text = "Taken " + amount + " " + item.localizedName + " from " + build.block.localizedName;
+
+    Vars.ui.hudfrag.showToast(text);
 });
