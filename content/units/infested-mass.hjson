@@ -63,11 +63,11 @@ puddleRange: 4
 puddleAmount: 25
 puddleLiquid: blood
 
-speed: 3
+speed: 4
 width: 10
 height: 14
 lifetime: 60
-damage: 24.5
+damage: 26.5
 fragSpread: 30
 frontColor: 8f0000ff
 backColor: 8f0000ff
@@ -91,7 +91,7 @@ abilities:[
 {
 type: LiquidExplodeAbility
 liquid: blood	
-amount: 180.0
-radAmountScale: 7.5
+amount: 1800
+radAmountScale: 12
 }
 ]
