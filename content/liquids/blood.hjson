@@ -4,7 +4,7 @@ description: "Its alive."
 capPuddles: false
 
 moveThroughBlocks: true
-viscosity: 1.2
+viscosity: 0.8
 coolant: false
 
 color: 4d0202
