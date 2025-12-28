@@ -1,0 +1,27 @@
+captureWave: 30
+localizedName: "Obsidian Badlands"
+allowLaunchSchematics: false
+allowLaunchLoadout: true
+overrideLaunchDefaults: true
+difficulty: 8.25
+planet: titanos
+sector: 24
+description: "
+A well armed bunker is located here.
+This sector has loads of valuable resources, use what you have learned to defeat the enemy.
+"
+
+details: "
+"
+
+research: {
+  parent: scrap-yard-bunker
+  objectives:[
+  {
+  type: SectorComplete
+  preset: blast-site
+  }
+  battery-panel
+  bind-tower
+  ]
+}
