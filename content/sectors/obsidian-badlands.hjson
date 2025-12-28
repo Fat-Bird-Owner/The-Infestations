@@ -7,8 +7,9 @@ difficulty: 8.25
 planet: titanos
 sector: 24
 description: "
-A well armed bunker is located here.
-This sector has loads of valuable resources, use what you have learned to defeat the enemy.
+A well armed [acid]bunker[] is located here.
+This sector has [accent]loads of valuable resources,[] use what you have learned to defeat the [blue]enemy.
+[]
 "
 
 details: "
