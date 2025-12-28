@@ -4,7 +4,6 @@ description: "
 Slowly generates and stores power, Has a hard cap of 5.
 Will behave as a normal battery once the sector is captured.
 "
-details: "[scarlet]Wont work in the earlier sectors.[]"
 
 size: 2
 category: power
