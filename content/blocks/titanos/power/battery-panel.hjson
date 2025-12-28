@@ -4,7 +4,7 @@ description: "Slowly generates and stores power, Has a hard cap of 5."
 details: "[scarlet]Wont work in the earlier sectors.[]"
 
 size: 2
-
+category: power
 requirements:[
 item-silver/80
 item-oxidium/40
