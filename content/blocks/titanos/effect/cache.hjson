@@ -12,6 +12,9 @@ description: "Small storage block capable of increasinf core storage space and e
 hasPower: true
 consumesPower: true
 outputsPower: true
+acceptsPayload: true
+acceptsUnitPayloads: true
+outputsPayload: true
 
 consumes:{
 powerBuffered: 1000
