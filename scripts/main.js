@@ -1,7 +1,7 @@
 Events.on(WithdrawEvent, event => { 
 var building = event.tile;
 var item = event.item;
-var ammount = event.amount;
+var amount = event.amount;
 
 var text = "Taken " + amount + " " + item + "s from " + building
   
