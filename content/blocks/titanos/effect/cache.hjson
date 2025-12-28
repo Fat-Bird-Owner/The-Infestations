@@ -1,7 +1,7 @@
 type: StorageBlock
 size: 2
 health: 450
-requirements:[item-silver/50,item-oxidium/35,item-hardened-calcite/25,item-conduction-quartz/15]
+requirements:[item-silver/50,item-oxidium/35,item-hardened-calcite/25,item-conduction-quartz/20]
 itemCapacity: 110
 squareSprite: false
 category: effect
@@ -14,7 +14,7 @@ consumesPower: true
 outputsPower: true
 
 consumes:{
-powerBuffered: 250
+powerBuffered: 1000
 }
 
 research:{
