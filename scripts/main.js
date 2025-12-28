@@ -1,11 +1,11 @@
-Events.on(ContentInitEvent, e => { 
+Events.on(WithdrawEvent, event => { 
+var building = event.tile;
+var item = event.item;
+var ammount = event.amount;
 
-Object.keys(Blocks).forEach(function(block){
-if (Blocks[block] != null){
-Blocks[block].researchCostMultiplier = 0,
-Blocks[block].unlock()
-}
-});
+var text = "Taken " + amount + " " + item + "s from " + building
+  
+Vars.ui.hudfrag.showToast(text);
 
 });
 
