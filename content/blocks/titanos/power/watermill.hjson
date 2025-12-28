@@ -5,8 +5,9 @@ powerProduction: 0.75
 consumes:[]
 
 category: power
-
+configurable: true
 requiresWater: true
+
 requirements:[item-silver/45,item-oxidium/25]
 research:{
 parent: convection-generator
@@ -28,7 +29,7 @@ type: DrawDefault
 {
 type: DrawBlurSpin
 suffix: "-wheel"
-rotateSpeed: 1.25
+rotateSpeed: 3.25
 blurThresh: 0
 }
 ]
