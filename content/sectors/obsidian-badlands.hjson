@@ -6,6 +6,7 @@ overrideLaunchDefaults: true
 difficulty: 8.25
 planet: titanos
 sector: 24
+showSectorLandInfo: false
 description: "
 A well armed [acid]bunker[] is located here.
 This sector has [accent]loads of valuable resources,[] use what you have learned to defeat the [blue]enemy.
