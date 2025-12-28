@@ -1,4 +1,4 @@
-const myBlock = extend(Door, "terrible-door", {
+const door = extend(Door, "terrible-door", {
   size: 3,
   health: 200,
   buildVisibility: BuildVisibility.shown,
@@ -6,5 +6,5 @@ const myBlock = extend(Door, "terrible-door", {
 tapped(){
 this.health: 0
 }
-  
+
 });
