@@ -21,7 +21,7 @@ squareSprite: false
 requirements:[item-silver/450,item-oxidium/250]
 category: effect
 alwaysUnlocked: true
-unitCapModifier: 20
+unitCapModifier: 5
 requiresCoreZone: false
 isFirstTier: true
 research: {
