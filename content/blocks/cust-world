@@ -1,0 +1,10 @@
+type: LogicBlock
+name: World Proc Cust
+maxInstructionsPerTick: 4000
+forceDark: true
+targetable: false
+privileged: false
+
+category: logic
+requirements:[]
+range: 8000
