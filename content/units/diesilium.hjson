@@ -1,7 +1,7 @@
 // general stats
 type: legs
 hitSize: 16
-health: 435
+health: 865
 speed: 0.6
 omniMovement: true
 shootCone: 30
@@ -72,13 +72,14 @@ puddleRange: 8
 puddleAmount: 40
 puddleLiquid: blood
 }
-recoil: 4.5
+recoil: 2
 speed: 2
 width: 25
 pierce: true
+pierceBuildings: true
 height: 25
 lifetime: 120
-damage: 45
+damage: 85
 fragSpread: 30
 frontColor: 8f0000ff
 backColor: 8f0000ff
@@ -101,7 +102,8 @@ type: ExplosionEffect
 abilities:[
 {
 type: SpawnDeathAbility
-unit: ignitia
+unit: infested-mass
+amount: 2
 }
 {
 type: LiquidExplodeAbility
