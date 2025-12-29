@@ -20,6 +20,7 @@ itemCapacity: 40
 ammoCapacity: 1
 pickupUnits: false
 outlineColor: 2c2d38
+engineOffset: 8.5
 
 // mech pad module
 mineSpeed: 0
