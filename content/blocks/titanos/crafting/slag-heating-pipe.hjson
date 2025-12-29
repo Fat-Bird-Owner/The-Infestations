@@ -7,6 +7,8 @@ consumes:{
 slag/0.01667
 }
 
+liquidOutputDirections: [2]
+
 heatOutput: 3.5
 
 requirements:[item-silver/45,item-oxidium/15,item-conduction-quartz/20]
