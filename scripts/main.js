@@ -1,5 +1,6 @@
 var copWall = Blocks.copperWall;
 
+copWall.update = true
 copWall.buildType = () => extend(Wall.WallBuild, copWall,{
 // update
 update(){
