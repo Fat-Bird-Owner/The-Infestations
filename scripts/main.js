@@ -1,1 +1,1 @@
-require("block");
+require("blocks");
