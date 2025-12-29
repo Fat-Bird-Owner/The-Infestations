@@ -12,7 +12,7 @@ Fires a compressed bullets doing heavy damage.
 Always targets the strongest unit.
 
 "
-
+heatRequirement: 10
 shootSound: blockExplodeFlammable
 outlineColor: 313131
 range: 350
@@ -23,6 +23,16 @@ item-oxidium/65
 item-hardened-calcite/50
 item-conduction-quartz/35
 ]
+
+research:{
+parent: retaliation
+objectives:[
+{
+type: SectorComplete
+preset: obsidian-badlands
+}
+]
+}
 
 reload: 240
 ammoPerShot: 15
