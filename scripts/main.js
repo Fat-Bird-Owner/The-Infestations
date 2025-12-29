@@ -1,4 +1,4 @@
-
+// translation sake
 const infestation = Vars.mods.locateMod("infestation").meta;
 
 infestation.displayName = Core.bundle.get("mod.infestation.name");
