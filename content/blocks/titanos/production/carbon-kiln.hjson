@@ -52,7 +52,6 @@ requirements:[item-silver/300,item-oxidium/240]
 objectives:[
 {
 type: SectorComplete
-preset: obsidian-highlands
-}
+preset: obsidian-badlands
 ]
 }
