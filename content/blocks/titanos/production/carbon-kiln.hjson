@@ -8,7 +8,7 @@ Smelts carbon matter from shale, silver and steam.
 // [salmon]Required to be crafted inside an industrial crafter.[]
 
 heatRequirement: 12.5
-requirements:[item-silver/100,item-oxidium/80]
+requirements:[item-silver/100,item-oxidium/80,item-conduction-quartz/50,item-hardened-calcite/65]
 placeablePlayer: true
 category: crafting
 
