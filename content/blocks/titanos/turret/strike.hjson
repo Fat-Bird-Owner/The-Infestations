@@ -88,7 +88,7 @@ parts:[
 suffix: "-ammo"
 mirror: false
 x: 0
-y: 2
+y: -1.5
 
 moveY: 3
 color: ffffff
