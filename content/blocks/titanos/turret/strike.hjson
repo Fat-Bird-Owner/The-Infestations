@@ -13,7 +13,8 @@ Always targets the strongest unit.
 
 "
 
-shootSound: largeCannon
+shootSound: blockExplodeFlammable
+outlineColor: 313131
 range: 350
 category: turret
 requirements:[
@@ -55,11 +56,10 @@ layer: 99
 width: 10
 height: 14
 damage: 245
-knockback: 45
 pierceArmor: true
 hitShake: 13.5
 impact: true
-knockBack: 7.5
+knockBack: 10
 
 status: frag
 statusDuration: 10
@@ -71,6 +71,7 @@ splashDamage: 50
 splashDamageRadius: 80
 scaledSplashDamage: true
 
+hitSound: explosionMissile
 hitEffect:{
 type: WrapEffect
 effect: titanSmoke
@@ -87,9 +88,9 @@ parts:[
 suffix: "-ammo"
 mirror: false
 x: 0
-y: 0
+y: 2
 
-moveY: -6.5
+moveY: 3
 color: ffffff
 colorTo: 000000ff
 under: true
@@ -98,7 +99,7 @@ type: charge
 ops: [
 {
 op: compress
-start: 0.45
+start: 0.25
 end: 0.65
 }
 ]
