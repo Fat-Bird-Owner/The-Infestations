@@ -12,7 +12,7 @@ category: turret
 inaccuracy: 15
 
 linearWarmup: true
-warmupSpeed: 0.01667
+warmupSpeed: 0.00334
 minWarmup: 1
 reload: 45
 range: 150
@@ -27,7 +27,9 @@ type: DrawTurret
 parts:[
 {
 mirror: true
-suffix: "-arm-"
+suffix: "-arm"
+x: 0
+y: 0
 moveX: 2.5
 moveY: -1.5
 moveRot: 15
