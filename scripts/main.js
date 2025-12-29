@@ -20,4 +20,7 @@ unit.spawn(Vars.player.team, px, py);
   
 };
 
-}
+};
+
+
+Blocks.scrapWall.localizedName = "working"
