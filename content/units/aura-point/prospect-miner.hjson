@@ -2,8 +2,8 @@ type: tether
 drag: 1000
 hittable: false
 targetable: false
-defaultCommand: mining
-commands:[mining]
+defaultCommand: mine
+commands:[mine]
 speed: 0
 miningRange: 80
 buildingRange: 80
