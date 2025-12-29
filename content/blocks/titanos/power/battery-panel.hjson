@@ -7,6 +7,7 @@ Will behave as a normal battery once the sector is captured.
 
 size: 2
 category: power
+update: true
 requirements:[
 item-silver/80
 item-oxidium/40
