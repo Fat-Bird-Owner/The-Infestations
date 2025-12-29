@@ -53,5 +53,6 @@ objectives:[
 {
 type: SectorComplete
 preset: obsidian-badlands
+}
 ]
 }
