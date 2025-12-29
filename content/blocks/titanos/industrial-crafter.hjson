@@ -18,6 +18,7 @@ carbon-kiln
 brontide
 ]
 
+/*
 research:{
 parent: carbon-kiln
 }
@@ -26,3 +27,5 @@ researchCostMultiplier: 0.45
 consumes:{
 power: 1.75
 }
+*/
+buildVisibility: sandboxOnly
