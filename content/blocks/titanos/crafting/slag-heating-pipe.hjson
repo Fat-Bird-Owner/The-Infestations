@@ -13,4 +13,11 @@ liquidOutputDirections: [2]
 
 heatOutput: 3.5
 
+research:{
+parent: steam-accumilator
+objectives:[
+carbon-kiln
+]
+}
+
 requirements:[item-silver/45,item-oxidium/15,item-conduction-quartz/20]
