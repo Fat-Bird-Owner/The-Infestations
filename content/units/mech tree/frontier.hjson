@@ -14,7 +14,7 @@ immunities:[hover-anchored]
 speed: 0.55
 health: 360
 armor: 0
-hitSize: 15
+hitSize: 14
 outlineColor: 2c2d38
 
 // research
