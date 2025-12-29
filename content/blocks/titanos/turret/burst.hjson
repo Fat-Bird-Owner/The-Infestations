@@ -10,6 +10,7 @@ item-carbon-matter/20
 ]
 category: turret
 inaccuracy: 15
+maxAmmo: 5
 
 linearWarmup: true
 warmupSpeed: 0.00334
@@ -22,7 +23,7 @@ shots: 6
 shotDelay: 0
 }
   
-drawers:{
+drawer:{
 type: DrawTurret
 parts:[
 {
