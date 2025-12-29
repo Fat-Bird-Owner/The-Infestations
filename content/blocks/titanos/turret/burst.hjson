@@ -13,7 +13,7 @@ inaccuracy: 15
 
 linearWarmup: true
 warmupSpeed: 0.01667
-minWarmup: 2
+minWarmup: 1
 reload: 45
 range: 150
 
@@ -23,7 +23,7 @@ shotDelay: 0
 }
   
 drawers:{
-type: DrawTurrets
+type: DrawTurret
 parts:[
 {
 mirror: true
