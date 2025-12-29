@@ -1,0 +1,12 @@
+type: HeatProducer
+name: Slag Heating Pipe
+category: crafting
+size: 2
+
+consumes:{
+slag/0.01667
+}
+
+heatOutput: 3.5
+
+requirements:[item-silver/45,item-oxidium/15,item-conduction-quartz/20]
