@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: HeatCrafter
 consumes:{
 liquids:[water/0.3334]
 power: 1
@@ -42,4 +42,4 @@ type: DrawDefault
 
 }
 
-description: "heats up water to produce steam , and will explode if the steam isnt used or removed."
+description: "heats up water to produce steam."
