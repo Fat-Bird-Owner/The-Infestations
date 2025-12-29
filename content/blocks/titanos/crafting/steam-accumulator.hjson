@@ -1,6 +1,6 @@
 type: HeatCrafter
 consumes:{
-liquids:[water/0.3334]
+liquids:[water/0.03334]
 power: 1
 }
 name: "Steam Accumulator"
