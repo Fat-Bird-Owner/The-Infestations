@@ -4,7 +4,9 @@ Events.on(PlayerChatEvent, e => {
     var parts = e.message.split(" ");
     var cmd = parts[0];
 
-if (cmd = "/su"){
+log("Works")
+
+if (cmd === "/su"){
 var px = Vars.player.x;
 var py = Vars.player.y;
 
@@ -17,7 +19,9 @@ return;
 };
 
 unit.spawn(Vars.player.team, px, py);
-  
+
+Vars.ui.hudfrag.showToast("[green]Spawned");
+    
 };
 
 };
