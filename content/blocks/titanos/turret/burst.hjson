@@ -2,6 +2,7 @@ type: ItemTurret
 size: 2
 name: Burst
 
+shootSound: shootMissilePlasma
 requirements:[
 item-silver/45
 item-oxidium/35
@@ -10,7 +11,8 @@ item-carbon-matter/20
 ]
 category: turret
 inaccuracy: 15
-maxAmmo: 5
+maxAmmo: 6
+ammoPerShot: 3
 
 linearWarmup: true
 warmupSpeed: 0.00334
@@ -19,8 +21,8 @@ reload: 45
 range: 150
 
 shoot:{
-shots: 6
-shotDelay: 0
+shots: 3
+shotDelay: 10
 }
   
 drawer:{
@@ -53,11 +55,20 @@ under: true
 ammoTypes:{
 item-silver:{
 type: BasicBulletType
-width: 7
+width: 15
 height: 15
-trailWidth: 1
+trailWidth: 3
 trailLength: 15
+homingRange: 80
+homingPower: 0.025
 
+splashDamage: 45
+splashDamageRadius: 40
+scaledSplashDamage: true
+despawnHit: true
+hitShake: 6.5
+hitSound: wreckFallBig
+hitEffect: explosion
 speed: 5
 lifetime: 30
 damage: 7.5
@@ -65,39 +76,4 @@ impact: true
 knockBack: 2.15
 }
 
-
-item-carbon-matter:{
-type: BasicBulletType
-width: 7
-height: 15
-trailWidth: 1
-trailLength: 15
-
-speed: 10
-lifetime: 15
-damage: 17.5
-impact: true
-pierce: true
-pierceCap: 2
-knockBack: 2.35
-status: frag
-statusDuration: 5
-}
-
-item-hardened-calcite:{
-type: BasicBulletType
-width: 7
-height: 15
-trailWidth: 1
-trailLength: 15
-
-speed: 5
-lifetime: 30
-damage: 12.5
-impact: true
-knockBack: 1
-status: slow
-statusDuration: 120
-}
-  
 }
