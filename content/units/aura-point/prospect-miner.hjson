@@ -10,3 +10,4 @@ buildingRange: 80
 itemCapacity: 25
 mineSpeed: 1
 mineWalls: true
+playerControllable: false
