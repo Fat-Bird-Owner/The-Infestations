@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Strike
-health: 350
+health: 750
 size: 2
 category: turret
 requirements:[item-silver/80,item-oxidium/65,item-hardened-calcite/45,item-carbon-matter/35]
@@ -25,8 +25,8 @@ item-conduction-quartz/35
 ]
 
 reload: 240
-ammoPerShot: 5
-maxAmmo: 10
+ammoPerShot: 15
+maxAmmo: 30
 unitSort: strongest
 cooldownTime: 180
 
@@ -37,27 +37,37 @@ firstShotDelay: 120
 ammoTypes:{
 item-hardened-calcite:{
 type: BasicBulletType
-lifetime: 120
-speed: 5
+lifetime: 60
+speed: 10
 trailWidth: 0
 trailLength: 24
 trailChance: 25
+
+intervalRandomSpread: 0
+bulletInterval: 10
+intervalBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+hitEffect: railHit
+}
 
 trailEffect: {
 type: ParticleEffect
 sizeFrom: 4
 sizeTo: 10
 interp: sine
-colorFrom: 4f4f4ff
+colorFrom: 4f4f466
 colorTo: 8f8f8f00
 layer: 99
 }
 
 width: 10
 height: 14
-damage: 245
+damage: 450
+maxDamageFraction: 0.65
 pierceArmor: true
-hitShake: 13.5
+hitShake: 14.5
 impact: true
 knockBack: 10
 
@@ -73,9 +83,24 @@ scaledSplashDamage: true
 
 hitSound: explosionMissile
 hitEffect:{
+type: MultiEffect
+effects:[
+{
 type: WrapEffect
 effect: titanSmoke
 color: 6f6f6f
+}
+{
+type: WaveEffect
+strokeFrom: 2
+strokeTo: 0
+sizeFrom: 0
+sizeTo: 160
+interp: sine
+colorTo: ffffff00
+lifetime: 45
+}
+]
 }
 
 }
