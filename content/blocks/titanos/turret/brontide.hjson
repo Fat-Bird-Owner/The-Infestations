@@ -8,7 +8,7 @@ Shoots burst of lasers, requires water to operate.
 size: 3
 reload: 150
 predictTarget: false
-range: 280
+range: 480
 cooldownTime: 120
 requirements:[item-silver/150,item-oxidium/100,item-hardened-calcite/60,item-conduction-quartz/50]
 shootSound: shootReign
@@ -41,22 +41,24 @@ spread: 3.25
   
 shootType:{
 type: BasicBulletType
-frontColor: FFD28000
-backColor: 8FD28000
+frontColor: FFD280ff
+backColor: 8FD280ff
 width: 10
 height: 14
-
+speed: 4
+lifetime: 120
+trailChance: 5
 trailEffect:{
 type: WrapEffect
 effect: sparkShoot
-color: 8FD28000
+color: 8FD280ff
 }
 
 despawnHit: true
 hitEffect:{
 type: WrapEffect
 effect: titanExplosion
-color: 8FD28000
+color: 8FD280ff
 }
 splashDamage: 265
 scaledSplashDamage: true
