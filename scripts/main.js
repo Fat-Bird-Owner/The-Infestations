@@ -1,4 +1,3 @@
-Events.on(PlayerChatEvent, e => {    
-var message = e.message;
-log("[lightgrey]Send " + message);
+Events.on(ClientLoadEvent, e => {    
+Vars.maxSchematicSize = 1;
 }
