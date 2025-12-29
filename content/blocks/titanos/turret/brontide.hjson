@@ -15,7 +15,7 @@ shootSound: shootReign
 inaccuracy: 1.5
 category: turret
 rotateSpeed: 2.5
-placeablePlayer: false
+placeablePlayer: true
 
 research:{
 parent: charge
@@ -34,50 +34,35 @@ power: 1.25
 }
   
 shoot:{
-firstShotDelay: 60
-shots: 3
-shotDelay: 7.5
+type: ShootSpread
+barrels: 4
+spread: 3.25
 }
   
 shootType:{
 type: BasicBulletType
-instantDisappear: true
-fragBullets: 1
+frontColor: FFD28000
+backColor: 8FD28000
+width: 10
+height: 14
 
-fragRandomSpread: 0
-fragVelocityMin: 1
-fragVelooctyMax: 1
-fragLifeMin: 1
-fragLifeMax: 1
-
-chargeEffect:{
-type: ParticleEffect
-particles: 8
-colorFrom: FFD28000
-colorTo: FFD28088
-interp: exp5
-length: 30
-baseLength: -30
+trailEffect:{
+type: WrapEffect
+effect: sparkShoot
+color: 8FD28000
 }
-  
-fragBullet:{
-type: LaserBulletType
-width: 8
-length: 280
-colors:[FFD280FF,FFD280FF,FFD280FF]
-damage: 75
-status: ichor-burn
-statusDuration: 120
 
-fragBullets: 1
-fragBullet:{
-type: EmptyBulletType
-despawnEffect: none
-instantDisappear: true
-lightning: 5
-lightningDamage: 10
-lightningLength: 3.5
+despawnHit: true
+hitEffect:{
+type: WrapEffect
+effect: titanExplosion
+color: 8FD28000
 }
+splashDamage: 265
+scaledSplashDamage: true
+splashDamageRadius: 40
+hitShake: 6.5
+status: burning
 
 }
 
