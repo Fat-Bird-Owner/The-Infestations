@@ -18,6 +18,11 @@ drawLiquid: slag
 padding: 0.6
 }
 {
+type: DrawLiquidTile
+drawLiquid: slag
+padding: 0.3
+}
+{
 type: DrawDefault
 }
 {
