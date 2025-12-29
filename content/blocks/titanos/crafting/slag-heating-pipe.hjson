@@ -1,5 +1,5 @@
 type: HeatProducer
-name: Slag Heating Pipe
+name: Heat Accumulator
 category: crafting
 size: 2
 
@@ -9,12 +9,29 @@ slag/0.01667
 ]
 }
 
+drawers:{
+type: DrawMulti
+drawers:[
+{
+type: DrawLiquidTile
+drawLiquid: slag
+padding: 0.6
+}
+{
+type: DrawDefault
+}
+{
+type: DrawHeatOutput
+}
+]
+}
+
 liquidOutputDirections: [2]
 
 heatOutput: 3.5
 
 research:{
-parent: steam-accumilator
+parent: steam-accumulator
 objectives:[
 carbon-kiln
 ]
