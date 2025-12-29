@@ -6,7 +6,7 @@ category: turret
 requirements:[item-silver/80,item-oxidium/65,item-hardened-calcite/45,item-carbon-matter/35]
 description: "
 Type:[green] Defensive Turret[]
-Class:[lightgrey] None[]
+Class:[lightgrey] Frag[]
 
 Fires a compressed bullets doing heavy damage.
 Always targets the strongest unit.
@@ -14,19 +14,29 @@ Always targets the strongest unit.
 "
 
 shootSound: largeCannon
-range: 400
+range: 350
 category: turret
-requirements:[]
-reload: 180
+requirements:[
+item-silver/85
+item-oxidium/65
+item-hardened-calcite/50
+item-conduction-quartz/35
+]
+
+reload: 240
 ammoPerShot: 5
 maxAmmo: 10
 unitSort: strongest
 cooldownTime: 180
 
+shoot:{
+firstShotDelay: 120
+}
+
 ammoTypes:{
-item-hardened-calcite: {
+item-hardened-calcite:{
 type: BasicBulletType
-lifetime: 80
+lifetime: 120
 speed: 5
 trailWidth: 0
 trailLength: 24
@@ -39,14 +49,21 @@ sizeTo: 10
 interp: sine
 colorFrom: 4f4f4ff
 colorTo: 8f8f8f00
+layer: 99
 }
 
 width: 10
 height: 14
-damage: 165
+damage: 245
 knockback: 45
 pierceArmor: true
-hitShake: 5
+hitShake: 13.5
+impact: true
+knockBack: 7.5
+
+status: frag
+statusDuration: 10
+
 frontColor: 7b7b7b
 backColor: 656565
 despawnHit: true
@@ -55,26 +72,9 @@ splashDamageRadius: 80
 scaledSplashDamage: true
 
 hitEffect:{
-type: SeqEffect
-effects:[
-{
-type: ParticleEffect
-length: 40
-baseLength: -40
-lifetime: 35
-}
-{
-type: ParticleEffect
-length: 80
-particles: 34
-sizeFrom: 4
-sizeTo: 12
-colorFrom: 2f2f2fff
-colorTo: 7f7f7f00
-interp: sine
-lifetime: 40
-}
-]
+type: WrapEffect
+effect: titanSmoke
+color: 6f6f6f
 }
 
 }
@@ -82,5 +82,29 @@ lifetime: 40
 
 drawer:{
 type: DrawTurret
+parts:[
+{
+suffix: "-ammo"
+mirror: false
+x: 0
+y: 0
+
+moveY: -6.5
+color: ffffff
+colorTo: 000000ff
+under: true
+progress:{
+type: charge
+ops: [
+{
+op: compress
+start: 0.45
+end: 0.65
+}
+}
+
+}
+]
 basePrefix: "retaliation-base"
 }
+
