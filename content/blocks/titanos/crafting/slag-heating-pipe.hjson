@@ -4,7 +4,9 @@ category: crafting
 size: 2
 
 consumes:{
+liquids:[
 slag/0.01667
+]
 }
 
 liquidOutputDirections: [2]
