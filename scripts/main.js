@@ -1,6 +1,6 @@
 var copWall = Blocks.copperWall;
 
-copperWall.buildType = () => extend(Wall.WallBuild, copWall,{
+copWall.buildType = () => extend(Wall.WallBuild, copWall,{
 // update
 update(){
 var hp = this.health;
