@@ -79,7 +79,7 @@ pierce: true
 pierceBuildings: true
 height: 25
 lifetime: 120
-damage: 85
+damage: 215
 fragSpread: 30
 frontColor: 8f0000ff
 backColor: 8f0000ff
