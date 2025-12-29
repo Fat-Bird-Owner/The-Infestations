@@ -10,7 +10,9 @@ showSectorLandInfo: false
 description: "
 A well armed [acid]bunker[] is located here.
 This sector has [accent]loads of valuable resources,[] use what you have learned to defeat the [blue]enemy.
-[]
+[tan]
+Modifiers:
+- Recon Air Bay: [red]Disabled[]
 "
 
 details: "
