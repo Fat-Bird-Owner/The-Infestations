@@ -12,7 +12,7 @@ parent: core-satellite
 objectives:[
 {
 type: SectorComplete
-preset: entrenched
+preset: obsidian-badlands
 }
 info-chip
 ]
