@@ -4,13 +4,9 @@ copWall.update = true;
 copWall.buildType = () => extend(Wall.WallBuild, copWall,{
 // update
 update(){
-var hp = this.health;
-  
-if (hp === null) return;
-var postHp = hp - 1;
-this.health = postHp;
+this.health -= 1;
 
-if (postHp <= 0){
+if (this.health <= 0){
 this.kill();
 }
 
