@@ -101,6 +101,7 @@ op: compress
 start: 0.45
 end: 0.65
 }
+]
 }
 
 }
