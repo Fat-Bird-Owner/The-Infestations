@@ -34,6 +34,7 @@ y: 0
 moveX: 2.5
 moveY: -1.5
 moveRot: -5
+under: true
 }
 {
 mirror: false
@@ -43,6 +44,7 @@ y: 0
 moveX: -2.5
 moveY: -1.5
 moveRot: 5
+under: true
 }
 ]
 }
