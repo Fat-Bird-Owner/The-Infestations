@@ -109,7 +109,7 @@ abilities:[
 type: LiquidRegenAbility
 liquid: blood
 slurpSpeed: 1
-regenPerSlurp: 0.85
+regenPerSlurp: 0.425
 }
 {
 type: ArmorPlateAbility
