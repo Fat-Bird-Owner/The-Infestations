@@ -27,13 +27,22 @@ drawer:{
 type: DrawTurret
 parts:[
 {
-mirror: true
-suffix: "-arm"
+mirror: false
+suffix: "-arm-r"
 x: 0
 y: 0
 moveX: 2.5
 moveY: -1.5
-moveRot: 15
+moveRot: -5
+}
+{
+mirror: false
+suffix: "-arm-l"
+x: 0
+y: 0
+moveX: -2.5
+moveY: -1.5
+moveRot: 5
 }
 ]
 }
