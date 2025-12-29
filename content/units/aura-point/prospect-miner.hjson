@@ -8,6 +8,6 @@ speed: 0
 miningRange: 80
 buildingRange: 80
 itemCapacity: 25
+mineTier: 1
 mineSpeed: 1
 mineWalls: true
-playerControllable: false
