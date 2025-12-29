@@ -9,3 +9,4 @@ miningRange: 80
 buildingRange: 80
 itemCapacity: 25
 mineSpeed: 1
+mineWalls: true
