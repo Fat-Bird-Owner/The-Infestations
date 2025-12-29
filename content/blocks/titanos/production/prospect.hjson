@@ -2,7 +2,7 @@ type: UnitCargoLoader
 name: Prospect
 description: "Mine nearby silver walls."
 unitType: prospect-miner
-unitBuildTime: 0
+unitBuildTime: 0.1
 category: production
 
 consumes:{
