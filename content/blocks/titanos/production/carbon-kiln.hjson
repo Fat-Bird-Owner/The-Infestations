@@ -3,12 +3,12 @@ size: 2
 localizedName: "Carbon Kiln"
 description: "
 Smelts carbon matter from silver, oxidium and steam.
-
-[salmon]Required to be crafted inside an industrial crafter.[]
 "
 
+// [salmon]Required to be crafted inside an industrial crafter.[]
+
 requirements:[item-silver/100,item-oxidium/80]
-placeablePlayer: false
+placeablePlayer: true
 category: crafting
 
 consumes:{
@@ -49,4 +49,10 @@ suffix: "-heat"
 research:{
 parent: crafting
 requirements:[item-silver/300,item-oxidium/240]
+objectives:[
+{
+type: SectorComplete
+preset: obsidian-highlands
+}
+]
 }
