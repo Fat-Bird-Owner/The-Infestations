@@ -15,7 +15,7 @@ pressured-pump
 ]
 }
 
-outputLiquid: steam/0.04
+outputLiquid: steam/0.01667
 liquidCapacity: 25
 
 drawer:{
@@ -37,6 +37,9 @@ particleLife: 50
 }
 {
 type: DrawDefault
+}
+{
+type: DrawHeatInput
 }
 ]
 
