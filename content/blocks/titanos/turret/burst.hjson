@@ -9,9 +9,11 @@ item-hardened-calcite/25
 item-carbon-matter/20
 ]
 category: turret
-  
+inaccuracy: 15
+
 linearWarmup: true
-warmupSpeed: 0.00334
+warmupSpeed: 0.01667
+minWarmup: 2
 reload: 45
 range: 150
 
@@ -25,7 +27,7 @@ type: DrawTurrets
 parts:[
 {
 mirror: true
-suffix: "-arm"
+suffix: "-arm-"
 moveX: 2.5
 moveY: -1.5
 moveRot: 15
