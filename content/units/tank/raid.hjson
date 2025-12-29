@@ -90,6 +90,7 @@ abilities:[
 {
 type: LiquidRegenAbility
 liquid: blood
-regenPerSlurp: 0.45
+regenPerSlurp: 0.225
+slurpSpeed: 1
 }
 ]
