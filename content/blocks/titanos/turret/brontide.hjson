@@ -6,10 +6,10 @@ Shoots burst of lasers, requires water to operate.
 [salmon]Required to be crafted inside an industrial crafter.[]
 "
 size: 3
-reload: 150
+reload: 60
 predictTarget: false
 range: 480
-cooldownTime: 120
+cooldownTime: 40
 requirements:[item-silver/150,item-oxidium/100,item-hardened-calcite/60,item-conduction-quartz/50]
 shootSound: shootReign
 inaccuracy: 1.5
@@ -47,12 +47,9 @@ width: 10
 height: 14
 speed: 4
 lifetime: 120
-trailChance: 5
-trailEffect:{
-type: WrapEffect
-effect: sparkShoot
-color: 8FD280ff
-}
+trailChance: 1
+
+trailEffect: sparkShoot
 
 despawnHit: true
 hitEffect:{
@@ -60,7 +57,7 @@ type: WrapEffect
 effect: titanExplosion
 color: 8FD280ff
 }
-splashDamage: 265
+splashDamage: 135.5
 scaledSplashDamage: true
 splashDamageRadius: 40
 hitShake: 6.5
