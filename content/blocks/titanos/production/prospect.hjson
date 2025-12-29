@@ -3,6 +3,7 @@ name: Prospect
 description: "Mine nearby silver walls."
 unitType: prospect-miner
 unitBuildTime: 0
+category: production
 
 consumes:{
 power: 0.25
