@@ -1,22 +1,24 @@
-type: GenericCrafter
+type: HeatCrafter
 size: 2
 localizedName: "Carbon Kiln"
 description: "
-Smelts carbon matter from silver, oxidium and steam.
+Smelts carbon matter from shale, silver and steam.
 "
 
 // [salmon]Required to be crafted inside an industrial crafter.[]
 
+heatRequirement: 12.5
 requirements:[item-silver/100,item-oxidium/80]
 placeablePlayer: true
 category: crafting
 
 consumes:{
-items:[item-silver/2,item-oxidium/1]
-liquids:[steam/0.0168]
+items:[item-silver/1,item-shale/5]
+liquids:[steam/0.01667]
 power: 0.75
 }
-outputItem: item-carbon-matter/1
+outputItem: item-carbon-matter/5
+craftTime: 300
 
 drawer:{
 type: DrawMulti
