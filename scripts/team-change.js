@@ -1,6 +1,6 @@
 var green = Team.get(4);
 
-green.emoji = "[green][]";
+green.emoji = "[green]⚠️[]";
 
 green.palette = [
   Color.valueOf("68cf5f"),
