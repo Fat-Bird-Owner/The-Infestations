@@ -42,7 +42,7 @@ firstShotDelay: 180
 
 reload: 300
 shootStatus: melting
-shootStatusDuration: 2.5
+shootStatusDuration: 200
 bullet:{
 
 type: BasicBulletType
@@ -54,7 +54,8 @@ effects:[
 type: WaveEffect
 colorFrom: ff0000ff	
 colorTo: ff000011
-lifetime: 20
+lifetime: 60
+interp: sine
 sizeFrom: 20
 strokeFrom: 5
 strokeTo: 5
@@ -69,11 +70,12 @@ puddleAmount: 125
 puddleLiquid: blood
 
 bulletInterval: 1
+intervalBullets: 5
 intervalBullet:{
 type: LiquidBulletType
 speed: 2
 liquid: blood
-puddleSize: 8
+puddleSize: 16
 despawnHit: true
 lifetime: 10
 }
@@ -111,10 +113,6 @@ effect: madness
 duration: 150
 reload: 600
 color: 5f0000
-}
-{
-type: ArmorPlateAbility
-color: ffffff55
 }
 {
 type: LiquidExplodeAbility
