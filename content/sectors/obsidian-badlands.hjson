@@ -3,7 +3,7 @@ localizedName: "Obsidian Badlands"
 allowLaunchSchematics: false
 allowLaunchLoadout: true
 overrideLaunchDefaults: true
-difficulty: 7.65
+difficulty: 8.5
 planet: titanos
 sector: 24
 showSectorLandInfo: false
@@ -13,6 +13,7 @@ This sector has [accent]loads of valuable resources,[] use what you have learned
 [tan]
 Modifiers:
 - Recon Air Bay: [red]Disabled[]
+- [red]Do not rely on Convection Generators[]
 "
 
 details: "
