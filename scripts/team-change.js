@@ -1,4 +1,4 @@
-Events.on(ClientLoadEvent, event => {
+Events.on(WorldLoadEvent, event => {
 
 var green = Team.get(4);
 
