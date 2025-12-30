@@ -7,7 +7,7 @@ item-oxidium/45
 item-hardened-calcite/40
 ]
 category: turret
-  
+outlineColor: 313131
 reload: 5
 inacurracy: 8.5
 range: 150
@@ -32,6 +32,7 @@ x: -0.1
 moveX: 0.75
 moveY: -1.5
 moveRot: 35
+under: true
 }
 ]
 }
