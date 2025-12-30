@@ -10,6 +10,14 @@ category: turret
 outlineColor: 313131
 reload: 5
 inacurracy: 8.5
+maxAmmo: 30
+ammoPerShot: 3
+
+shoot:{
+shots: 2
+shotDelay: 0
+}
+
 range: 150
 
 ammoTypes:{
@@ -26,12 +34,23 @@ drawer:{
 type: DrawTurret
 parts:[
 {
-suffix: "-blade"
-mirror: true
-x: -0.1
-moveX: 0.75
+suffix: "-blade-r"
+mirror: false
+x: 0
+y: 0
+moveX: 1.5
 moveY: -1.5
-moveRot: 35
+moveRot: 25
+under: true
+}
+{
+suffix: "-blade-l"
+mirror: false
+x: 0
+y: 0
+moveX: -1.5
+moveY: -1.5
+moveRot: -25
 under: true
 }
 ]
