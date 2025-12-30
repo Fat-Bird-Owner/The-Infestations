@@ -81,7 +81,7 @@ drawLiquid: slag
 {
 type: DrawLiquidTile
 padding: 0.65
-drawLiquid: oxidiym-liquilite
+drawLiquid: oxidium-liquilite
 }
 {
 type: DrawDefault
