@@ -41,8 +41,8 @@ firstShotDelay: 180
 }
 
 reload: 300
-shootStatus: melting
-shootStatusDuration: 200
+shootStatus: damage-one
+shootStatusDuration: 160
 bullet:{
 
 type: BasicBulletType
