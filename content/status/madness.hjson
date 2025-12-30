@@ -1,0 +1,13 @@
+damageMultiplier: 1.15
+healthMultiplier: 0.6
+speedMultiplier: 1.45
+
+effect:{
+type: ParticleEffect
+colorFrom: 5f0000
+colorTo: 5f0000
+sizeFrom: 3.5
+sizeTo: 0
+lifetime: 45
+layer: 90
+}
