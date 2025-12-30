@@ -9,7 +9,7 @@ outputLiquid: oxidium-liquilite/0.01
 
 consumes:{
 items:[item-oxidium/2]
-liquids[steam/0.03334]
+liquids:[steam/0.03334]
 }
 
 requirements:[
