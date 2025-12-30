@@ -7,6 +7,7 @@ omniMovement: true
 shootCone: 30
 faceTarget: true
 outlineColor: 2c2d38
+immunities:[madness,burning,melting]
 
 // funni spider
 legCount: 6
