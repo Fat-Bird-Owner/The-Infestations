@@ -1,4 +1,8 @@
-name: "[navy]Act 1: A sea of calm water[]"
+name: "[sky]Act 1: A sea of calm water[]"
+details:"
+[lightgrey]The beginning of your conquest of this well looking planet.
+[brick]doom to fall into dispair.
+"
 show: false
 
 research:{
