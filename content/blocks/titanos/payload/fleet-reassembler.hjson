@@ -2,7 +2,7 @@ type: Reconstructor
 name: Fleet Reassembler
 size: 3
 requirements:[]
-category: payloads
+category: units
 
 consumes:{
 items:[
