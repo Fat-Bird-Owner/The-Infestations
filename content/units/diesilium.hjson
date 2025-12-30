@@ -70,7 +70,6 @@ speed: 2
 liquid: blood
 puddleSize: 8
 despawnHit: true
-l
 lifetime: 10
 }
 recoil: 13.5
