@@ -6,6 +6,7 @@ size: 3
 floating: true
 category: crafting
 outputLiquid: oxidium-liquilite/0.03334
+baseEfficiency: 0
 
 consumes:{
 items:[item-oxidium/2]
