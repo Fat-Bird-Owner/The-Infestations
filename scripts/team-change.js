@@ -9,4 +9,4 @@ green.palette = [
 ];
 
 green.hasPalette = true;
-green.name = "Grenarc";
+green.name = "⚠️ Grenarc";
