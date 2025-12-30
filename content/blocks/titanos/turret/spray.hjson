@@ -28,50 +28,15 @@ puddleSize: 16
 speed: 5
 lifetime: 30
 }
+slag:{
+type: LiquidBulletType
+liquid: slag
+puddleSize: 16
+speed: 5
+lifetime: 30
+}
 }
 
 drawer:{
 type: DrawTurret
-parts:[
-{
-suffix: "-blade-r"
-mirror: false
-x: 0
-y: 0
-moveX: 2
-moveY: -1.5
-moveRot: 45
-under: true
-}
-{
-suffix: "-blade-l"
-mirror: false
-x: 0
-y: 0
-moveX: -2
-moveY: -1.5
-moveRot: -45
-under: true
-}
-{
-suffix: "-blade-r"
-mirror: false
-x: -1
-y: -3.5
-moveX: 4
-moveY: -1.5
-moveRot: 45
-under: true
-}
-{
-suffix: "-blade-l"
-mirror: false
-x: 1
-y: -3.5
-moveX: -4
-moveY: -1.5
-moveRot: 45
-unded: true
-}
-]
 }
