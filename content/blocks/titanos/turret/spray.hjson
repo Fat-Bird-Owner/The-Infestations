@@ -1,0 +1,37 @@
+type: LiquidTurret
+size: 2
+name: Spray
+requirements:[
+item-silver/65
+item-oxidium/45
+item-hardened-calcite/40
+]
+category: turret
+  
+reload: 5
+inacurracy: 8.5
+range: 150
+
+ammoTypes:{
+water:{
+type: LiquidBulletType
+liquid: water
+puddleSize: 16
+speed: 5
+lifetime: 30
+}
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-blade"
+mirror: true
+x: -0.1
+moveX: 0.75
+moveY: -1.5
+moveRot: 35
+}
+]
+}
