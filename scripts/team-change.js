@@ -1,3 +1,5 @@
+Events.on(ContentInitEvent, event => {
+
 var green = Team.get(4);
 
 green.emoji = "[green]⚠️[]";
@@ -10,3 +12,5 @@ green.palette = [
 
 green.hasPalette = true;
 green.name = "⚠️ Grenarc";
+  
+})
