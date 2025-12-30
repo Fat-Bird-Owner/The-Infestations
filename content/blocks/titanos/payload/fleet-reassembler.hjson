@@ -5,7 +5,9 @@ requirements:[]
 category: payloads
 
 consumes:{
+items:[
 item-silver/1
+]
 }
 
 constructTime: 800
