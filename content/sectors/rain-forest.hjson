@@ -12,7 +12,7 @@ Tip: A number of derelict wrecks have been located here, destroy or repair to ma
 
 
 research: {
-  parent: directory
+  parent: act-one
   objectives:[
   {
   type: SectorComplete
