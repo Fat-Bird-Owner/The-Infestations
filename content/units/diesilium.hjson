@@ -34,7 +34,12 @@ mirror: false
 rotate: false
 alternate: false
 inaccuracy: 3
-range: 180
+range: 600
+
+shoot:{
+firstShotDelay: 300
+}
+
 reload: 45
 shootStatus: frag
 shootStatusDuration: 50
@@ -63,7 +68,7 @@ puddleRange: 16
 puddleAmount: 125
 puddleLiquid: blood
 
-bulletInterval: 5
+bulletInterval: 1
 intervalBullet:{
 type: LiquidBulletType
 speed: 2
@@ -106,6 +111,10 @@ effect: madness
 duration: 150
 reload: 600
 color: 5f0000
+}
+{
+type: ArmorPlateAbility
+color: ffffff55
 }
 {
 type: LiquidExplodeAbility
