@@ -1,4 +1,4 @@
-Events.on(ContentInitEvent, event => {
+Events.on(ClientLoadEvent, event => {
 
 var green = Team.get(4);
 
@@ -11,6 +11,6 @@ green.palette = [
 ];
 
 green.hasPalette = true;
-green.name = "⚠️ Grenarc";
+green.name = "Grenarc";
   
 })
