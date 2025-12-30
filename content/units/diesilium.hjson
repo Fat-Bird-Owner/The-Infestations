@@ -7,7 +7,7 @@ omniMovement: true
 shootCone: 30
 faceTarget: true
 outlineColor: 2c2d38
-immunities:[madness,burning,melting]
+immunities:[madness,burning]
 
 // funni spider
 legCount: 6
@@ -34,15 +34,15 @@ mirror: false
 rotate: false
 alternate: false
 inaccuracy: 3
-range: 600
+range: 200
 
 shoot:{
-firstShotDelay: 300
+firstShotDelay: 180
 }
 
-reload: 45
-shootStatus: frag
-shootStatusDuration: 50
+reload: 300
+shootStatus: melting
+shootStatusDuration: 2.5
 bullet:{
 
 type: BasicBulletType
