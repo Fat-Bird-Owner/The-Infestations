@@ -2,7 +2,7 @@
 type: legs
 hitSize: 16
 health: 865
-speed: 0.6
+speed: 0.45
 omniMovement: true
 shootCone: 30
 faceTarget: true
@@ -36,7 +36,7 @@ inaccuracy: 3
 range: 180
 reload: 45
 shootStatus: frag
-shootStatusDuration: 5
+shootStatusDuration: 50
 bullet:{
 
 type: BasicBulletType
@@ -64,22 +64,22 @@ puddleLiquid: blood
 
 bulletInterval: 5
 intervalBullet:{
-type: EmptyBulletType
-instantDisappear: true
-despawnHit: true
-puddles: 6
-puddleRange: 8
-puddleAmount: 40
-puddleLiquid: blood
-}
-recoil: 2
+type: LiquidBulletType
 speed: 2
+liquid: blood
+puddleSize: 8
+despawnHit: true
+l
+lifetime: 10
+}
+recoil: 13.5
+speed: 8
 width: 25
 pierce: true
 pierceBuildings: true
 height: 25
-lifetime: 120
-damage: 215
+lifetime: 30
+damage: 450
 fragSpread: 30
 frontColor: 8f0000ff
 backColor: 8f0000ff
@@ -101,9 +101,11 @@ type: ExplosionEffect
 
 abilities:[
 {
-type: SpawnDeathAbility
-unit: infested-mass
-amount: 2
+type: StatusFieldAbility
+effect: madness
+duration: 150
+reload: 600
+color: 5f0000
 }
 {
 type: LiquidExplodeAbility
