@@ -1,0 +1,18 @@
+type: Reconstructor
+name: Fleet Reassembler
+size: 3
+requirements:[]
+category: payloads
+
+consumes:{
+item-silver/1
+}
+
+constructTime: 800
+
+upgrades:[
+[
+frontier
+fleet
+]
+]
