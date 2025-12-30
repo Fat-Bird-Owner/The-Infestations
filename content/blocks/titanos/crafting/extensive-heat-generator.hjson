@@ -1,0 +1,90 @@
+type: ThermalGenerator
+health: 2000
+name: Extensive Heat Generator
+description: ""
+size: 3
+floating: true
+category: crafting
+outputLiquid: oxidium-liquilite/0.01
+
+consumes:{
+items:[item-oxidium/2]
+liquids[steam/0.03334]
+}
+
+requirements:[
+item-silver/125
+item-oxidium/105
+item-hardened-calcite/85
+item-conduction-quartz/60
+item-carbon-matter/55
+]
+
+research:{
+parent: power
+}
+alwaysUnlocked: true
+minEfficiency: 3.399
+displayEfficiencyScale: 0.295
+powerProduction: 0.122
+squareSprite: false
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 8
+sizeTo: 8
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}
+
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+padding: 0.65
+drawLiquid: slag
+}
+{
+type: DrawLiquidTile
+padding: 0.65
+drawLiquid: oxidiym-liquilite
+}
+{
+type: DrawDefault
+}
+]
+}
