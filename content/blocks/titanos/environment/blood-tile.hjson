@@ -1,0 +1,6 @@
+type: floor
+liquidDrop: blood
+name: Blood
+drownTime: 300
+cacheLayer: arkycite
+isLiquid: true
