@@ -1,4 +1,4 @@
-type: ThermalGenerator
+type: AttributeCrafter
 health: 2000
 name: Extensive Heat Generator
 description: ""
@@ -24,10 +24,10 @@ research:{
 parent: power
 }
 alwaysUnlocked: true
-minEfficiency: 3.399
-displayEfficiencyScale: 0.295
-powerProduction: 0.122
+minEfficiency: 1
 squareSprite: false
+boostScale: 0.11114
+displayEfficiency: false
 
 breakEffect:{
 type: MultiEffect
@@ -37,8 +37,8 @@ type: ParticleEffect
 length: 0
 region: "infestation-avacon"
 lifetime: 45
-sizeFrom: 8
-sizeTo: 8
+sizeFrom: 12
+sizeTo: 12
 colorFrom: f15454
 colorTo: a0455300
 useRotation: false
@@ -55,8 +55,8 @@ type: ParticleEffect
 length: 0
 region: "infestation-avacon"
 lifetime: 45
-sizeFrom: 8
-sizeTo: 8
+sizeFrom: 12
+sizeTo: 12
 colorFrom: ffcd66
 colorTo: e2865400
 useRotation: false
