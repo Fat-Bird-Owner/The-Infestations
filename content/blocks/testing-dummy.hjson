@@ -11,6 +11,7 @@ requirements:[]
 
 unitType: testing-dummy-dummy
 targetable: false
+destructible: false
 underBullets: true
 solid: false
 health: 100
