@@ -7,9 +7,9 @@ mesh: [
     planet: titanos
     divisions: 5
     seed: 8
-    radius: 1.213
-    color1: 00007f
-    color2: 00008f
+    radius: 1.211
+    color1: 004f7f
+    color2: 005f8f
     persistence: 16
     octaves: 3
 }
@@ -22,9 +22,9 @@ mesh: [
     radius: 1.21
     color1: 00ff80
     color2: 1d6b67
-    persistence: 10
-    octaves: 2
-	scale: 1.2
+    persistence: 16
+    octaves: 3
+	scale: 1.1
 }
 ]
 
