@@ -1,8 +1,9 @@
 type: tether
 flying: false
-speed: 9
+speed: 0
 health: 500000
 drag: 1000
+rotateSpeed: 0
 
 abilities:[
 {
