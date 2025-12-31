@@ -11,7 +11,7 @@ mesh: [
     color1: 004f7f
     color2: 005f8f
     persistence: 16
-    octaves: 4
+    octaves: 2
 }
 {
     //ground
@@ -23,7 +23,7 @@ mesh: [
     color1: 00ff80
     color2: 1d6b67
     persistence: 16
-    octaves: 4
+    octaves: 2
 	scale: 1.1
 }
 ]
