@@ -11,7 +11,7 @@ mesh: [
     color1: 004f7f
     color2: 005f8f
     persistence: 16
-    octaves: 0
+    octaves: 1
 }
 {
     //ground
