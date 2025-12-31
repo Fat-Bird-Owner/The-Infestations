@@ -1,4 +1,6 @@
-type: mech
+type: tether
+flying: false
+speed: 9
 health: 500000
 drag: 1000
 
