@@ -10,8 +10,8 @@ mesh: [
     radius: 1.2075
     color1: 004f7f
     color2: 005f8f
-    persistence: 10
-    octaves: 3
+    persistence: 16
+    octaves: 0
 }
 {
     //ground
@@ -24,7 +24,7 @@ mesh: [
     color2: 1d6b67
     persistence: 16
     octaves: 2
-	scale: 1.11
+	scale: 1.1
 }
 ]
 
