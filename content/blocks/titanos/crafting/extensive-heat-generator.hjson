@@ -1,6 +1,6 @@
 type: AttributeCrafter
 health: 2000
-name: Extensive Heat Generator
+name: Extensive Heat Reactor
 description: ""
 size: 3
 floating: true
@@ -85,7 +85,16 @@ padding: 0.65
 drawLiquid: oxidium-liquilite
 }
 {
+type: DrawPlasma
+plasma1: ffcd66
+plasma2: e2865400
+}
+{
 type: DrawDefault
+}
+{
+type: DrawRegion
+suffix: "-team"
 }
 ]
 }
