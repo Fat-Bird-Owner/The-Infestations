@@ -1,0 +1,10 @@
+type: mech
+health: 500000
+drag: 1000
+
+abilities:[
+{
+type: RegenAbility
+percentAmount: 100
+}
+]
