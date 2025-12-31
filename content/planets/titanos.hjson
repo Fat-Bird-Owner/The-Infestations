@@ -7,10 +7,10 @@ mesh: [
     planet: titanos
     divisions: 5
     seed: 8
-    radius: 1.211
+    radius: 1.21
     color1: 004f7f
     color2: 005f8f
-    persistence: 16
+    persistence: 10
     octaves: 3
 }
 {
