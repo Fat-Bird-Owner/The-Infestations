@@ -1,7 +1,7 @@
 type: Liquid
 name: Oxidium Liquilite
 description: "A highly flammable liquid made from mixing steam, oxidium and slag.[]"
-flammability: 1.45
-temperature: 3.5
+flammability: 1.25
+temperature: 5
 color: "9180D1FF"
 effect: melting
