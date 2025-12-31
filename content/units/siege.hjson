@@ -1,4 +1,4 @@
-type: payload
+type: hover
 hovering: true
 payloadCapacity: 576
 pickUpUnits: true
