@@ -70,7 +70,7 @@ intervalRandomSpread: 0
 intervalBullets: 2
 intervalBullet:{
 type: ShrapnelBulletType
-width' 5
+width: 5
 length: 20
 damage: 10
 serrations: 3
