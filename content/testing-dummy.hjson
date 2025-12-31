@@ -1,0 +1,14 @@
+type: UnitCargoLoader
+forceTeam: 5
+unitBuildTime: 0.01
+polyColor: 00000000
+
+name: "[#8f0000]Testing Dummy[]"
+description: "Spawns a combat dummy to be beaten up."
+category: effect
+requirements:[]
+
+targetable: false
+underBullets: true
+health: 100
+armor: 1000
