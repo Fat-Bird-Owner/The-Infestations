@@ -9,7 +9,6 @@ research: {
 }
 overrideLaunchDefaults: true
 addStartingItems: true
-requireUnlock: false
 originalPosition: 10
 
 details:"
