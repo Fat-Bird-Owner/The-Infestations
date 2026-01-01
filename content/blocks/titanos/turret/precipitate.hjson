@@ -72,7 +72,7 @@ type: DrawTurret
 parts:[
 // ammo shells
 {
-suffix: "-ammo-l"
+suffix: "-barrel-1"
 under: true
 y: 5
 progress: recoil
@@ -84,7 +84,7 @@ mirror: false
 }
 
 {
-suffix: "-ammo-m"
+suffix: "-barrel-2"
 under: true
 y: 5
 progress: recoil
@@ -96,7 +96,7 @@ mirror: false
 }
 
 {
-suffix: "-ammo-r"
+suffix: "-barrel-3"
 under: true
 y: 5
 progress: recoil
