@@ -9,6 +9,7 @@ item-oxidium/60
 item-hardened-calcite/45
 item-carbon-matter/30
 ]
+category: turret
 
 reload: 3
 ammoPerShot: 1
