@@ -10,6 +10,7 @@ category: effect
 requirements:[]
 
 unitType: testing-dummy-dummy
+update: false
 targetable: false
 destructible: false
 underBullets: true
