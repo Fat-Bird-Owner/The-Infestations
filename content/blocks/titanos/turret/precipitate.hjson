@@ -12,6 +12,7 @@ item-hardened-calcite/45
 item-carbon-matter/30
 ]
 category: turret
+recoil: 2
 
 reload: 6
 shootSound: shootSpectre
