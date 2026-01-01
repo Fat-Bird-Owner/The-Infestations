@@ -2,6 +2,7 @@ type: ItemTurret
 name: Precipitate
 size: 3
 health: 450
+outlineColor: 313131
 
 requirements:[
 item-silver/75
@@ -11,7 +12,8 @@ item-carbon-matter/30
 ]
 category: turret
 
-reload: 3
+reload: 6
+shootSound: shootSpectre
 ammoPerShot: 1
 maxAmmo: 10
 shootY: 8.25
@@ -39,7 +41,8 @@ despawnHit: true
 hitEffect: explosion
 status: slow
 statusDuration: 60
-  
+hitSound: unitExplode1
+
 }
 
 item-carbon-matter:{
@@ -56,8 +59,8 @@ trailColor: 3f3f3f55
   
 despawnHit: true
 hitEffect: explosion
-status: slow
-statusDuration: 60
+status: blasted
+hitSound: unitExplode1
   
 }
 
