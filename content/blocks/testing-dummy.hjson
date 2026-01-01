@@ -14,5 +14,3 @@ targetable: false
 destructible: false
 underBullets: true
 solid: false
-health: 100
-armor: 1000
