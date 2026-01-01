@@ -12,7 +12,7 @@ item-hardened-calcite/45
 item-carbon-matter/30
 ]
 category: turret
-recoil: 2
+recoils: 2
 
 reload: 6
 shootSound: shootSpectre
@@ -77,6 +77,7 @@ suffix: "-ammo-l"
 under: true
 y: 5
 progress: recoil
+heatProgress: recoil
 moveY: -15
 color: ffffff
 colorTo: 00000000
@@ -89,6 +90,7 @@ suffix: "-ammo-m"
 under: true
 y: 5
 progress: recoil
+heatProgress: recoil
 moveY: -15
 color: ffffff
 colorTo: 00000000
@@ -101,6 +103,7 @@ suffix: "-ammo-r"
 under: true
 y: 5
 progress: recoil
+heatProgress: recoil
 moveY: -15
 color: ffffff
 colorTo: 00000000
