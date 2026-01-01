@@ -34,7 +34,7 @@ seed: 91
    planet: gas-thing
    speed: 3
    radius: 0.075
-   divisions: 6
+   divisions: 4
    color: c9b1a5
    octaves: 2
    persistence: 0.4
@@ -71,7 +71,7 @@ seed: 4
  {
    type: HexSkyMesh
    planet: gas-thing
-   speed: 3.5
+   speed: 1.5
    radius: 0.1
    divisions: 4
    color: ab8b7b
