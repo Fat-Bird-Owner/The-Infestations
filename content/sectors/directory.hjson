@@ -10,6 +10,7 @@ research: {
 overrideLaunchDefaults: true
 addStartingItems: true
 requireUnlock: false
+originalPosition: 10
 
 details:"
 Sector-0: Directory
