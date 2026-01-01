@@ -3,6 +3,7 @@ name: Precipitate
 size: 3
 health: 450
 outlineColor: 313131
+range: 230
 
 requirements:[
 item-silver/75
