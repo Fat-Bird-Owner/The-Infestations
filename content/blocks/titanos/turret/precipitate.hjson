@@ -77,6 +77,7 @@ under: true
 y: 5
 progress: recoil
 moveY: -15
+color: ffffff
 colorTo: 00000000
 mirror: false
 recoilIndex: 0
@@ -88,6 +89,7 @@ under: true
 y: 5
 progress: recoil
 moveY: -15
+color: ffffff
 colorTo: 00000000
 mirror: false
 recoilIndex: 1
@@ -99,6 +101,7 @@ under: true
 y: 5
 progress: recoil
 moveY: -15
+color: ffffff
 colorTo: 00000000
 mirror: false
 recoilIndex: 2
