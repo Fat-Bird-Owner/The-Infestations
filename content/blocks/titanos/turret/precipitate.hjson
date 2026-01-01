@@ -5,6 +5,13 @@ health: 450
 outlineColor: 313131
 range: 230
 
+coolant:{
+type: ConsumeCoolant
+allowLiquid: true
+allowGas: true
+amount: 0.75
+}
+
 requirements:[
 item-silver/75
 item-oxidium/60
@@ -54,8 +61,8 @@ damage: 40
 splashDamage: 25
 ammoMultiplier: 10
   
-frontColor: 4f4f4f
-backColor: 3f3f3f
+frontColor: 4f4f4fff
+backColor: 3f3f3fff
 trailColor: 3f3f3f55
   
 despawnHit: true
@@ -67,6 +74,7 @@ hitSound: unitExplode1
 
 }
 
+/*
 drawer:{
 type: DrawTurret
 parts:[
@@ -110,3 +118,4 @@ mirror: false
 ]
 
 }
+*/
