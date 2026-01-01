@@ -4,13 +4,13 @@ mesh: [
 {
     //ground and acid
     type: NoiseMesh
-    planet: titanos
+    planet: gas-thing
     divisions: 6
     seed: 89
     radius: 1.5
     color1: ad7558
     color2: 966c57
-    persistence: 14
+    persistence: 2
     octaves: 2
 }
 ]
@@ -18,7 +18,7 @@ mesh: [
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: titanos
+   planet: gas-thing
    speed: 3.5
    radius: 0.0015
    divisions: 6
@@ -30,7 +30,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: titanos
+   planet: gas-thing
    speed: 5
    radius: 0.05
    divisions: 6
