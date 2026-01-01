@@ -21,7 +21,7 @@ cloudMesh: [
    planet: gas-thing
    speed: 3.5
    radius: 0.05
-   divisions: 6
+   divisions: 4
    color: ab8b7b
    octaves: 3
    persistence: 0.3
@@ -32,7 +32,7 @@ seed: 91
   {
    type: HexSkyMesh
    planet: gas-thing
-   speed: 5
+   speed: 3
    radius: 0.075
    divisions: 6
    color: c9b1a5
@@ -45,9 +45,9 @@ seed: 23
  {
    type: HexSkyMesh
    planet: gas-thing
-   speed: 3.5
+   speed: 2.5
    radius: 0.1
-   divisions: 6
+   divisions: 4
    color: ab8b7b
    octaves: 3
    persistence: 0.3
@@ -58,9 +58,9 @@ seed: 29
   {
    type: HexSkyMesh
    planet: gas-thing
-   speed: 5
+   speed: 2
    radius: 0.125
-   divisions: 6
+   divisions: 4
    color: c9b1a5
    octaves: 2
    persistence: 0.4
@@ -73,7 +73,7 @@ seed: 4
    planet: gas-thing
    speed: 3.5
    radius: 0.1
-   divisions: 6
+   divisions: 4
    color: ab8b7b
    octaves: 3
    persistence: 0.3
