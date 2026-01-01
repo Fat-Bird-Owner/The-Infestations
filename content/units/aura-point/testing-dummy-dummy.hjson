@@ -4,6 +4,7 @@ speed: 0
 health: 500000
 drag: 1000
 rotateSpeed: 0
+hitSize: 20
 
 abilities:[
 {
