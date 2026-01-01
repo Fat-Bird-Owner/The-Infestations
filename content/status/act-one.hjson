@@ -6,5 +6,9 @@ details:"
 show: false
 
 research:{
-parent: directory
+parent: sector
+objectives:[{
+type: SectorComplete
+preset: directory
+}]
 }
