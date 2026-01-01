@@ -1,0 +1,63 @@
+type: ItemTurret
+name: Precipitate
+size: 3
+health: 450
+
+requirements:[
+item-silver/75
+item-oxidium/60
+item-hardened-calcite/45
+item-carbon-matter/30
+]
+
+reload: 3
+ammoPerShot: 1
+maxAmmo: 10
+shootY: 8.25
+shoot:{
+type: ShootAlternate
+spread: 4.25
+barrels: 3
+}
+
+ammoTypes:{
+
+item-hardened-calcite:{
+type: MissileBulletType
+speed: 4
+lifetime: 60
+damage: 25
+splashDamage: 15
+ammoMultiplier: 10
+
+frontColor: 8f8f8f
+backColor: 7f7f7f
+trailColor: 7f7f7f55
+  
+despawnHit: true
+hitEffect: explosion
+status: slow
+statusDuration: 60
+  
+}
+
+item-carbon-matter:{
+type: MissileBulletType
+speed: 4
+lifetime: 60
+damage: 40
+splashDamage: 25
+ammoMultiplier: 10
+  
+frontColor: 4f4f4f
+backColor: 3f3f3f
+trailColor: 3f3f3f55
+  
+despawnHit: true
+hitEffect: explosion
+status: slow
+statusDuration: 60
+  
+}
+
+}
