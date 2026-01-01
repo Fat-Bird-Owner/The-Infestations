@@ -10,8 +10,8 @@ mesh: [
     radius: 1.5
     color1: ad7558
     color2: 966c57
-    persistence: 2
-    octaves: 2
+    persistence: 1
+    octaves: 7
 }
 ]
 
