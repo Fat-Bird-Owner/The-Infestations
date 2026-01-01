@@ -21,10 +21,10 @@ cloudMesh: [
    planet: gas-thing
    speed: 3.5
    radius: 0.05
-   divisions: 4
+   divisions: 6
    color: ab8b7b
    octaves: 3
-   persistence: 0.3
+   persistence: 0.4
    scl: 1
    thresh: 0.3
     seed: 5
@@ -34,10 +34,10 @@ cloudMesh: [
    planet: gas-thing
    speed: 3
    radius: 0.075
-   divisions: 4
+   divisions: 6
    color: c9b1a5
-   octaves: 2
-   persistence: 0.4
+   octaves: 3
+   persistence: 0.44
    scl: 0.9
    thresh: 0.4
     seed: 9
