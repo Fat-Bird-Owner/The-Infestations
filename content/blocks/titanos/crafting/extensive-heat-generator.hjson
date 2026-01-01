@@ -21,9 +21,12 @@ item-conduction-quartz/60
 item-carbon-matter/55
 ]
 
+/*
 research:{
 parent: power
 }
+*/
+
 alwaysUnlocked: true
 minEfficiency: 1
 squareSprite: false
