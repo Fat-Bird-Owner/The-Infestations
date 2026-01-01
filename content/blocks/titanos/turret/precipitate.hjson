@@ -66,3 +66,44 @@ hitSound: unitExplode1
 }
 
 }
+
+drawer:{
+type: DrawTurret
+parts:[
+// ammo shells
+{
+prefix: "-ammo-l"
+under: true
+y: 5
+progress: recoil
+moveY: -15
+colorTo: 00000000
+mirror: false
+recoilIndex: 0
+}
+
+{
+prefix: "-ammo-m"
+under: true
+y: 5
+progress: recoil
+moveY: -15
+colorTo: 00000000
+mirror: false
+recoilIndex: 1
+}
+
+{
+prefix: "-ammo-r"
+under: true
+y: 5
+progress: recoil
+moveY: -15
+colorTo: 00000000
+mirror: false
+recoilIndex: 2
+}
+
+]
+
+}
