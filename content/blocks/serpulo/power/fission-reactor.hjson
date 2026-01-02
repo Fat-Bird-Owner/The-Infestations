@@ -1,0 +1,33 @@
+type: ConsumeGenerator
+size: 4
+itemDuration: 60
+warmupSpeed: 0.00015
+
+requirements:[
+lead/650
+silicon/540
+surge-alloy/150
+plastanium/250
+phase-fabric/165
+]
+category: power
+  
+powerProduction: 69.2308
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: "-botton"
+}
+{
+type: DrawBlurSpin
+rotateSpeed: 7.5
+suffix: "-rotator"
+}
+{
+type: DrawDefault
+}
+]
+}
