@@ -38,10 +38,12 @@ damage: 4.5
 
 }
 
-item-oxidium:{
+item-carbon-matter:{
 type: BasicBulletType
 trailEffect: fire
 trailChance: 0.75
+velocityScaleRandMin: 0.65
+velocityScaleRandMax: 1
 
 frontColor: ffffff00
 backColor: ffffff00
