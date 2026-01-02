@@ -3,6 +3,11 @@ size: 4
 itemDuration: 60
 warmupSpeed: 0.00015
 
+consumes:{
+items:[phase-fabric/2]
+liquids:[water/1.66667]
+}
+
 requirements:[
 lead/650
 silicon/540
@@ -12,7 +17,7 @@ phase-fabric/165
 ]
 category: power
   
-powerProduction: 69.2308
+powerProduction: 70
 
 drawer:{
 type: DrawMulti
@@ -22,9 +27,9 @@ type: DrawRegion
 suffix: "-botton"
 }
 {
-type: DrawBlurSpin
-rotateSpeed: 7.5
-suffix: "-rotator"
+type: DrawSpike
+color: ffdd9d
+length: 24
 }
 {
 type: DrawDefault
