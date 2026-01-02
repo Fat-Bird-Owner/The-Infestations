@@ -26,6 +26,8 @@ lifetime: 60
 type: ParticleEffect
 interp: exp5
 sizeFrom: 8
+length: 300
+particles: 35
 sizeTo: 26
 colorFrom: EFCA98FF
 colorTo: EFCA9800
@@ -42,7 +44,7 @@ phase-fabric/165
 ]
 category: power
   
-powerProduction: 70
+powerProduction: 0.16667
 
 drawer:{
 type: DrawMulti
@@ -55,11 +57,12 @@ suffix: "-bottom"
 type: DrawLiquidTile
 drawLiquid: water
 padding: 0.65
+alpha: 0.35
 }
 {
 type: DrawRegion
 suffix: "-weave"
-rotateSpeed: 17.5
+rotateSpeed: 90
 }
 {
 type: DrawDefault
