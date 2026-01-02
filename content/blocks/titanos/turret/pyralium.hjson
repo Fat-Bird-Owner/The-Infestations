@@ -17,7 +17,7 @@ ammoTypes:{
 item-oxidium:{
 type: BasicBulletType
 trailEffect: fire
-trailChance: 0.5
+trailChance: 0.25
 
 frontColor: ffffff00
 backColor: ffffff00
@@ -37,4 +37,29 @@ damage: 4.5
 }
 
 }
+
+item-oxidium:{
+type: BasicBulletType
+trailEffect: fire
+trailChance: 0.75
+
+frontColor: ffffff00
+backColor: ffffff00
+
+speed: 5
+lifetime: 30
+status: tarred
+splashDamage: 17.5
+splashDamageRadius: 20
+scaledSplashDamage: true
+despawnHit: true
+hitEffect: fireHit
+fragBullets: 5
+fragBullet:{
+type: FireBulletType
+damage: 6.5
+}
+
+}
+
 }
