@@ -1,7 +1,7 @@
 type: ItemTurret
 maxAmmo: 5
 size: 2
-
+range: 150
 requirements:[]
 category: turret
   
@@ -17,8 +17,13 @@ ammoTypes:{
 item-oxidium:{
 type: BasicBulletType
 trailEffect: fire
+trailChance: 1.5
+
+frontColor: ffffff00
+backColor: ffffff00
+
 speed: 5
-lifetime: 300
+lifetime: 30
 status: melting
 damage: 7.5
 
