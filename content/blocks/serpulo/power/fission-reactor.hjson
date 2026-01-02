@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 size: 4
 itemDuration: 60
-warmupSpeed: 0.00015
+warmupSpeed: 0.00005
 squareSprite: false
 
 consumes:{
@@ -9,7 +9,7 @@ items:[phase-fabric/2]
 liquids:[water/1.66667]
 }
 
-explosionRadius: 600
+explosionRadius: 75
 explosionDamage: 6000
 explodeEffect:{
 type: MultiEffect
