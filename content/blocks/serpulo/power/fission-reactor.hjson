@@ -45,7 +45,7 @@ phase-fabric/165
 ]
 category: power
   
-powerProduction: 0.16667
+powerProduction: 16.66667
 
 drawer:{
 type: DrawMulti
@@ -63,7 +63,7 @@ alpha: 0.35
 {
 type: DrawRegion
 suffix: "-weave"
-rotateSpeed: 90
+rotateSpeed: 35
 }
 {
 type: DrawDefault
