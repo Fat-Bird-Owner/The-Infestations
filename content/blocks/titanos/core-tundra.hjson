@@ -1,0 +1,26 @@
+type: CoreBlock
+name: "[accent]Core: Satellite"
+description:"
+Has a greater storage space and unit cap increase but can items share the same capacity.
+Additionallys stores liquids instead of power.
+"
+squareSprite: true
+outputsLiquid: true
+configurable: true
+hasLiquids: true
+separateItemCapacity: false
+  
+consumes:{
+liquidBuffered: 500
+}
+
+health: 2500
+unitType: observent
+size: 3
+itemCapacity: 6500
+squareSprite: false
+requirements:[item-silver/250,item-oxidium/200,item-hardened-calcite/150,item-conduction-quartz/85,item-carbon-matter/35]
+category: effect
+alwaysUnlocked: true
+unitCapModifier: 8
+requiresCoreZone: fals
