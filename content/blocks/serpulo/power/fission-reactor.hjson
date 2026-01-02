@@ -20,7 +20,7 @@ sizeFrom: 0
 sizeTo: 600
 strokeFrom: 8
 strokeTo: 0
-lifetime: 60
+lifetime: 120
 }
 {
 type: ParticleEffect
@@ -28,6 +28,7 @@ interp: exp5
 sizeFrom: 8
 length: 300
 particles: 35
+lifetime: 180
 sizeTo: 26
 colorFrom: EFCA98FF
 colorTo: EFCA9800
