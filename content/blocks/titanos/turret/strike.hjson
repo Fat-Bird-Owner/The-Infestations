@@ -47,8 +47,8 @@ firstShotDelay: 120
 ammoTypes:{
 item-hardened-calcite:{
 type: BasicBulletType
-lifetime: 60
-speed: 10
+lifetime: 45
+speed: 14.16667
 trailWidth: 0
 trailLength: 24
 trailChance: 25
@@ -67,17 +67,19 @@ type: ParticleEffect
 sizeFrom: 4
 sizeTo: 10
 interp: sine
-colorFrom: 4f4f466
-colorTo: 8f8f8f00
+colorFrom: 4f4f455
+colorTo: 8f8f8f22
+length: 8
 layer: 99
 }
 
 width: 10
 height: 14
-damage: 450
-maxDamageFraction: 0.65
+damage: 650
+maxDamageFraction: 0.35
 pierceArmor: true
 hitShake: 14.5
+pierce: true
 impact: true
 knockBack: 10
 
