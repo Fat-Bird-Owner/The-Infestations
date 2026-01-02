@@ -2,6 +2,7 @@ type: ConsumeGenerator
 size: 4
 itemDuration: 60
 warmupSpeed: 0.00015
+squareSprite: false
 
 consumes:{
 items:[phase-fabric/2]
@@ -48,10 +49,17 @@ type: DrawMulti
 drawers:[
 {
 type: DrawRegion
-suffix: "-botton"
+suffix: "-bottom"
 }
 {
-type: DrawWeave 
+type: DrawLiquidTile
+drawLiquid: water
+padding: 0.3
+}
+{
+type: DrawRegion
+suffix: "-weave"
+rotateSpeed: 8.5
 }
 {
 type: DrawDefault
