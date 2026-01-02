@@ -11,8 +11,7 @@ hasLiquids: true
 separateItemCapacity: false
   
 consumes:{
-{
-type: ConsumeLiquidFlammable
+consumeLiquidFlammable:{
 minFlammability: -1
 }
 }
