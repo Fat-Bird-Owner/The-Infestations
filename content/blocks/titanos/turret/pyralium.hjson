@@ -1,0 +1,32 @@
+type: ItemTurret
+maxAmmo: 5
+size: 2
+
+requirements:[]
+category: turret
+  
+name: Pyralium
+reload: 30
+
+shoot:{
+shots: 15
+shotDelay: 1
+}
+
+ammoTypes:{
+item-oxidium:{
+type: BasicBulletType
+trailEffect: fire
+speed: 5
+lifetime: 300
+status: melting
+damage: 7.5
+
+fragBullets: 1
+fragBullet:{
+type: FireBulletType
+damage: 4.5
+}
+
+}
+}
