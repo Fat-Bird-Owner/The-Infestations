@@ -4,9 +4,9 @@ size: 2
 range: 150
 requirements:[]
 category: turret
-  
+inaccuracy: 15
 name: Pyralium
-reload: 30
+reload: 60
 
 shoot:{
 shots: 15
@@ -17,7 +17,7 @@ ammoTypes:{
 item-oxidium:{
 type: BasicBulletType
 trailEffect: fire
-trailChance: 1.5
+trailChance: 0.5
 
 frontColor: ffffff00
 backColor: ffffff00
@@ -25,8 +25,11 @@ backColor: ffffff00
 speed: 5
 lifetime: 30
 status: melting
-damage: 7.5
-
+splashDamage: 7.5
+splashDamageRadius: 20
+scaledSplashDamage: true
+despawnHit: true
+hitEffect: fireHit
 fragBullets: 1
 fragBullet:{
 type: FireBulletType
