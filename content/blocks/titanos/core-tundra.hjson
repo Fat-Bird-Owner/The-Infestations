@@ -11,7 +11,10 @@ hasLiquids: true
 separateItemCapacity: false
   
 consumes:{
-liquidBuffered: 500
+{
+type: ConsumeLiquidFlammable
+minFlammability: -1
+}
 }
 
 health: 2500
