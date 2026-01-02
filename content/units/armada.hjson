@@ -107,13 +107,34 @@ shotDelay: 20
 bullet:{
 type: BasicBulletType
 speed: 8
-lifetime: 120
+lifetime: 60
+range: 960
 width: 12.5
 height: 28
 homingPower: 0.15
 homingDelay: 20
 trailWidth: 2.5
 trailLength: 28
+
+fragBullets: 5
+fragBullet:{
+type: BasicBulletType
+speed: 6
+lifetime:90
+width: 12.5
+height: 28
+homingPower: 0.15
+homingDelay: 20
+trailWidth: 2.5
+trailLength: 28
+hitShake: 4.5
+makeFire: true
+splashDamage: 25
+splashDamageRadius: 25
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+}
 
 parts:[
 {
