@@ -14,25 +14,6 @@ shots: 15
 shotDelay: 1
 }
 
-parts:[
-{
-suffix: "-arm-r"
-y: 0
-x: 0
-moveY: -3
-moveX: 1.5
-mirror: false
-}
-{
-suffix: "-arm-l"
-y: 0
-x: 0
-moveY: -3
-moveX: -1.5
-mirror: false
-}
-]
-
 ammoTypes:{
 item-oxidium:{
 type: BasicBulletType
@@ -84,4 +65,26 @@ damage: 6.5
 
 }
 
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-arm-r"
+y: 0
+x: 0
+moveY: -3
+moveX: 1.5
+mirror: false
+}
+{
+suffix: "-arm-l"
+y: 0
+x: 0
+moveY: -3
+moveX: -1.5
+mirror: false
+}
+]
 }
