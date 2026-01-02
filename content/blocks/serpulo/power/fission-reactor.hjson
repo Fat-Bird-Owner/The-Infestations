@@ -59,7 +59,7 @@ padding: 0.65
 {
 type: DrawRegion
 suffix: "-weave"
-rotateSpeed: 17,5
+rotateSpeed: 17.5
 }
 {
 type: DrawDefault
