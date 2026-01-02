@@ -13,7 +13,7 @@ explosionRadius: 75
 explosionDamage: 6000
 explodeEffect:{
 type: MultiEffect
-drawers:[
+effects:[
 {
 type: WaveEffect
 sizeFrom: 0
@@ -54,12 +54,12 @@ suffix: "-bottom"
 {
 type: DrawLiquidTile
 drawLiquid: water
-padding: 0.3
+padding: 0.65
 }
 {
 type: DrawRegion
 suffix: "-weave"
-rotateSpeed: 8.5
+rotateSpeed: 17,5
 }
 {
 type: DrawDefault
