@@ -8,6 +8,30 @@ items:[phase-fabric/2]
 liquids:[water/1.66667]
 }
 
+explosionRadius: 600
+explosionDamage: 6000
+explodeEffect:{
+type: MultiEffect
+drawers:[
+{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 600
+strokeFrom: 8
+strokeTo: 0
+lifetime: 60
+}
+{
+type: ParticleEffect
+interp: exp5
+sizeFrom: 8
+sizeTo: 26
+colorFrom: EFCA98FF
+colorTo: EFCA9800
+}
+]
+}
+
 requirements:[
 lead/650
 silicon/540
@@ -27,9 +51,7 @@ type: DrawRegion
 suffix: "-botton"
 }
 {
-type: DrawSpike
-color: ffdd9d
-length: 24
+type: DrawWeave 
 }
 {
 type: DrawDefault
