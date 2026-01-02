@@ -7,11 +7,31 @@ category: turret
 inaccuracy: 15
 name: Pyralium
 reload: 60
+shootSound: shootStell
 
 shoot:{
 shots: 15
 shotDelay: 1
 }
+
+parts:[
+{
+suffix: "-arm-r"
+y: 0
+x: 0
+moveY: -3
+x: 1.5
+mirror: false
+}
+{
+suffix: "-arm-l"
+y: 0
+x: 0
+moveY: -3
+x: -1.5
+mirror: false
+}
+]
 
 ammoTypes:{
 item-oxidium:{
