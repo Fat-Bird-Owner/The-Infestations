@@ -20,7 +20,7 @@ suffix: "-arm-r"
 y: 0
 x: 0
 moveY: -3
-x: 1.5
+moveX: 1.5
 mirror: false
 }
 {
@@ -28,7 +28,7 @@ suffix: "-arm-l"
 y: 0
 x: 0
 moveY: -3
-x: -1.5
+moveX: -1.5
 mirror: false
 }
 ]
