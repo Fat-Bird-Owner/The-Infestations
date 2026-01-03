@@ -19,7 +19,7 @@ item-hardened-calcite/40
 item-conduction-quartz/35
 ]
   
-craftTime: 60
+craftTime: 6
 consumes:{
 items:[item-shale/2]
 liquids:[steam/0.03334]
@@ -37,7 +37,7 @@ suffix: "-bottom"
 type: DrawLiquidTile
 drawLiquid: steam
 alpha: 0.35
-padding: 0.45
+padding: 1.2
 }
 {
 type: DrawBlurSpin
