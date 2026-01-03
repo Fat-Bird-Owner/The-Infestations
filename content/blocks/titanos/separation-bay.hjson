@@ -21,7 +21,7 @@ item-conduction-quartz/35
   
 craftTime: 60
 consumes:{
-item:[item-shale/2]
+items:[item-shale/2]
 liquids:[steam/0.03334]
 power: 2.25
 }
