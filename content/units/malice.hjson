@@ -29,26 +29,14 @@ weapons:[
 reload: 5
 shootStatus: damage-one
 shootStatusDuration: 30
+shootSound: none
 
 bulletType:{
 type: EmptyBulletType
 speed: 1
 lifetime: 225
 instantDisappear: true
-despawnHit: true
-
-fragBullets: 2
-fragBullet:{
-type: LiquidBulletType
-speed: 2
-liquid: blood
-puddleSize: 16
-despawnHit: true
-lifetime: 15
-velocityScaleRandMin: 0.25
-velocityScaleRandMax: 1
-}
-  
+shootEffect: none
 }
 
 }
@@ -80,22 +68,27 @@ puddleRange: 16
 puddleAmount: 125
 puddleLiquid: blood
 
-lightningDamage: 21
-lightning: 15
-lightningLength: 38
+despawnHit: true
+fragBullets: 15
+fragBullet:{
+type: FireBulletType
+damage: 15
+}
 
+trailEffect: fire
+trailChance: 0.65
 bulletInterval: 1
 intervalBullets: 2
 intervalBullet:{
 type: LiquidBulletType
-speed: 2
+speed: 0.5
 liquid: blood
 puddleSize: 16
 despawnHit: true
-lifetime: 10
-lightningDamage: 10
-lightning: 3
-lightningLength: 3
+lifetime: 40
+
+trailEffect: fire
+trailChance: 0.25
 }
 recoil: 10
 speed: 8
