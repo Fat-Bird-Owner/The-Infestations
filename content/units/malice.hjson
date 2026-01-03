@@ -1,0 +1,143 @@
+// general stats
+type: legs
+hitSize: 28
+health: 3500
+speed: 0.75
+omniMovement: true
+shootCone: 30
+faceTarget: true
+outlineColor: 2c2d38
+immunities:[madness,burning]
+
+// funni spider
+legCount: 6
+legMoveSpace: 1.15
+lockLegBase: true
+legContinuousMove: true
+emitWalkEffect: false
+legPairOffset: 2
+stepShake: 2.25
+legLengthScl: 0.95
+legSpeed: 0.55
+LegStraightness: 0.35
+legLength: 96
+
+// bullet
+
+weapons:[
+{
+reload: 5
+shootStatus: damage-one
+shootStatusDuration: 30
+
+bulletType:{
+type: EmptyBulletType
+speed: 1
+lifetime: 225
+instantDisappear: true
+despawnHit: true
+
+fragBullets: 2
+fragBullet:{
+
+type: LiquidBulletType
+speed: 2
+liquid: blood
+puddleSize: 16
+despawnHit: true
+lifetime: 15
+velocityScaleRandMin: 0.25
+velocityScaleRandMax: 1
+}
+  
+}
+
+}
+{
+rotateSpeed: 3
+shootSound: blockExplode2
+x:0
+y: -3
+mirror: false
+rotate: false
+alternate: false
+inaccuracy: 3
+range: 200
+  
+shoot:{
+firstShotDelay: 120
+}
+
+shootStatus: slow
+shootStatusDuration: 120
+reload: 240
+bullet:{
+
+type: BasicBulletType
+// Effect
+
+puddles: 24
+puddleRange: 16
+puddleAmount: 125
+puddleLiquid: blood
+
+lightningDamage: 21
+lightning: 15
+lightningLength: 38
+
+bulletInterval: 1
+intervalBullets: 5
+intervalBullet:{
+type: LiquidBulletType
+speed: 2
+liquid: blood
+puddleSize: 16
+despawnHit: true
+lifetime: 10
+lightningDamage: 10
+lightning: 3
+lightningLength: 3
+}
+recoil: 13.5
+speed: 8
+width: 25
+pierce: true
+pierceBuildings: true
+height: 25
+lifetime: 30
+damage: 450
+fragSpread: 30
+frontColor: 8f0000ff
+backColor: 8f0000ff
+trailColor: ff000055
+trailWidth: 5
+trailLength: 6
+status: frag
+statusDuration: 1
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+
+}
+]
+
+abilities:[
+{
+type: StatusFieldAbility
+effect: pure-malice
+duration: 150
+reload: 500
+color: 8f0000
+range: 80
+}
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 6500
+radAmountScale: 25
+}
+]
