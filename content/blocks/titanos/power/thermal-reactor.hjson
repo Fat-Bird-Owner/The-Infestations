@@ -23,23 +23,52 @@ items: [item-oxidium/3]
 liquids: [water/0.01667]
 }
   
-drawer:{
-type: DrawMulti
-drawers:[
+explosionRadius: 35
+explosionEffect:{
+type: MultiEffect
+effects:[
 {
-type: DrawBottom
+type: ParticleEffect
+particles: 35
+interp: sine
+lifetime: 240
+sizeFrom: 16
+sizeTo: 40
+colorFrom: 5f5f5f
+colorTo: 7f7f7f00
 }
 {
-type: DrawLiquidTile
-drawLiquid: water
-alpha: 0.25
-padding: 1.25
-}
-{
-type: DrawDefault
-}
-{
-type: DrawGlowRegion
+type: ParticleEffect
+particles: 5
+length: 0
+lenFrom: 24
+lenTo: 24
+strokeFrom: 2
+strokeTo: 0
+line: true
 color: f5ac58
 }
-]}
+{
+type: ParticleEffect
+particles: 8
+length: 0
+lenFrom: 16
+lenTo: 166
+strokeFrom: 2
+strokeTo: 0
+line: true
+color: f5ac58
+}
+{
+type: ParticleEffect
+particles: 11
+length: 0
+lenFrom: 8
+lenTo: 8
+strokeFrom: 2
+strokeTo: 0
+line: true
+color: f5ac58
+}
+]
+}
