@@ -19,8 +19,8 @@ item-carbon-matter/55
 ]
   
 consumes:{
-items:[item-oxidium/3]
-liquid: [water/0.01667]
+items: [item-oxidium/3]
+liquids: [water/0.01667]
 }
   
 drawer:{
