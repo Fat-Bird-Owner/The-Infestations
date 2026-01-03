@@ -1,0 +1,51 @@
+type: Separator
+name: Separation Bay
+size: 4
+desription: "A more difficult to run mineral seive but has very high outputs."
+health: 1245
+
+requirements:[
+item-silver/75
+item-oxidium/60
+item-hardened-calcite/50
+item-conduction-quartz/45
+item-carbon-matter/35
+]
+category: crafting
+  
+results:[
+item-silver/25
+item-hardened-calcite/40
+item-conduction-quartz/35
+]
+  
+craftTime: 60
+consumes:{
+item:[item-shale/2]
+liquids:[steam/0.03334]
+power: 2.25
+}
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: steam
+alpha: 0.35
+padding: 0.45
+}
+{
+type: DrawBlurSpin
+suffix: "-rotator"
+rotateSpeed: 15
+}
+{
+type: DrawDefault
+}
+]
+}
