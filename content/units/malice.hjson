@@ -3,6 +3,7 @@ type: legs
 hitSize: 28
 health: 3500
 speed: 1.15
+armor: 6.5
 omniMovement: true
 shootCone: 30
 faceTarget: true
@@ -16,8 +17,8 @@ legMoveSpace: 0.85
 lockLegBase: true
 legContinuousMove: true
 emitWalkEffect: false
-legPairOffset: 2
-stepShake: 2.25
+legPairOffset: 1
+stepShake: 1
 legLengthScl: 0.95
 legSpeed: 1
 LegStraightness: 0.35
@@ -79,7 +80,7 @@ damage: 15
 trailEffect: fire
 trailChance: 0.65
 bulletInterval: 1
-intervalBullets: 2
+intervalBullets: 5
 intervalBullet:{
 type: LiquidBulletType
 speed: 0.5
@@ -98,7 +99,7 @@ pierce: true
 pierceBuildings: true
 height: 25
 lifetime: 30
-damage: 450
+damage: 725
 fragSpread: 30
 frontColor: 8f0000ff
 backColor: 8f0000ff
