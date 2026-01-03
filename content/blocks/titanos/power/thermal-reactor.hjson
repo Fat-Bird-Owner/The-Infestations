@@ -22,9 +22,11 @@ consumes:{
 items: [item-oxidium/3]
 liquids: [water/0.01667]
 }
-  
+
+powerProduction: 22.5
 explosionRadius: 35
-explosionEffect:{
+explosionDamage: 625
+explodeEffect:{
 type: MultiEffect
 effects:[
 {
