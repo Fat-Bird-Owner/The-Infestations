@@ -2,7 +2,7 @@
 type: legs
 hitSize: 28
 health: 3500
-speed: 0.75
+speed: 1.15
 omniMovement: true
 shootCone: 30
 faceTarget: true
@@ -11,16 +11,16 @@ immunities:[madness,burning]
 
 // funni spider
 legCount: 6
-legMoveSpace: 1.15
+legMoveSpace: 0.85
 lockLegBase: true
 legContinuousMove: true
 emitWalkEffect: false
 legPairOffset: 2
 stepShake: 2.25
 legLengthScl: 0.95
-legSpeed: 0.55
+legSpeed: 1
 LegStraightness: 0.35
-legLength: 96
+legLength: 48
 
 // bullet
 
@@ -39,7 +39,6 @@ despawnHit: true
 
 fragBullets: 2
 fragBullet:{
-
 type: LiquidBulletType
 speed: 2
 liquid: blood
@@ -86,7 +85,7 @@ lightning: 15
 lightningLength: 38
 
 bulletInterval: 1
-intervalBullets: 5
+intervalBullets: 2
 intervalBullet:{
 type: LiquidBulletType
 speed: 2
@@ -98,7 +97,7 @@ lightningDamage: 10
 lightning: 3
 lightningLength: 3
 }
-recoil: 13.5
+recoil: 10
 speed: 8
 width: 25
 pierce: true
