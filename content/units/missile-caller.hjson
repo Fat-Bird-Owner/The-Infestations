@@ -3,6 +3,7 @@ lifetime: 180
 speed: 0
 drag: 1000
 range: 0
+drawCell: false
 
 weapons:[
 {
@@ -19,10 +20,11 @@ collides: false
 despawnHit: true
 splashDamage: 3500
 splashDamageRadius: 170
-hitEffect: impactReactorExplosion
+hitEffect: reactorExplosion
 hitShake: 35
 speed: 0
 keepVelocity: false
+hitSound: blockExplodeElectricBig
 }
 keepVelocity: false
 despawnHit: true
@@ -38,7 +40,7 @@ spin: 5
 cone: 0
 region: "infestation-testing-dummy-dummy"
 randLength: false
-colorTo: 4f4f4f00
+colorFrom: 4f4f4f00
 sizeFrom: 40
 layer: 115
 sizeTo: 16
