@@ -41,9 +41,10 @@ drawer: {
     {
       type: DrawPulseShape
       square: true
-      color: 85c278
+      color: 85c27888
       layer: 110
       radiusScl: 5
+      timeScl: 225
     }
     {
       type: DrawGlowRegion
