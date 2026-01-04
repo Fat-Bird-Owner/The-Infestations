@@ -23,10 +23,17 @@ armor: 5
 outlineColor: "2c2d38"
 
 // research
+buildCost:[
+item-silver/45
+item-oxidium/65
+]
+
+/*
 research:{
 parent: assault-constructor
 }
 researchCostMultiplier: 0.65
+*/
 
 hitSize: 8
 treadPullOffset: 3
