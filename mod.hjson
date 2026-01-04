@@ -2,7 +2,7 @@ name: "Infestation"
 displayName: "[salmon[]]The Infestation[[]]"
 repo: Fat-Bird-Owner/The-Infestations
 subtitle: "
-[brick[]]I BEG FOR[scarlet[]] BLOOD.
+[grey]I await down [brick]below[].
 "
 author: "
 Fat Bird's Owner - [accent]Main Developer[]
@@ -16,7 +16,8 @@ A mod inspired by neoplasm and the creeper world series.
 [accent[]]
 featuring 30+ buildings with two unfinished planets.
 There is 1 finished act within this mod.
-[salmon]Turn on lighting and weather for the best experience.
+
+[salmon[]]Turn on lighting, weather and linear filtering for the best experience.
 
 [[]]
 Thanks for playing.
