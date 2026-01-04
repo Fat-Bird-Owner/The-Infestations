@@ -1,0 +1,9 @@
+type: LiquidBridge
+range: 4
+name: Pressured Liquid Line
+
+requirements:[
+item-silver/10
+item-hardened-calcite/5
+]
+category: liquid
