@@ -4,7 +4,7 @@ details: "allows core satellites to communicate via signal links allowing for fu
 research:{
 parent: core-satellite
 }
-**/
+*/
 
 researchCost:[item-silver/5000,item-oxidium/4000]
 hidden: true
