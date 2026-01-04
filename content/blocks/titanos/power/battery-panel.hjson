@@ -1,0 +1,34 @@
+type: Battery
+name: Battery Panel
+description: "
+Slowly generates and stores power, Has a hard cap of 5.
+Will behave as a normal battery once the sector is captured.
+"
+
+size: 2
+category: power
+update: true
+requirements:[
+item-silver/80
+item-oxidium/40
+item-conduction-quartz/20
+]
+// Uses Wproc logic dont look here
+
+consumes:{
+powerBuffered: 750
+}
+
+research:{
+parent: convection-generator
+objectives:[
+{
+type: SectorComplete
+preset: blast-site
+}
+]
+}
+
+drawer:{
+type: DrawDefault
+}

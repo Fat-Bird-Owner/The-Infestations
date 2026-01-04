@@ -1,0 +1,81 @@
+type: missile
+lifetime: 180
+speed: 0
+drag: 1000
+range: 0
+drawCell: false
+
+weapons:[
+{
+reload: 600
+shootOnDeath: true
+
+bullet:{
+type: BasicBulletType
+killShooter: true
+instantDisappear: true
+fragBullets: 1
+fragBullet:{
+lifetime: 90
+frontColor: 00000000
+backColor: 00000000
+collides: false
+despawnHit: true
+splashDamage: 3500
+splashDamageRadius: 170
+hitEffect: reactorExplosion
+hitShake: 35
+speed: 0
+keepVelocity: false
+hitSound: blockExplodeElectricBig
+makeFire: true
+fragBullets: 75
+fragBullet:{
+type: FireBulletType
+damage: 25
+speed: 6
+lifetime: 80
+lifeScaleRandMin: 0.35
+lifeScaleRandMax: 1
+
+velocityScaleRandMin: 0.15
+velocityScaleRandMax: 15
+
+}
+
+}
+keepVelocity: false
+despawnHit: true
+hitEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+length: 160
+lifetime: 90
+baseLength: -180
+spin: 5
+cone: 0
+region: "infestation-testing-dummy-dummy"
+randLength: false
+colorFrom: 4f4f4f00
+sizeFrom: 40
+layer: 115
+sizeTo: 16
+baseRotation: -45
+}
+{
+type: WaveEffect
+sizeFrom: 160
+sizeTo: 160
+strokeFrom: 2
+strokeTo: 0
+lifetime: 260
+}
+]
+}
+
+}
+
+} 
+]

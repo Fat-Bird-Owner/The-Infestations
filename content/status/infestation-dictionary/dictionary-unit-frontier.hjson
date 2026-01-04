@@ -1,0 +1,21 @@
+name: Frontier
+show: false
+
+research:{
+parent: dictionary-planet-titanos
+objectives:[
+{
+type: SectorComplete
+preset: directory
+}
+]
+}
+
+details:"
+Overview:
+Common unit found on titanos, easily mass producable amd 
+commonly attacks in swarms.
+
+Lore:
+The first ever creation on titanos was originally used to uncover unexplored regions of titanos. 
+"

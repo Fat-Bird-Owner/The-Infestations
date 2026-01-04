@@ -1,15 +1,21 @@
-type: ConsumeGenerator
+type: HeatCrafter
 consumes:{
-liquids:[slag/0.02]
+liquids:[water/0.03334]
+power: 1
 }
 name: "Steam Accumulator"
 size: 2
-requirements:[item-silver/40,item-oxidium/35]
+requirements:[item-silver/40,item-oxidium/35,item-hardened-calcite/25]
 category: crafting
 
-powerProduction: 0.25
-outputLiquid: steam/0.04
-explodeOnFull: true
+research:{
+parent: crafting
+objectives:[
+pressured-pump
+]
+}
+
+outputLiquid: steam/0.01667
 liquidCapacity: 25
 
 drawer:{
@@ -32,8 +38,11 @@ particleLife: 50
 {
 type: DrawDefault
 }
+{
+type: DrawHeatInput
+}
 ]
 
 }
 
-description: "Cools down slag to produce steam and abit of power, and will explode if the steam isnt used or removed."
+description: "heats up water to produce steam."

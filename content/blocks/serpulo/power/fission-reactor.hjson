@@ -1,0 +1,72 @@
+type: ConsumeGenerator
+size: 4
+itemDuration: 60
+warmupSpeed: 0.00005
+squareSprite: false
+
+consumes:{
+items:[phase-fabric/2]
+liquids:[water/1.66667]
+}
+
+explosionRadius: 75
+explosionDamage: 6000
+explodeEffect:{
+type: MultiEffect
+effects:[
+{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 600
+strokeFrom: 8
+strokeTo: 0
+lifetime: 120
+}
+{
+type: ParticleEffect
+interp: exp5
+sizeFrom: 8
+length: 300
+particles: 35
+lifetime: 180
+sizeTo: 26
+colorFrom: EFCA98FF
+colorTo: EFCA9800
+}
+]
+}
+
+requirements:[
+lead/650
+silicon/540
+surge-alloy/150
+plastanium/250
+phase-fabric/165
+]
+category: power
+  
+powerProduction: 16.66667
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: water
+padding: 0.65
+alpha: 0.35
+}
+{
+type: DrawRegion
+suffix: "-weave"
+rotateSpeed: 35
+}
+{
+type: DrawDefault
+}
+]
+}

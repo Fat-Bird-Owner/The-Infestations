@@ -12,8 +12,8 @@ alwaysUnlocked: true
 
 laserRange: 7.5
 laserScale: 0.5
-laserColor2: 7b7b7b 
-laserColor1: 565666
+laserColor2: 7f4f4f 
+laserColor1: 4f4f4f
 
 breakEffect:{
 type: MultiEffect

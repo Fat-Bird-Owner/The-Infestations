@@ -1,0 +1,7 @@
+type: floor
+liquidDrop: blood
+name: Blood
+drownTime: 300
+cacheLayer: tar
+isLiquid: true
+variants: 0

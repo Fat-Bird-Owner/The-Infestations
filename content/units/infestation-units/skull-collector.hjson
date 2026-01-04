@@ -3,8 +3,8 @@ type: legs
 hitSize: 16
 health: 500
 name: Skull Collector
-armor: 4
-speed: 0.2
+armor: -5
+speed: 1.25
 mineSpeed: 1
 omniMovement: true
 range: 20
@@ -13,12 +13,28 @@ commands:[mine]
 mineItem:[item-silver]
 mineTier: 1
 itemCapacity: 50
+outlineColor: 313131FF
+
+
+abilities:[
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 450
+radAmountScale:	5.0	
+radScale:	1.225
+noiseMag:	6.5	
+display: false
+noiseScl: 2.34
+}
+]
 
 // funni spider
-legCount: 4
-legMoveSpace: 2.5
-legPairOffset: 8
+legGroupSize: 2
+legCount: 6
+legMoveSpace: 1.25
+legPairOffset: 16
 stepShake: 0.4
-legLengthScl: 1
-legLength: 10
+legLengthScl: 2
+legLength: 16
 legSpeed: 0.1

@@ -4,7 +4,7 @@ name: Reconstruction Projector
 category: effect
 requirements:[item-silver/40,item-conduction-quartz/15]
 healPercent: 0.05
-range: 32
+range: 40
 range: 5
 squareSprite: false
 consumes:{
@@ -37,6 +37,14 @@ drawer: {
       square: true
       color: 85c278
       layer: 110
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c27888
+      layer: 110
+      radiusScl: 5
+      timeScl: 225
     }
     {
       type: DrawGlowRegion

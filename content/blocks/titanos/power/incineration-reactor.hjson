@@ -1,0 +1,22 @@
+// just for the sake of the explosion
+type: ConsumeGenerator
+name: Incineration Reactor
+description: "Hard to maintain high energy output reactor, quite explosive."
+size: 3
+
+category: power
+requirements:[item-oxidium/135,item-hardened-calcite/75,item-conduction-quartz/50,item-carbon-matter/35]
+
+powerProduction: 5
+  
+consumes:{
+items:[item-shale/4]
+liquids:[slag/0.01667]
+}
+
+outputLiquid: carbon-dioxide/0.166
+warmupSpeed: 0.0001667
+
+research:{
+parent: convection-generator
+}

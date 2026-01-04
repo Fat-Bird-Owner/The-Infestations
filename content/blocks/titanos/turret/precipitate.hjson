@@ -1,0 +1,121 @@
+type: ItemTurret
+name: Precipitate
+size: 3
+health: 450
+outlineColor: 313131
+range: 230
+
+coolant:{
+type: ConsumeCoolant
+allowLiquid: true
+allowGas: true
+amount: 0.75
+}
+
+requirements:[
+item-silver/75
+item-oxidium/60
+item-hardened-calcite/45
+item-carbon-matter/30
+]
+category: turret
+
+reload: 6
+shootSound: shootSpectre
+ammoPerShot: 1
+maxAmmo: 10
+shootY: 8.25
+shoot:{
+type: ShootAlternate
+spread: 4.25
+barrels: 3
+}
+
+ammoTypes:{
+
+item-hardened-calcite:{
+type: MissileBulletType
+speed: 4
+lifetime: 60
+damage: 25
+splashDamage: 15
+ammoMultiplier: 10
+
+frontColor: 8f8f8f
+backColor: 7f7f7f
+trailColor: 7f7f7f55
+  
+despawnHit: true
+hitEffect: explosion
+status: slow
+statusDuration: 60
+hitSound: unitExplode1
+
+}
+
+item-carbon-matter:{
+type: MissileBulletType
+speed: 4
+lifetime: 60
+damage: 40
+splashDamage: 25
+ammoMultiplier: 10
+  
+frontColor: 4f4f4fff
+backColor: 3f3f3fff
+trailColor: 3f3f3f55
+  
+despawnHit: true
+hitEffect: explosion
+status: blasted
+hitSound: unitExplode1
+  
+}
+
+}
+
+/*
+drawer:{
+type: DrawTurret
+parts:[
+// ammo shells
+{
+suffix: "-barrel-1"
+under: true
+y: 5
+progress: recoil
+heatProgress: recoil
+moveY: -15
+color: ffffff
+colorTo: 00000000
+mirror: false
+}
+
+{
+suffix: "-barrel-2"
+under: true
+y: 5
+progress: recoil
+heatProgress: recoil
+moveY: -15
+color: ffffff
+colorTo: 00000000
+mirror: false
+}
+
+{
+suffix: "-barrel-3"
+under: true
+y: 5
+progress: recoil
+heatProgress: recoil
+moveY: -15
+color: ffffff
+colorTo: 00000000
+mirror: false
+}
+
+]
+
+}
+*/

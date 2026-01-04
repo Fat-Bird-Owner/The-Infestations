@@ -1,0 +1,155 @@
+type: hover
+hovering: true
+payloadCapacity: 576
+pickUpUnits: true
+name: "Siege"
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+Increased durability.
+Fires charges to fire a strong lasers, additionally is equipped with long range missiles.
+Increased suppression range and now has an energy field.
+"
+
+health: 1450
+faceTarget: true
+armor: 15
+hitSize: 24
+speed: 1.25
+drag: 0.05
+range: 180
+engineOffset: 16
+canDrown: false
+engineSize: 7.5
+outlineColor: 2c2d38
+
+weapons:[
+{
+x: -0.5
+y: -3.5
+baseRotation: 45
+inacurracy: 7.5
+reload: 4.5
+shootCone: 180
+alternate: true
+shootSound: shootArtillerySmall
+
+shoot:{
+type: ShootAlternate
+barrels: 4
+spread: 2.5
+}
+
+bullet:{
+type: BasicBulletType
+speed: 4
+lifetime: 60
+homingPower: 0.1
+homingDelay: 15
+trailWidth: 1 
+trailLength: 16
+
+status: sapped
+statusDuration: 30
+
+damage: 15
+
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+}
+
+}
+{
+reload: 180
+x: -0.5
+y: -3.5
+mirror: false
+
+shoot:{
+firstShotDelay: 120
+}
+shake: 7.5
+shootSound: explosionReactor
+
+shootStatus: unmoving
+shootStatusDuration: 140
+
+bullet:{
+type: LaserBulletType
+width: 16
+recoil: 2.5
+colors:[a393feff,a393fe88,a393fe44]
+damage: 65
+length: 180
+lifetime: 120
+
+chargeEffect:{
+type: ParticleEffect
+particles: 10
+length: 40
+baseLength: -40
+sizeFrom: 8
+sizeTo: 0
+colorFrom: a393fe88
+colorTo: a393fe00
+interp: pow4In
+lifetime: 120
+rotWithParent: true
+}
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+scaledSplashDamage: true
+splashDamage: 1
+splashDamageRadius: 32
+suppressionRange: 36
+instantDisappear: true
+despawnHit: true
+hitShake: 2.5
+despawnEffect: none
+lightning: 5
+lightningColor: a393feff
+lightninDamage: 7.5
+}
+
+}
+
+}
+]
+
+abilities:[
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -0.5
+y: -3.5
+}
+{
+type: EnergyFieldAbility
+healPercent: 1.5
+color: a393feff
+damage: 15
+range: 80
+reload: 60
+status: sapped
+sectors: 4
+effectRadius: 3.5
+sectorRad: 4
+x: -0.5
+y: -3.5
+layer: 59.999
+}
+{
+type: SuppressionFieldAbility
+x: -0.5
+y: -3.5
+orbRadius: 9.5
+layer: 59.99
+reload:	180
+maxDelay:	65
+range: 160
+}
+]

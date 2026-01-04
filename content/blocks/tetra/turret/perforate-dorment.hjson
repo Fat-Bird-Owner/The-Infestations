@@ -1,0 +1,18 @@
+type: PowerTurret
+name: Perforate Dorment
+size: 2
+
+requirements:[]
+category: units
+
+alwaysShooting: true
+linearWarmup: true
+shootWarmupSpeed: 0.025
+
+shootType:{
+type: EmptyBulletType
+despawnHit: true
+instantDisappear: true
+killShooter: true
+spawnUnit: p2-c1-t1-perforate
+}

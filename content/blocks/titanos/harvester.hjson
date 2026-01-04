@@ -4,7 +4,8 @@ name: Harvester
 description: drills into the ground for minerals.
 health: 120
 tier: 1
-requirements:[item-silver/60]
+requirements:[item-silver/30,item-oxidium/20]
+
 category: production
 researchCostMultiplier: 0.05
 drillTime: 380

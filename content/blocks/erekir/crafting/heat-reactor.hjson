@@ -1,0 +1,21 @@
+buildVisibility: shown
+liquidOutputDirections: [2]
+outputItems:[]
+
+research:{
+parent: slag-heater
+
+objectives:[
+thorium
+nitrogen
+]
+
+}
+
+outputLiquid: slag/0.01667
+
+description: "
+A nuclear reactor using thorium and nitrogen to generate heat, Slowly fills up with slag.
+
+[red]Unused vanilla block which has been reused by this mod.[]
+"

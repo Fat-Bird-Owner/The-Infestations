@@ -1,0 +1,40 @@
+type: UnitFactory
+name: "General Constructor"
+category: units
+description: "Constructs all types units more efficently, requires power."
+size: 3
+
+requirements:[item-silver/150,item-oxidium/95,item-conduction-quartz/45,item-hardened-calcite/55]
+
+research:{
+parent: core-satellite
+name: Unit
+objectives:[
+{
+type: SectorComplete
+preset: scrap-yard-bunker
+}
+]
+}
+
+consumes:{
+power: 1.65
+}
+
+plans:[
+{
+unit: frontier
+requirements:[item-silver/45,item-oxidium/20]
+time: 600
+}
+{
+unit: shift
+requirements:[item-silver/50,item-oxidium/60,item-hardened-calcite/5]
+time: 850
+}
+{
+unit: raid
+requirements:[item-silver/75,item-oxidium/55,item-hardened-calcite/25,item-conduction-quartz/20]
+time: 1200
+}
+]

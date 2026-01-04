@@ -19,6 +19,14 @@ and are damaged an [accent]Adminary Oversear[] is located be careful.
 []
 "
 
+details: "
+load #1:
+Scrap yard bunker a desolated area, Assumably from biological threats.
+Now inhabited by old [red]crux[] faction and there remaining numbers.
+
+Load #2:
+Schematics of unit factories lies here.
+"
 
 research: {
   parent: rain-forest

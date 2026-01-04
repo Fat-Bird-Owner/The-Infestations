@@ -1,6 +1,9 @@
 type: DuctBridge
 range: 5
 itemCapacity: 30
+name: Overhead Conveyor
+
+shownPlanets: [titanos,tekera]
 
 requirements:[item-silver/15,item-oxidium/10]
 research:{

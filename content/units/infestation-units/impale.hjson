@@ -1,0 +1,64 @@
+// general stats
+type: legs
+hitSize: 16
+health: 850
+name: Swarm
+speed: 0.35
+omniMovement: true
+shootCone: 30
+outlineColor: 2c2d38
+drawCell: false
+
+// funni spider
+legCount: 6
+legMoveSpace: 1.25
+lockLegBase: true
+legContinuousMove: true
+emitWalkEffect: false
+legPairOffset: 1
+stepShake: 0.45
+legLengthScl: 0.95
+legSpeed: 0.125
+LegStraightness: 0.35
+legLength: 20
+
+targetFlags:[turret, generator, core]
+
+weapons:[
+{
+reload: 120
+shootSound: shootArtillerySmall
+shootStatus: slow
+shootStatusDuration: 180
+mirror: false
+x: 0
+y: 0
+shake: 0.45
+
+shoot:{
+type: ShootSpreas
+barrels: 5
+spread: 2.5
+shots: 10
+shotDelay: 5
+}
+
+bullet:{
+type: MissileBulletType
+inaccuracy: 7.5
+speed: 3
+lifetime: 60
+damage: 15
+hitShake: 2.5
+makeFire: true
+recoil: 0.15
+
+puddles: 5
+puddleRange: 4
+puddleLiquid: blood
+puddleAmount: 25
+}
+
+
+}
+]

@@ -1,5 +1,8 @@
 type: ItemTurret
 name: Retaliation
+
+suppressable: true
+
 description: "
 Type: [green]Defensive Turret[]
 Class: [lightgrey]Fragmentation[]
@@ -13,10 +16,15 @@ outlineColor: 2c2d38
 shootWarmupSpeed: 0.015
 minWarmup: 1
 linearWarmup: true
-shootSound: shootBig
+// shootSound: shootBig
 ejectEffect: casing2
 inaccuracy: 1
 
+coolant:{
+type: ConsumeCoolant
+allowGas: true
+amount: 0.1
+}
 
 shootEffect:{
 type: MultiEffect
@@ -84,21 +92,23 @@ sizeTo: 0
 ]
 }
 
-speed: 3
+speed: 6
 width: 10
 height: 14
-lifetime: 60
-damage: 9
+lifetime: 30
+damage: 20
 fragSpread: 30
 frontColor: d4fdff
 backColor: ffffff
-trailColor: d4fdff
+trailColor: d4fdff66
 trailWidth: 2
-trailLength: 6
+trailLength: 14
 status: frag
 statusDuration: 1
 splashDamage: 1
 splashDamageRadius: 40
+pierce: true
+fragBullets: 0
 fragLifeMin: 0.1
 fragLifeMax: 1
 
@@ -119,12 +129,13 @@ type: ExplosionEffect
 item-conduction-quartz:{
 type: BasicBulletType
 
-speed: 3
+speed: 6
 width: 10
 height: 14
-lifetime: 60
-damage: 14
+lifetime: 30
+damage: 28
 fragSpread: 30
+pierce: true
 frontColor: e28654
 backColor: ffcd66
 trailColor: ffffa3
@@ -137,7 +148,7 @@ fragBullet:{
 type: LightningBulletType
 lightningColor: ffcd66
 lightningLength: 4.5
-damage: 7
+damage: 10
 lifetime: 30
 }
 
@@ -187,7 +198,8 @@ progress: warmup
 rotateSpeed: 3
 radius: 0
 radiusTo: 3
-color: FF341CFF
+color: d4fdffff
+layer: 110.0
 x: 0
 y: 4
 }
@@ -197,7 +209,8 @@ progress: warmup
 rotateSpeed: -3
 radius: 0
 radiusTo: 3.5
-color: FF341CFF
+color: d4fdff66
+layer: 110.0
 x: 0
 y: 4
 }

@@ -1,0 +1,9 @@
+type: RainWeather
+name: Blood Rain
+sound: rain
+soundVol: 1.45
+density: 1000
+color: 6f0000ff
+liquid: blood
+xspeed: 8
+yspeed: 8

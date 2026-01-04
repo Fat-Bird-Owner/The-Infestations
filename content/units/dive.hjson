@@ -1,43 +1,121 @@
-type: flying
-flying: true
+type: hover
+canDrown: false
 name: Dive
-description: A mighty ship both well armored and well armed.
-health: 1000
-faceTarget: false
+hovering: true
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+Increased armor and durability.
+Poccesses duel lasercannons and an Anti-shield Railcannon
+Higher disrupt range
+"
+
+immunities:[flamethrow-fail]
+
+health: 850
+faceTarget: true
 armor: 5
-hitSize: 24
+hitSize: 16
 speed: 3
 accel: 0.1
 drag: 0.035
-range: 240
+range: 160
 engineOffset: 10
-controller: ObserventBuilderAI
+outlineColor: 313131FF
 
 weapons:[
 {
-x: 0
-y: -4
-name: "artillerycannon"
-reload: 45
-shootSound: malignShoot
+x: 9.5
+y: 5
+under: true
+name: "dive-weapon"
+reload: 60
+shootSound: shootEclipse
 recoilPow: 3.6
-mirror: false
-rotate: true
+rotateSpeed: 1.85
+mirror: true
+layerOffset: -0.001
+inaccuracy: 5
+
+shoot:{
+shots: 3
+shotDelay: 10
+}
+
+bullet:{
+type: LaserBulletType
+width: 3.5
+damage: 20
+pierce: false
+colors:[a393feff,a393fe77,a393fe44]
+length: 160
+}}
+{
+x: 0
+y: -5
+reload: 300
+
+shoot:{
+firstShotDelay: 150
+}
+
+shootStatus: slow
+shootStatusDuration: 200
+shootSound: shootLaser
+
 bullet:{
 type: BasicBulletType
-width: 10
-height: 10
-lifetime:60
-speed: 4
-damage: 10
-splashDamage: 50
-splashDamageRadius: 32
-hitEffect:[{
-effect:[
-particles: 10
-capped: false
-]
-}]
+speed: 6
+lifetime: 60
+keepVelocity: false
+shieldDamageMultiplier: 2.25
+recoil: 1.75
+damage: 125
+splashDamage: 60
+scaledSplashDamage: true
+splashDamageRadius: 40
+hitShake: 7.5
+trailColor: a393feff
+frontColor: 665c9fff
+backColor: 665c9f55
+hitSound: massiveExplosion
+makeFire: true
+
+chargeEffect:{
+type: ParticleEffect
+particles: 25
+lifetime: 130
+length: 25
+baseLength: -25
+sizeFrom: 8
+sizeTo: 2
+colorFrom: 665c9fff
+colorTo: 665c9f00
+interp: pow4In
+followParent: true
+rotWithParent: true
+}
+
+hitEffect:{
+type: ParticleEffect
+sizeFrom: 4
+sizeTo: 16
+colorFrom: 665c9fff
+length: 40
+colorTo: 665c9f00
+lifetime: 30
+interp: sine
+line: true
+lenFrom: 4
+lenTo: 0
+}
+
+despawnHit: true
+trailWidth: 3
+trailLength: 41
+width: 15
+height: 21
 }
 
 }
@@ -47,16 +125,17 @@ abilities:[
 {
 type: MoveEffectAbility
 chance: 0
-minVelocity: 0
-y: -7
-teamColor: true
-interval: 2
+minVelocity: 0.25
+y: -5
+color: 665c9fff
 }
 {
-type: ForceFieldAbility
-radius: 30
-regen: 0.25
-max: 180
-sides: 4
+type: SuppressionFieldAbility
+x: 0
+y: -5
+range: 120
+orbRadius: 7.5
+reload: 300
+layer: 59.9
 }
 ]

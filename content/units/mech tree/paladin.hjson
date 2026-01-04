@@ -12,6 +12,7 @@ Very durable assault mech unit, equipped with a flamethrower and Shell Cannon.
 outlineColor: 2c2d38
 speed: 0.34
 health: 2500
+drag: 0.25
 armor: 6
 hitSize: 18
 // abilties
@@ -193,4 +194,4 @@ lightningLength: 15
 }
 ]
 
-immunities:[corroded,flamethrow-fail]
+immunities:[corroded,flamethrow-fail,burning,melting,hover-anchored]

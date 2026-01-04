@@ -1,0 +1,52 @@
+type: LiquidTurret
+size: 2
+name: Spray
+requirements:[
+item-silver/65
+item-oxidium/45
+item-hardened-calcite/40
+]
+category: turret
+outlineColor: 313131
+reload: 5
+inaccuracy: 8.5
+maxAmmo: 30
+ammoPerShot: 3
+
+shoot:{
+shots: 3
+shotDelay: 1.5
+}
+
+range: 150
+
+ammoTypes:{
+water:{
+type: LiquidBulletType
+liquid: water
+puddleSize: 16
+speed: 5
+lifetime: 30
+despawnHit: true
+}
+slag:{
+type: LiquidBulletType
+liquid: slag
+puddleSize: 16
+speed: 5
+lifetime: 30
+despawnHit: true
+}
+oxidium-liquilite:{
+type: LiquidBulletType
+liquid: oxidium-liquilite
+puddleSize: 16
+speed: 5
+lifetime: 30
+despawnHit: true
+}
+}
+
+drawer:{
+type: DrawTurret
+}

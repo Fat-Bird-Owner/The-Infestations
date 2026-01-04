@@ -3,8 +3,12 @@ baseExplosiveness: 1.25
 consumes: {
   powerBuffered: 500
 } 
+buildVisibility: sandboxOnly
+
+/*
 research:{
 parent: transmission-line
 }
 requirements:[item-silver/20,item-conduction-quartz/10]
 researchCostMultiplier: 0.1
+*/

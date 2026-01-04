@@ -1,0 +1,16 @@
+type: UnitCargoLoader
+name: Prospect
+description: "Mine nearby silver walls."
+unitType: prospect-miner
+unitBuildTime: 0.1
+category: production
+
+consumes:{
+power: 0.25
+}
+
+requirements:[
+item-silver/35
+item-oxidium/25
+item-conduction-quartz/10
+]

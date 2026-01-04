@@ -1,0 +1,220 @@
+type: mech
+name: Convoy
+description: "The first ever inhabitor ever created, Though its despite being the first it's durability is near unmatched being able almost wipe out an entire large base by it's self."
+health: 100000
+speed: 0.25
+armor: 12.5
+crushDamage: 5
+rotateSpeed: 2.35
+hitSize: 32
+range: 300
+previewRegion: convoy-preview
+
+stepSound: wreckFallBig
+
+abilities:[
+{
+type: ShieldArcAbility
+angle: 360
+radius: 45
+drawArc: false
+max: 2500
+missileUnitMultiplier: 0.35
+chanceDeflect: 6.5
+regen: 0
+}
+]
+
+outlineColor: 313131FF
+
+parts:[
+{
+type: FlarePart
+x: 0
+y: 14.75
+spinSpeed: 2.25
+sides: 4
+color1: D2806CFF
+radius: 10
+followRotation: true
+}
+{
+type: EffectSpawnerPart
+x: 0
+y: 14.75
+effect:{
+type: ParticleEffect
+followParent: true
+particles: 3
+baseLength: -20
+length: 20
+sizeFrom: 8
+sizeTo: 0
+colorTo: D2806ff
+colorFrom: D2806C55
+interp: sine
+}
+
+effectColor:D2806CFF
+haloRotateSpeed: 2.25
+radius: 14
+}
+]
+
+immunities:[flamethrow-fail,ret-shock,burning,melting,electrified]
+
+weapons:[
+{
+name: Core-beam
+reload: 450
+shake: 35
+x: 0
+y: 14.75
+mirror: false
+
+shoot:{
+firstShotDelay: 180
+}
+
+shootSound: shootCorvus
+chargeSound: chargeCorvus
+
+ejectEffect:{
+type: Particle
+particles: 15
+sizeTo: 16
+sizeFrom: 8
+lifetime: 180
+colorFrom: D2806C77
+colorTo: D2806C00
+length: 250
+cone: 35
+}
+
+bullet:{
+type: LaserBulletType
+length: 480
+width: 30
+lifetime: 180
+damage: 3450
+pierce: true
+colors:[D2806CFF,D2806C77,D2806C33]
+status: melting
+statusDuration: 300
+makeFire: true
+
+fragLifeMax: 1
+fragLifeMin: 1
+despawnHit: true
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+instantDisappear: true
+splashDamageRadius: 400
+despawnHit: true
+collidesGround: false
+hitShake: 7.5
+/*
+hitEffect:{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 400
+lifetime: 300
+strokeFrom: 8
+strokeTo: 8
+colorFrom: ffffff88
+colorTo: ffffff00
+}
+*/
+
+}
+
+chargeEffect:{
+type: MultiEffect
+followParent: true
+effects:[
+{
+type: WaveEffect
+sizeFrom: 80
+sizeTo: 0
+colorFrom: D2806C66
+colorTo: D2806CFF00
+lifetime: 90
+strokeTo: 5
+}
+{
+type: ParticleEffect
+particles: 15
+sizeFrom: 16
+sizeTo: 0
+length: 40
+baseLength: -40
+lifetime: 160
+colorFrom: D2806C44
+colorTo: D2806CFF
+interp: sine
+}
+]
+}
+
+}
+
+}
+{
+name: ash-spread
+shootY: 25.5
+reload: 15
+x: 24
+y: 0
+under: true
+rotate: true
+rotateSpeed: 2.5
+rotationLimit: 15
+shake: 4.5
+shootCone: 30
+
+shootSound: shootSpectre
+
+bullet:{
+type: BasicBulletType
+width: 15
+height: 15
+trailWidth: 3 
+trailLength: 15
+
+shootSound: shootBig
+
+frontColor: EFCA98FF
+backColor: EFE4CAFF
+trailColor: EFE4CAFF66
+
+speed: 10
+lifetime: 30
+
+damage: 450
+pierce: true
+pierceBuildings: true
+pierceCap: 3
+despawnHit: true
+status: burning
+statusDuration: 120
+
+fragBullets: 1
+fragBullet:{
+type: ExplosionBulletType
+despawnHit: true
+splashDamageRadius: 40
+splashDamage: 37.5
+scaledSplashDamage: true
+killShooter: false
+
+hitEffect: massiveExplosion
+hitShake: 9.5
+status: blasted
+}
+
+}
+
+}
+]

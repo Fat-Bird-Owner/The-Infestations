@@ -1,0 +1,105 @@
+type: payload
+name: "[accent]Observent {Shielded}"
+physics: false
+targetable: false
+hittable: false
+drawBody: false
+rotateSpeed: 0
+range: 260
+mineTier: 1
+minesItem:[item-silver]
+mineWalls: true
+mineRange: 320
+buildRange: 320
+buildSpeed: 1.35
+mineSpeed: 5
+speed: 0
+bounded: false
+shadowElevation: 0
+hidden: true
+drag: 1000
+engineSize: 0
+flying: true
+itemCapacity: 0
+hitSize: 5
+ammoCapacity: 1
+payloadCapacity: 0
+pickupUnits: true
+outlineColor: 2c2d38
+drawCell: false
+drawMinimap: false
+wobble: false
+isEnemy: false
+softShadowScl: 0
+commands: [move, repair, rebuild, assist]
+defaultCommand: rebuild
+controller: BuilderAI
+fogRadius: 260
+lightRadius: 260
+  
+immunities:[rallied]
+
+abilities:[
+{
+type: ForceFieldAbility
+radius: 32
+max: 2000
+regen: 10
+sides: 4
+rotation: 45
+}
+{
+type: EnergyFieldAbility
+damage: 0
+hitUnits: false
+maxTargets: 15
+healPercent: 5.5
+reload: 120
+range: 260
+effectRadius: 0
+layer: 10
+hitEffect: heal
+shootSound: heal
+
+damageEffect: none
+
+}
+{
+type: StatusFieldAbility
+reload: 4.5
+effect: rallied
+activeEffect: none
+
+duration: 5
+range: 260
+}
+]
+
+parts:[
+{
+# taken from meld. thanks for the code :D
+type: HoverPart
+x: 0
+y: 0
+sides: 60
+mirror: false
+radius: 260
+phase: 420
+stroke: 3
+circles: 2
+minStroke: 1
+layer: 122
+color: ff795e
+}
+{
+x: 0
+y: 0
+type: ShapePart
+circle: true
+hollow: true
+radius: 260
+stroke: 8
+layer: 122
+color: ff795e
+}
+]

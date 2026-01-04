@@ -1,0 +1,4 @@
+type: Wall
+name: Anti-Fog
+category: effect
+fogRadius: 250

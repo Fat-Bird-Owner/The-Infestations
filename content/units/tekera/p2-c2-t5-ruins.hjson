@@ -3,7 +3,7 @@ name: Ruins
 hitSize: 60
 health: 60250
   
-speed: 0.77
+speed: 0.55
 omniMovement: false
 rotateMoveFirst: true
 
@@ -11,40 +11,48 @@ weapons:[
 {
 x: 0
 y: 0
-
-reload: 120
+mirror: false
+reload: 35
 rotate: true
-rotateSpeed: 2.5
+rotateSpeed: 1.5
+
+parts:[
+{
+type: FlarePart
+color1: ffffff
+sides: 2
+radius: 14
+x: 0
+y: -8
+}
+]
+
+shoot:{
+type: ShootAlternate
+spread: 8
+}
 
 bullet:{
 type: BasicBulletType
 keepVelocity: false
-speed: 2.5
-lifetime: 120
-damage: 205
-splashDamage: 150
+speed: 5
+lifetime: 60
+damage: 125
+splashDamage: 35
 scaledSplashDamage: true
-width: 25
-height: 40
-trailWidth: 5
-trailLength: 16
-splashDamageRadius: 40
+width: 10
+height: 20
+trailWidth: 2
+trailLength: 8
+splashDamageRadius: 25
+frontColor: d9c689
+backColor: a19777
+trailColor: a1977766
 
 hitEffect: massiveExplosion
 despawnHit: true
-hitShake: 35
+hitShake: 3.5
 
-spawnBullets:[
-{
-type: LaserBulletType
-colors:[ffffff00,ffffff0,ffffff]
-sideWidth: 1
-length: 300
-damage: 175
-lifetime: 120
-}
-]
-  
 }
 
 }

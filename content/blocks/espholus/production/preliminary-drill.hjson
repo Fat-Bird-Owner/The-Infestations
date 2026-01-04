@@ -1,0 +1,9 @@
+type: Drill
+name: Preliminary Drill
+size: 2
+tier: 1
+
+requirements:[beryllium/10,lead/20]
+
+category: production
+drillTime: 685.71429

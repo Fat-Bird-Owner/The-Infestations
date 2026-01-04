@@ -1,0 +1,364 @@
+type: hover
+hovering: true
+name: "Armament"
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+Improved base stats, but moves slower.
+fires triple artillery shells, Stronger homing shells and an Eviceration Beam.
+Improved ability range.
+"
+
+immunities:[ret-shock,flamethrow-fail,hover-anchored]
+loopSound: loopMachine
+
+health: 35000
+faceTarget: true
+armor: 20
+hitSize: 44
+rotateSpeed: 3.5
+speed: 0.75
+drag: 0.45
+canDrown: false
+outlineColor: 2c2d38
+
+weapons:[
+{
+reload: 180
+x: -0.5
+y: 15.5
+useAttackRange: true
+
+bullet:{
+type: EmptyBulletType
+instantDisappear: true
+speed: 4
+lifetime: 100
+
+fragBullets: 3
+fragSpread: 22.5
+fragRandomSpread: 0
+fragLifeMin: 1
+fragLifeMax: 1
+fragVelocityMin: 1
+fragVelocityMax: 1
+
+fragBullet:{
+type: ArtilleryBulletType
+splashDamage: 85
+makeFire: true
+splashDamageRadius: 48
+despawnHit: true
+hitSound: explosionTitan
+hitEffect: {
+type: WrapEffect
+effect: titanExplosionLarge
+color: a393feff
+}
+speed: 4
+lifetime: 100
+
+width: 20
+height: 14
+
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+trailEffect: none
+trailWidth: 4
+trailLength: 28
+}
+  
+}
+
+}
+{
+x: -0.5
+y: 15.5
+baseRotation: 45
+inacurracy: 7.5
+reload: 240
+shootCone: 180
+alternate: false
+shootSound: blockExplodeFlammable
+
+shoot:{
+type: ShootAlternate
+barrels: 3
+spread: 2.5
+shots: 6
+shotDelay: 15
+}
+
+bullet:{
+type: BasicBulletType
+speed: 4
+lifetime: 120
+width: 15
+height: 21
+homingPower: 0.135
+homingDelay: 15
+trailWidth: 3
+trailLength: 25
+
+status: burning
+statusDuration: 175
+
+damage: 65
+
+splashDamage: 104
+splashDamageRadius: 24
+scaledSplashDamage: true
+
+despawnHit: true
+hitEffect: {
+type: WrapEffect
+effect: scatheExplosion
+color: a393feff
+}
+hitSound: wreckFallBig
+hitShake: 6.75
+makeFire: true
+  
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+}
+
+}
+{
+reload: 450
+x: 0
+y: 15.5
+cooldownTime: 120
+
+shootY: 3.25
+shootX: -0.4
+mirror: false
+
+shoot:{
+firstShotDelay: 235
+}
+shake: 12.5
+shootSound: explosionReactorNeoplasm
+chargeSound: chargeCorvus
+
+shootStatus: spore-slowed
+shootStatusDuration: 220
+
+useAttackRange: true
+
+bullet:{
+chargeEffect:{
+type: MultiEffect
+followParent: true
+lifetime: 235
+effects:[
+{
+type: ParticleEffect
+particles: 25
+length: 60
+baseLength: -60
+sizeFrom: 8
+sizeTo: 2
+colorFrom: a393fe99
+colorTo: a393fe4ba
+interp: pow5In
+sizeInterp: pow4In
+lifetime: 135
+layer: 61
+}
+{
+type: WaveEffect
+sizeFrom: 60
+sizeTo: 0
+colorTo: a393fe4ba
+interp: exp5
+lifetime: 200
+}
+{
+type: ParticleEffect
+particles: 30
+length: 80
+baseLength: -80
+sizeFrom: 2
+sizeTo: 8
+colorFrom: a393fe22
+colorTo: a393feff
+interp: pow5In
+sizeInterp: pow4In
+lifetime: 225
+layer: 61
+}
+]
+}
+
+type: BasicBulletType
+despawnHit: true
+instantDisappear: true
+
+fragBullets: 1
+fragLifeMin: 1
+fragLifeMax: 1
+fragRandomSpread: 0
+
+// for the sake of it attacking
+speed: 5.5
+lifetime: 100
+range: 550
+
+spawnBullets:[
+{
+type: BasicBulletType
+collides: false
+pierce: true
+speed: 11
+damage: 0
+lifetime: 50
+width: 0
+frontColor: ffffff77
+backColor: 00000000
+
+bulletInterval: 5
+intervalRandomSpread: 0
+
+intervalBullet:{
+type: EmptyBulletType
+despawnHit: true
+hitEffect: railHit
+}
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+splashDamage: 15
+splashDamagwRadius: 80
+scaledSplashDamage: true
+makeFire: true
+}
+}
+]
+
+fragBullet:{
+
+type: LaserBulletType
+width: 32
+recoil: 2.5
+colors:[a393feff,a393fe88,a393fe44]
+damage: 275
+length: 550
+lifetime: 120
+makeFire: true
+  
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+scaledSplashDamage: true
+splashDamage: 1
+splashDamageRadius: 32
+suppressionRange: 44
+instantDisappear: true
+despawnHit: true
+hitShake: 2.5
+despawnEffect: none
+lightning: 10
+lightningColor: a393feff
+lightningDamage: 35
+lightningLength: 20
+status: sapped
+makeFire: true
+}
+
+}
+
+}
+}
+]
+
+abilities:[
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -0.5
+y: 5
+}
+{
+type: EnergyFieldAbility
+healPercent: 4.5
+color: a393feff
+damage: 55
+range: 200
+reload: 50
+status: sapped
+sectors: 4
+effectRadius:5
+sectorRad: 4
+x: -0.5
+y: 5
+layer: 59.999
+}
+{
+type: SuppressionFieldAbility
+x: -0.5
+y: 5
+orbRadius: 20
+layer: 59.99
+reload:	120
+maxDelay:	30
+range: 400
+}
+// engine visuals
+{
+type: SuppressionFieldAbility
+range: 0
+x: -0.5
+y: -27.5
+layer: 59.9 
+orbRadius: 9
+// 64 y: 7
+display: false
+}
+
+{
+type: MoveEffectAbility
+color: 665c9fff
+x: -0.5
+y: -27.5
+}
+
+{
+type: SuppressionFieldAbility
+range: 0
+x: -16
+y: -17.5
+layer: 59.8
+orbRadius: 4.5
+display: false
+}
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -16
+y: -17.5
+}
+
+{
+type: SuppressionFieldAbility
+range: 0
+x: 16
+y: -17.5
+layer: 59.8
+orbRadius: 4.5
+display: false
+}
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: 16
+y: -17.5
+}
+
+]

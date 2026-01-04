@@ -6,12 +6,25 @@ mesh: [
     type: NoiseMesh
     planet: titanos
     divisions: 5
+    seed: 8
+    radius: 1.1875
+    color1: 004f7f
+    color2: 005f8f
+    persistence: 16
+    octaves: 2
+}
+{
+    //ground
+    type: NoiseMesh
+    planet: titanos
+    divisions: 5
     seed: 4
-    radius: 1.2155
+    radius: 1.21
     color1: 00ff80
     color2: 1d6b67
-    persistence: 16
-    octaves: 3
+    persistence: 13
+    octaves: 2
+	scale: 1.1
 }
 ]
 
@@ -34,7 +47,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 4
-   color: 00ff807522
+   color: 00ff8075
    octaves: 2
    persistence: 0.4
    scl: 0.9
@@ -57,6 +70,7 @@ cloudMesh: [
 campaignRuleDefaults: {
 	showSpawns: true
 	sectorInvasion: true
+	legacyLaunchPads: true
 }
 
 generator: SerpuloPlanetGenerator
@@ -80,7 +94,7 @@ updateLighting: false
 sectorSeed: 17
 bloom: true
 visible: true
-atmosphereColor: a6babd44
+atmosphereColor: 4da16f
 showRtsAIRule: false
 iconColor: 9ad44a
 hasAtmosphere: true
@@ -89,5 +103,5 @@ clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-satellite
 parent: photomos
-launchCandidates: []
+launchCandidates: [tekera]
 landCloudColor: 234f4455

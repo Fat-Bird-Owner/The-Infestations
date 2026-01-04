@@ -1,17 +1,10 @@
 type: CoreBlock
 name: Emitter
-health: 9991000
-buildVisibility: hidden
-armor: 2000
+health: 4500
+buildVisibility: sandboxOnly
+armor: 20
 itemCapacity: 250
 size: 3
-unitType:"infested-mass"
-targetable: false
-
-destroyBullet:{
-splashDamage: 1000
-splashDamageRadius: 120
-instantDisappear: true
-despawnHit: true
-despawnEffect: reactorExplosion
-}
+unitType: "infested-mass"
+targetable: true
+allowSpawn: false

@@ -1,0 +1,40 @@
+type: HeatProducer
+name: Heat Accumulator
+category: crafting
+size: 2
+
+consumes:{
+liquids:[
+slag/0.01667
+]
+}
+
+drawers:{
+type: DrawMulti
+drawers:[
+{
+type: DrawLiquidTile
+drawLiquid: slag
+padding: 1.3
+}
+{
+type: DrawDefault
+}
+{
+type: DrawHeatOutput
+}
+]
+}
+
+liquidOutputDirections: [2]
+
+heatOutput: 5
+
+research:{
+parent: steam-accumulator
+objectives:[
+carbon-kiln
+]
+}
+
+requirements:[item-silver/45,item-oxidium/15,item-conduction-quartz/20]

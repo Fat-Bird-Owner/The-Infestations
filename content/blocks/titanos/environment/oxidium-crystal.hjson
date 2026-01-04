@@ -1,0 +1,7 @@
+type: StaticWall
+variants: 0
+itemDrop: item-oxidium
+
+attributes:{
+oxidium: 1
+}

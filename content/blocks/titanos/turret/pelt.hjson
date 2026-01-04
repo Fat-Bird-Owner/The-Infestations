@@ -4,24 +4,25 @@ health: 500
 name: Pelt
 description: "
 Type:[green] Defensive Turret[]
-Class:[orange] Flamethrower[]
+Class:[orange] Flamethrower[]/[purple]Hover[]
 
 Fires a barrage of bullets which will bounce on hit. can be boosted.
-[orange]
-Class Effect:
-(+) Enemies hitted by this turret's bullet will have there weapon temporarily disabled.
+
+Class Effect:[orange]
+(+) Flamethrower class enemies will receive having there weapon temporarily disabled.
+[purple](+) Hover class enemies will temporary be unable to move for a short duration.
 []
 "
 
 range: 210
 category: turret
 requirements:[item-silver/45,item-oxidium/35,item-hardened-calcite/15]
-reload: 25
+reload: 18.5
 outlineColor: 2c2d38
 shoot:{
 type: ShootAlternate
 shots: 2
-spread: 5
+spread: 3.5
 shotDelay: 0
 }
 
@@ -42,16 +43,21 @@ width: 10
 status: flamethrow-fail
 statusDuration: 5
 // bounce
-fragBullets: 1
+fragBullets: 4
 fragBullet: {
-type: ArtilleryBulletType
-splashDamage: 10
-splashDamageRadius: 24
-height: 14
-width: 10
-speed: 2.5
+type: BasicBulletType
+pierce: true
+damage: 2.4
+height: 7
+width: 5
+trailWidth: 1
+trailLength: 7
+lifetime: 5
+speed: 5
 status: flamethrow-fail
 statusDuration: 10
+trailColor: ffffff55
+despawnEffect: none
 }
 
 }
@@ -61,22 +67,29 @@ speed: 5
 lifetime: 42
 height: 14
 width: 10
-status: flamethrow-fail
-statusDuration: 7.5
+status: hover-anchored
+knockback: 10
+impact: true
+statusDuration: 15
 backColor: 9c88c3
 frontColor: 5c5e9f
 // bounce
-fragBullets: 1
+fragBullets: 6
 fragBullet: {
-type: ArtilleryBulletType
-splashDamage: 15
-splashDamageRadius: 24
-height: 14
-width: 10
-speed: 2.5
+type: BasicBulletType
+damage: 3.5
+height: 7
+pierce: true
+width: 5
+trailWidth: 1
+trailLength: 7
+speed: 5
+lifetime: 10
 status: blasted
 backColor: 9c88c3
 frontColor: 5c5e9f
+trailColor: 9c88c355
+despawnEffect: none
 }
 
 }

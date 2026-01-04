@@ -1,0 +1,412 @@
+type: hover
+hovering: true
+name: "Armada"
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+A massive improvement from the armada.
+Built by the grenarcs used to fight the infestation.
+Has very good AOE weapons and starts fire very easily.
+"
+
+immunities:[ret-shock,flamethrow-fail,hover-anchored]
+loopSound: loopMachine
+
+crushDamage: 3
+health: 65000
+faceTarget: true
+armor: 22.5
+hitSize: 52
+rotateSpeed: 2.5
+speed: 0.75
+drag: 0.5
+canDrown: false
+outlineColor: 2c2d38
+
+weapons:[
+{
+reload: 180
+x: 0
+y: 8.5
+useAttackRange: true
+
+bullet:{
+type: EmptyBulletType
+instantDisappear: true
+speed: 4
+lifetime: 100
+
+fragBullets: 6
+fragSpread: 11.24
+fragRandomSpread: 0
+fragLifeMin: 1
+fragLifeMax: 1
+fragVelocityMin: 1
+fragVelocityMax: 1
+
+fragBullet:{
+type: ArtilleryBulletType
+splashDamage: 50
+makeFire: true
+splashDamageRadius: 56
+homingPower: 0.0015
+homingDelay: 40
+despawnHit: true
+hitSound: explosionTitan
+parts:[
+{
+type: FlarePart
+sides: 2
+radius: 40
+color1: a393feff
+}
+]
+
+hitShake: 8.5
+hitEffect: {
+type: WrapEffect
+effect: titanExplosion
+color: a393feff
+}
+speed: 4
+lifetime: 100
+
+width: 20
+height: 14
+
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+trailEffect: none
+trailWidth: 4
+trailLength: 28
+}
+  
+}
+
+}
+{
+x: -0
+y: 8.5
+baseRotation: 45
+inacurracy: 7.5
+reload: 240
+shootCone: 180
+alternate: false
+shootSound: blockExplodeFlammable
+
+shoot:{
+type: ShootAlternate
+barrels: 3
+spread: 5
+shots: 3
+shotDelay: 20
+}
+
+bullet:{
+type: BasicBulletType
+speed: 8
+lifetime: 60
+range: 960
+width: 12.5
+height: 28
+homingPower: 0.15
+homingDelay: 20
+trailWidth: 2.5
+trailLength: 28
+
+fragBullets: 5
+fragBullet:{
+type: BasicBulletType
+speed: 6
+lifetime:90
+width: 12.5
+height: 28
+homingPower: 0.15
+homingDelay: 20
+trailWidth: 2.5
+trailLength: 28
+hitShake: 4.5
+makeFire: true
+splashDamage: 25
+splashDamageRadius: 25
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+}
+
+parts:[
+{
+type: FlarePart
+sides: 2
+radius: 25
+color1: a393feff
+}
+]
+
+status: burning
+statusDuration: 175
+
+damage: 75
+
+splashDamage: 115
+splashDamageRadius: 32
+scaledSplashDamage: true
+makeFire: true
+  
+despawnHit: true
+hitEffect: {
+type: WrapEffect
+effect: titanSmokeLarge
+color: a393feff
+}
+hitSound: wreckFallBig
+hitShake: 6.75
+makeFire: true
+  
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+}
+
+}
+{
+reload: 450
+x: 0
+y: 8.5
+cooldownTime: 120
+
+shootY: 3.25
+shootX: -0.4
+mirror: false
+
+shoot:{
+firstShotDelay: 235
+shots: 1
+shotDelay: 35
+}
+shake: 12.5
+shootSound: explosionReactorNeoplasm
+chargeSound: chargeCorvus
+
+shootStatus: spore-slowed
+shootStatusDuration: 220
+
+
+bullet:{
+chargeEffect:{
+type: MultiEffect
+followParent: true
+lifetime: 235
+effects:[
+{
+type: ParticleEffect
+particles: 25
+length: 60
+baseLength: -60
+sizeFrom: 8
+sizeTo: 2
+colorFrom: a393fe99
+colorTo: a393fe4ba
+interp: pow5In
+sizeInterp: pow4In
+lifetime: 135
+layer: 61
+}
+{
+type: WaveEffect
+sizeFrom: 60
+sizeTo: 0
+colorTo: a393fe4ba
+interp: exp5
+lifetime: 200
+}
+{
+type: ParticleEffect
+particles: 30
+length: 80
+baseLength: -80
+sizeFrom: 2
+sizeTo: 8
+colorFrom: a393fe22
+colorTo: a393feff
+interp: pow5In
+sizeInterp: pow4In
+lifetime: 225
+layer: 61
+}
+]
+}
+
+type: BasicBulletType
+despawnHit: true
+instantDisappear: true
+
+fragBullets: 1
+fragLifeMin: 1
+fragLifeMax: 1
+fragRandomSpread: 0
+
+// for the sake of it attacking
+speed: 6
+lifetime: 100
+range: 600
+
+spawnBullets:[
+{
+type: BasicBulletType
+collides: false
+pierce: true
+keepVelocity: false
+despawnHit: true
+speed: 22
+damage: 0
+lifetime: 25
+width: 0
+frontColor: ffffff77
+backColor: 00000000
+keepVelocity: false
+bulletInterval: 5
+intervalRandomSpread: 0
+
+intervalBullet:{
+type: EmptyBulletType
+despawnHit: true
+hitEffect: railHit
+}
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+splashDamage: 650
+splashDamageRadius: 160
+scaledSplashDamage: true
+makeFire: true
+hitEffect: reactorExplosion
+}
+}
+]
+
+fragBullet:{
+type: LaserBulletType
+width: 44
+keepVelocity: false
+recoil: 2.5
+colors:[a393feff,a393fe88,a393fe44]
+damage: 1250
+length: 600
+lifetime: 120
+makeFire: true
+  
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+scaledSplashDamage: true
+splashDamage: 1
+splashDamageRadius: 48
+suppressionRange: 60
+instantDisappear: true
+despawnHit: true
+hitShake: 2.5
+despawnEffect: none
+lightning: 10
+lightningColor: a393feff
+lightningDamage: 50
+lightningLength: 35
+status: sapped
+makeFire: true
+}
+
+}
+
+}
+}
+]
+
+abilities:[
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -0.5
+y: 8.4
+}
+{
+type: EnergyFieldAbility
+healPercent: 0
+color: a393feff
+damage: 100
+range: 225
+reload: 25
+status: sapped
+sectors: 4
+effectRadius:5
+sectorRad: 4
+x: -0.5
+y: 8.4
+layer: 59.999
+}
+{
+type: SuppressionFieldAbility
+x: -0.5
+y: 8.4
+orbRadius: 24
+layer: 59.99
+reload:	120
+maxDelay:	30
+range: 450
+}
+// engine visuals
+{
+type: SuppressionFieldAbility
+range: 0
+x: -0.5
+y: -32.25
+layer: 59.9 
+orbRadius: 12
+// 64 y: 7
+display: false
+}
+
+{
+type: MoveEffectAbility
+color: 665c9fff
+x: -0.5
+y: -32.25
+}
+
+{
+type: SuppressionFieldAbility
+range: 0
+x: -20.5
+y: -31.25
+layer: 59.8
+orbRadius: 6.5
+display: false
+}
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -20.5
+y: -31.25
+}
+
+{
+type: SuppressionFieldAbility
+range: 0
+x: 20.5
+y: -31.25
+layer: 59.8
+orbRadius: 4.5
+display: false
+}
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: 20.5
+y: -31.25
+}
+
+]

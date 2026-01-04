@@ -62,13 +62,15 @@ suffix: -bottom
 }
 {
 type: DrawLiquidTile
-padding: 0.65
+padding: 0.725
 drawLiquid: slag
 }
 {
-type: DrawRegion
+type: DrawBlurSpin
+x: 0
+y: 0
 suffix: -rotator
-rotateSpeed: 5
+rotateSpeed: 3.5
 }
 {
 type: DrawDefault

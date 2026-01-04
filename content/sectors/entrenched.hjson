@@ -33,9 +33,8 @@ research: {
   type: SectorComplete
   preset: rain-forest
   }
-  mech-forge-framework
+  assault-constructor
   frontier
-  fleet
   raid
   ]
 }

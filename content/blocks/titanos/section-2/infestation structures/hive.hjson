@@ -1,11 +1,11 @@
 // general stats
 
 type: PowerTurret
-name: "Active Hive [red](Lv.1)"
+name: "Hive"
 consumes:[]
 size: 2
-health: 3000
-armor: 20
+health: 300
+armor: 12
 
 // turret related stats
 
@@ -13,7 +13,7 @@ rotateSpeed: 0
 alwaysShooting: true
 reload: 2400
 shootCone: 180
-
+recoil: 0
 // bullet
 
 shootType:{

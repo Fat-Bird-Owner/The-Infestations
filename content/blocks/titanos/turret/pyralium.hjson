@@ -1,0 +1,100 @@
+type: ItemTurret
+maxAmmo: 9
+ammoPerShot: 3
+size: 2
+range: 150
+requirements:[
+item-silver/35
+item-oxidium/20
+item-hardened-calcite/25
+item-carbon-matter/15
+]
+
+category: turret
+inaccuracy: 15
+name: Pyralium
+reload: 60
+shootSound: shootStell
+
+shoot:{
+shots: 15
+shotDelay: 1
+}
+
+ammoTypes:{
+item-oxidium:{
+type: BasicBulletType
+trailEffect: fire
+trailChance: 0.25
+
+velocityScaleRandMin: 0.85
+velocityScaleRandMax: 1
+
+frontColor: ffffff00
+backColor: ffffff00
+
+speed: 5
+lifetime: 30
+status: melting
+splashDamage: 7.5
+splashDamageRadius: 20
+scaledSplashDamage: true
+despawnHit: true
+hitEffect: fireHit
+fragBullets: 1
+fragBullet:{
+type: FireBulletType
+damage: 4.5
+}
+
+}
+
+item-carbon-matter:{
+type: BasicBulletType
+trailEffect: fire
+trailChance: 0.75
+velocityScaleRandMin: 0.65
+velocityScaleRandMax: 1
+
+frontColor: ffffff00
+backColor: ffffff00
+
+speed: 5
+lifetime: 30
+status: tarred
+splashDamage: 17.5
+splashDamageRadius: 20
+scaledSplashDamage: true
+despawnHit: true
+hitEffect: fireHit
+fragBullets: 5
+fragBullet:{
+type: FireBulletType
+damage: 6.5
+}
+
+}
+
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-arm-r"
+y: 0
+x: 0
+moveY: -3
+moveX: 1.5
+mirror: false
+}
+{
+suffix: "-arm-l"
+y: 0
+x: 0
+moveY: -3
+moveX: -1.5
+mirror: false
+}
+]
+}

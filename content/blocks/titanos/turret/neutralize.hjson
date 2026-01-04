@@ -1,0 +1,56 @@
+type: ItemTurret
+name: "Neutralize"
+description: "Fires a massive missile, Such missiles cant be shot down."
+maxAmmo: 15
+ammoPerShot: 5
+
+parts:[
+{
+x: 4.5
+y: 1.75
+moveX: 3.5
+moveY: -1.85
+moveRot: 35
+progress: warmup
+mirror: true
+}
+]
+
+reload: 340
+range: 300
+size: 3
+requirements:[]
+category: turret
+
+ammoTypes:{
+item-carbon-matter:{
+type: MissileBulletType
+damage: 85
+splashDamage: 165
+splashDamageRadius: 48
+accel: 0.05
+lifetime: 131
+width: 15
+height: 42
+despawnHit: true
+trailEffect:{
+type: MultiEffect
+effects:[
+{
+type: SoundEffect
+sound: loopSpray
+minPitch: 1
+maxPitch: 1
+minVolume: 0.5
+maxVolume: 0.5
+effect: missileTrailSmoke
+}
+]
+}
+
+hitSound: explosionReactor
+trailChance: 0.15
+hitShake: 17.5
+hitEffect: scatheExplosion
+}
+}

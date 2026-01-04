@@ -1,0 +1,112 @@
+type: ItemTurret
+size: 3
+name: Sky Ripper
+range: 350
+outlineColor: 313131
+
+consumes:{
+liquids:[steam/0.01667]
+}
+
+shootSound: blockExplodeElectricBig
+requirements:[]
+shake: 7.5
+category: turret
+maxAmmo: 30
+ammoPerShot: 15
+reload: 325
+ammoTypes:{
+
+item-hardened-calcite:{
+type: LaserBulletType
+
+colors:[4f4f4f,6f6f6f,8f8f8f]
+length: 500
+damage: 2135
+maxDamageFraction: 0.45
+status: frag
+statusDuration: 25
+width: 16
+lifetime: 120
+hitShake: 6.5
+hitSound: shootToxopidShotgun
+hitEffect: sparkExplosion
+
+}
+  
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix: "-spike-r"
+x: 0
+y: 0
+under: true
+mirror: false
+moves: [
+{
+type: PartMove
+progress: warmup
+x: 0.75
+}
+{
+type: PartMove
+progress: recoil
+y: -1.65
+x: -0.25
+}
+]
+
+
+}
+//
+
+{
+suffix: "-spike-l"
+x: 0
+y: 0
+under: true
+mirror: false
+moves: [
+{
+type: PartMove
+progress: warmup
+x: -0.75
+}
+{
+type: PartMove
+progress: recoil
+y: -1.65
+x: 0.25
+}
+]
+
+
+}
+//
+
+{
+suffix: "-spike-back"
+x: 0
+y: 0
+under: true
+mirror: false
+moves: [
+{
+type: PartMove
+progress: warmup
+y: 2
+}
+{
+type: PartMove
+progress: recoil
+y: -3
+}
+]
+
+
+}
+]
+}

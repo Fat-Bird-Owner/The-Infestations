@@ -1,0 +1,35 @@
+type: RegenProjector
+name: "Sealed Wall"
+description: "A tough wall, Absorbs lasers and slowly repair itself using steam.[purple] Immune to being suppressed.[]"
+connectedPower: false
+priority: -2.5
+health: 3250
+size: 2
+absorbLasers: true
+albedo: 0.35
+blockGroup: walls
+suppressable: false
+baseColor: 8f8f8f00
+category: defense
+
+research:{
+parent: silver-wall
+objectives:[
+{
+type: SectorComplete
+preset: entrenched
+}
+]
+}
+
+consumes:{
+liquids:[
+water/0.01667
+]
+}
+
+requirements:[item-silver/25,item-hardened-calcite/15,item-conduction-quartz/5]
+range: 0.01
+healPercent: 0.025
+effect: none
+  

@@ -1,0 +1,7 @@
+speedMultiplier: 0
+dragMultiplier: 15
+research:{
+parent: flamethrow-fail
+objectives:[pelt]
+}
+

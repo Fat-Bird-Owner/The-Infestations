@@ -32,6 +32,7 @@ plans: [
   }
 ]
 
+/*
 research:{
 parent: core-satellite
 objectives:[
@@ -45,3 +46,4 @@ researchCostMultiplier: 0.1
 droneType: construct-drone
 
 description:"[accent]Assembles mech units when the required block is inputted, May only construct units upto tier three."
+*/

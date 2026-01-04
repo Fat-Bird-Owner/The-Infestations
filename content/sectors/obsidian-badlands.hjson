@@ -1,0 +1,39 @@
+captureWave: 30
+localizedName: "Obsidian Badlands"
+allowLaunchSchematics: false
+allowLaunchLoadout: true
+overrideLaunchDefaults: true
+difficulty: 8.5
+planet: titanos
+sector: 24
+showSectorLandInfo: false
+description: "
+A well armed [acid]bunker[] is located here.
+This sector has [accent]loads of valuable resources,[] use what you have learned to defeat the [blue]enemy.
+[tan]
+Modifiers:
+- Recon Air Bay: [red]Disabled[]
+- [red]Do not rely on Convection Generators[]
+"
+
+details: "
+Sector-24: Obsidian Badland
+This sector has alot of high value resources, The grenarcs originally inhabit this place.
+Though they may not live in peace as the infestation seem to have tried multiple times to destroy this base.
+Grenarc ever careful planted bombs in EVERY single one of there buildings just to stop it from falling into the wrong hands.
+
+Now since your here, It shall be your mess to clean up.
+[red]ALL BY YOURSELF.[]
+"
+
+research: {
+  parent: scrap-yard-bunker
+  objectives:[
+  {
+  type: SectorComplete
+  preset: blast-site
+  }
+  battery-panel
+  bind-tower
+  ]
+}

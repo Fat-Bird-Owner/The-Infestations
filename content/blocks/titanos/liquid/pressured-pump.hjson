@@ -1,0 +1,25 @@
+type: Pump
+name: Pressured Pump
+description: "Pumps liquids from the ground, requires power."
+pumpAmount:	0.01667
+warmupSpeed: 0.005
+
+requirements:[item-silver/20,item-oxidium/15,item-hardened-calcite/10]
+category: liquid
+
+research:{
+parent: core-satellite
+objectives:[
+{
+type: SectorComplete
+preset: obsidian-badlands
+}
+]
+
+}
+researchCostMultiplier: 0.55
+
+consumes:{
+power: 0.416667
+}
+

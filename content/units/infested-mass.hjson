@@ -1,12 +1,13 @@
 // general stats
 type: legs
 hitSize: 16
-health: 300
+health: 435
 speed: 0.75
+armor: -5
 omniMovement: true
 shootCone: 30
 range: 80
-faceTarget: false
+faceTarget: true
 outlineColor: 2c2d38
 
 // funni spider
@@ -26,13 +27,12 @@ legLength: 25
 
 weapons:[
 {
-name: "ir-weapon"
 rotateSpeed: 3
-shootSound: shoot-low-cal
+shootSound: blockExplode2
 x:0
 y: -3
 mirror: false
-rotate: true
+rotate: false
 alternate: false
 inaccuracy: 3
 range: 180
@@ -58,15 +58,20 @@ sizeTo: 0
 ]
 }
 
-speed: 3
+puddles: 4
+puddleRange: 4
+puddleAmount: 25
+puddleLiquid: blood
+
+speed: 4
 width: 10
 height: 14
 lifetime: 60
-damage: 14
+damage: 26.5
 fragSpread: 30
-frontColor: ff0000ff
-backColor: ff0000ff
-trailColor: ff0000ff
+frontColor: 8f0000ff
+backColor: 8f0000ff
+trailColor: ff000055
 trailWidth: 2
 trailLength: 6
 status: frag
@@ -86,7 +91,7 @@ abilities:[
 {
 type: LiquidExplodeAbility
 liquid: blood	
-amount: 180.0
-radAmountScale: 7.5
+amount: 1800
+radAmountScale: 12
 }
 ]

@@ -1,52 +1,91 @@
 type: ItemTurret
 name: Strike
-health: 350
+health: 750
 size: 2
 category: turret
 requirements:[item-silver/80,item-oxidium/65,item-hardened-calcite/45,item-carbon-matter/35]
 description: "
 Type:[green] Defensive Turret[]
-Class:[lightgrey] None[]
+Class:[lightgrey] Frag[]
 
 Fires a compressed bullets doing heavy damage.
 Always targets the strongest unit.
 
 "
-
-shootSound: largeCannon
-range: 400
+heatRequirement: 10
+shootSound: blockExplodeFlammable
+outlineColor: 313131
+range: 350
 category: turret
-requirements:[]
-reload: 180
-ammoPerShot: 5
-maxAmmo: 10
+requirements:[
+item-silver/85
+item-oxidium/65
+item-hardened-calcite/50
+item-conduction-quartz/35
+]
+
+research:{
+parent: retaliation
+objectives:[
+{
+type: SectorComplete
+preset: obsidian-badlands
+}
+]
+}
+
+reload: 240
+ammoPerShot: 15
+maxAmmo: 30
 unitSort: strongest
 cooldownTime: 180
 
+shoot:{
+firstShotDelay: 120
+}
+
 ammoTypes:{
-item-hardened-calcite: {
+item-hardened-calcite:{
 type: BasicBulletType
-lifetime: 80
-speed: 5
+lifetime: 45
+speed: 14.16667
 trailWidth: 0
 trailLength: 24
 trailChance: 25
+
+intervalRandomSpread: 0
+bulletInterval: 10
+intervalBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+hitEffect: railHit
+}
 
 trailEffect: {
 type: ParticleEffect
 sizeFrom: 4
 sizeTo: 10
 interp: sine
-colorFrom: 4f4f4ff
-colorTo: 8f8f8f00
+colorFrom: 4f4f455
+colorTo: 8f8f8f22
+length: 8
+layer: 99
 }
 
 width: 10
 height: 14
-damage: 165
-knockback: 45
+damage: 650
+maxDamageFraction: 0.35
 pierceArmor: true
-hitShake: 5
+hitShake: 14.5
+pierce: true
+impact: true
+knockBack: 10
+
+status: frag
+statusDuration: 10
+
 frontColor: 7b7b7b
 backColor: 656565
 despawnHit: true
@@ -54,25 +93,24 @@ splashDamage: 50
 splashDamageRadius: 80
 scaledSplashDamage: true
 
+hitSound: explosionMissile
 hitEffect:{
-type: SeqEffect
+type: MultiEffect
 effects:[
 {
-type: ParticleEffect
-length: 40
-baseLength: -40
-lifetime: 35
+type: WrapEffect
+effect: titanSmoke
+color: 6f6f6f
 }
 {
-type: ParticleEffect
-length: 80
-particles: 34
-sizeFrom: 4
-sizeTo: 12
-colorFrom: 2f2f2fff
-colorTo: 7f7f7f00
+type: WaveEffect
+strokeFrom: 2
+strokeTo: 0
+sizeFrom: 0
+sizeTo: 160
 interp: sine
-lifetime: 40
+colorTo: ffffff00
+lifetime: 45
 }
 ]
 }
@@ -82,5 +120,30 @@ lifetime: 40
 
 drawer:{
 type: DrawTurret
+parts:[
+{
+suffix: "-ammo"
+mirror: false
+x: 0
+y: -1.5
+
+moveY: 3
+color: ffffff
+colorTo: 000000ff
+under: true
+progress:{
+type: charge
+ops: [
+{
+op: compress
+start: 0.25
+end: 0.65
+}
+]
+}
+
+}
+]
 basePrefix: "retaliation-base"
 }
+

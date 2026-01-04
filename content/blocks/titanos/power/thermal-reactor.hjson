@@ -1,0 +1,79 @@
+type: NuclearReactor
+name: Thermal Reactor
+description: "Accumilates radiation via oxidium, Water is required to cool it."
+size: 4
+squareSprite: false
+category: power
+
+heating: 0.005
+coolantPower: 0.0025
+fuelItem: item-oxidium
+itemDuration: 180
+
+requirements:[
+item-silver/105
+item-oxidium/85
+item-hardened-calcite/45
+item-conduction-quartz/75
+item-carbon-matter/55
+]
+  
+consumes:{
+items: [item-oxidium/5]
+liquids: [water/0.03334]
+}
+
+powerProduction: 22.5
+explosionRadius: 35
+explosionDamage: 625
+explodeEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+particles: 35
+interp: sine
+lifetime: 240
+sizeFrom: 16
+sizeTo: 24
+colorFrom: 454443
+colorTo: 91919100
+}
+{
+type: ParticleEffect
+particles: 5
+length: 2
+lenFrom: 24
+lenTo: 24
+strokeFrom: 2
+strokeTo: 0
+line: true
+colorTo: f5ac58
+cone: 360
+}
+{
+type: ParticleEffect
+particles: 8
+length: 2
+lenFrom: 16
+lenTo: 166
+strokeFrom: 2
+strokeTo: 0
+line: true
+colorTo: f5ac58
+cone: 360
+}
+{
+type: ParticleEffect
+particles: 11
+length: 22
+lenFrom: 8
+lenTo: 8
+strokeFrom: 2
+strokeTo: 0
+line: true
+colorTo: f5ac58
+cone: 360
+}
+]
+}

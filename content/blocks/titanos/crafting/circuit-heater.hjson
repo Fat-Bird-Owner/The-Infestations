@@ -1,0 +1,17 @@
+type: HeatProducer
+name: Circuit Heater
+heatOutput: 1.25
+warmupRate: 0.00075
+
+consumes:{
+power: 0.4
+}
+  
+requirements:[
+item-silver/45
+item-oxidium/35
+item-hardened-calcite/20
+item-conduction-quartz/20
+item-carbon-matter/25
+]
+category: crafting

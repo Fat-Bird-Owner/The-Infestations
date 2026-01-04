@@ -1,0 +1,137 @@
+// general stats
+type: legs
+hitSize: 28
+health: 3500
+speed: 1.15
+armor: 6.5
+omniMovement: true
+shootCone: 30
+faceTarget: true
+outlineColor: 2c2d38
+immunities:[madness,burning]
+outlineColor: 313131
+
+// funni spider
+legCount: 6
+legMoveSpace: 0.85
+lockLegBase: true
+legContinuousMove: true
+emitWalkEffect: false
+legPairOffset: 1
+stepShake: 1
+legLengthScl: 0.95
+legSpeed: 1
+LegStraightness: 0.35
+legLength: 48
+
+// bullet
+
+weapons:[
+{
+reload: 5
+shootStatus: damage-one
+shootStatusDuration: 30
+shootSound: none
+
+bulletType:{
+type: EmptyBulletType
+speed: 1
+lifetime: 225
+instantDisappear: true
+shootEffect: none
+}
+
+}
+{
+rotateSpeed: 3
+shootSound: blockExplode2
+x:0
+y: -3
+mirror: false
+rotate: false
+alternate: false
+inaccuracy: 3
+range: 200
+  
+shoot:{
+firstShotDelay: 120
+}
+
+shootStatus: slow
+shootStatusDuration: 120
+reload: 240
+bullet:{
+
+type: BasicBulletType
+// Effect
+
+puddles: 24
+puddleRange: 16
+puddleAmount: 125
+puddleLiquid: blood
+
+despawnHit: true
+fragBullets: 15
+fragBullet:{
+type: FireBulletType
+damage: 15
+}
+
+trailEffect: fire
+trailChance: 0.65
+bulletInterval: 1
+intervalBullets: 5
+intervalBullet:{
+type: LiquidBulletType
+speed: 0.5
+liquid: blood
+puddleSize: 16
+despawnHit: true
+lifetime: 40
+
+trailEffect: fire
+trailChance: 0.25
+}
+recoil: 10
+speed: 8
+width: 25
+pierce: true
+pierceBuildings: true
+height: 25
+lifetime: 30
+damage: 725
+fragSpread: 30
+frontColor: 8f0000ff
+backColor: 8f0000ff
+trailColor: ff000055
+trailWidth: 5
+trailLength: 6
+status: frag
+statusDuration: 1
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect:{
+type: ExplosionEffect
+}
+
+}
+
+}
+]
+
+abilities:[
+{
+type: StatusFieldAbility
+effect: pure-malice
+duration: 150
+reload: 500
+color: 8f0000
+range: 80
+}
+{
+type: LiquidExplodeAbility
+liquid: blood	
+amount: 6500
+radAmountScale: 25
+}
+]

@@ -3,6 +3,7 @@ name: "[accent]Observent"
 physics: false
 targetable: false
 hittable: false
+drawBody: false
 range: 320
 mineTier: 1
 minesItem:[item-silver]
@@ -19,6 +20,7 @@ drag: 1000
 engineSize: 0
 flying: true
 itemCapacity: 0
+createWreck: false
 hitSize: 5
 ammoCapacity: 1
 payloadCapacity: 0
@@ -32,9 +34,9 @@ softShadowScl: 0
 commands: [move, repair, rebuild, assist]
 defaultCommand: rebuild
 controller: BuilderAI
-fogRadius: 320
+fogRadius: 40
 lightRadius: 320
-rotateSpeed: 5
+rotateSpeed: 0
 
 immunities:[rallied]
 
@@ -89,7 +91,7 @@ type: ShapePart
 circle: true
 hollow: true
 radius: 320
-stroke: 8
+stroke: 4
 layer: 122
 color: ff795e
 }

@@ -1,0 +1,10 @@
+type: ParticleWeather
+name: Highland Winds
+localizedName: Highland Winds
+drawNoise:	true	
+drawParticles: false
+noiseColor: 5c6a73
+baseSpeed: 14
+sound: windhowl
+soundVol: 2.25
+soundVolMin: 0.5

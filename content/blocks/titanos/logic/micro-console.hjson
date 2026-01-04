@@ -5,17 +5,28 @@ name: Micro Console
 category: logic
 health: 350
 
-description:"Runs inputted logic."
+research:{
+parent: output-region
+objectives:[
+{
+type: SectorComplete
+preset: blast-site
+}
+]
+}
+
+description: "Runs inputted logic."
 
 // class related
 
-instructionsPerTick: 3
+instructionsPerTick: 5
 range: 120
 
 // others
 
 requirements:[
-item-silver/50
-item-photon-sheet/20
-item-carbon-matter/25
+item-silver/30
+item-oxidium/20
+item-hardened-calcite/15
+item-conduction-quartz/15
 ]

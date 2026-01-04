@@ -1,0 +1,36 @@
+type: ConsumeGenerator
+name: Watermill
+size: 2
+powerProduction: 0.75
+consumes:[]
+
+category: power
+configurable: true
+requiresWater: true
+
+requirements:[item-silver/45,item-oxidium/25]
+research:{
+parent: convection-generator
+objectives:[
+{
+type: SectorComplete
+preset: entrenched
+}
+]
+}
+researchCostMultiplier: 0.35
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawDefault
+}
+{
+type: DrawBlurSpin
+suffix: "-wheel"
+rotateSpeed: 3.25
+blurThresh: 0
+}
+]
+}

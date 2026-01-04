@@ -2,11 +2,11 @@ name: "Infestation"
 displayName: "[salmon[]]The Infestation[[]]"
 repo: Fat-Bird-Owner/The-Infestations
 subtitle: "
-[salmon[]]Paint The World[red[]] Red.
+[grey]I await down [brick[]]below[[]].
 "
 author: "
-Fat Bird's Owner - Creator
-LJ - Some sprites
+Fat Bird's Owner - [accent[]]Main Developer[[]]
+LJ - [accent[]]A number of sprites and Mod icon[[]]
 "
 
 description: "
@@ -14,24 +14,21 @@ description: "
 [lightgrey[]]
 A mod inspired by neoplasm and the creeper world series.
 [accent[]]
-featuring 30+ buildings with two barely finished planets.
-There is only 1 act as of now.
+featuring 30+ buildings with two unfinished planets.
+There is 1 finished act within this mod.
 
-[[]]
-Thanks for playing.
-:)
+[salmon[]]- Turn on lighting, weather and turn off linear filtering for the best experience.
 
 [accent[]]
-If you like this mod please show support by giving a star in the github.
-[lightgrey]
-Bug reports are great appreciated.
-[red]
-Development paused as of now.
-[]
+Optionally give a star to show your support.
+
+[lightgrey[]]Thanks for playing.
+:)
 "
 
-
-version: "V1.5-TheEntry"
-minGameVersion: "153"
+iosCompatible: true
+version: "v2-Infestation"
+minGameVersion: "154.3"
 dependencies: []
 hidden: false
+

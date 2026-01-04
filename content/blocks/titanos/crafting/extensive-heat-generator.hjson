@@ -1,0 +1,103 @@
+type: AttributeCrafter
+health: 2000
+name: Extensive Heat Reactor
+description: ""
+size: 3
+floating: true
+category: crafting
+outputLiquid: oxidium-liquilite/0.03334
+baseEfficiency: 0
+
+consumes:{
+items:[item-oxidium/2]
+liquids:[steam/0.03334]
+}
+
+requirements:[
+item-silver/125
+item-oxidium/105
+item-hardened-calcite/85
+item-conduction-quartz/60
+item-carbon-matter/55
+]
+
+/*
+research:{
+parent: power
+}
+*/
+
+alwaysUnlocked: true
+minEfficiency: 1
+squareSprite: false
+boostScale: 0.11114
+displayEfficiency: false
+
+breakEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 12
+sizeTo: 12
+colorFrom: f15454
+colorTo: a0455300
+useRotation: false
+}
+breakBlock
+]
+}
+
+placeEffect:{
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+length: 0
+region: "infestation-avacon"
+lifetime: 45
+sizeFrom: 12
+sizeTo: 12
+colorFrom: ffcd66
+colorTo: e2865400
+useRotation: false
+}
+placeBlock
+]
+}
+
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+padding: 0.65
+drawLiquid: slag
+}
+{
+type: DrawLiquidTile
+padding: 0.65
+drawLiquid: oxidium-liquilite
+}
+{
+type: DrawPlasma
+plasma1: ffcd66
+plasma2: e2865400
+}
+{
+type: DrawDefault
+}
+{
+type: DrawRegion
+suffix: "-team"
+}
+]
+}

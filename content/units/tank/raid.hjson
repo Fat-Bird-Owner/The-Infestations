@@ -8,7 +8,7 @@ Type:[red] Assault[]
 Class:[orange] Tank[]
 "
 
-immunities:[flamethrow-fail,ret-shock]
+immunities:[flamethrow-fail,ret-shock,hover-anchored]
 
 hitSize: 18
 range: 120
@@ -24,7 +24,7 @@ outlineColor: "2c2d38"
 
 // research
 research:{
-parent: tank-forge-framework
+parent: assault-constructor
 }
 researchCostMultiplier: 0.65
 
@@ -33,14 +33,10 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 
-research:{
-parent: tank-forge-framework
-}
-
 weapons: [
 {
 name: "raid-weapon"
-shootSound: artillery
+// shootSound: artillery
 x: 0
 mirror: false
 rotate: true
@@ -94,5 +90,7 @@ abilities:[
 {
 type: LiquidRegenAbility
 liquid: blood
+regenPerSlurp: 0.225
+slurpSpeed: 1
 }
 ]

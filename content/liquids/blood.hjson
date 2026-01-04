@@ -4,14 +4,17 @@ description: "Its alive."
 capPuddles: false
 
 moveThroughBlocks: true
-viscosity: 0
+viscosity: 0.8
 coolant: false
 
 color: 4d0202
 particleEffect:{
 type:ParticleEffect
 particles: 16
+length: 0
 sizeFrom: 1
+sizeTo: 3
+layer: 60
 sizeChangeStart: 40
 colorFrom:8f00005f
 colorTo:8f000000

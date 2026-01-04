@@ -1,0 +1,260 @@
+type: hover
+hovering: true
+name: "Desolite"
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+Increased durability and armor.
+Equipped with long range artilleries and an empowered laser.
+Higher ability radius.
+immune to basic counter measures.
+"
+
+immunities:[ret-shock,flamethrow-fail,hover-anchored]
+
+health: 4500
+faceTarget: true
+armor: 17.5
+hitSize: 32
+speed: 0.95
+drag: 0.15
+canDrown: false
+engineSize: 7.5
+outlineColor: 2c2d38
+
+weapons:[
+{
+x: -0.5
+y: 4.5
+baseRotation: 45
+inacurracy: 7.5
+reload: 60
+shootCone: 180
+alternate: false
+shootSound: shootArtillerySmall
+
+shoot:{
+type: ShootAlternate
+barrels: 8
+spread: 1.75
+shots: 8
+shotDelay: 6.5
+}
+
+bullet:{
+type: BasicBulletType
+speed: 8
+lifetime: 45
+width: 7.5
+height: 10.35
+homingPower: 0.1
+homingDelay: 7.5
+trailWidth: 2
+trailLength: 18.5
+
+status: blasted
+statusDuration: 60
+
+damage: 20
+
+splashDamage: 50
+splashDamageRadius: 16
+scaledSplashDamage: true
+
+despawnHit: true
+hitEffect: massiveExplosion
+hitSound: blockExplode1Alt
+hitShake: 6.75
+makeFire: true
+  
+frontColor: ffffff
+backColor: ffffff
+trailColor: a393feff
+}
+
+}
+{
+reload: 300
+x: 0
+y: 1.25
+
+name: "desolite-laser"
+cooldownTime: 120
+
+shootY: 3.25
+shootX: -0.4
+mirror: false
+
+shootStatus: unmoving
+
+shoot:{
+firstShotDelay: 180
+}
+shake: 12.5
+shootSound: shootCorvus
+chargeSound: chargeCorvus
+
+shootStatusDuration: 220
+
+useAttackRange: true
+
+bullet:{
+chargeEffect:{
+type: MultiEffect
+followParent: true
+lifetime: 200
+effects:[
+{
+type: ParticleEffect
+particles: 25
+length: 60
+baseLength: -60
+sizeFrom: 8
+sizeTo: 2
+colorFrom: a393feff
+colorTo: a393fe4ba
+interp: pow5In
+sizeInterp: pow4In
+lifetime: 160
+layer: 61
+}
+]
+}
+
+type: BasicBulletType
+despawnHit: true
+instantDisappear: true
+
+fragBullets: 1
+fragLifeMin: 1
+fragLifeMax: 1
+fragRandomSpread: 0
+
+// for the sake of it attacking
+speed: 3
+lifetime: 100
+range: 300
+
+fragBullet:{
+
+type: LaserBulletType
+width: 32
+recoil: 2.5
+colors:[a393feff,a393fe88,a393fe44]
+damage: 275
+length: 300
+lifetime: 120
+makeFire: true
+
+fragBullets: 1
+fragBullet:{
+type: EmptyBulletType
+scaledSplashDamage: true
+splashDamage: 1
+splashDamageRadius: 32
+suppressionRange: 36
+instantDisappear: true
+despawnHit: true
+hitShake: 2.5
+despawnEffect: none
+lightning: 5
+lightningColor: a393feff
+lightningDamage: 15
+lightningLength: 15
+status: sapped
+makeFire: true
+}
+
+}
+
+}
+}
+]
+
+abilities:[
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -0.5
+y: 5
+}
+{
+type: EnergyFieldAbility
+healPercent: 3.5
+color: a393feff
+damage: 30
+range: 160
+reload: 60
+status: sapped
+sectors: 4
+effectRadius:5
+sectorRad: 4
+x: -0.5
+y: 5
+layer: 59.999
+}
+{
+type: SuppressionFieldAbility
+x: -0.5
+y: 5
+orbRadius: 11
+layer: 59.99
+reload:	180
+maxDelay:	65
+range: 220
+}
+// engine visuals
+{
+type: SuppressionFieldAbility
+range: 0
+x: -0.5
+y: -12
+layer: 59.9 
+orbRadius: 9
+// 64 y: 7
+display: false
+}
+
+{
+type: MoveEffectAbility
+color: 665c9fff
+x: -0.5
+y: -13
+}
+
+{
+type: SuppressionFieldAbility
+range: 0
+x: -16
+y: -7
+layer: 59.8
+orbRadius: 4.5
+display: false
+}
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: -16
+y: -7.5
+}
+
+{
+type: SuppressionFieldAbility
+range: 0
+x: 16
+y: -7
+layer: 59.8
+orbRadius: 4.5
+display: false
+}
+
+{
+type: MoveEffectAbility
+color:665c9fff
+x: 16
+y: -7.5
+}
+
+]

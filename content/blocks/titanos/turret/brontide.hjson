@@ -1,0 +1,68 @@
+type: PowerTurret
+name: "Brontide"
+description: "
+Shoots burst of lasers, requires water to operate.
+
+[salmon]Required to be crafted inside an industrial crafter.[]
+"
+size: 3
+reload: 60
+predictTarget: false
+range: 480
+cooldownTime: 40
+requirements:[item-silver/150,item-oxidium/100,item-hardened-calcite/60,item-conduction-quartz/50]
+shootSound: shootReign
+inaccuracy: 1.5
+category: turret
+rotateSpeed: 2.5
+placeablePlayer: true
+
+/*
+research:{
+parent: charge
+objectives:[
+{
+type: SectorComplete
+preset: entrenched
+}
+]
+}
+researchCostMultiplier: 0.35
+ */
+
+consumes:{
+liquids:[water/0.3334]
+power: 1.25
+}
+  
+shoot:{
+type: ShootSpread
+barrels: 4
+spread: 3.25
+}
+  
+shootType:{
+type: BasicBulletType
+frontColor: FFD280ff
+backColor: 8FD280ff
+width: 10
+height: 14
+speed: 4
+lifetime: 120
+trailChance: 1
+
+trailEffect: sparkShoot
+
+despawnHit: true
+hitEffect:{
+type: WrapEffect
+effect: titanExplosion
+color: 8FD280ff
+}
+splashDamage: 135.5
+scaledSplashDamage: true
+splashDamageRadius: 40
+hitShake: 6.5
+status: burning
+
+}

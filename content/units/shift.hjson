@@ -1,52 +1,106 @@
 type: hover
 name: Shift
-health: 450
+description: "
+Type: [purple]Hover[]
+Class: [purple]Specialist[]
+
+First hover unit tier.
+Armed with basic weapon and [accent]poccesses the ability to stop nearby reformers from working in a small radius.[]
+"
+health: 345
 speed: 2
 accel: 0.1
-drag: 0.05
-range: 80
+drag: 0.025
+range: 180
 hitSize: 13
 hovering: true
 canDrown: false
 trailLength: 8
 outlineColor: 2c2d38
-faceTarget: false
+faceTarget: true
 engines:[
 {
-y: -5
-radius: 1
+y: -3
+radius: 2
+}
+]
+
+immunities:[flamethrow-fail]
+
+abilities:[
+{
+type: MoveEffectAbility
+color: 665c9fff
+offsetY: -3
+}
+{
+type: SuppressionFieldAbility
+reload: 180
+orbRadius: 2.25
+particleSize: 2
+layer: 59.99
+range: 75
+x: 0
+y: -3
 }
 ]
 
 weapons:[
 {
-name: "missile-battery"
 x: 0
 mirror: false
-y: 0
+y: -3
 top: false
 shootX: 0
 shootY: 0
 mirror: true
-rotate: true
-reload: 60
-inaccuracy: 15
+rotate: false
+reload: 40
+inaccuracy: 7.5
+
 shoot:{
-shot: 5
-shotDelay: 5
+shots: 3
+shotDelay: 7.5
 }
+
 shake: 0.54
-shootSound: malignShoot
+shootSound: shootLaser
 ejectEffect: casing1
 bullet:{
-type: MissileBulletType
+type: BasicBulletType
+keepVelocity: false
 speed: 3
-lifetime: 90
-damage: 35
+lifetime: 60
+damage: 15
 hitShake: 2.5
 hitSound: explosion
 despawnHit: true
-makeFire: true
+weaveScl: 2
+weaveMag: 3
+
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 14
+frontColor: 9C88C3FF
+backColor: 8175A5FF
+trailColor: 8175A566
+
+// despawnHit as shortcut for despawnEffect and hitEffect
+despawnHit: true
+hitEffect:{
+type: ParticleEffect
+particles: 5
+lifetime: 45
+length: 40
+colorFrom: 8175A5FF
+colorTo: 8175A522
+line: true
+lenFrom: 4
+lenTo: 0
+sizeFrom: 2
+sizeTo: 2
+}
 
 }}
 ]
