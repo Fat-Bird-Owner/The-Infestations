@@ -2,6 +2,7 @@ type: Accelerator
 name: Gate Way
 size: 4
 category: effect
+buildVisibility: sandboxOnly
 researchCostMultiplier: 0.25
 requirements:[
 item-silver/350
@@ -13,7 +14,8 @@ item-hardened-calcite/150
 consumes:{
 power: 3
 }
-  
+
+/*
 research:{
 parent: core-satellite
 objectives:[
@@ -25,7 +27,7 @@ mech-forge-framework
 tank-forge-framework
 ]
 }
-
+*/
 chargeRings: 16
 ringRadSpacing: 4
 ringStroke: 12
