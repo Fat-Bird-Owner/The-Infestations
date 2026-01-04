@@ -16,7 +16,7 @@ outlineColor: 2c2d38
 shootWarmupSpeed: 0.015
 minWarmup: 1
 linearWarmup: true
-shootSound: shootBig
+// shootSound: shootBig
 ejectEffect: casing2
 inaccuracy: 1
 
