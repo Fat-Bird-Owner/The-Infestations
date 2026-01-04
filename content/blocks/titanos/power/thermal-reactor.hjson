@@ -8,7 +8,7 @@ category: power
 heating: 0.005
 coolantPower: 0.0025
 fuelItem: item-oxidium
-itemDuration: 60
+itemDuration: 180
 
 requirements:[
 item-silver/105
@@ -19,8 +19,8 @@ item-carbon-matter/55
 ]
   
 consumes:{
-items: [item-oxidium/3]
-liquids: [water/0.01667]
+items: [item-oxidium/5]
+liquids: [water/0.03334]
 }
 
 powerProduction: 22.5
