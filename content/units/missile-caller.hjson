@@ -8,6 +8,7 @@ drawCell: false
 weapons:[
 {
 reload: 600
+shootOnDeath: true
 
 bullet:{
 type: BasicBulletType
@@ -25,6 +26,20 @@ hitShake: 35
 speed: 0
 keepVelocity: false
 hitSound: blockExplodeElectricBig
+
+fragBullets: 75
+fragBullet:{
+type: FireBulletType
+damage: 25
+speed: 1
+lifeScaleRandMin: 0.35
+lifeScaleRandMax: 1
+
+velocityScaleRandMin: 0.15
+velocityScaleRandMax: 15
+
+}
+
 }
 keepVelocity: false
 despawnHit: true
