@@ -7,7 +7,7 @@ mesh: [
     planet: titanos
     divisions: 5
     seed: 8
-    radius: 1.2075
+    radius: 1.1875
     color1: 004f7f
     color2: 005f8f
     persistence: 16
@@ -47,7 +47,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 4
-   color: 00ff807522
+   color: 00ff8075
    octaves: 2
    persistence: 0.4
    scl: 0.9
