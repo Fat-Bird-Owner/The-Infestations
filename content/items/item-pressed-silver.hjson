@@ -1,5 +1,6 @@
 name: Pressed Silver
 description: Proccessed silver used to assemble units and other resources.
+hidden: true
 research:{
 parent: item-silver
 }
