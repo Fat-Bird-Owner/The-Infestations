@@ -1,0 +1,7 @@
+type: LiquidRouter
+
+requirements:[
+item-silver/3
+item-hardened-calcite/2
+]
+category: liquid
