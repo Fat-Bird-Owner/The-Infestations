@@ -1,0 +1,101 @@
+type: ItemTurret
+size: 3
+name: Sky Ripper
+range: 350
+
+requirements:[]
+shake: 7.5
+category: turret
+maxAmmo: 30
+ammoPerShot: 15
+reload: 180
+ammoTypes:{
+
+item-hardened-calcite:{
+type: LaserBulletType
+
+colors:[4f4f4f,6f6f6f,8f8f8f]
+length: 500
+damage: 2450
+maxDamageFraction: 0.45
+status: frag
+statusDuration: 25
+width: 8
+hitShake: 6.5
+}
+  
+}
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+suffix: "-spike-r"
+x: 0
+y: 0
+
+moves: [
+{
+type: PartMove
+progress: warmup
+y: -3
+x: 3
+}
+{
+type: PartMove
+progress: recoil
+y: -8
+x: 1
+}
+]
+
+
+}
+//
+
+{
+suffix: "-spike-l"
+x: 0
+y: 0
+
+moves: [
+{
+type: PartMove
+progress: warmup
+y: -3
+x: -3
+}
+{
+type: PartMove
+progress: recoil
+y: -8
+x: -1
+}
+]
+
+
+}
+//
+
+{
+suffix: "-spike-back"
+x: 0
+y: 0
+
+moves: [
+{
+type: PartMove
+progress: warmup
+y: 8
+}
+{
+type: PartMove
+progress: recoil
+y: -6
+}
+]
+
+
+}
+]
+}
