@@ -1,0 +1,59 @@
+type: missile
+lifetime: 180
+speed: 0
+drag: 1000
+range: 0
+
+weapons:[
+{
+reload: 600
+
+bullet:{
+type: BasicBulletType
+killShooter: true
+speed: 10
+lifetime: 8
+fragBullets: 1
+fragBullet:{
+lifetime: 180
+collides: false
+despawnHit: true
+splashDamage: 3500
+splashDamageRadius: 170
+hitEffect: impactReactorExplosion
+hitShake: 35
+speed: 0
+keepVelocity: false
+}
+keepVelocity: false
+despawnHit: true
+hitEffect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+length: 160
+lifetime: 180
+baseLength: -180
+spin: 5
+cone: 0
+region: "infestation-testing-dummy-dummy"
+randLength: false
+colorTo: 4f4f4f00
+sizeFrom: 40
+sizeTo: 16
+}
+{
+type: WaveEffect
+sizeFrom: 160
+sizeTo: 160
+strokeFrom: 2
+strokeTo: 2
+}
+]
+}
+
+}
+
+} 
+]
