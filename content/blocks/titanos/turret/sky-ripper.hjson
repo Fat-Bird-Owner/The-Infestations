@@ -4,6 +4,10 @@ name: Sky Ripper
 range: 350
 outlineColor: 313131
 
+consumes:{
+liquids:[steam/0.01667]
+}
+
 shootSound: blockExplodeElectricBig
 requirements:[]
 shake: 7.5
@@ -18,7 +22,7 @@ type: LaserBulletType
 
 colors:[4f4f4f,6f6f6f,8f8f8f]
 length: 500
-damage: 1450
+damage: 2135
 maxDamageFraction: 0.45
 status: frag
 statusDuration: 25
@@ -50,8 +54,8 @@ x: 0.75
 {
 type: PartMove
 progress: recoil
-y: -2
-x: 0.5
+y: -1.65
+x: -0.25
 }
 ]
 
@@ -74,8 +78,8 @@ x: -0.75
 {
 type: PartMove
 progress: recoil
-y: -2
-x: -0.5
+y: -1.65
+x: 0.25
 }
 ]
 
