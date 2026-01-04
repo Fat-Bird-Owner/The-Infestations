@@ -6,7 +6,8 @@ Inhabitors are massive machines able to cause mass destruction.
 although do to the hefty production cost, only were several produced.
 and lastly its been reported that the enemy faction lost contact with most if not all of them.
 "
-
+show: false
+/*
 research:{
 requiresUnlock: true
 parent: core-satellite
@@ -17,3 +18,4 @@ preset: directory
 }
 ]
 }
+*/
