@@ -36,7 +36,7 @@ faceTarget: false
 weapons: [
 {
 name: "raid-weapon"
-shootSound: artillery
+// shootSound: artillery
 x: 0
 mirror: false
 rotate: true
