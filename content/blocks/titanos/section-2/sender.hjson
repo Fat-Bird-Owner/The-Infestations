@@ -27,6 +27,7 @@ item-conduction-quartz/25
 item-hardened-calcite/35
 ]
 
+/*
 research:{
 parent: gate-way
 objective:[
@@ -35,7 +36,7 @@ type: sectorComplete
 preset: entrenched
 }]
 }
-
+*/
 
 researchCost:[
 item-silver/215
