@@ -18,7 +18,7 @@ type: LaserBulletType
 
 colors:[4f4f4f,6f6f6f,8f8f8f]
 length: 500
-damage: 2450
+damage: 1450
 maxDamageFraction: 0.45
 status: frag
 statusDuration: 25
@@ -27,6 +27,7 @@ lifetime: 120
 hitShake: 6.5
 hitSound: shootToxopidShotgun
 hitEffect: sparkExplosion
+
 }
   
 }
@@ -44,7 +45,6 @@ moves: [
 {
 type: PartMove
 progress: warmup
-y: -0.75
 x: 0.75
 }
 {
@@ -69,7 +69,6 @@ moves: [
 {
 type: PartMove
 progress: warmup
-y: -0.75
 x: -0.75
 }
 {
