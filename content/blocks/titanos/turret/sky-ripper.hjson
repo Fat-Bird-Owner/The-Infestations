@@ -3,6 +3,7 @@ size: 3
 name: Sky Ripper
 range: 350
 
+shootSound: blockExplodeElectricBig
 requirements:[]
 shake: 7.5
 category: turret
@@ -20,15 +21,17 @@ damage: 2450
 maxDamageFraction: 0.45
 status: frag
 statusDuration: 25
-width: 8
+width: 16
+lifetime: 180
 hitShake: 6.5
+hitSound: shootToxopidShotgun
 }
   
 }
 
 drawer:{
-type: DrawMulti
-drawers:[
+type: DrawTurret
+parts:[
 {
 suffix: "-spike-r"
 x: 0
