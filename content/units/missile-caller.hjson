@@ -11,8 +11,7 @@ reload: 600
 bullet:{
 type: BasicBulletType
 killShooter: true
-speed: 10
-lifetime: 8
+instantDisappear: true
 fragBullets: 1
 fragBullet:{
 lifetime: 180
@@ -41,14 +40,17 @@ region: "infestation-testing-dummy-dummy"
 randLength: false
 colorTo: 4f4f4f00
 sizeFrom: 40
+layer: 115
 sizeTo: 16
+baseRotation: -45
 }
 {
 type: WaveEffect
 sizeFrom: 160
 sizeTo: 160
 strokeFrom: 2
-strokeTo: 2
+strokeTo: 0
+lifetime: 260
 }
 ]
 }
