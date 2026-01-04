@@ -17,6 +17,7 @@ category: turret
 rotateSpeed: 2.5
 placeablePlayer: true
 
+/*
 research:{
 parent: charge
 objectives:[
@@ -27,7 +28,8 @@ preset: entrenched
 ]
 }
 researchCostMultiplier: 0.35
-  
+ */
+
 consumes:{
 liquids:[water/0.3334]
 power: 1.25
