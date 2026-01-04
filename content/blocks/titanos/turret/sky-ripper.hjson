@@ -10,7 +10,7 @@ shake: 7.5
 category: turret
 maxAmmo: 30
 ammoPerShot: 15
-reload: 180
+reload: 325
 ammoTypes:{
 
 item-hardened-calcite:{
@@ -26,6 +26,7 @@ width: 16
 lifetime: 120
 hitShake: 6.5
 hitSound: shootToxopidShotgun
+hitEffect: sparkExplosion
 }
   
 }
@@ -43,8 +44,8 @@ moves: [
 {
 type: PartMove
 progress: warmup
-y: -1.5
-x: 1.5
+y: -0.75
+x: 0.75
 }
 {
 type: PartMove
@@ -68,8 +69,8 @@ moves: [
 {
 type: PartMove
 progress: warmup
-y: -1.5
-x: -1.5
+y: -0.75
+x: -0.75
 }
 {
 type: PartMove
