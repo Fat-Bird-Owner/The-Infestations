@@ -16,7 +16,9 @@ killShooter: true
 instantDisappear: true
 fragBullets: 1
 fragBullet:{
-lifetime: 180
+lifetime: 90
+frontColor: 00000000
+backColor: 00000000
 collides: false
 despawnHit: true
 splashDamage: 3500
@@ -31,7 +33,7 @@ fragBullets: 75
 fragBullet:{
 type: FireBulletType
 damage: 25
-speed: 2
+speed: 6
 lifetime: 80
 lifeScaleRandMin: 0.35
 lifeScaleRandMax: 1
@@ -50,7 +52,7 @@ effects:[
 {
 type: ParticleEffect
 length: 160
-lifetime: 180
+lifetime: 90
 baseLength: -180
 spin: 5
 cone: 0
