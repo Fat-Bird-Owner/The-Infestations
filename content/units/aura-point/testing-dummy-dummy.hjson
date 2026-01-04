@@ -1,9 +1,10 @@
 type: tether
 flying: false
-speed: 1
+speed: 3
 health: 1000
 drag: 1000
 rotateSpeed: 0
 hitSize: 20
 controller: CargoAI
+createScorch: false
 
