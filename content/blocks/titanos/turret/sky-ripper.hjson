@@ -2,6 +2,7 @@ type: ItemTurret
 size: 3
 name: Sky Ripper
 range: 350
+outlineColor: 313131
 
 shootSound: blockExplodeElectricBig
 requirements:[]
@@ -22,7 +23,7 @@ maxDamageFraction: 0.45
 status: frag
 statusDuration: 25
 width: 16
-lifetime: 180
+lifetime: 120
 hitShake: 6.5
 hitSound: shootToxopidShotgun
 }
@@ -36,19 +37,20 @@ parts:[
 suffix: "-spike-r"
 x: 0
 y: 0
-
+under: true
+mirror: false
 moves: [
 {
 type: PartMove
 progress: warmup
-y: -3
-x: 3
+y: -1.5
+x: 1.5
 }
 {
 type: PartMove
 progress: recoil
-y: -8
-x: 1
+y: -2
+x: 0.5
 }
 ]
 
@@ -60,19 +62,20 @@ x: 1
 suffix: "-spike-l"
 x: 0
 y: 0
-
+under: true
+mirror: false
 moves: [
 {
 type: PartMove
 progress: warmup
-y: -3
-x: -3
+y: -1.5
+x: -1.5
 }
 {
 type: PartMove
 progress: recoil
-y: -8
-x: -1
+y: -2
+x: -0.5
 }
 ]
 
@@ -84,17 +87,18 @@ x: -1
 suffix: "-spike-back"
 x: 0
 y: 0
-
+under: true
+mirror: false
 moves: [
 {
 type: PartMove
 progress: warmup
-y: 8
+y: 2
 }
 {
 type: PartMove
 progress: recoil
-y: -6
+y: -3
 }
 ]
 
