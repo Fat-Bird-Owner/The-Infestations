@@ -94,7 +94,7 @@ updateLighting: false
 sectorSeed: 17
 bloom: true
 visible: true
-atmosphereColor: a6babd44
+atmosphereColor: 4da16f
 showRtsAIRule: false
 iconColor: 9ad44a
 hasAtmosphere: true
