@@ -6,4 +6,4 @@ function bundle(block, name, description) {
 }
 
 // Bundles
-bundle(Blocks.infestationSkyRipper, "bob, "")
+bundle(Blocks.copperWall, "bob, "")
