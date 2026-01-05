@@ -49,6 +49,8 @@ intervalBullet:{
 type: EmptyBulletType
 despawnHit: true
 hitEffect: railHit
+hitShake: 4.5
+hitSound: shootFuse
 instantDisappear: true
 }
 }
