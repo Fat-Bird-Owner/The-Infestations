@@ -1,4 +1,4 @@
-      type: ParticleEffect
+      type: ParticleWeather
       localizedName: "Frag storm[red](Heavy)"
       color: a7c1fa
       noiseColor: 3c3837
