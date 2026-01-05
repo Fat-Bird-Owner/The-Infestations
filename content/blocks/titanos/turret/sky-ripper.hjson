@@ -28,8 +28,10 @@ spawnBullets:[
 {
 type: BasicBulletType
 bulletInterval: 1
-lifetime: 10
-speed: 12
+lifetime: 50
+speed: 10
+collides: false
+intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 despawnHit: true
