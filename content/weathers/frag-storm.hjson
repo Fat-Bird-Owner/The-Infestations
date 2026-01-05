@@ -13,6 +13,6 @@
       maxAlpha: 1
       density: 15000
       baseSpeed: 1
-      force: 1
+      force: 0
       sound: loopSmelter
       soundVol: 0.65
