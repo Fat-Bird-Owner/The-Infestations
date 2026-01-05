@@ -76,7 +76,7 @@ campaignRuleDefaults: {
 generator: SerpuloPlanetGenerator
 orbitRadius: 50
 sectorSize: 2
-allowLaunchSchematics: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
