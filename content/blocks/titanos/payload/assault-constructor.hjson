@@ -1,7 +1,7 @@
 type: UnitFactory
 name: "General Constructor"
 category: units
-description: "Constructs all types units more efficently, requires power."
+description: "Constructs all types of T1 units, requires power."
 size: 2
 
 requirements:[item-silver/150,item-oxidium/95,item-conduction-quartz/45,item-hardened-calcite/55]
@@ -25,16 +25,16 @@ plans:[
 {
 unit: frontier
 requirements:[item-silver/45,item-oxidium/20]
-time: 450
+time: 1500
 }
 {
 unit: shift
 requirements:[item-silver/50,item-oxidium/60,item-hardened-calcite/25]
-time: 800
+time: 2350
 }
 {
 unit: raid
 requirements:[item-silver/75,item-oxidium/55,item-conduction-quartz/20]
-time: 1125
+time: 3450
 }
 ]
