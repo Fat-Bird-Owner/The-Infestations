@@ -19,6 +19,11 @@ ammoTypes:{
 
 item-hardened-calcite:{
 type: BasicBulletype
+instantDisappear: true
+collides: false
+despawnHit: true
+damage: 2135
+pierce: true
 spawnBullets:[
 {
 type: BasicBulletType
