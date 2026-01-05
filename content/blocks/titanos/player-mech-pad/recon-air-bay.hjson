@@ -12,7 +12,11 @@ unitType: recon
 unitBuildTime: 300
 requirements:[item-silver/120,item-oxidium/50]
 
-polyColor: 00000000
+polyColor: 9E89C4FF
+polyRadius: 6
+polySides: 4
+polyRotateSpeed: 0
+polyStroke: 1
 description: "Uses power to fabricate a recon unit."
 
 research:{
