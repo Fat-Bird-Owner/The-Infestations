@@ -9,6 +9,19 @@ liquids:[steam/0.01667]
 }
 
 shootSound: blockExplodeElectricBig
+shootEffect:{
+type: ParticleEffect
+colorTo: 6f6f6f
+colorFrom: 4f4f4f
+sizeFrom: 8
+sizeTo: 40
+lifetime: 90
+cone: 45
+length: 35
+particles: 22
+interp: sine
+}
+
 requirements:[]
 shake: 7.5
 category: turret
@@ -27,7 +40,7 @@ pierce: true
 spawnBullets:[
 {
 type: BasicBulletType
-bulletInterval: 1
+bulletInterval: 2.5
 lifetime: 50
 speed: 10
 collides: false
@@ -36,6 +49,7 @@ intervalBullet:{
 type: EmptyBulletType
 despawnHit: true
 hitEffect: railHit
+instantDisappear: true
 }
 }
 {
