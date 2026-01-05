@@ -10,6 +10,9 @@ Learn to extract and seperate shale to build a defensive line before the horde o
 Tip: A number of derelict wrecks have been located here, destroy or repair to make use of them.
 "
 
+overrideLaunchDefaults: true
+allowLaunchSchematics: true
+allowLaunchLoadout: true
 
 research: {
   parent: act-one
