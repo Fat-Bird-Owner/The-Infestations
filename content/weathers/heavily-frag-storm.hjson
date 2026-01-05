@@ -11,8 +11,8 @@
       sizeMin: 1.4
       minAlpha: 0.5
       maxAlpha: 1
-      density: 5000
+      density: 2500
       baseSpeed: 1
       force: 0
       sound: loopSmelter
-      soundVol: 0.65
+      soundVol: 1.35
