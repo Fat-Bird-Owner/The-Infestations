@@ -5,7 +5,7 @@ itemCapacity: 0
 consumes:{
 power: 1
 }
-name: "Recon Air Base"
+name: "Recon Air Bay"
 
 size: 2
 unitType: recon
