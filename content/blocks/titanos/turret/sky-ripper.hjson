@@ -62,13 +62,15 @@ collides: false
 despawnHit: true
 fragBullets: 1
 fragRandomSpread: 0
+hitShake: 17.5
 fragBullet:{
 type: LaserBulletType
 
-colors:[f5c84255,f5c84288, f5c842ff]
+colors:[f5c84255,f5c84277, f5c84299]
 length: 500
 collides: false
 lifetime: 180
+width: 32
 }
 
 }
