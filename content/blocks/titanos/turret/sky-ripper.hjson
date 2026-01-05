@@ -18,6 +18,20 @@ reload: 325
 ammoTypes:{
 
 item-hardened-calcite:{
+type: BasicBulletype
+spawnBullets:[
+{
+type: BasicBulletType
+bulletInterval: 1
+lifetime: 10
+speed: 12
+intervalBullet:{
+type: EmptyBulletType
+despawnHit: true
+hitEffect: railHit
+}
+}
+item-hardened-calcite:{
 type: LaserBulletType
 
 colors:[4f4f4f,6f6f6f,8f8f8f]
@@ -32,6 +46,8 @@ hitShake: 6.5
 hitSound: shootToxopidShotgun
 hitEffect: sparkExplosion
 
+}
+]
 }
   
 }
