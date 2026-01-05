@@ -13,9 +13,9 @@ shootEffect:{
 type: ParticleEffect
 colorTo: 6f6f6f00
 colorFrom: 4f4f4f55
-sizeFrom: 8
-sizeTo: 20
-lifetime: 90
+sizeFrom: 6
+sizeTo: 16
+lifetime: 75
 cone: 45
 length: 75
 particles: 22
