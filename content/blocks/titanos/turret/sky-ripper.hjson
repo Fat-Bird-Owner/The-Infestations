@@ -12,12 +12,12 @@ shootSound: blockExplodeElectricBig
 shootEffect:{
 type: ParticleEffect
 colorTo: 6f6f6f
-colorFrom: 4f4f4f
+colorFrom: 4f4f4f00
 sizeFrom: 8
-sizeTo: 40
+sizeTo: 20
 lifetime: 90
 cone: 45
-length: 35
+length: 75
 particles: 22
 interp: sine
 }
