@@ -36,7 +36,7 @@ despawnHit: true
 hitEffect: railHit
 }
 }
-item-hardened-calcite:{
+{
 type: LaserBulletType
 
 colors:[4f4f4f,6f6f6f,8f8f8f]
