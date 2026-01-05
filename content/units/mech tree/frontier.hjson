@@ -12,8 +12,8 @@ First tier mech unit able to [accent]shoot lasers[] and heal off [accent]Blood.
 immunities:[hover-anchored]
 
 speed: 0.55
-health: 360
-armor: 0
+health: 450
+armor: 0.25
 hitSize: 14
 outlineColor: 2c2d38
 
@@ -45,10 +45,10 @@ shootStatusDuration: 5
 bullet:{
 type: ContinuousFlameBulletType
 pierce: false
-pierceDamageFactor: 1
+pierceDamageFactor: 0.95
 width: 1.5
-flareLength: 20
-damage: 2
+flareLength: 16
+damage: 1.5
 colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
 flareColor: ff795e8c
 hitEffect: fireHit
