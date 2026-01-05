@@ -11,8 +11,8 @@ liquids:[steam/0.01667]
 shootSound: blockExplodeElectricBig
 shootEffect:{
 type: ParticleEffect
-colorTo: 6f6f6f
-colorFrom: 4f4f4f00
+colorTo: 6f6f6f00
+colorFrom: 4f4f4f55
 sizeFrom: 8
 sizeTo: 20
 lifetime: 90
