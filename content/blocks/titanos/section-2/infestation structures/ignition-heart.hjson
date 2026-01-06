@@ -10,7 +10,7 @@ requirements:[]
 category: turret
 
 consumes:{
-blood/0.16667
+liquids:[blood/0.16667]
 }
 
 shootType:{
