@@ -15,12 +15,12 @@ test unit. able to preform parrys.
 
 weapons:[
 {
-reload: 1
+reload: 90
 shootSound: none
 bullet:{
 type: BasicBulletType
 instantDisappear: true
-despawnUnit: parry
+spawnUnit: parry
 }
 }
 ]
