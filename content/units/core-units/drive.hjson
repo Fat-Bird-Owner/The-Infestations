@@ -14,7 +14,7 @@ payloadCapacity: 256
 strafePenalty: 0.25
 drag: 0.03
 accel: 0.1
-trailScl: 4.5
+trailScl: 3.5
 trailLength: 16
 flying: true
 itemCapacity: 40
@@ -25,7 +25,7 @@ engineOffset: 8.5
 
 // mech pad module
 mineSpeed: 0
-commands:[mine]
+commands:[repair]
 allowChangeCommands: false
 logicControllable: false
 playerControllable: true
@@ -35,7 +35,7 @@ targetPriority: -0.1
 range: 0.1
 targetAir: false
 targetGround: false
-defaultCommand: mine
+defaultCommand: repair
 immunities:[rallied]
 
 engines:[
@@ -70,6 +70,9 @@ recentDamageMultiplier: 0.225
 repairSpeed: 0.45
 targetBuildings: true
 targetUnits: false
+controllable: true
+aiControllable: true
+autoTarget: false
 // FFD280FF
 
 }
