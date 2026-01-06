@@ -158,6 +158,30 @@ splashDamageRadius: 40
 hitEffect:{
 type: ExplosionEffect
 }}
+// e
+
+item-conduction-quartz:{
+type: BasicBulletType
+
+speed: 12
+width: 10
+height: 14
+lifetime: 15
+damage: 110
+fragSpread: 30
+frontColor: 7f7f7f
+backColor: 5f5f5f
+trailColor: 5f5f5f55
+trailWidth: 2
+trailLength: 6
+status: blasted
+despawnHit: true
+
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect: railHit
+hitSound: shootFuse
+
 }
 
 category: turret
