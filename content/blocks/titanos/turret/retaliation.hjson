@@ -182,7 +182,7 @@ splashDamageRadius: 40
 hitEffect: railHit
 hitSound: shootFuse
 
-}
+}}
 
 category: turret
 
