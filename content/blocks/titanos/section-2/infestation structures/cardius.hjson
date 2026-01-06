@@ -7,6 +7,7 @@ solid: false
 outputLiquid: blood/0.01666
 liquidCapacity: 100
 rotate: true
+lockRotation: false
 liquidOutputDirections: [0]
 requirements:[]
 leaks: false
