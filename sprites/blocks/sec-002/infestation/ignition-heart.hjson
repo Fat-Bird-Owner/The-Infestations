@@ -7,6 +7,11 @@ shootCone: 360
 range: 80
 
 requirements:[]
+category: turret
+
+consumes:{
+blood/0.16667
+}
 
 shootType:{
 type: ExplosionBulletType
