@@ -10,6 +10,8 @@ Class: [lightgrey]Fragmentation[]
 Fires bullets at it's target and can use a varity of ammo."
 health: 400
 reload: 60
+ammoPerShot: 2
+maxAmmo: 6
 range: 180
 size: 2
 outlineColor: 2c2d38
@@ -126,14 +128,17 @@ type: ExplosionEffect
 
 }
 
-item-hardened-calcite:{
+item-conduction-quartz:{
 type: BasicBulletType
 
 bulletInterval: 1.5
+intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 instantDisappear: true
 hitEffect: sparkShoot
+frontColor: e28654
+backColor: ffcd66
 }
 
 speed: 3
@@ -167,13 +172,23 @@ type: ExplosionEffect
 }}
 // e
 
-item-conduction-quartz:{
+item-hardened-calcite:{
 type: BasicBulletType
 
-speed: 12
+bulletInterval: 1.5
+intervalRandomSpread: 0
+intervalBullet:{
+type: EmptyBulletType
+instantDisappear: true
+frontColor: 7f7f7f
+backColor: 5f5f5f
+hitEffect: sparkShoot
+}
+
+speed: 6
 width: 10
 height: 14
-lifetime: 15
+lifetime: 30
 damage: 110
 fragSpread: 30
 frontColor: 7f7f7f
