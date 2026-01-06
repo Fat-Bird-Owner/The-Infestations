@@ -126,12 +126,19 @@ type: ExplosionEffect
 
 }
 
-item-conduction-quartz:{
+item-hardened-calcite:{
 type: BasicBulletType
 
-speed: 6
+bulletInterval: 1.5
+intervalBullet:{
+type: EmptyBulletType
+instantDisappear: true
+hitEffect: sparkShoot
+}
+
+speed: 3
 width: 10
-height: 14
+height: 30
 lifetime: 30
 damage: 28
 fragSpread: 30
