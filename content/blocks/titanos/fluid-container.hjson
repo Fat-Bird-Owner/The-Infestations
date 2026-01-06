@@ -2,6 +2,7 @@ type: LiquidRouter
 name: Fluid Container
 scaledHealth: 225
 size: 2
+padding: 4
 
 requirements:[
 item-silver/45
