@@ -1,0 +1,13 @@
+type: LiquidRouter
+name: Fluid Container
+scaledHealth: 225
+size: 2
+
+requirements:[
+item-silver/45
+item-oxidium/30
+itwm-hardened-calcite/25
+]
+category: liquid
+liquidCapacity: 45
+
