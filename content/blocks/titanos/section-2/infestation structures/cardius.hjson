@@ -15,6 +15,7 @@ buildVisibility: sandboxOnly
 drawer:{
 type: DrawRegion
 suffix: "-frame0"
+buildingRotate: true
 }
 
 destroyBullet:{
