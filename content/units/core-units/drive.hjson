@@ -14,7 +14,7 @@ payloadCapacity: 256
 strafePenalty: 0.25
 drag: 0.03
 accel: 0.1
-trailScl: 3.5
+trailScl: 2.75
 trailLength: 16
 flying: true
 itemCapacity: 40
@@ -30,7 +30,7 @@ allowChangeCommands: false
 logicControllable: false
 playerControllable: true
 controlSelectGlobal: false
-autoFindTarget: false
+autoFindTarget: true
 targetPriority: -0.1
 range: 0.1
 targetAir: false
@@ -45,16 +45,18 @@ y: -8.5
 rotation: 90
 
 beamWidth: 0.75
+
 }
 ]
 
-abilties:[
+abilities:[
 {
 type: ShieldRegenFieldAbility
 reload: 180
 max: 300
 amount: 30
 range: 0
+
 }
 ]
 
@@ -67,13 +69,18 @@ type: RepairBeamWeapon
 healColor: FFD280FF
 laserColor: FFD280FF
 recentDamageMultiplier: 0.225
-repairSpeed: 0.45
+repairSpeed: 1.35
 targetBuildings: true
 targetUnits: false
 controllable: true
 aiControllable: true
 autoTarget: false
+shootCone: 30
 // FFD280FF
+
+bullet:{
+maxRange: 60
+}
 
 }
 ]
