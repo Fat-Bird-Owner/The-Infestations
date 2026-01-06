@@ -136,7 +136,12 @@ intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 instantDisappear: true
-hitEffect: sparkShoot
+hitEffect: {
+type: WrapEffect
+effect: colorSpark
+color: e28654
+}
+
 frontColor: e28654
 backColor: ffcd66
 }
@@ -182,7 +187,7 @@ type: EmptyBulletType
 instantDisappear: true
 frontColor: 7f7f7f
 backColor: 5f5f5f
-hitEffect: sparkShoot
+hitEffect: colorSpark
 }
 
 speed: 6
