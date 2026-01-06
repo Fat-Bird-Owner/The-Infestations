@@ -1,0 +1,24 @@
+type: Missile
+lifetime: 55
+health: 50
+hover: true
+flying: false
+range: 0
+drawCell: false
+drawBody: false
+physics: false
+  
+weapons:[
+{
+reload: 600
+shootOnDeath: true
+
+bullet:{
+type: EmptyBulletType
+despawnHit: true
+instantDisappear: true
+hitShake: 8.5
+}
+
+}
+]
