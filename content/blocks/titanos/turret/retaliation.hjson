@@ -141,7 +141,7 @@ frontColor: e28654
 backColor: ffcd66
 }
 
-speed: 3
+speed: 6
 width: 10
 height: 30
 lifetime: 30
