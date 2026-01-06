@@ -17,6 +17,17 @@ frames: 3
 }
 
 destroyBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+fragBullets: 8
+fragBullet:{
 type: LiquidBulletType
 liquid: blood
+despawnHit: true
+puddleSize: 8
+velocityScaleRandMin: 0.05
+velocityScaleRandMax: 1
+}
+
 }
