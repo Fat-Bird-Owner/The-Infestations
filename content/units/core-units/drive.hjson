@@ -60,7 +60,7 @@ range: 0
 weapons:[
 {
 x: 0
-y: 9
+y: 7
 mirror: false
 type: RepairBeamWeapon
 healColor: FFD280FF
@@ -77,7 +77,7 @@ beamWidth: 0.75
 // FFD280FF
 
 bullet:{
-maxRange: 60
+maxRange: 80
 }
 
 }
