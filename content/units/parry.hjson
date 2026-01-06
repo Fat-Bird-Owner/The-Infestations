@@ -11,7 +11,6 @@ physics: false
   
 weapons:[
 {
-reload: 600
 shootOnDeath: true
 
 bullet:{
