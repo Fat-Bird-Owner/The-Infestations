@@ -11,10 +11,10 @@ mineWalls: true
 buildSpeed: 1.15
 mineSpeed: 0
 payloadCapacity: 256
-strafePenalty: 0.25
+strafePenalty: 0.65
 drag: 0.03
 accel: 0.1
-trailScl: 2.75
+trailScl: 2.5
 trailLength: 16
 flying: true
 itemCapacity: 40
@@ -32,7 +32,7 @@ playerControllable: true
 controlSelectGlobal: false
 autoFindTarget: true
 targetPriority: -0.1
-range: 0.1
+range: 60
 targetAir: false
 targetGround: false
 defaultCommand: repair
@@ -43,9 +43,6 @@ engines:[
 radius: 4.5
 y: -8.5
 rotation: 90
-
-beamWidth: 0.75
-
 }
 ]
 
@@ -76,6 +73,7 @@ controllable: true
 aiControllable: true
 autoTarget: false
 shootCone: 30
+beamWidth: 0.75
 // FFD280FF
 
 bullet:{
