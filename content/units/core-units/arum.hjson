@@ -2,7 +2,7 @@ type: mech
 speed: 1.2
 canBoost: true
 Boostmultiplier: 0.6
-hitSize: 6
+hitSize: 10
 buildSpeed: 0.65
 mineSpeed: 2
 mineTier: 1
@@ -19,29 +19,13 @@ reload: 1
 shootSound: none
 bullet:{
 type: BasicBulletType
-speed: -1
-shootEffect: none
-despawnEffect: none
 instantDisappear: true
-killShooter: false
-collidesTeam: true
-damage: 1.5
+despawnUnit: parry
 }
 }
 ]
 
 abilities:[
-{
-type: ShieldArcAbility
-max: 10
-regen: 10
-cooldown: 7.5
-angle: 180
-radius: 8
-chanceDeflect: 1
-deflectSound: parry
-pushUnits: false
-}
 {
 type: RegenAbility
 amount: 1
