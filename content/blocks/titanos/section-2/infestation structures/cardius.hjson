@@ -13,8 +13,8 @@ requirements:[]
 leaks: false
 buildVisibility: sandboxOnly
 drawer:{
-type: DrawFrames
-frames: 3
+type: DrawRegion
+suffix: "-frame0"
 }
 
 destroyBullet:{
