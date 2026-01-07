@@ -7,6 +7,10 @@ size: 2
 health: 300
 armor: 12
 
+consumes:{
+liquids:[blood/0.16667]
+}
+shootEffect: smokeAoeCloud
 // turret related stats
 
 rotateSpeed: 0
@@ -21,4 +25,20 @@ instantDisappear: true
 despawnHit:true
 damage: 0
 spawnUnit: "infested-mass"
+}
+
+drawer:{
+type: DrawTurret
+parta:[
+{
+suffix:"-burst"
+xScl: 0
+yScl: 0
+progress: reload
+growX: 1
+growY: 1
+color: 000000ff
+colorTo: ffffffff
+}
+]
 }
