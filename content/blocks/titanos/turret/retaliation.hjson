@@ -136,6 +136,7 @@ intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 instantDisappear: true
+despawnHit: true
 hitEffect: {
 type: WrapEffect
 effect: colorSpark
@@ -185,6 +186,7 @@ intervalRandomSpread: 0
 intervalBullet:{
 type: EmptyBulletType
 instantDisappear: true
+despawnHit: true
 frontColor: 7f7f7f
 backColor: 5f5f5f
 hitEffect: colorSpark
