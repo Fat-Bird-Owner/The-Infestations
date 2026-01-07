@@ -29,14 +29,14 @@ spawnUnit: "infested-mass"
 
 drawer:{
 type: DrawTurret
-parta:[
+parts:[
 {
 suffix:"-burst"
 xScl: 0
 yScl: 0
 progress: reload
-growX: 1
-growY: 1
+growX: 8
+growY: 8
 color: 000000ff
 colorTo: ffffffff
 }
