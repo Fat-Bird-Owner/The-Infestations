@@ -49,6 +49,22 @@ hitShake: 6.5
 
 }
 
+destroyBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+fragBullets: 20
+fragBullet:{
+type: LiquidBulletType
+liquid: blood
+despawnHit: true
+puddleSize: 8
+velocityScaleRandMin: 0.05
+velocityScaleRandMax: 1
+}
+
+}
+
 drawer:{
 type: DrawTurret
 parts:[
