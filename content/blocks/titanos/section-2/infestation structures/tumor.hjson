@@ -1,0 +1,11 @@
+type: BurstDrill
+size: 2
+health: 450
+shake: 6.5
+requirements:[]
+category: production
+  
+arrows: 0
+drillTime: 360
+liquidBoostIntensity: 1
+tier: 15
