@@ -6,17 +6,19 @@ consumes:[]
 size: 2
 health: 300
 armor: 12
-
+outlineColor: 313131
 consumes:{
 liquids:[blood/0.16667]
 }
-shootEffect: smokeAoeCloud
+shootEffect: neoplasiaSmoke
+shootSound: blockExplodeElectricBig
 // turret related stats
 
 rotateSpeed: 0
 alwaysShooting: true
 reload: 2400
 shootCone: 180
+inaccuracy: 360
 recoil: 0
 // bullet
 
@@ -24,7 +26,16 @@ shootType:{
 instantDisappear: true
 despawnHit:true
 damage: 0
+
+fragBullets: 2
+fragBullet:{
+instantDisappear: true
+despawnHit:true
+damage: 0
 spawnUnit: "infested-mass"
+hitShake: 6.5
+}
+
 }
 
 drawer:{
@@ -35,8 +46,9 @@ suffix:"-burst"
 xScl: 0
 yScl: 0
 progress: reload
-growX: 8
-growY: 8
+growProgress: reload
+growX: 1
+growY: 1
 color: 000000ff
 colorTo: ffffffff
 }
