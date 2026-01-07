@@ -10,7 +10,18 @@ outlineColor: 313131
 consumes:{
 liquids:[blood/0.16667]
 }
-shootEffect: corrosionVapor
+shootEffect: {
+type: MultiEffect
+effects:[
+launchPod
+{
+type: WrapEffect
+effect: missileTrailSmoke
+color: CFFF70FF
+}
+]
+}
+
 shootSound: blockExplodeElectricBig
 // turret related stats
 
@@ -50,7 +61,7 @@ growProgress: reload
 growX: -1
 growY: -1
 color: ffffffff
-colorTo: 000000ff
+colorTo: 00000000
 }
 ]
 }
