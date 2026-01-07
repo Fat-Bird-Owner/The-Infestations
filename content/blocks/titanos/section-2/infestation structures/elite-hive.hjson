@@ -1,12 +1,13 @@
 // general stats
 
 type: PowerTurret
-name: "Hive"
+name: "Elite Hive"
 consumes:[]
 size: 2
 health: 750
 armor: 20
 outlineColor: 313131
+unitCapModifier: 1
 consumes:{
 liquids:[blood/0.16667]
 }
