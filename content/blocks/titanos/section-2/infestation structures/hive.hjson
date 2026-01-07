@@ -47,8 +47,8 @@ xScl: 1
 yScl: 1
 progress: reload
 growProgress: reload
-growX: 0
-growY: 0
+growX: -1
+growY: -1
 color: ffffffff
 colorTo: 000000ff
 }
