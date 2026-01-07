@@ -10,7 +10,7 @@ outlineColor: 313131
 consumes:{
 liquids:[blood/0.16667]
 }
-shootEffect: neoplasiaSmoke
+shootEffect: corrosionVapor
 shootSound: blockExplodeElectricBig
 // turret related stats
 
@@ -43,14 +43,14 @@ type: DrawTurret
 parts:[
 {
 suffix:"-burst"
-xScl: 0
-yScl: 0
+xScl: 1
+yScl: 1
 progress: reload
 growProgress: reload
-growX: 1
-growY: 1
-color: 000000ff
-colorTo: ffffffff
+growX: 0
+growY: 0
+color: ffffffff
+colorTo: 000000ff
 }
 ]
 }
