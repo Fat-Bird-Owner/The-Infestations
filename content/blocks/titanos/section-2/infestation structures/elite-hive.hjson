@@ -44,7 +44,7 @@ fragBullet:{
 instantDisappear: true
 despawnHit:true
 damage: 0
-spawnUnit: "dieselium"
+spawnUnit: "diesilium"
 hitShake: 6.5
 }
 
