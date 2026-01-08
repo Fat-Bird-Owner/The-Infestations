@@ -4,6 +4,9 @@ health: 250
 armor: 5
 hitSize: 12
 outlineColor: 5A5D61
+mineSpeed: 4.5
+mineTier: 1
+buildSpeed: 0.5
 
 drawBuildBeam: false
 weapons:[
