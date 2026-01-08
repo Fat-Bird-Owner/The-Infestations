@@ -1,0 +1,4 @@
+type: Floor
+autotile: true
+drawEdgeIn: false
+drawEdgeOut: false
