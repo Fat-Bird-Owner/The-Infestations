@@ -34,6 +34,7 @@ inaccuracy: 360
 range: 85
 shootY: 0
 recoil: 0
+shake: 6.5
 // bullet
 
 shootType:{
@@ -41,10 +42,13 @@ type: EmptyBulletType
 collides: false
 bulletInterval: 5
 lifetime: 60
+splashDamage: 205
+splashDamageRadius: 125
+scaledSplashDamage: true
 intervalBullet:{
-type: EmptyBulletType
 splashDamage: 35
 splashDamageRadius: 105
+hitShake: 2.5
 scaledSplashDamage: true
 collides: true
 status: corroded
