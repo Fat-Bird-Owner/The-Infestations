@@ -16,18 +16,19 @@ drawBuildBeam: false
 weapons:[
 {
 type: BuildWeapon
+name: "scarab"
 x: 0
 y: 0
 mirror: false
 
 parts:[
 {
-name: "scarab-arm1"
+suffix: "-arm1"
 progress: heat
 moveRot: 15
 }
 {
-name: "scarab-arm2"
+suffix: "-arm2"
 prgoress: heat
 moveRot: -15
 }
