@@ -10,6 +10,7 @@ trailScl: 1
 trailLength: 12.5
 mineTier: 1
 buildSpeed: 0.5
+flying: true
 
 drawBuildBeam: false
 weapons:[
@@ -21,12 +22,12 @@ mirror: false
 
 parts:[
 {
-namw: "scarab-arm1"
+name: "scarab-arm1"
 progress: heat
 moveRot: 15
 }
 {
-namw: "scarab-arm2"
+name: "scarab-arm2"
 prgoress: heat
 moveRot: -15
 }
