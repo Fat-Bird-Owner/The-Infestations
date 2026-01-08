@@ -5,6 +5,9 @@ armor: 5
 hitSize: 12
 outlineColor: 5A5D61
 mineSpeed: 4.5
+engineOffset: 6
+trailScl: 1
+trailLength: 12.5
 mineTier: 1
 buildSpeed: 0.5
 
@@ -18,11 +21,13 @@ mirror: false
 
 parts:[
 {
-suffix: "-arm1"
+namw: "scarab-arm1"
+progress: heat
 moveRot: 15
 }
 {
-suffix: "-arm2"
+namw: "scarab-arm2"
+prgoress: heat
 moveRot: -15
 }
 ]
