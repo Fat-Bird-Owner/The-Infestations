@@ -1,4 +1,4 @@
-type: TiledFloor
+type: floor
 autotile: true
 drawEdgeIn: false
 drawEdgeOut: false
