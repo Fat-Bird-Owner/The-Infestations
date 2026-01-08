@@ -2,3 +2,4 @@ type: floor
 autotile: true
 drawEdgeIn: false
 drawEdgeOut: false
+tilingVariants: 1
