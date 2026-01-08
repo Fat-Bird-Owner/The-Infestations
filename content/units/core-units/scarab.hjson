@@ -24,12 +24,10 @@ mirror: false
 parts:[
 {
 suffix: "-arm1"
-progress: heat
 moveRot: 15
 }
 {
 suffix: "-arm2"
-prgoress: heat
 moveRot: -15
 }
 ]
