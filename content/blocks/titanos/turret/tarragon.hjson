@@ -1,0 +1,18 @@
+type: PowerTurret
+size: 6
+reload: 60
+range: 160
+
+shootType:{
+type: BasicBulletType
+instantDisappear: true
+splashDamage: 0
+splashDamageRadius: 165
+collides: false
+status: rally
+statusDuration: 180
+collidesTeam: true
+}
+
+category: effect
+requirements:[]
