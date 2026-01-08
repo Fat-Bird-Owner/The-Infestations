@@ -105,9 +105,5 @@ plasma2: e2865400
 {
 type: DrawDefault
 }
-{
-type: DrawRegion
-suffix: "-team"
-}
 ]
 }
