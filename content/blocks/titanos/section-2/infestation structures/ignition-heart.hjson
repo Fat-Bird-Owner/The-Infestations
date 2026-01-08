@@ -9,6 +9,10 @@ range: 80
 requirements:[]
 category: turret
 
+shoot:{
+firstShotDelay: 120
+}
+
 consumes:{
 liquids:[blood/0.16667]
 }
