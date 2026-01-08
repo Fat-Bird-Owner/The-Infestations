@@ -32,6 +32,7 @@ reload: 180
 shootCone: 180
 inaccuracy: 360
 range: 85
+shootY: 0
 recoil: 0
 // bullet
 
@@ -45,6 +46,17 @@ type: EmptyBulletType
 splashDamage: 35
 splashDamageRadius: 105
 scaledSplashDamage: true
+collides: true
+status: corroded
+despawnHit: true
+instantDisappear: true
+
+hitEffect:{
+type: WrapEffect
+effect: artilleryTrailSmoke
+color: 8175A5FF
+}
+
 }
 
 }
