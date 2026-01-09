@@ -1,3 +1,5 @@
 type: floor
 drawEdgeIn: false
 drawEdgeOut: false
+autotile: true
+variants: 0
