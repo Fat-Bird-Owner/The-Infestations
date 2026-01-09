@@ -71,6 +71,7 @@ campaignRuleDefaults: {
 	showSpawns: true
 	sectorInvasion: true
 	legacyLaunchPads: true
+	fog: true
 }
 
 generator: SerpuloPlanetGenerator
