@@ -10,8 +10,10 @@ drawBody: false
 drawCell: false
 omniMovement: false
 canDrown: false
-rotateSpeed: 7.5
+outlineColor: 313131
+rotateSpeed: 3.75
 segments: 3
+segmentPhase: 1.5
 segmentScl: 1
 segmentMaxRot: 65
 
@@ -26,7 +28,8 @@ bullet:{
 instantDisappear: true
 despawnHit: true
 hitEffect: none
-recoil: -0.75
+hitSound: none
+recoil: -1.25
 speed: 8
 lifetime: 10
 }
@@ -37,5 +40,6 @@ lifetime: 10
 abilities:[
 {
 type: MoveLightningAbility
+heatRegion: "-lightning"
 }
 ]
