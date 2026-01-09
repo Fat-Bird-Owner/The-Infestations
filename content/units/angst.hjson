@@ -1,8 +1,13 @@
 type: crawl
-name: Angst
+name: "Angst"
+description: "
+Scourge type unit, able to very quickly crawl on the floor, Releases lightning upon reaching terminal velocity.
+Very strong unit able to destroy enemy defenses very rapidly using its lightning ability, very strong in hordes.
+"
 health: 450
-armor: 15
+armor: 5
 circleTarget: true
+crawlSlowdown: 0
 speed: 5.25
 drag: 1.5
 immunities:[hover-anchored,flamethrow-fail,melting,burning,ret-shock]
@@ -48,7 +53,7 @@ type: MoveLightningAbility
 heatRegion: "-lightning"
 length: 4
 chance: 0.45
-minSpeed: 0.25
-maxSpeed: 0.45
+minSpeed: 0.15
+maxSpeed: 0.35
 }
 ]
