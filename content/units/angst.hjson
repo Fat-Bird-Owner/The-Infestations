@@ -3,7 +3,7 @@ name: Angst
 health: 450
 armor: 15
 circleTarget: true
-speed: 3.75
+speed: 4.65
 drag: 1.5
 immunities:[hover-anchored,flamethrow-fail,melting,burning,ret-shock]
 drawBody: false
@@ -11,7 +11,7 @@ drawCell: true
 omniMovement: false
 canDrown: false
 outlineColor: 313131
-rotateSpeed: 3.75
+rotateSpeed: 4.5
 segments: 3
 segmentPhase: 1.5
 segmentScl: 1
@@ -45,5 +45,6 @@ type: MoveLightningAbility
 heatRegion: "-lightning"
 length: 4
 chance: 0.45
+minSpeed: 0.25
 }
 ]
