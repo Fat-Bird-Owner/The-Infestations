@@ -3,7 +3,7 @@ name: Angst
 health: 450
 armor: 15
 circleTarget: true
-speed: 2.5
+speed: 3.75
 drag: 1.5
 immunities:[hover-anchored,flamethrow-fail,melting,burning,ret-shock]
 drawBody: false
@@ -17,6 +17,7 @@ segmentPhase: 1.5
 segmentScl: 1
 segmentMaxRot: 65
 
+/*
 weapons:[
 {
 mirror: false
@@ -36,6 +37,7 @@ lifetime: 15
 
 }
 ]
+*/
 
 abilities:[
 {
