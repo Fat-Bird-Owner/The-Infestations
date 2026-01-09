@@ -4,16 +4,37 @@ health: 450
 armor: 15
 circleTarget: true
 speed: 2.5
-accel: 0.015
-drag: 0.0075
-flying: true
+accel: 0.025
+drag: 0.0125
+drawBody: false
+drawCell: false
 omniMovement: false
-rotateSpeed: 15
+canDrown: false
+rotateSpeed: 7.5
 segments: 3
 segmentScl: 1
 segmentMaxRot: 65
 
-abilties:[
+weapons:[
+{
+mirror: false
+shootEffect: none
+shootSound: none
+reload: 3.5
+
+bullet:{
+instantDisappear: true
+despawnHit: true
+hitEffect: none
+recoil: -0.75
+speed: 8
+lifetime: 10
+}
+
+}
+]
+
+abilities:[
 {
 type: MoveLightningAbility
 }
