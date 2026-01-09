@@ -2,7 +2,7 @@ type: payload
 name: "[accent]Observent"
 physics: false
 targetable: false
-hittable: false
+hittable: true
 drawBody: false
 range: 320
 mineTier: 1
@@ -34,7 +34,7 @@ softShadowScl: 0
 commands: [move, repair, rebuild, assist]
 defaultCommand: rebuild
 controller: BuilderAI
-fogRadius: 320
+fogRadius: 40
 // og is 40
 lightRadius: 320
 rotateSpeed: 0
@@ -47,7 +47,7 @@ type: EnergyFieldAbility
 damage: 0
 hitUnits: false
 maxTargets: 15
-healPercent: 5.5
+healPercent: 3.5
 reload: 120
 range: 320
 effectRadius: 0
