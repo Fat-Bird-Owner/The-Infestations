@@ -3,7 +3,7 @@ name: Angst
 health: 450
 armor: 15
 circleTarget: true
-speed: 4.65
+speed: 5.25
 drag: 1.5
 immunities:[hover-anchored,flamethrow-fail,melting,burning,ret-shock]
 drawBody: false
@@ -20,10 +20,7 @@ segmentMaxRot: 65
 /*
 weapons:[
 {
-mirror: false
-shootEffect: none
-shootSound: none
-reload: 60
+controllable: false
 
 bullet:{
 instantDisappear: true
@@ -41,10 +38,17 @@ lifetime: 15
 
 abilities:[
 {
+type: RepairFieldAbility
+range: 0
+healPercent: 4.5
+reload: 60
+}
+{
 type: MoveLightningAbility
 heatRegion: "-lightning"
 length: 4
 chance: 0.45
 minSpeed: 0.25
+maxSpeed: 0.45
 }
 ]
