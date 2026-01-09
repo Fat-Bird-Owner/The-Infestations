@@ -1,3 +1,4 @@
 type: floor
 drawEdgeIn: false
 drawEdgeOut: false
+tilingVariants: 1
