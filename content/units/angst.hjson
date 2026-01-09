@@ -6,7 +6,7 @@ Very strong unit able to destroy enemy defenses very rapidly using its lightning
 "
 health: 450
 armor: 5
-circleTarget: true
+unitController: HugAI
 crawlSlowdown: 0
 speed: 5.25
 drag: 1.5
@@ -53,7 +53,7 @@ type: MoveLightningAbility
 heatRegion: "-lightning"
 length: 4
 chance: 0.45
-minSpeed: 0.15
-maxSpeed: 0.35
+minSpeed: 0.075
+maxSpeed: 0.25
 }
 ]
