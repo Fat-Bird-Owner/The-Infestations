@@ -8,7 +8,7 @@ health: 450
 armor: 5
 unitController: HugAI
 circleTarget: true
-range: 6
+range: 0
 crawlSlowdown: 0
 speed: 5.25
 drag: 1.5
