@@ -2,6 +2,7 @@ type: Floor
 emitLight: true
 lightRadius: 20
 variants: 0
+lightColor: 5f5f005f
 attributes: {
 heat: 1.25
 }
