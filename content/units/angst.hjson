@@ -7,6 +7,7 @@ Very strong unit able to destroy enemy defenses very rapidly using its lightning
 health: 450
 armor: 5
 unitController: HugAI
+circleTarget: true
 range: 6
 crawlSlowdown: 0
 speed: 5.25
@@ -20,8 +21,9 @@ outlineColor: 313131
 rotateSpeed: 4.5
 segments: 3
 segmentPhase: 1.5
-segmentScl: 1
-segmentMaxRot: 65
+segmentScl: 0.65
+segmentMaxRot: 35
+crushDamage: 0.65
 
 /*
 weapons:[
