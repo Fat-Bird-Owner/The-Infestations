@@ -1,0 +1,46 @@
+type: tether
+hover: true
+flying: false
+speed: 2.5
+health: 350
+armor: 7.5
+
+immunities:[frosted,rallied]
+  
+canBoost: true
+boostMultiplier: 1.45
+trailScl: 2
+trailLength: 25
+buildSpeed: 0.75
+
+weapons:[
+{
+x: 4.5
+y: 2.5
+
+shoot:{
+shots: 3
+shotDelay: 10
+}
+
+bullet:{
+type: MissileBulletType
+frontColor: 9FA4C5FF
+backColor: 777A90FF
+speed: 3
+lifetime: 60
+
+despawnHit: true
+splashDamage: 25
+splashDamageRadius: 25
+damage: 25
+hitEffect: explosion
+weaveMag: 3.5
+impact: true
+knockBack: 3.5
+buildingDamageMultiplier: 0.35
+weaveScl: 1.85
+}
+
+}
+]
