@@ -4,6 +4,7 @@ flying: false
 speed: 2.5
 health: 350
 armor: 7.5
+outlineColor: 313131
 
 immunities:[frosted,rallied]
 commands:[mine]
@@ -15,6 +16,8 @@ autoFindTarget: false
 range: 0.1
 targetAir: false
 targetGround: false
+engineSize: 2
+engineOffset: 3
 defaultCommand: mine
 
 canBoost: true
