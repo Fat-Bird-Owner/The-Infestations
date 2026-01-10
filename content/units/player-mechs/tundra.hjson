@@ -6,7 +6,17 @@ health: 350
 armor: 7.5
 
 immunities:[frosted,rallied]
-  
+commands:[mine]
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+range: 0.1
+targetAir: false
+targetGround: false
+defaultCommand: mine
+
 canBoost: true
 boostMultiplier: 1.45
 trailScl: 2
