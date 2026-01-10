@@ -8,7 +8,7 @@ power: 2.25
 name: "Tundra Hover Bay"
 
 size: 2
-unitType: tundea
+unitType: tundra
 unitBuildTime: 900
 requirements:[item-silver/90,item-oxidium/90,item-hardened-calcite/35,item-conduction-quartz/85]
 
