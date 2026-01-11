@@ -2,7 +2,7 @@ type: prop
 breakSound: shootSmite
 breakSoundPitch: 2.2
 buildTime: 45
-requirements:[silver/3,oxidium/1]
+requirements:[item-silver/3,item-oxidium/1]
 buildVisibility: sandboxOnly
 forceDark: true
 solid: true
