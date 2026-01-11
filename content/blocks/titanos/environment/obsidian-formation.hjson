@@ -6,3 +6,4 @@ requirements:[silver/3,oxidium/1]
 buildVisibility: sandboxOnly
 forceDark: true
 solid: true
+breakable: true
