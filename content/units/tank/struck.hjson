@@ -1,6 +1,6 @@
 // general
 type: tank
-name: Strucken 
+name: Struck
 description: "
 A well armored assault vehicle. Is able to heal from blood puddles.
 
@@ -16,7 +16,7 @@ omniMovement: false
 rotateMoveFirst: true
 rotateSpeed: 3
 allowedinPayloads: true
-health: 500
+health: 550  
 drag: 0.25
 armor: 5
 
