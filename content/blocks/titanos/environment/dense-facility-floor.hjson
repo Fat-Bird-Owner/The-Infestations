@@ -1,2 +1,2 @@
-type: floor
+type: StaticWall
 autotile: true
