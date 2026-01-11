@@ -1,10 +1,11 @@
 type: tether
 hover: true
 flying: false
-speed: 2.5
+speed: 1
 health: 350
 armor: 7.5
 outlineColor: 313131
+hover: true
 
 immunities:[frosted,rallied]
 commands:[mine]
@@ -20,8 +21,6 @@ engineSize: 2
 engineOffset: 3
 defaultCommand: mine
 
-canBoost: true
-boostMultiplier: 1.45
 trailScl: 2
 trailLength: 25
 buildSpeed: 0.75
@@ -30,7 +29,7 @@ weapons:[
 {
 x: 4.5
 y: 2.5
-
+reload: 75
 shoot:{
 shots: 3
 shotDelay: 10
@@ -42,6 +41,9 @@ frontColor: 9FA4C5FF
 backColor: 777A90FF
 speed: 3
 lifetime: 60
+trailEffect: none
+trailWidth: 1
+trailLength: 30
 
 despawnHit: true
 splashDamage: 25
