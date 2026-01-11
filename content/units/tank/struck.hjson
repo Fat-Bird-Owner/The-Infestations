@@ -42,7 +42,7 @@ faceTarget: false
 
 weapons: [
 {
-name: "strucken-head"
+name: "strucken-cannon"
 shootSound: artillery
 x: 0
 mirror: false
