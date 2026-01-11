@@ -4,6 +4,7 @@ breakSoundPitch: 2.2
 buildTime: 45
 requirements:[item-silver/3,item-oxidium/1]
 buildVisibility: sandboxOnly
-forceDark: true
+instantDeconstruct: true
 solid: true
 breakable: true
+update: true
