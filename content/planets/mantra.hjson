@@ -1,7 +1,7 @@
 localizedName: Mantra
 alwaysUnlocked: true
 defaultEnv: 2
-sectorApproxRadius: 6
+sectorApproxRadius: 1.2
 mesh: [
 {
     //ground and acid
