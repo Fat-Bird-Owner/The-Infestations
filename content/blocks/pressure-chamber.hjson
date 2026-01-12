@@ -18,11 +18,12 @@ suffix: "-bottom"
 }
 {
 type: DrawLiquidTile
-padding: 1.2
+padding: 1.6
 drawLiquid: pressure
 }
 {
 type: DrawPistons
+sinScl: 0
 }
 {
 type: DrawDefault
