@@ -3,12 +3,46 @@ name: Discovery
 hover: true
 canBoost: true
 buildSpeed: 1
+mineSpeed: 3.5
+mineTier: 2
 
 health: 250
 armor: 2.5
 speed: 1.45
 
 weapons:[
+{
+reload: 360
+recoil: 0
+shootSound: none
+smokeEffect: none
+shootEffect: none
+ejectEffect: none
+
+x: 0
+y: -4
+alwaysShooting: true
+parts:[
+{
+type: RegionPart
+progress: reload
+moveRot: -6120
+top: true
+under: true
+}
+]
+
+bullet:{
+type: EmptyBulletType
+instandDisappear: true
+despawnHit: true
+hitSound: none
+hitEffect: none
+}
+
+
+
+}
 {
 reload: 60
 x: 0
@@ -17,12 +51,13 @@ y: 0
 bullet:{
 type: MissileBulletType
 
-speed: 0.75
+speed: 1.25
+lifetime: 90
 damage: 25
 splashDamage: 35
 splashDamageRadius: 20
 trailChance: 0.25
-trailEffect: bubble
+trailEffect: airBubble
 }
 
 }
