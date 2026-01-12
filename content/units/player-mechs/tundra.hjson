@@ -6,6 +6,7 @@ health: 350
 armor: 7.5
 outlineColor: 313131
 hover: true
+flying: false
 
 immunities:[frosted,rallied]
 commands:[mine]
@@ -39,10 +40,11 @@ bullet:{
 type: MissileBulletType
 frontColor: 9FA4C5FF
 backColor: 777A90FF
+trailColor: 777A90FF
 speed: 3
 lifetime: 60
 trailEffect: none
-trailWidth: 1
+trailWidth: 2
 trailLength: 30
 
 despawnHit: true
