@@ -1,6 +1,6 @@
 type: CoreBlock
 name: "Core: Conquest"
-unitType: scarab
+unitType: discovery
 health: 6500
 armor: 10
 size: 3
