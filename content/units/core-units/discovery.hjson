@@ -39,6 +39,7 @@ type: EmptyBulletType
 instandDisappear: true
 despawnHit: true
 hitSound: none
+shootEffect: none
 hitEffect: none
 }
 
