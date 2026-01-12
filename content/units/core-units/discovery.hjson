@@ -23,6 +23,7 @@ x: 0
 y: -4
 alwaysShooting: true
 parts:[
+name: sub
 {
 type: RegionPart
 progress: reload
@@ -31,6 +32,7 @@ top: true
 under: true
 mirror: false
 suffix: "-rotator"
+outline: false
 }
 ]
 
