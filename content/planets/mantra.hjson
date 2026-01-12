@@ -1,6 +1,7 @@
 localizedName: Mantra
 alwaysUnlocked: true
 defaultEnv: 2
+sectorApproxRadius: 6
 mesh: [
 {
     //ground and acid
@@ -71,7 +72,7 @@ allowLaunchLoadout: true
 allowSectorInvasion: true
 enemyCoreSpawnReplace: true
 startSector: 86
-orbitSpacing: 2
+orbitSpacing: 39
 radius: 1.219
 minZoom: 0.25
 drawOrbit: true
@@ -85,12 +86,12 @@ bloom: true
 visible: true
 atmosphereColor: 002f8f
 showRtsAIRule: false
-iconColor: 9ad44a
+iconColor: 002f8f
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-conquest
 parent: photomos
-launchCandidates: [tekera]
-landCloudColor: 234f4455
+solarSystem: photomos
+landCloudColor: 002f8f
