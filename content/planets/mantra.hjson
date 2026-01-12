@@ -1,7 +1,6 @@
 localizedName: Mantra
 alwaysUnlocked: true
 defaultEnv: 2
-sectorApproxRadius: 1.2
 mesh: [
 {
     //ground and acid
@@ -72,7 +71,6 @@ allowLaunchLoadout: true
 allowSectorInvasion: true
 enemyCoreSpawnReplace: true
 startSector: 86
-orbitSpacing: 39
 radius: 1.219
 minZoom: 0.25
 drawOrbit: true
