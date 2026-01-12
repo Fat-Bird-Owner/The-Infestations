@@ -12,5 +12,5 @@ laserWidth: 0.45
 optionalBoostIntensity: 1
 
 consumes:{
-liquids:[pressure/0.01667
+liquids:[pressure/0.01667]
 }
