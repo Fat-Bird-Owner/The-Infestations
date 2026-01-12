@@ -1,0 +1,95 @@
+localizedName: Mantra
+alwaysUnlocked: true
+mesh: [
+{
+    //ground and acid
+    type: NoiseMesh
+    planet: mantra
+    divisions: 4
+    seed: 12
+    radius: 1.1875
+    color1: 004fff
+    color2: 002f8f
+    octaves: 1
+}
+]
+
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: titanos
+   speed: 1.21
+   radius: 0.1
+   divisions: 4
+   color: ffffff
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.3
+  }
+  {
+   type: HexSkyMesh
+   planet: titanos
+   speed: 1.01
+   radius: 0.11
+   divisions: 4
+   color: ffffff75
+   octaves: 2
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.4
+  seed: 96
+  }
+  {
+   type: HexSkyMesh
+   planet: titanos
+   speed: 0.891
+   radius: 0.091
+   divisions: 5
+   color: ffffff33
+  seed: 69
+   octaves: 2
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.8
+  }
+]
+
+campaignRuleDefaults: {
+	showSpawns: true
+	sectorInvasion: true
+	legacyLaunchPads: true
+}
+
+generator: SerpuloPlanetGenerator
+orbitRadius: 50
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: true
+enemyCoreSpawnReplace: true
+startSector: 86
+orbitSpacing: 2
+radius: 1.219
+minZoom: 0.25
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+allowCampaignRules: false
+updateLighting: false
+sectorSeed: 2
+bloom: true
+visible: true
+atmosphereColor: 002f8f
+showRtsAIRule: false
+iconColor: 9ad44a
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+prebuildBase: true
+defaultCore: core-conquest
+parent: photomos
+launchCandidates: [tekera]
+landCloudColor: 234f4455
