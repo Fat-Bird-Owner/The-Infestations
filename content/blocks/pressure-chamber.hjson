@@ -7,7 +7,10 @@ liquidCapacity: 250
 minEfficiency: 9
 displayEfficiency: false
 baseEfficiency: 0
-requirements:[]
+
+requirements:[
+copper/35
+]
 category: production
 
 drawer:{
@@ -24,7 +27,8 @@ drawLiquid: pressure
 }
 {
 type: DrawPistons
-sinOffset: 0
+sinMag: 0
+lenOffset: 0.25
 }
 {
 type: DrawDefault
