@@ -9,6 +9,7 @@ sparkColor: 9f9f9f
 heatColor: 9f9f9f
 boostHeatColor: ffffff
 tier: 3
+range: 2
 laserWidth: 0.45
 optionalBoostIntensity: 1
 
