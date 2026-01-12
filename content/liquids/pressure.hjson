@@ -1,0 +1,5 @@
+gas: true
+color: 8f8f8f
+flammability: 0.45
+temperature: 0.725
+explosiveness: 0.85
