@@ -6,7 +6,7 @@ requirements:[]
 sparkColor: 9f9f9f
 heatColor: 9f9f9f
 boostHeatColor: ffffff
-range: 1
+range: 2
 tier: 2
 laserWidth: 0.45
 optionalBoostIntensity: 1
