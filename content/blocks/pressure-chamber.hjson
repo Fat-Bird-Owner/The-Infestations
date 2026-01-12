@@ -22,15 +22,19 @@ suffix: "-bottom"
 }
 {
 type: DrawLiquidTile
-padding: 1.6
+padding: 2
 drawLiquid: pressure
 }
+
+/*
 {
 type: DrawPistons
 sinMag: -1
 lenOffset: 0.25
 sinOffset: 0
 }
+*/
+
 {
 type: DrawDefault
 }
