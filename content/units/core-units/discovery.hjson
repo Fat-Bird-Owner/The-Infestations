@@ -12,6 +12,7 @@ speed: 1.45
 
 weapons:[
 {
+name: sub
 reload: 360
 recoil: 0
 shootSound: none
@@ -24,7 +25,6 @@ x: 0
 y: -4
 alwaysShooting: true
 parts:[
-name: sub
 {
 type: RegionPart
 progress: reload
