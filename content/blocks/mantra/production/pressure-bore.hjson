@@ -1,0 +1,16 @@
+type: BeamDrill
+size: 2
+
+requirements:[]
+
+sparkColor: 9f9f9f
+heatColor: 9f9f9f
+boostHeatColor: ffffff
+range: 1
+tier: 2
+laserWidth: 0.45
+optionalBoostIntensity: 1
+
+consumes:{
+liquids:[pressure/0.01667
+}
