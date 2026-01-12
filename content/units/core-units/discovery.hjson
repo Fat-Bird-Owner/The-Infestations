@@ -29,6 +29,8 @@ progress: reload
 moveRot: -6120
 top: true
 under: true
+mirror: false
+suffix: "-rotator"
 }
 ]
 
