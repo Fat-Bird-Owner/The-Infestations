@@ -1,3 +1,4 @@
 type: OreBlock
 wallOre: true
 itemDrop: copper
+name: Copper Ore
