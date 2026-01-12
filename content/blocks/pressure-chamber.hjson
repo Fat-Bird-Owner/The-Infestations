@@ -27,8 +27,9 @@ drawLiquid: pressure
 }
 {
 type: DrawPistons
-sinMag: 0
+sinMag: -1
 lenOffset: 0.25
+sinOffset: 0
 }
 {
 type: DrawDefault
