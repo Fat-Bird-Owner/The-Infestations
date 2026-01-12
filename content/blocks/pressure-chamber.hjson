@@ -4,7 +4,7 @@ size: 3
 attribute: steam
 outputLiquid: steam/0.16667
 liquidCapacity: 250
-minEfficiency: 1
+minEfficiency: 5
 baseEfficiency: 0
 requirements:[]
 category: production
@@ -22,7 +22,7 @@ padding: 1.2
 drawLiquid: steam
 }
 {
-type: DrawPiston
+type: DrawPistons
 }
 {
 type: DrawDefault
