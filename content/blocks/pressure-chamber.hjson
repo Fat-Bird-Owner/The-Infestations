@@ -1,7 +1,29 @@
 type: AttributeCrafter
 name: Pressure Chamber
+size: 3
 attribute: steam
 outputLiquid: steam/0.16667
 
 requirements:[]
 category: production
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+padding: 1.2
+drawLiquid: steam
+}
+{
+type: DrawPiston
+}
+{
+type: DrawDefault
+}
+]
+}
