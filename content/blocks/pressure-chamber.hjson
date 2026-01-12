@@ -3,7 +3,9 @@ name: Pressure Chamber
 size: 3
 attribute: steam
 outputLiquid: steam/0.16667
-
+liquidCapacity: 250
+minEfficiency: 1
+baseEfficiency: 0
 requirements:[]
 category: production
 
