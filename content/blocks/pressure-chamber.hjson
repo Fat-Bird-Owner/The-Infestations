@@ -4,7 +4,8 @@ size: 3
 attribute: steam
 outputLiquid: pressure/0.16667
 liquidCapacity: 250
-minEfficiency: 5
+minEfficiency: 9
+displayEfficiency: false
 baseEfficiency: 0
 requirements:[]
 category: production
@@ -23,7 +24,7 @@ drawLiquid: pressure
 }
 {
 type: DrawPistons
-sinScl: 0
+sinOffset: 0
 }
 {
 type: DrawDefault
