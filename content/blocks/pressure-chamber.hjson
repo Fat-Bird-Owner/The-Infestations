@@ -1,0 +1,7 @@
+type: AttributeCrafter
+name: Pressure Chamber
+attribute: steam
+outputLiquid: steam/0.16667
+
+requirements:[]
+category: production
