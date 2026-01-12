@@ -1,6 +1,6 @@
 localizedName: Mantra
 alwaysUnlocked: true
-defaultEnv: 3
+defaultEnv: 2
 mesh: [
 {
     //ground and acid
