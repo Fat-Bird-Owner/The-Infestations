@@ -1,0 +1,29 @@
+type: hover
+name: Discovery
+hover: true
+canBoost: true
+buildSpeed: 1
+
+health: 250
+armor: 2.5
+speed: 1.45
+
+weapons:[
+{
+reload: 60
+x: 0
+y: 0
+  
+bullet:{
+type: MissileBulletType
+
+speed: 0.75
+damage: 25
+splashDamage: 35
+splashDamageRadius: 20
+trailChance: 0.25
+trailEffect: bubble
+}
+
+}
+]
