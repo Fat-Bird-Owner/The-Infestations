@@ -8,8 +8,7 @@ copper/25
 sparkColor: 9f9f9f
 heatColor: 9f9f9f
 boostHeatColor: ffffff
-range: 3
-tier: 2
+tier: 3
 laserWidth: 0.45
 optionalBoostIntensity: 1
 
