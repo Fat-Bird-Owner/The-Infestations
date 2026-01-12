@@ -18,6 +18,7 @@ shootSound: none
 smokeEffect: none
 shootEffect: none
 ejectEffect: none
+mirror: false
 
 x: 0
 y: -4
