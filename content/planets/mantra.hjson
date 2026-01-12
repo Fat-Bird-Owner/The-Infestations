@@ -92,5 +92,4 @@ clearSectorOnLose: true
 prebuildBase: true
 defaultCore: core-conquest
 parent: photomos
-solarSystem: photomos
 landCloudColor: 002f8f
