@@ -2,6 +2,7 @@ type: CoreBlock
 name: "Core: Conquest"
 unitType: discovery
 health: 6500
+itemCapacity: 1250
 armor: 10
 size: 3
 
