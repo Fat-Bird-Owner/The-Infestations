@@ -3,7 +3,7 @@ size: 2
 
 requirements:[
 copper/35
-item-hollowed-scrap/ 20
+item-hollowed-scrap/20
 ]
 
 sparkColor: 9f9f9f
