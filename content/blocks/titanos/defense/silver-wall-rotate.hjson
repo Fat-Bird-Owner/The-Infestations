@@ -6,7 +6,7 @@ item-silver/18
 item-oxidium/6
 ]
 category: defense
-update: false
+update: true
 priority: -1
 health: 1050
 size: 2
