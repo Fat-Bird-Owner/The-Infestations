@@ -5,8 +5,13 @@ size: 2
 maxAmmo: 16
 ammoPerShot: 4
 shootSound: unitCreateBig
+outlineColor: 424242
 
 reload: 90
+requirements:[
+copper/35
+hollowed-scrap/45
+]
 
 consumes:{
 liquids:[pressure/0.01667]
