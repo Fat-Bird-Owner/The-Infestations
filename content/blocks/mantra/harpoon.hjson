@@ -1,0 +1,42 @@
+type: ItemTurret
+name: Harpoon
+description: "Shoots harpoons at enemy targets."
+maxAmmo: 16
+ammoPerShot: 4
+shootSound: unitCreateBig
+
+reload: 90
+
+consumes:{
+liquids:[pressure/0.01667]
+}
+  
+ammoTypes:{
+item-hollowed-scrap:{
+type: BasicBulletType
+speed: 3
+homingPower: 0.005
+width: 4
+height: 15
+lifetime: 60
+damage: 65
+knockBack: 4.65
+impact: true
+status: frag
+statusDuration: 2
+}
+}
+}
+
+parts:[
+{
+type: RegionPart
+under: true
+x: 0
+y: 0
+progress: reload
+moveY: -3
+colorTo: 00000000
+}
+
+]
