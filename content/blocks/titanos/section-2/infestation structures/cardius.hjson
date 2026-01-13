@@ -4,7 +4,7 @@ consumes:{
 liquids:[blood/0.16667
 }
 solid: false
-outputLiquid: blood/0.16666
+outputLiquid: blood/0.16663
 liquidCapacity: 35
 rotate: true
 lockRotation: false
