@@ -1,0 +1,19 @@
+type: HeatProducer
+name: Silver Wall
+
+requirements:[
+item-silver/18
+item-oxidium/6
+]
+category: defense
+  
+priority: -1
+health: 1050
+size: 2
+heatOutput: 0
+warmupRate: 0
+
+drawer:{
+type: DrawHeatOutput
+drawGlow: false
+}
