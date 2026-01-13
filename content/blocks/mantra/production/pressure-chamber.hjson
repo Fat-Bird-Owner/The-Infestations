@@ -9,7 +9,8 @@ displayEfficiency: false
 baseEfficiency: 0
 
 requirements:[
-copper/35
+copper/65
+item-hollowed-scrap/45
 ]
 category: production
 
