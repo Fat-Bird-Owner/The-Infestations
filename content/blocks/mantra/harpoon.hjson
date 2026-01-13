@@ -45,6 +45,7 @@ y: 0
 progress: reload
 moveY: -3
 colorTo: 00000000
+color: ffffff
 suffix: "-harpoon"
 }
 
