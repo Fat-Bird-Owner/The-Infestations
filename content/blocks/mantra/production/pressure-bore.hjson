@@ -6,9 +6,9 @@ copper/35
 item-hollowed-scrap/20
 ]
 
-sparkColor: 9f9f9f
-heatColor: 9f9f9f
-boostHeatColor: ffffff
+sparkColor: ffffff
+heatColor: ffffff00
+boostHeatColor: ffffff00
 tier: 3
 range: 2
 laserWidth: 0.45
