@@ -5,5 +5,9 @@ health: 6500
 armor: 10
 size: 3
 
-requirements:[]
+requirements:[
+copper/350
+item-hollowed-scrap/200
+silicon/125
+]
 category: effect
