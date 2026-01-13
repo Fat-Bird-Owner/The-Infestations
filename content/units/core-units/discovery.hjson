@@ -6,6 +6,7 @@ buildSpeed: 1
 mineSpeed: 3.5
 mineTier: 2
 outlineColor: 313131
+mineWall: true
 
 health: 250
 armor: 2.5
