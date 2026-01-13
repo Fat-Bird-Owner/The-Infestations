@@ -1,16 +1,13 @@
 type: hover
 name: Point
 hover: true
-canBoost: true
-buildSpeed: 1
-mineSpeed: 3.5
-mineTier: 2
 outlineColor: 313131
 mineWall: true
 
 health: 375
 armor: -3.5
 speed: 1.65
+range: 90
 
 abilities:[
 {
@@ -65,14 +62,12 @@ hitEffect: none
 reload: 60
 x: 4.5
 y: 0
-  
+shootSound: shootMissilePlasma
 bullet:{
 type: MissileBulletType
 
-speed: 0.35
-accel: 0.05
-range: 160
-lifetime: 90
+speed: 1.5
+lifetime: 60
 damage: 35
 splashDamage: 50
 splashDamageRadius: 20
@@ -80,6 +75,7 @@ trailChance: 0.035
 trailEffect: airBubble
 despawnHit: true
 hitEffect: explosion
+hitSound: unitCreateBig
 hitShake: 4.5
 }
 
