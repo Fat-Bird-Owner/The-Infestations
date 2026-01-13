@@ -3,6 +3,7 @@ health: 2000
 name: Silver Wall
 size: 2
 category: defense
+update: false
 requirements:[item-silver/24]
 
 research:{
