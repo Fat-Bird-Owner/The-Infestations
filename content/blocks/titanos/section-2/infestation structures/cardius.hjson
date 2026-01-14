@@ -1,10 +1,10 @@
 type: GenericCrafter
 hasLiquid: true
 consumes:{
-liquids:[blood/0.16667]
+liquids:[blood/1.6667]
 }
 solid: false
-outputLiquid: blood/0.16
+outputLiquid: blood/1.667
 liquidCapacity: 35
 rotate: true
 lockRotation: false
