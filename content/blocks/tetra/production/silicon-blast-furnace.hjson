@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Silicon Blast Furnace
+description: "Smelts silicon."
+size: 2
+
+outputItem: silicon/15
+craftTime: 300
+category: crafting
+consumes:{
+items:[
+coal/10
+sand/20
+]
+liquids:[
+oil/0.16667
+]
+}
+
+requirements:[
+item-silver/35
+item-andesite/25
+]
