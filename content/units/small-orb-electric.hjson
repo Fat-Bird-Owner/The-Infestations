@@ -32,6 +32,7 @@ type: LightningBulletType
 lightningColor: ffff00
 damage: 15
 lightningLength: 15
+lightningCone: 0
 }
 }
 ]
