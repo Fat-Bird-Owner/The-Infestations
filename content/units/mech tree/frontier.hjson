@@ -9,11 +9,11 @@ First tier mech unit able to [accent]shoot lasers[] and heal off [accent]Blood.
 
 "
 
-immunities:[hover-anchored]
+immunities:[hover-anchored,frag]
 
 speed: 0.55
 health: 450
-armor: 0.25
+armor: 1.25
 hitSize: 14
 outlineColor: 2c2d38
 
@@ -22,7 +22,7 @@ research:{
 parent: assault-constructor
 }
 researchCostMultiplier: 0.2
-
+stepSound: shoot
 //smoke
 
 weapons:[
@@ -76,10 +76,12 @@ explosion
 
 abilities:[
 {
-type: LiquidRegenAbility
-liquid: blood
-slurpSpeed: 1
-regenPerSlurp: 0.425
+type: RepairFieldAbility
+range: 0
+healPercent: 5
+reload: 300
+sound: none
+activeEffect: none
 }
 {
 type: ArmorPlateAbility
