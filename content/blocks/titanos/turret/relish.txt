@@ -1,6 +1,7 @@
 type: ItemTurret
 name: Rellish
-description' "Shoots focused piercing bullets."
+description: "Shoots focused piercing bullets."
+size: 2
 
 category: turret
 requirements:[]
