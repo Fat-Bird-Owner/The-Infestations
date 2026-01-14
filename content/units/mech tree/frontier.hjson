@@ -36,6 +36,7 @@ y: 1
 shootSound: art-fire
 rotationLimit: 15
 rotateSpeed: 1
+shootCone: 30
 rotate: true
 continuous: true
 alwaysContinuous: true
@@ -75,14 +76,16 @@ explosion
 
 }
 
+healColor: 7f7f7f
 abilities:[
 {
 type: RepairFieldAbility
 range: 0
-healPercent: 5
-reload: 300
+healPercent: 2.5
+reload: 60
 sound: none
 activeEffect: none
+healEffect: none
 }
 {
 type: ArmorPlateAbility
