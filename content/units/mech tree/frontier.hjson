@@ -41,6 +41,7 @@ continuous: true
 alwaysContinuous: true
 shootStatus: slow
 shootStatusDuration: 5
+status: melting
 
 bullet:{
 type: ContinuousFlameBulletType
