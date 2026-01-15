@@ -103,6 +103,7 @@ lifetime: 10
 {
 name: missile-battery
 reload: 9
+shootCone: 360
 x: 5
 y: 0
 mirror: false
