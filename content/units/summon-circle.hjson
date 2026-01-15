@@ -29,7 +29,7 @@ hitShake: 75
 despawnHit: true
 killShooter: true
 splashDamage: 100000000
-splashDamageRadius:
+splashDamageRadius: 200
 
 chargeEffect:{
 type: MultiEffect
@@ -79,8 +79,7 @@ layer: 105
 }
 ]
   
-}
-
+}}
 //
 }
 ]
