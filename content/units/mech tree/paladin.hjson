@@ -19,7 +19,7 @@ hitSize: 18
 abilities:[
 {
 type: ArmorPlateAbility
-healthMultiplier: 0.15
+healthMultiplier: 0.225
 }
 ]
 // 
@@ -117,32 +117,34 @@ backColor: d06b53
 trailColor: f68859
 homingPower: 0.01
 homingRange: 180
-
+hitShake: 6.5
+despawnHit: true
+hitEffect: shockwave
 fragBullets: 1
 fragRandomSpread: 0
-fragSpread: 20
+fragSpread: 0
 //
 
 //
 fragBullet:{
-type: ShrapnelBulletType
-length: 11
-width: 8
-fromColor: f68859
-toColor: d06b53
-hitSize: 50
-damage: 30
-serrations: 3
-
-hitEffect:{
-type: ParticleEffect
-line: true
-strokeFrom: 3
-colorFrom: b0fffc
-colorTo: dbfffe
-lifetime: 10
-}
-
+type: BasicBulletType
+speed: 3
+lifetime: 33
+damage: 25
+pierce: true
+pierceCap: 2
+pierceBuildings: true
+trailWidth: 1.5
+width: 7.5
+height: 7
+trailLength: 4
+frontColor: f68859
+backColor: d06b53
+trailColor: f68859
+homingPower: 0.01
+hitEffect: explosion
+despawnHit: true
+homingRange: 180
 }
 
 hitEffect:{
