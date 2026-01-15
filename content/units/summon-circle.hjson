@@ -39,6 +39,32 @@ effects:[
 type: SeqEffect
 effects:[
 {
+type: SoundEffect
+sound: acceleratorCharge
+lifetime: 220
+minPitch: 1
+maxPitch: 1
+}
+{
+type: SoundEffect
+sound: wreckFallBig
+lifetime: 80
+minPitch: 1
+maxPitch: 1
+}
+{
+type: SoundEffect
+sound: blockExplodeExplosiveAlt
+lifetime: 120
+minPitch: 1
+maxPitch: 1
+}
+]
+}
+{
+type: SeqEffect
+effects:[
+{
 type: WaveEffect
 sizeTo: 200
 lifetime: 180
@@ -83,8 +109,8 @@ sizeTo: 48
 colorTo: ffffff
 cone: 0
 lifetime: 180
-offset: 90
-layer: 95
+offset: -90
+layer: 85
 }
 ]
 }
