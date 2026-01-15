@@ -11,6 +11,7 @@ Very durable assault mech unit, equipped with a flamethrower and Shell Cannon.
 
 outlineColor: 313131
 mechLegColor: 3a3b40
+stepSound: blockBreak3
 speed: 0.34
 health: 2500
 drag: 0.25
