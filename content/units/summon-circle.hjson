@@ -44,14 +44,16 @@ sizeTo: 200
 lifetime: 180
 strokeTo: 0
 strokeFrom: 8
+layer: 123
 }
 {
 type: WaveEffect
 sizeTo: 200
 sizeFrom: 200
-strokeTo: 0
-strokeFrom: 8
+strokeFrom: 0
+strokeTo: 8
 lifetime: 120
+layer: 123
 }
 ]
 }
@@ -73,7 +75,7 @@ colorTo: ffffff
 cone: 0
 lifetime: 180
 baseRotation: 90
-layer: 105
+layer: 95
 }
 ]
 }
