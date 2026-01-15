@@ -9,7 +9,8 @@ Very durable assault mech unit, equipped with a flamethrower and Shell Cannon.
 
 "
 
-outlineColor: 2c2d38
+outlineColor: 313131
+mechLegColor: 3a3b40
 speed: 0.34
 health: 2500
 drag: 0.25
@@ -97,6 +98,7 @@ shake: 0.2
 shootSound: art-fire
 reload: 50
 ejectEffect: casing2
+shootSound: shootCyclone
 
 shoot:{
 shots: 4
@@ -120,6 +122,7 @@ homingRange: 180
 hitShake: 6.5
 despawnHit: true
 hitEffect: shockwave
+hitSound: explosionReactor2
 fragBullets: 1
 fragRandomSpread: 0
 fragSpread: 0
@@ -128,21 +131,22 @@ fragSpread: 0
 //
 fragBullet:{
 type: BasicBulletType
-speed: 3
+speed: 6
 lifetime: 33
 damage: 25
 pierce: true
 pierceCap: 2
 pierceBuildings: true
-trailWidth: 1.5
-width: 7.5
-height: 7
+trailWidth: 2
+width: 10
+height: 10
 trailLength: 4
 frontColor: f68859
 backColor: d06b53
 trailColor: f68859
 homingPower: 0.01
 hitEffect: explosion
+hitSound: unitExplode1
 despawnHit: true
 homingRange: 180
 }
