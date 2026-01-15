@@ -5,7 +5,7 @@ liquids:[blood/1.6667]
 }
 solid: false
 outputLiquid: blood/1.667
-liquidCapacity: 50
+liquidCapacity: 200
 rotate: true
 lockRotation: false
 liquidOutputDirections: [0]
