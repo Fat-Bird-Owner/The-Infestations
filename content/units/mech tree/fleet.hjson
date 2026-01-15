@@ -46,12 +46,12 @@ type: ContinuousFlameBulletType
 width: 3
 pierce: false
 flareLength: 20
+pierceCap: 3
 damage: 3.1667
 colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
 flareColor: ff795e8c
 hitEffect: fireHit
 intervalDelay: 5
-pierceDamageFactor: 1
 
 intervalBullet: {
 type: LightningBulletType
