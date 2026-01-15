@@ -24,6 +24,8 @@ spawnUnit: convoy
 hitShake: 75
 despawnHit: true
 killShooter: true
+splashDamage: 100000000
+splashDamageRadius:
 
 chargeEffect:{
 type: MultiEffect
@@ -36,15 +38,15 @@ effects:[
 type: WaveEffect
 sizeTo: 200
 lifetime: 180
-strokeTo: 4
-strokeFrom: 4
+strokeTo: 0
+strokeFrom: 8
 }
 {
 type: WaveEffect
 sizeTo: 200
 sizeFrom: 200
 strokeTo: 0
-strokeFrom: 4
+strokeFrom: 8
 lifetime: 120
 }
 ]
@@ -63,9 +65,11 @@ length: 0
 region: "infestation-convoy"
 sizeFrom: 48
 sizeTo: 48
-colorTo: ffffff00
+colorTo: ffffff
 cone: 0
-lifetime: 90
+lifetime: 180
+baseRotation: 90
+layer: 105
 }
 ]
 }
