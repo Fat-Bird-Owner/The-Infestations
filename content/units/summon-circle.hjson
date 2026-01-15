@@ -6,7 +6,20 @@ range: 0
 drawCell: false
 name: Summon Circle
 
-deathExplosionEffect:{
+weapons:[
+{
+
+shoot:{
+firstShotDelay: 360
+}
+
+bullet:{
+
+spawnUnit: convoy
+hitShake: 75
+despawnHit: true
+
+chargeEffect:{
 type: MultiEffect
 
 effects:[
@@ -23,13 +36,38 @@ strokeFrom: 4
 {
 type: WaveEffect
 sizeTo: 400
-sizeTo: 400
+sizeFrom: 400
 strokeTo: 0
 strokeFrom: 4
 lifetime: 120
+}
+]
+// effect 1 end
+{
+type: SeqEffect
+effects:[
+{
+type: Effect
+lifetime: 180
+}
+{
+type: ParticleEffect
+length: 0
+region: "infestation-convoy"
+sizeFrom: 8
+sizeTo: 8
+colorTo: ffffff00
+cone: 0
+lifetime 120
 }
 ]
 }
 ]
   
 }
+
+//
+}
+
+}
+]
