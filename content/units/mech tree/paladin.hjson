@@ -127,6 +127,7 @@ hitSound: explosionReactor2
 fragBullets: 1
 fragRandomSpread: 0
 fragSpread: 0
+fragVelocityMin: 1
 //
 
 //
@@ -181,8 +182,9 @@ bullet:{
 type: ContinuousFlameBulletType
 width: 4
 pierceBuildings: false
+pierceCap: 4
 flareLength: 28
-damage: 3.3
+damage: 6.6
 colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
 flareColor: f15454ff
 hitEffect: fireHit
