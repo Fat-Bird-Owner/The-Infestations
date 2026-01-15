@@ -18,9 +18,11 @@ omniMovement: false
 canDrown: false
 outlineColor: 313131
 rotateSpeed: 2.5
-segments: 3
+segmentUnits: 3
+segmentUnit: renale
 segmentPhase: 1.5
 segmentScl: 0.65
+segmentEndUnit: renale
 segmentMaxRot: 35
 crushDamage: 0.65
 
