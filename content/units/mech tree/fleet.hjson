@@ -14,6 +14,7 @@ armor: 10
 hitSize: 14
 outlineColor: 2c2d38
 controller: HugAI
+stepSound: shoot
 
 immunities:[hover-anchored]
 
@@ -130,12 +131,16 @@ homingDelay: 15
 ]
 
 
+healColor: 7f7f7f
 abilities:[
 {
-type: LiquidRegenAbility
-liquid: blood
-slurpSpeed: 0.75
-regenPerSlurp: 5
+type: RepairFieldAbility
+range: 0
+healPercent: 2
+reload: 65
+sound: none
+activeEffect: none
+healEffect: none
 }
 {
 type: ArmorPlateAbility
