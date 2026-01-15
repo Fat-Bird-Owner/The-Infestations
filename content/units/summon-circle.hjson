@@ -17,27 +17,16 @@ effects:[
 type: WaveEffect
 sizeTo: 400
 lifetime: 180
+strokeTo: 4
+strokeFrom: 4
 }
-{
-type: MultiEffect
-lifetime: 120
-effects:[
 {
 type: WaveEffect
 sizeTo: 400
 sizeTo: 400
+strokeTo: 0
+strokeFrom: 4
 lifetime: 120
-}
-{
-type: ParticleEffect
-sizeFrom: 0
-sizeTo: 400
-region: "silver-wall"
-lifetime: 120
-length: 0
-}
-]
-
 }
 ]
 }
