@@ -14,7 +14,7 @@ firstShotDelay: 120
 }
 
 consumes:{
-liquids:[blood/0.16667]
+liquids:[blood/0.01667]
 }
 
 shootType:{
