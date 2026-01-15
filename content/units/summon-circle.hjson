@@ -1,0 +1,42 @@
+type: Missile
+lifetime: 30
+name: Summon Circle
+
+explosionEffect:{
+type: MultiEffect
+
+effects:[
+{
+type: SeqEffect
+effects:[
+{
+type: WaveEffect
+sizeTo: 400
+lifetime: 180
+}
+{
+type: MultiEffect
+lifetime: 120
+effects:[
+{
+type: WaveEffect
+sizeTo: 400
+sizeTo: 400
+lifetime: 120
+}
+{
+type: ParticleEffect
+sizeFrom: 0
+sizeTo: 400
+region: "silver-wall"
+lifetime: 120
+length: 0
+}
+]
+
+}
+]
+}
+]
+  
+}
