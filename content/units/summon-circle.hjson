@@ -6,6 +6,10 @@ range: 0
 drawCell: false
 name: Summon Circle
 drawBody: false
+killable: false
+hittable: false
+targetable: false
+physics: false
 
 weapons:[
 {
