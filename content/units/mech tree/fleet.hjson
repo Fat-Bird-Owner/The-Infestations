@@ -119,7 +119,14 @@ lifetime: 45
 speed: 4
 splashDamage: 5
 splashDamageRadius: 24
-homingDelay: 15
+homingDelay: 5
+homingPower: 0.085
+
+puddles: 8
+puddleLiquid: oil
+puddleRange: 4
+puddleAmount: 35
+
 trailEffect: none
 trailWidth: 1
 trailLength: 40
