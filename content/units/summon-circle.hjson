@@ -42,15 +42,15 @@ effects:[
 type: WaveEffect
 sizeTo: 200
 lifetime: 180
-strokeTo: 0
-strokeFrom: 8
+strokeTo: 8
+strokeFrom: 0
 layer: 123
 }
 {
 type: WaveEffect
 sizeTo: 200
 sizeFrom: 200
-strokeFrom: 0
+strokeFrom: 8
 strokeTo: 8
 lifetime: 120
 layer: 123
@@ -74,7 +74,7 @@ sizeTo: 48
 colorTo: ffffff
 cone: 0
 lifetime: 180
-baseRotation: 90
+offset: 90
 layer: 95
 }
 ]
