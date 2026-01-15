@@ -46,12 +46,12 @@ status: melting
 
 bullet:{
 type: ContinuousFlameBulletType
-pierce: false
-pierceDamageFactor: 0.95
+pierce: true
+pierceCap: 1
 width: 1.5
 flareLength: 16
 damage: 1.5
-colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
+colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,f77476]
 flareColor: ff795e8c
 hitEffect: fireHit
 
