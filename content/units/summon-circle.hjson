@@ -55,6 +55,15 @@ strokeTo: 8
 lifetime: 120
 layer: 123
 }
+{
+type: WaveEffect
+sizeTo: 200
+sizeFrom: 200
+strokeFrom: 8
+strokeTo: 0
+lifetime: 80
+layer: 123
+}
 ]
 }
 // effect 1 end
