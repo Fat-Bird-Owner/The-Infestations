@@ -120,17 +120,15 @@ speed: 4
 splashDamage: 5
 splashDamageRadius: 24
 homingDelay: 5
-homingPower: 0.085
-
-puddles: 8
-puddleLiquid: oil
-puddleRange: 4
-puddleAmount: 35
+homingPower: 0.150
+hitEffect: explosion
+hitShake: 4.5
+despawnHit: true
 
 trailEffect: none
 trailWidth: 1
 trailLength: 40
-fragBullets: 4
+fragBullets: 1
 
 fragBullet:{
 type: FireBulletType
