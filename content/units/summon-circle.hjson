@@ -1,4 +1,4 @@
-type: Missile
+type: missile
 lifetime: 30
 speed: 0
 drag: 1000
