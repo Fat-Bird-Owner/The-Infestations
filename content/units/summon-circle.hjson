@@ -1,5 +1,9 @@
 type: Missile
 lifetime: 30
+speed: 0
+drag: 1000
+range: 0
+drawCell: false
 name: Summon Circle
 
 explosionEffect:{
