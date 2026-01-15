@@ -44,6 +44,7 @@ sound: acceleratorCharge
 lifetime: 220
 minPitch: 1
 maxPitch: 1
+effect: none
 }
 {
 type: SoundEffect
@@ -51,10 +52,12 @@ sound: wreckFallBig
 lifetime: 80
 minPitch: 1
 maxPitch: 1
+effect: none
 }
 {
 type: SoundEffect
 sound: blockExplodeExplosiveAlt
+effect: none
 lifetime: 120
 minPitch: 1
 maxPitch: 1
