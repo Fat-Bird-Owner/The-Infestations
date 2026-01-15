@@ -5,6 +5,7 @@ drag: 1000
 range: 0
 drawCell: false
 name: Summon Circle
+drawBody: false
 
 weapons:[
 {
@@ -12,6 +13,10 @@ alwaysShooting: true
 shoot:{
 firstShotDelay: 360
 }
+shake: 75
+x: 0
+y: 0
+mirror: false
 
 bullet:{
 
@@ -29,15 +34,15 @@ type: SeqEffect
 effects:[
 {
 type: WaveEffect
-sizeTo: 400
+sizeTo: 200
 lifetime: 180
 strokeTo: 4
 strokeFrom: 4
 }
 {
 type: WaveEffect
-sizeTo: 400
-sizeFrom: 400
+sizeTo: 200
+sizeFrom: 200
 strokeTo: 0
 strokeFrom: 4
 lifetime: 120
@@ -56,8 +61,8 @@ lifetime: 180
 type: ParticleEffect
 length: 0
 region: "infestation-convoy"
-sizeFrom: 8
-sizeTo: 8
+sizeFrom: 48
+sizeTo: 48
 colorTo: ffffff00
 cone: 0
 lifetime: 90
