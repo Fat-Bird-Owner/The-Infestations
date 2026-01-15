@@ -59,7 +59,7 @@ sizeFrom: 8
 sizeTo: 8
 colorTo: ffffff00
 cone: 0
-lifetime 120
+lifetime: 90
 }
 ]
 }
