@@ -1,8 +1,5 @@
-type: WobbleProp
+type: TreeBlock
 size: 1
-wmag2: 1.35
-wmag: 0.65
-layer: 112.5
 breakable: true
 instantDeconstruct: false
 buildTime: 600
