@@ -12,7 +12,7 @@ speed: 0.45
 health: 750
 armor: 10
 hitSize: 14
-outlineColor: 2c2d38
+outlineColor: 313131
 controller: HugAI
 stepSound: shoot
 
@@ -58,6 +58,7 @@ type: LightningBulletType
 damage: 5
 lightningColor: ff795e8c
 lightningLength: 15
+lightningCone: 3
 }
 
 }}
@@ -101,19 +102,13 @@ lifetime: 10
 // missile
 {
 name: missile-battery
-reload: 45
-
-shoot:{
-shots: 5
-shotDelay: 0
-}
+reload: 9
 x: 5
 y: 0
 mirror: false
-inaccuracy: 25
-rotate: true
-rotateSpeed: 5
-
+inaccuracy: 15
+baseRotation: -135
+ejectEffect: casing1
 bullet:{
 type: MissileBulletType
 weaveMag: 2
@@ -124,6 +119,15 @@ speed: 4
 splashDamage: 5
 splashDamageRadius: 24
 homingDelay: 15
+trailEffect: none
+trailWidth: 1
+trailLength: 40
+fragBullets: 4
+
+fragBullet:{
+type: FireBulletType
+}
+
 }
 
 }
