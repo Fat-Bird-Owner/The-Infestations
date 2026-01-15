@@ -8,7 +8,7 @@ health: 300
 armor: 12
 outlineColor: 313131
 consumes:{
-liquids:[blood/0.16667]
+liquids:[blood/0.01667]
 }
 shootEffect: {
 type: MultiEffect
