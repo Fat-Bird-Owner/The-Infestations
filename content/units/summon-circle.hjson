@@ -42,6 +42,7 @@ strokeFrom: 4
 lifetime: 120
 }
 ]
+}
 // effect 1 end
 {
 type: SeqEffect
