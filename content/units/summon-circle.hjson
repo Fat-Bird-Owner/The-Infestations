@@ -6,7 +6,7 @@ range: 0
 drawCell: false
 name: Summon Circle
 
-explosionEffect:{
+deathExplosionEffect:{
 type: MultiEffect
 
 effects:[
