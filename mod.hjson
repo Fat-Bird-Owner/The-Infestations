@@ -27,7 +27,12 @@ Optionally give a star to show your support.
 "
 
 iosCompatible: true
-version: "v2-Infestation"
+version: "
+[lightgrey[]]v2-Infestation
+[grey[]]- Act 2
+- 6 Sectors
+- C
+"
 minGameVersion: "154.3"
 dependencies: []
 hidden: false
