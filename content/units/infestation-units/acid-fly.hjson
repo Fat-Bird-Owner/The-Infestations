@@ -2,6 +2,7 @@ type: flying
 flying: true
 name: Acid Fly
 speed: 2.25
+drag: 0.025
 circleTarget: true
 omniMovement: false
 health: 220
@@ -48,7 +49,7 @@ effects:[
 type: ParticleEffect
 region: "acid-fly-wing-left"
 cone: 15
-baseRotation: -20
+baseRotation: -110
 spin: -15
 lifetime: 10
 colorFrom: ffffffff
@@ -59,7 +60,7 @@ length: 15
 type: ParticleEffect
 region: "acid-fly-wing-right"
 cone: 15
-baseRotation: 200
+baseRotation: 110
 spin: 15
 lifetime: 10
 colorFrom: ffffffff
