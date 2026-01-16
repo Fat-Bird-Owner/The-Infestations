@@ -17,7 +17,7 @@ bullet:{
 type: BombBulletType
 splashDamageRadius: 20
 splashDamage: 35
-status: corrosion
+status: corroded
 
 fragBullets: 4
 fragBullet:{
