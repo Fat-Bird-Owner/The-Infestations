@@ -54,7 +54,6 @@ type: ParticleEffect
 region: "infestation-acid-fly-wing-right"
 cone: 15
 baseRotation: -110
-spin: -15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
@@ -68,7 +67,6 @@ type: ParticleEffect
 region: "infestation-acid-fly-wing-left"
 cone: 15
 baseRotation: -90
-spin: 15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
