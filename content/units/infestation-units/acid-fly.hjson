@@ -53,7 +53,7 @@ effects:[
 {
 type: ParticleEffect
 region: "infestation-acid-fly-wing-left"
-cone: 35
+cone: 20
 baseRotation: 90
 lifetime: 5
 colorFrom: ffffff55
@@ -66,7 +66,7 @@ sizeFrom: 8
 {
 type: ParticleEffect
 region: "infestation-acid-fly-wing-right"
-cone: 35
+cone: 20
 baseRotation: 90
 lifetime: 10
 colorFrom: ffffff55
