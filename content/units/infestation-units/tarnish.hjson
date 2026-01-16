@@ -5,7 +5,8 @@ speed: 0.85
 segments: 3
 segmentMag: 0.15
 health: 565
-armor: 7.5
+armor: 2.5
+outlineColor: 323232
 omniMovement: false
 rotateSpeed: 4
 
