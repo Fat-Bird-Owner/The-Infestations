@@ -58,7 +58,7 @@ lifetime: 5
 colorFrom: ffffff77
 colorTo: ffffff55
 length: 0
-baseLength: -8
+baseLength: -16
 sizeTo: 8
 sizeFrom: 8
 }
@@ -71,7 +71,7 @@ lifetime: 10
 colorFrom: ffffff77
 colorTo: ffffff55
 length: 0
-baseLength: 8
+baseLength: 16
 sizeTo: 8
 sizeFrom: 8
 }
