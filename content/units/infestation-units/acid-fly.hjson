@@ -58,7 +58,9 @@ spin: -15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
-length: 10
+length: 0
+sizeTo: 8
+sizeFrom: 8
 }
 {
 type: ParticleEffect
@@ -69,7 +71,9 @@ spin: 15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
-length: -10
+length: 0
+sizeTo: 8
+sizeFrom: 8
 }
 ]
 //
