@@ -1,6 +1,9 @@
 type: flying
 flying: true
 name: Acid Fly
+speed: 0.25
+circleTarget: true
+omniMovement: false
 health: 220
 
 engineSize: 0
@@ -8,7 +11,7 @@ engineSize: 0
 weapons:[
 {
 reload: 120
-
+minShootVelocity: 1.15
 shoot:{
 shots: 3
 shotDelay: 25
@@ -46,18 +49,20 @@ cone: 15
 baseRotation: 20
 spin: -15
 lifetime: 10
-colorFrom: ffffff66
-colorTo: ffffff00
+colorFrom: ffffffff
+colorTo: ffffff66
+length: 2
 }
 {
 type: ParticleEffect
 region: "acid-fly-wing-right"
 cone: 15
-baseRotation: 220
+baseRotation: 160
 spin: 15
 lifetime: 10
-colorFrom: ffffff66
-colorTo: ffffff00
+colorFrom: ffffffff
+colorTo: ffffff66
+length: 2
 }
 ]
 //
