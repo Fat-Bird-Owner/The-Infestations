@@ -3,17 +3,18 @@ name: Tarnish
 description: "..."
 speed: 0.85
 segments: 3
-segmentMag: 0.5
-health: 500
-armor: 10
+segmentMag: 0.15
+health: 565
+armor: 7.5
 omniMovement: false
-rotateSpeed: 6
+rotateSpeed: 4
 
 crawlSlowdown: 0.75
 crushDamage: 1
 
 controller: HugAI
 drawCell: false
+drawBody: false
 
 abilities:[
 {
