@@ -27,7 +27,7 @@ shootSound: blockExplodeElectricBig
 
 rotateSpeed: 0
 alwaysShooting: true
-reload: 2400
+reload: 1000
 shootCone: 180
 inaccuracy: 360
 recoil: 0
@@ -38,7 +38,7 @@ instantDisappear: true
 despawnHit:true
 damage: 0
 
-fragBullets: 2
+fragBullets: 1
 fragBullet:{
 instantDisappear: true
 despawnHit:true
