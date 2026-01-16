@@ -6,6 +6,7 @@ drag: 0.025
 circleTarget: true
 omniMovement: false
 health: 220
+lowAltitude: true
 
 engineSize: 0
 
@@ -27,8 +28,8 @@ width: 10
 height: 15
 keepVelocity: false
 makeFire: true
-frontColor: 007f00
-backColor: 006f00
+frontColor: 00f700
+backColor: 00f600
 fragBullets: 4
 fragBullet:{
 type: FireBulletType
@@ -50,7 +51,7 @@ type: MultiEffect
 effects:[
 {
 type: ParticleEffect
-region: "acid-fly-wing-right"
+region: "infestation-acid-fly-wing-right"
 cone: 15
 baseRotation: -110
 spin: -15
@@ -61,9 +62,9 @@ length: 10
 }
 {
 type: ParticleEffect
-region: "acid-fly-wing-left"
+region: "infestation-acid-fly-wing-left"
 cone: 15
-baseRotation: -20
+baseRotation: -90
 spin: 15
 lifetime: 10
 colorFrom: ffffffff
