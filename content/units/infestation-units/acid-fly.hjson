@@ -53,26 +53,26 @@ effects:[
 {
 type: ParticleEffect
 region: "infestation-acid-fly-wing-left"
-cone: 15
+cone: 35
 baseRotation: 90
 lifetime: 5
 colorFrom: ffffff55
 colorTo: ffffff33
-length: -4
-baseLength: -8
+length: -1
+baseLength: -11
 sizeTo: 8
 sizeFrom: 8
 }
 {
 type: ParticleEffect
 region: "infestation-acid-fly-wing-right"
-cone: 15
+cone: 35
 baseRotation: 90
 lifetime: 10
 colorFrom: ffffff55
 colorTo: ffffff33
-length: 4
-baseLength: 8
+length: 1
+baseLength: 11
 sizeTo: 8
 sizeFrom: 8
 }
