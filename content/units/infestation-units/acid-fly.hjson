@@ -1,7 +1,7 @@
 type: flying
 flying: true
 name: Acid Fly
-speed: 0.25
+speed: 2.25
 circleTarget: true
 omniMovement: false
 health: 220
@@ -39,6 +39,8 @@ abilities:[
 {
 type: MoveEffectAbility
 minVelocity: 0
+parentizeEffects: true
+rotateEffect: true
 effect:{
 type: MultiEffect
 effects:[
@@ -46,7 +48,7 @@ effects:[
 type: ParticleEffect
 region: "acid-fly-wing-left"
 cone: 15
-baseRotation: 20
+baseRotation: -20
 spin: -15
 lifetime: 10
 colorFrom: ffffffff
@@ -57,7 +59,7 @@ length: 15
 type: ParticleEffect
 region: "acid-fly-wing-right"
 cone: 15
-baseRotation: 160
+baseRotation: 200
 spin: 15
 lifetime: 10
 colorFrom: ffffffff
