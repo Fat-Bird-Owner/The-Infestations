@@ -16,7 +16,7 @@ range: 200
 weapons:[
 {
 reload: 120
-minShootVelocity: 1.15
+minShootVelocity: 0.15
 shoot:{
 shots: 3
 shotDelay: 5
