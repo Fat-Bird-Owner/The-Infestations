@@ -1,4 +1,4 @@
-type: flying
+type: payload
 flying: true
 name: Acid Fly
 speed: 2.25
@@ -9,7 +9,7 @@ health: 220
 lowAltitude: true
 drawCell: false
 outlineColor: 323232
-
+payloadCapacity: 144
 engineSize: 0
 
 weapons:[
