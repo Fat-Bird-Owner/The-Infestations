@@ -8,6 +8,7 @@ omniMovement: false
 health: 220
 lowAltitude: true
 drawCell: false
+outlineColor: 323232
 
 engineSize: 0
 
@@ -17,7 +18,7 @@ reload: 120
 minShootVelocity: 1.15
 shoot:{
 shots: 3
-shotDelay: 25
+shotDelay: 5
 }
 
 bullet:{
@@ -56,8 +57,8 @@ region: "infestation-acid-fly-wing-left"
 cone: 20
 baseRotation: 90
 lifetime: 5
-colorFrom: ffffff55
-colorTo: ffffff33
+colorFrom: ffffff44
+colorTo: ffffff22
 length: -1
 baseLength: -11
 sizeTo: 8
@@ -69,8 +70,8 @@ region: "infestation-acid-fly-wing-right"
 cone: 20
 baseRotation: 90
 lifetime: 10
-colorFrom: ffffff55
-colorTo: ffffff33
+colorFrom: ffffff44
+colorTo: ffffff22
 length: 1
 baseLength: 11
 sizeTo: 8
