@@ -11,6 +11,7 @@ drawCell: false
 outlineColor: 323232
 payloadCapacity: 144
 engineSize: 0
+range: 200
 
 weapons:[
 {
