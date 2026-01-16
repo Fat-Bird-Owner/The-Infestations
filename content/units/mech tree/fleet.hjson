@@ -15,6 +15,7 @@ hitSize: 14
 outlineColor: 313131
 controller: HugAI
 stepSound: shoot
+mechLegColor: 353535
 
 immunities:[hover-anchored]
 
@@ -88,7 +89,7 @@ width: 4
 fromColor: f68859
 toColor: dbfffe
 damage: 25
-serrations: 3
+serrations: 1
 
 hitEffect:{
 type: ParticleEffect
