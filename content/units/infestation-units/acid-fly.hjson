@@ -57,8 +57,8 @@ baseRotation: 90
 lifetime: 5
 colorFrom: ffffff55
 colorTo: ffffff00
-length: 0
-baseLength: 4
+length: -8
+baseLength: -8
 sizeTo: 8
 sizeFrom: 8
 }
@@ -66,12 +66,12 @@ sizeFrom: 8
 type: ParticleEffect
 region: "infestation-acid-fly-wing-right"
 cone: 15
-baseRotation: 0
+baseRotation: 90
 lifetime: 10
 colorFrom: ffffff55
 colorTo: ffffff00
-length: 0
-baseLength: 4
+length: 8
+baseLength: 8
 sizeTo: 8
 sizeFrom: 8
 }
