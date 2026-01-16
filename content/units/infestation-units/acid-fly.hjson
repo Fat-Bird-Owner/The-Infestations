@@ -1,0 +1,60 @@
+type: flying
+name: Acid Fly
+health: 220
+
+engineSize: 0
+
+weapons:[
+{
+reload: 120
+
+shoot:{
+shots: 3
+shotDelay: 25
+}
+
+bullet:{
+type: BombBulletType
+splashDamageRadius: 20
+splashDamage: 35
+status: corrosion
+
+fragBullets: 4
+fragBullet:{
+type: FireBulletType
+}
+
+}
+  
+}
+]
+
+abilties:[
+{
+type: MoveEffectAbility
+effect:{
+type: MultiEffect
+effects:[
+{
+type: ParticleEffect
+region: "acid-fly-wing-left"
+cone: 15
+baseRotation: 20
+spin: -15
+lifetime: 10
+colorFrom: ffffff66
+colorTo: ffffff00
+}
+{
+type: ParticleEffect
+region: "acid-fly-wing-right"
+cone: 15
+baseRotation: 220
+spin: 15
+lifetime: 10
+colorFrom: ffffff66
+colorTo: ffffff00
+}
+]
+//
+}}]
