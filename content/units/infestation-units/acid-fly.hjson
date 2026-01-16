@@ -58,7 +58,8 @@ spin: -15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
-length: 0
+length: 4
+baseLength: 4
 sizeTo: 8
 sizeFrom: 8
 }
@@ -71,7 +72,8 @@ spin: 15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
-length: 0
+length: 4
+baseLength: 4
 sizeTo: 8
 sizeFrom: 8
 }
