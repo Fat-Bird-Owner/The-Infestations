@@ -27,7 +27,7 @@ shootSound: blockExplodeElectricBig
 
 rotateSpeed: 0
 alwaysShooting: true
-reload: 3000
+reload: 1425
 shootCone: 180
 inaccuracy: 360
 recoil: 0
