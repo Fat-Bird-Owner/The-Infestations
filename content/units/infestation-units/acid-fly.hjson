@@ -1,4 +1,5 @@
 type: flying
+flying: true
 name: Acid Fly
 health: 220
 
@@ -18,6 +19,8 @@ type: BombBulletType
 splashDamageRadius: 20
 splashDamage: 35
 status: corroded
+width: 15
+height: 20
 
 fragBullets: 4
 fragBullet:{
@@ -29,9 +32,10 @@ type: FireBulletType
 }
 ]
 
-abilties:[
+abilities:[
 {
 type: MoveEffectAbility
+minVelocity: 0
 effect:{
 type: MultiEffect
 effects:[
