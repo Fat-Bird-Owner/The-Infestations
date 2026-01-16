@@ -1,7 +1,7 @@
 type: payload
 flying: true
 name: Acid Fly
-speed: 2.25
+speed: 1.75
 drag: 0.025
 circleTarget: true
 omniMovement: false
@@ -9,14 +9,14 @@ health: 220
 lowAltitude: true
 drawCell: false
 outlineColor: 323232
-payloadCapacity: 144
+payloadCapacity: 256
 engineSize: 0
 range: 200
 
 weapons:[
 {
 reload: 120
-minShootVelocity: 0.15
+minShootVelocity: 0.075
 shoot:{
 shots: 3
 shotDelay: 5
@@ -31,8 +31,11 @@ width: 10
 height: 15
 keepVelocity: false
 makeFire: true
-frontColor: 00f700
-backColor: 00f600
+frontColor: 007700
+backColor: 006600
+hitEffect: blastExplosion
+hitSound: unitExplode3
+despawnHit: true
 fragBullets: 4
 fragBullet:{
 type: FireBulletType
@@ -45,6 +48,11 @@ type: FireBulletType
 
 abilities:[
 {
+type: SpawnDeathAbility
+unit: tarnish
+spread: 0
+}
+{
 type: MoveEffectAbility
 minVelocity: 0
 parentizeEffects: true
@@ -55,20 +63,21 @@ effects:[
 {
 type: ParticleEffect
 region: "infestation-acid-fly-wing-left"
-cone: 20
+cone: 22.5
 baseRotation: 90
 lifetime: 5
 colorFrom: ffffff44
 colorTo: ffffff22
 length: -1
 baseLength: -11
+randLength: false
 sizeTo: 8
 sizeFrom: 8
 }
 {
 type: ParticleEffect
 region: "infestation-acid-fly-wing-right"
-cone: 20
+cone: 22.5
 baseRotation: 90
 lifetime: 10
 colorFrom: ffffff44
