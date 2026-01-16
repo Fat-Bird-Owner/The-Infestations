@@ -55,9 +55,9 @@ region: "infestation-acid-fly-wing-left"
 cone: 15
 baseRotation: 90
 lifetime: 5
-colorFrom: ffffff55
-colorTo: ffffff00
-length: -8
+colorFrom: ffffff77
+colorTo: ffffff55
+length: 0
 baseLength: -8
 sizeTo: 8
 sizeFrom: 8
@@ -68,9 +68,9 @@ region: "infestation-acid-fly-wing-right"
 cone: 15
 baseRotation: 90
 lifetime: 10
-colorFrom: ffffff55
-colorTo: ffffff00
-length: 8
+colorFrom: ffffff77
+colorTo: ffffff55
+length: 0
 baseLength: 8
 sizeTo: 8
 sizeFrom: 8
