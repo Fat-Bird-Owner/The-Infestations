@@ -23,9 +23,12 @@ type: BombBulletType
 splashDamageRadius: 20
 splashDamage: 35
 status: corroded
-width: 15
-height: 20
-
+width: 10
+height: 15
+keepVelocity: false
+makeFire: true
+frontColor: 007f00
+backColor: 006f00
 fragBullets: 4
 fragBullet:{
 type: FireBulletType
@@ -47,25 +50,25 @@ type: MultiEffect
 effects:[
 {
 type: ParticleEffect
-region: "acid-fly-wing-left"
+region: "acid-fly-wing-right"
 cone: 15
 baseRotation: -110
 spin: -15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
-length: 15
+length: 10
 }
 {
 type: ParticleEffect
-region: "acid-fly-wing-right"
+region: "acid-fly-wing-left"
 cone: 15
-baseRotation: 110
+baseRotation: -20
 spin: 15
 lifetime: 10
 colorFrom: ffffffff
 colorTo: ffffff66
-length: 15
+length: -10
 }
 ]
 //
