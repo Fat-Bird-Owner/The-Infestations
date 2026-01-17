@@ -70,7 +70,6 @@ colorFrom: ffffff44
 colorTo: ffffff22
 length: -1
 baseLength: -8
-randLength: false
 sizeTo: 8
 sizeFrom: 8
 }
@@ -82,7 +81,6 @@ baseRotation: 90
 lifetime: 7.5
 colorFrom: ffffff44
 colorTo: ffffff22
-randLength: false
 length: 1
 baseLength: 8
 sizeTo: 8
