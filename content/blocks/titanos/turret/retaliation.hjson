@@ -151,7 +151,7 @@ speed: 6
 width: 10
 height: 30
 lifetime: 30
-damage: 28
+damage: 14
 fragSpread: 30
 pierce: true
 frontColor: e28654
