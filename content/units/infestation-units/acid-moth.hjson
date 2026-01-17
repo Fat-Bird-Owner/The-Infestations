@@ -2,6 +2,7 @@ type: payload
 flying: true
 name: Acid Fly
 speed: 1.5
+hitSize: 22
 drag: 0.025
 circleTarget: true
 omniMovement: false
@@ -51,7 +52,8 @@ abilities:[
 {
 type: StatusFieldAbility
 range: 160
-duration: 180
+duration: 150
+reload: 300
 effect: madness
 }
 {
