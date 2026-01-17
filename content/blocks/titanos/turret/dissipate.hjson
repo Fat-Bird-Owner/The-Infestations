@@ -4,7 +4,7 @@ shootSound: shootBreach
 shootSoundVolume: 0.5
 health: 200
 category: turret
-range: 249
+range: 240
 outlineColor: 2c2d38
 description: "
 Type: [green]Defensive Turret[]
@@ -34,7 +34,7 @@ splashDamageRadius: 20
 lifetime: 60
 speed: 4
 }
-{
+item-conduction-quartz:{
 type: BasicBulletType
 frontColor: f59b42
 backColor: f5cb42
