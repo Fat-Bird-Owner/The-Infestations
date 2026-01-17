@@ -6,6 +6,7 @@ drag: 0.025
 circleTarget: true
 omniMovement: false
 health: 220
+armor: -4.5
 lowAltitude: true
 drawCell: false
 outlineColor: 323232
