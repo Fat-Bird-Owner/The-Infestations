@@ -10,11 +10,22 @@ armor: -4.5
 lowAltitude: true
 drawCell: false
 outlineColor: 323232
-payloadCapacity: 256
+payloadCapacity: 144
 engineSize: 0
 range: 200
 
 weapons:[
+{
+reload: 1500
+
+bullet:{
+type: EmptyBulletType
+killShooter: true
+spawnUnit: acid-moth
+recoil: 100
+}
+
+}
 {
 reload: 120
 minShootVelocity: 0.075
