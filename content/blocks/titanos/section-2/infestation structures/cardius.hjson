@@ -8,7 +8,6 @@ outputLiquid: blood/1.667
 liquidCapacity: 200
 rotate: true
 lockRotation: false
-rotateDraw: true
 liquidOutputDirections: [0]
 requirements:[]
 buildVisibility: sandboxOnly
