@@ -17,6 +17,7 @@ drawers:[
 {
 type: DrawRegion
 suffix: "-frame0"
+buildingRotate: true
 }
 ]
 }
