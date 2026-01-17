@@ -1,6 +1,6 @@
 type: payload
 flying: true
-name: Acid Fly
+name: Acid Moth
 speed: 1.5
 hitSize: 22
 drag: 0.025
