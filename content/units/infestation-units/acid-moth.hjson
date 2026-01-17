@@ -66,8 +66,8 @@ type: MultiEffect
 effects:[
 {
 type: ParticleEffect
-region: "infestation-acid-fly-moth-left"
-cone: 22.5
+region: "infestation-acid-moth-left"
+cone: 11.25
 baseRotation: 90
 lifetime: 7.5
 colorFrom: ffffff44
@@ -79,8 +79,8 @@ sizeFrom: 8
 }
 {
 type: ParticleEffect
-region: "infestation-acid-fly-moth-right"
-cone: 22.5
+region: "infestation-acid-moth-right"
+cone: 11.25
 baseRotation: 90
 lifetime: 7.5
 colorFrom: ffffff44
