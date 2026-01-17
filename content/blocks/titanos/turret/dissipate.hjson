@@ -4,13 +4,15 @@ shootSound: shootBreach
 shootSoundVolume: 0.5
 health: 200
 category: turret
-range: 120
+range: 249
 outlineColor: 2c2d38
 description: "
 Type: [green]Defensive Turret[]
 Class: [teal]Burst[]
 
-Cheaper alternative to the retaliation. Able rapidly fire volleys of bullets at it's target. "
+Cheaper alternative to the retaliation. Able rapidly fire volleys of bullets at it's target.
+Very strong when fighting unarmored or soft units.
+"
 
 shoot:{
 shots: 10
@@ -30,7 +32,19 @@ damage: 2.5
 splashDamage: 2.5
 splashDamageRadius: 20
 lifetime: 60
-speed: 2
+speed: 4
+}
+{
+type: BasicBulletType
+frontColor: f59b42
+backColor: f5cb42
+damage: 3.5
+splashDamage: 3.5
+pierceArmor: true
+splashDamageRadius: 20
+lifetime: 60
+speed: 4
+status: ret-shock
 }
 }
 
