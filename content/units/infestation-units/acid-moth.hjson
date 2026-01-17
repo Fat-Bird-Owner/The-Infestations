@@ -55,6 +55,18 @@ range: 160
 duration: 150
 reload: 300
 effect: madness
+activeEffect:{
+type: ParticleEffect
+line: true
+lenFrom: 8
+lenTo: 4
+length: 40
+lifetime: 35
+colorFrom: 6f0000
+colorTo: 9f0000
+layer: 122
+}
+
 }
 {
 type: MoveEffectAbility
