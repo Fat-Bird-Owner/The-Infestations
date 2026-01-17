@@ -1,7 +1,7 @@
 type: payload
 flying: true
 name: Acid Fly
-speed: 1.75
+speed: 2
 drag: 0.025
 circleTarget: true
 omniMovement: false
@@ -13,7 +13,7 @@ outlineColor: 323232
 payloadCapacity: 144
 engineSize: 0
 range: 200
-
+hitSize: 10
 weapons:[
 {
 reload: 120
