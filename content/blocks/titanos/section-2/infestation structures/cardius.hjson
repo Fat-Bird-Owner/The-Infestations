@@ -8,13 +8,13 @@ outputLiquid: blood/1.667
 liquidCapacity: 200
 rotate: true
 lockRotation: false
+rotateDraw: true
 liquidOutputDirections: [0]
 requirements:[]
 buildVisibility: sandboxOnly
 drawer:{
-type: DrawRegion
-suffix: "-frame0"
-buildingRotate: true
+type: DrawFrames
+suffix: "-frame"
 }
 
 destroyBullet:{
