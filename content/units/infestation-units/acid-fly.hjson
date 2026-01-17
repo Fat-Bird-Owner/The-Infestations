@@ -16,17 +16,6 @@ range: 200
 
 weapons:[
 {
-reload: 1500
-alwaysShooting: true
-bullet:{
-type: EmptyBulletType
-killShooter: true
-spawnUnit: acid-moth
-recoil: 100
-}
-
-}
-{
 reload: 120
 minShootVelocity: 0.075
 shoot:{
