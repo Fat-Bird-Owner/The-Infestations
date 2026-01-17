@@ -60,7 +60,8 @@ type: ParticleEffect
 line: true
 lenFrom: 8
 lenTo: 4
-length: 40
+length: 140
+particles: 35
 lifetime: 35
 colorFrom: 6f0000
 colorTo: 9f0000
