@@ -13,8 +13,13 @@ liquidOutputDirections: [0]
 requirements:[]
 buildVisibility: sandboxOnly
 drawer:{
-type: DrawFrames
-suffix: "-frame"
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: "-frame0"
+}
+]
 }
 
 destroyBullet:{
