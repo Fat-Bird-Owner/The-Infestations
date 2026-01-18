@@ -51,7 +51,7 @@ splashDamageRadius: 105
 hitShake: 2.5
 scaledSplashDamage: true
 collides: true
-status: rage
+status: madness
 despawnHit: true
 instantDisappear: true
 collidesTeam: true
@@ -64,6 +64,7 @@ despawnHit: true
 puddleSize: 8
 velocityScaleRandMin: 0.05
 velocityScaleRandMax: 1
+damage: 12.5
 }
 
 hitEffect:{
