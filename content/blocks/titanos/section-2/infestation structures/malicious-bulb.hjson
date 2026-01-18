@@ -3,7 +3,7 @@
 type: PowerTurret
 name: Malicious Bulb"
 consumes:[]
-size: 2
+size: 1
 health: 600
 armor: 20
 outlineColor: 313131
