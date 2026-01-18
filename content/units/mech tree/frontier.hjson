@@ -11,34 +11,6 @@ First tier mech unit able to [accent]shoot lasers[] and heal off [accent]Blood.
 
 immunities:[hover-anchored,frag]
 
-deathExplosionEffect:{
-type: MultiEffect
-effects:[
-{
-type: ParticleEffect
-particles: 1
-layer: 32
-length: 0
-sizeFrom: 8
-sizeTo: 8
-colorFrom: 7f7f7f00
-colorTo: 2f2f2f00
-region: "infestation-frontier"
-}
-{
-type: ParticleEffect
-particles: 2
-layer: 32
-length: 12
-sizeFrom: 8
-sizeTo: 8
-colorFrom: 7f7f7f00
-colorTo: 2f2f2f00
-region: "infestation-frontier-weapon"
-}
-]
-}
-
 speed: 0.55
 health: 450
 armor: 1.25
