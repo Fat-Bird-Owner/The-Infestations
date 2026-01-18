@@ -1,7 +1,7 @@
 // general stats
 
 type: PowerTurret
-name: Malicious Bulb"
+name: "Malicious Bulb"
 consumes:[]
 size: 1
 health: 600
