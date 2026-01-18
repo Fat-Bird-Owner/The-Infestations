@@ -30,7 +30,7 @@ shootSound: explosionMissile
 requirements:[]
   
 rotateSpeed: 0
-reload: 660
+reload: 1200
 shootCone: 180
 inaccuracy: 360
 range: 85
