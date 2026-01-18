@@ -6,6 +6,7 @@ drawCell: false
 hittable: false
 deathExplosionEffect: none
 hoverable: false
+logicControllable: false
 
 abilities:[
 {
@@ -14,6 +15,14 @@ reload: 5
 duration: 300
 effect: madness
 range: 85
+activeEffect: none
+}
+{
+type: StatusFieldAbility
+reload: 5
+duration: 325
+effect: pure-malice
+range: 42.5
 activeEffect: none
 }
 ]
