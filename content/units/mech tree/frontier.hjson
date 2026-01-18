@@ -15,8 +15,8 @@ speed: 0.55
 health: 450
 armor: 1.25
 hitSize: 14
-outlineColor: 2c2d38
-
+outlineColor: 313131
+mechLegColor: 323232
 // research
 research:{
 parent: assault-constructor
@@ -49,10 +49,10 @@ type: ContinuousFlameBulletType
 pierce: true
 pierceCap: 1
 width: 1.5
-flareLength: 16
+flareLength: 8
 damage: 1.5
 colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,f77476]
-flareColor: ff795e8c
+flareColor: f77476
 hitEffect: fireHit
 
 }
