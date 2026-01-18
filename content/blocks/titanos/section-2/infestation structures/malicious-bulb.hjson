@@ -41,8 +41,13 @@ shake: 6.5
 
 shootType:{
 type: EmptyBulletType
+despawnHit: true
 spawnUnit: rage
-
+splashDamageRadius: 85
+impact: true
+knockBack: 12.5
+status: slow
+statusDuration: 30
 }
 
 destroyBullet:{
@@ -65,7 +70,13 @@ drawer:{
 type: DrawTurret
 parts:[
 {
+type: RegionPart
+suffix: "-base"
+layer: 51
+}
+{
 suffix:"-spore"
+layer: 52
 xScl: 1
 yScl: 1
 progress: reload
