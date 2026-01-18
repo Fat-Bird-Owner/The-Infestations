@@ -5,6 +5,7 @@ drawBody: false
 drawCell: false
 hittable: false
 deathExplosionEffect: none
+createScorch: false
 hoverable: false
 logicControllable: false
 
