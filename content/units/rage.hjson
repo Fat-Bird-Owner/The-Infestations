@@ -4,13 +4,20 @@ physics: false
 drawBody: false
 drawCell: false
 hittable: false
-  
+deathExplosionEffect: none
+hoverable: false
+
 abilities:[
 {
 type: StatusFieldAbility
 reload: 5
 duration: 300
 effect: madness
-activeEffect: missileTrailSmoke
+range: 85
+activeEffect: {
+type: WrapEffect
+effect: missileTrailSmoke
+color: f04816
+}
 }
 ]
