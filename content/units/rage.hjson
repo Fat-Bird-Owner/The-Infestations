@@ -1,0 +1,16 @@
+type: missile
+lifetime: 120
+physics: false
+drawBody: false
+drawCell: false
+hittable: false
+  
+abilities:[
+{
+type: StatusFieldAbility
+reload: 5
+duration: 300
+effect: madness
+activeEffect: missileTrailSmoke
+}
+]
