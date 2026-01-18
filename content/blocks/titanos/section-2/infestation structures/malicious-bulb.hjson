@@ -39,41 +39,7 @@ shake: 6.5
 
 shootType:{
 type: EmptyBulletType
-collides: false
-bulletInterval: 5
-lifetime: 60
-splashDamage: 205
-splashDamageRadius: 125
-scaledSplashDamage: true
-intervalBullet:{
-splashDamage: 1.5
-splashDamageRadius: 105
-hitShake: 2.5
-scaledSplashDamage: true
-collides: true
-status: madness
-despawnHit: true
-instantDisappear: true
-collidesTeam: true
-fragVelocityMin: 0.015
-  
-fragBullet:{
-type: LiquidBulletType
-liquid: blood
-despawnHit: true
-puddleSize: 8
-velocityScaleRandMin: 0.05
-velocityScaleRandMax: 1
-damage: 12.5
-}
-
-hitEffect:{
-type: WrapEffect
-effect: artilleryTrailSmoke
-color: 8175A5FF
-}
-
-}
+spawnUnit: rage
 
 }
 
