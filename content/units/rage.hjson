@@ -17,12 +17,4 @@ effect: madness
 range: 85
 activeEffect: none
 }
-{
-type: StatusFieldAbility
-reload: 5
-duration: 325
-effect: pure-malice
-range: 42.5
-activeEffect: none
-}
 ]
