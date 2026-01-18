@@ -12,10 +12,6 @@ consumes:{
 liquids:[blood/0.06667]
 }
 
-shoot:{
-firstShotDelay: 180
-}
-
 shootEffect: {
 type: MultiEffect
 effects:[
@@ -34,7 +30,7 @@ shootSound: explosionMissile
 requirements:[]
   
 rotateSpeed: 0
-reload: 480
+reload: 660
 shootCone: 180
 inaccuracy: 360
 range: 85
