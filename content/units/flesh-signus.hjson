@@ -7,7 +7,7 @@ outlineColor: BB4646FF
 
 weapons:[
 {
-reload: 600
+reload: 25
 shootCone: 180
 
 bullets:{
