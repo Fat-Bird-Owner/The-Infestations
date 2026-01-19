@@ -79,12 +79,21 @@ silver-wall-large
 core-satellite
 core-fort
 core-tundra
+
 retaliation
 pelt
 dissipate
+charge
 harvester
 mineral-seive
-raid-air-base
+recon-air-bay
+drive-pad
+decay-chamber
+micro-console
+cache
+output-region
+bind-tower
+
 # infestation
 Emitter
 cardius
