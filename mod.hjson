@@ -85,6 +85,18 @@ dissipate
 harvester
 mineral-seive
 
+# infestation
+Emitter
+cardius
+infested-vessel
+infested-retaliation
+malicious-bulb
+hive
+tarnish-bulb
+wing-hive
+elite-hive
+spore-sack
+
 # units
 frontier
 fleet
@@ -92,6 +104,19 @@ paladin
 seize
 annex
 
+shift
+dive
+siege
+desolite
+armament
+armada
 
+raid
 
+# infestation units
+infested-mass
+diesilium
+acid-fly
+acid-moth
+tarnish
 ]
