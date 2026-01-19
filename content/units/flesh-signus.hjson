@@ -5,6 +5,14 @@ drag: 1000
 hitSizd: 14
 outlineColor: BB4646FF
 
+abilities:[
+{
+type: SpawnDeathAbility
+unit: flesh-signus-flare
+spread: 0
+}
+]
+
 weapons:[
 {
 reload: 25
