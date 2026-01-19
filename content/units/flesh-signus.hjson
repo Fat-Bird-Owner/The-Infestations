@@ -1,0 +1,26 @@
+type: mech
+name: Flesh Signus
+speed: 0
+drag: 1000
+hitSizd: 14
+outlineColor: BB4646FF
+
+weapons:[
+{
+reload: 600
+shootCone: 180
+
+bullets:{
+type: ExplosionBulletType
+splashDamageRadius: 80
+makeFire: true
+splashDamage: 160
+fragBullets: 35
+fragBullet:{
+type: FireBulletType
+}
+
+}
+
+}
+]
