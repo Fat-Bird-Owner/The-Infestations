@@ -3,11 +3,14 @@ drag: 2000
 speed: 0
 logicControllable: false
 lifetime: 300
-health: 1500
+health: 2200
 armor: 15
-
+canPickUp: false
+hitSize: 35
+physics: false
 drawCell: false
 drawBody: false
+allowedInPayloads: false
 
 parts:[
 {
