@@ -37,3 +37,61 @@ minGameVersion: "154.3"
 dependencies: []
 hidden: false
 
+contentOrder:[
+# items
+item-silver
+item-conduction-quartz
+item-hardened-calcite
+item-shale
+item-carbon-matter
+copper
+
+#liquid
+slag
+water
+steam
+blood
+pressure
+
+#planets
+titanos
+tetra
+mantra
+
+#sectors
+directory
+entrenched
+obsidian-badlands
+rain-forest
+scarp-yard-bunker
+solar-production-plant
+
+#blocks
+silver-conveyor
+silver-supplier
+compact-laser-bore
+transmission-line
+convection-generator
+assault-bay
+oxidium-cooler
+silver-wall
+silver-wall-large
+core-satellite
+core-fort
+core-tundra
+retaliation
+pelt
+dissipate
+harvester
+mineral-seive
+
+# units
+frontier
+fleet
+paladin
+seize
+annex
+
+
+
+]
