@@ -5,7 +5,6 @@ logicControllable: false
 lifetime: 300
 health: 2200
 armor: 15
-canPickUp: false
 hitSize: 35
 physics: false
 drawCell: false
@@ -14,7 +13,7 @@ allowedInPayloads: false
 
 parts:[
 {
-type: DrawRegion
+type: RegionPart
 name: "flesh-signus"
 }
 {
