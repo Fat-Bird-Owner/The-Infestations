@@ -28,6 +28,8 @@ shootCone: 180
 
 bullets:{
 type: ExplosionBulletType
+speed: 1
+lifetime: 80
 splashDamageRadius: 80
 makeFire: true
 splashDamage: 160
