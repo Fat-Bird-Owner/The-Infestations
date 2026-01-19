@@ -24,7 +24,7 @@ drawCell: false
 weapons:[
 {
 reload: 25
-shootCone: 180
+rotate: true
 
 bullets:{
 type: ExplosionBulletType
