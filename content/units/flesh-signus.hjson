@@ -20,7 +20,7 @@ unit: rage
 spread: 0
 }
 ]
-
+drawCell: false
 weapons:[
 {
 reload: 25
