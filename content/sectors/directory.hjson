@@ -6,6 +6,7 @@ sector: 10
 description: "An abandoned facility perfect to start out in and learn the basics of titanos."
 research: {
   parent: sector
+  requiresUnlock: false
 }
 alwaysUnlocked: true
 overrideLaunchDefaults: true
