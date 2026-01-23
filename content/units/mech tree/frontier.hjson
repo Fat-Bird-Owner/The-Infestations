@@ -9,20 +9,20 @@ First tier mech unit able to [accent]shoot lasers[] and heal off [accent]Blood.
 
 "
 
-immunities:[hover-anchored]
+immunities:[hover-anchored,frag]
 
 speed: 0.55
-health: 360
-armor: 0
+health: 450
+armor: 1.25
 hitSize: 14
-outlineColor: 2c2d38
-
+outlineColor: 313131
+mechLegColor: 323232
 // research
 research:{
 parent: assault-constructor
 }
 researchCostMultiplier: 0.2
-
+stepSound: shoot
 //smoke
 
 weapons:[
@@ -37,21 +37,23 @@ shootSound: art-fire
 rotationLimit: 15
 shootCone: 30
 rotateSpeed: 1
+shootCone: 30
 rotate: true
 continuous: true
 alwaysContinuous: true
 shootStatus: slow
 shootStatusDuration: 5
+status: melting
 
 bullet:{
 type: ContinuousFlameBulletType
-pierce: false
-pierceDamageFactor: 1
+pierce: true
+pierceCap: 1
 width: 1.5
-flareLength: 20
-damage: 2
-colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
-flareColor: ff795e8c
+flareLength: 8
+damage: 1.5
+colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,f77476]
+flareColor: f77476
 hitEffect: fireHit
 
 }
@@ -75,12 +77,16 @@ explosion
 
 }
 
+healColor: 7f7f7f
 abilities:[
 {
-type: LiquidRegenAbility
-liquid: blood
-slurpSpeed: 1
-regenPerSlurp: 0.425
+type: RepairFieldAbility
+range: 0
+healPercent: 2.5
+reload: 60
+sound: none
+activeEffect: none
+healEffect: none
 }
 {
 type: ArmorPlateAbility

@@ -1,0 +1,32 @@
+type: ItemTurret
+name: "God Slayer"
+description: "Divide the skies and even the gods."
+reload: 550
+
+category: turret
+requirements:[]
+maxAmmo: 30
+ammoPerShot: 15
+range: 345
+
+consumes:{
+liquids:[water/0.16667,steam/0.03334]
+}
+
+ammoTypes:{
+// start
+item-carbon-matter:{
+type: LaserBulletType
+width: 30
+length: 600
+damage: 12500
+maxDamageFraction: 15
+status: frag
+statusDuration: 35
+
+colors:[6f6f6f44,8f8f8f66,ffffff88]
+
+  
+}
+
+}

@@ -70,6 +70,18 @@ mirror: false
 shoot:{
 firstShotDelay: 120
 }
+
+parts:[
+{
+type: FlarePart
+progress: charge
+radius: 0
+radiusTo: 80
+color1: a393feff
+spinSpeed: 7.5
+}
+]
+
 shake: 7.5
 shootSound: explosionReactor
 

@@ -12,8 +12,10 @@ speed: 0.45
 health: 750
 armor: 10
 hitSize: 14
-outlineColor: 2c2d38
+outlineColor: 313131
 controller: HugAI
+stepSound: shoot
+mechLegColor: 353535
 
 immunities:[hover-anchored]
 
@@ -45,18 +47,19 @@ type: ContinuousFlameBulletType
 width: 3
 pierce: false
 flareLength: 20
+pierceCap: 3
 damage: 3.1667
 colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
 flareColor: ff795e8c
 hitEffect: fireHit
 intervalDelay: 5
-pierceDamageFactor: 1
 
 intervalBullet: {
 type: LightningBulletType
 damage: 5
 lightningColor: ff795e8c
 lightningLength: 15
+lightningCone: 3
 }
 
 }}
@@ -86,7 +89,7 @@ width: 4
 fromColor: f68859
 toColor: dbfffe
 damage: 25
-serrations: 3
+serrations: 1
 
 hitEffect:{
 type: ParticleEffect
@@ -100,19 +103,14 @@ lifetime: 10
 // missile
 {
 name: missile-battery
-reload: 45
-
-shoot:{
-shots: 5
-shotDelay: 0
-}
+reload: 9
+shootCone: 360
 x: 5
 y: 0
 mirror: false
-inaccuracy: 25
-rotate: true
-rotateSpeed: 5
-
+inaccuracy: 15
+baseRotation: -135
+ejectEffect: casing1
 bullet:{
 type: MissileBulletType
 weaveMag: 2
@@ -122,7 +120,21 @@ lifetime: 45
 speed: 4
 splashDamage: 5
 splashDamageRadius: 24
-homingDelay: 15
+homingDelay: 5
+homingPower: 0.150
+hitEffect: explosion
+hitShake: 4.5
+despawnHit: true
+
+trailEffect: none
+trailWidth: 1
+trailLength: 40
+fragBullets: 1
+
+fragBullet:{
+type: FireBulletType
+}
+
 }
 
 }
@@ -130,12 +142,16 @@ homingDelay: 15
 ]
 
 
+healColor: 7f7f7f
 abilities:[
 {
-type: LiquidRegenAbility
-liquid: blood
-slurpSpeed: 0.75
-regenPerSlurp: 5
+type: RepairFieldAbility
+range: 0
+healPercent: 2
+reload: 65
+sound: none
+activeEffect: none
+healEffect: none
 }
 {
 type: ArmorPlateAbility

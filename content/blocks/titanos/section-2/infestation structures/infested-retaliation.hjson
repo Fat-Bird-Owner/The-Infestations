@@ -40,38 +40,35 @@ lifetime: 35
 ammoTypes:{
 blood:{
 type: BasicBulletType
-// Effect
-chargeEffect:{
-type: MultiEffect
-effects:[
-{
-type: WaveEffect
-colorFrom: ff0000ff	
-colorTo: ff000011
-lifetime: 20
-sizeFrom: 20
-strokeFrom: 5
-strokeTo: 5
-sizeTo: 0
-}
-]
-}
-
-speed: 3
+speed: 6
 width: 10
 height: 14
-lifetime: 60
-damage: 14
+lifetime: 30
+damage: 20
 fragSpread: 30
-frontColor: ff0000ff
-backColor: ff0000ff
-trailColor: ff0000ff
+frontColor: d4fdff
+backColor: ffffff
+trailColor: d4fdff66
 trailWidth: 2
-trailLength: 6
+trailLength: 14
 status: frag
 statusDuration: 1
 splashDamage: 1
 splashDamageRadius: 40
+pierce: true
+fragBullets: 0
+fragLifeMin: 0.1
+fragLifeMax: 1
+
+fragBullet:{
+type: LiquidBulletType
+liquid: blood
+despawnHit: treu
+puddleSize: 14
+lifetime: 10
+speed: 2
+}
+
 hitEffect:{
 type: ExplosionEffect
 }

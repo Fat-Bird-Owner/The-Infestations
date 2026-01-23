@@ -10,7 +10,7 @@ baseEfficiency: 0
 
 consumes:{
 items:[item-oxidium/2]
-liquids:[steam/0.03334]
+liquids:[steam/0.03334,water/0.0334,slag/0.01667]
 }
 
 requirements:[
@@ -79,12 +79,22 @@ suffix: -bottom
 }
 {
 type: DrawLiquidTile
-padding: 0.65
+padding: 1
 drawLiquid: slag
 }
 {
 type: DrawLiquidTile
-padding: 0.65
+padding: 1
+drawLiquid: water
+}
+{
+type: DrawLiquidTile
+padding: 1
+drawLiquid: steam
+}
+{
+type: DrawLiquidTile
+padding: 1
 drawLiquid: oxidium-liquilite
 }
 {
@@ -94,10 +104,6 @@ plasma2: e2865400
 }
 {
 type: DrawDefault
-}
-{
-type: DrawRegion
-suffix: "-team"
 }
 ]
 }

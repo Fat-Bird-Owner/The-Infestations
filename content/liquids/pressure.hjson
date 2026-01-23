@@ -1,0 +1,6 @@
+gas: true
+color: 9f9f9f
+flammability: 0.15
+temperature: 1.25
+explosiveness: 0.85
+localizedName: Pressure

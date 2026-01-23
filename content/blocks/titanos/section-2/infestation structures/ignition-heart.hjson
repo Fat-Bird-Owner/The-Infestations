@@ -1,0 +1,33 @@
+type: PowerTurret
+size: 2
+health: 550
+rotateSpeed: 0
+outlineColor: 313131
+shootCone: 360
+range: 80
+
+requirements:[]
+category: turret
+
+shoot:{
+firstShotDelay: 120
+}
+
+consumes:{
+liquids:[blood/0.01667]
+}
+
+shootType:{
+type: ExplosionBulletType
+killShooter: true
+despawnHit: true
+splashDamage: 1450
+splashDamageRadius: 85
+hitShake: 12.5
+hitSound: blockExplodeFlammable
+hitEffect: neoplasmSplat
+scaledSplashDamage: true
+
+status: corroded
+statusDuration: 180
+}

@@ -20,10 +20,19 @@ drawer:{
 type: DrawMulti
 drawers:[
 {
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawArcSmelt
+particleLen: 1.75
+}
+{
 type: DrawDefault
 }
 {
 type: DrawGlowRegion
+color: fc9403
 }
 ]
 }

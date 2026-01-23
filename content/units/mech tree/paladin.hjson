@@ -9,7 +9,9 @@ Very durable assault mech unit, equipped with a flamethrower and Shell Cannon.
 
 "
 
-outlineColor: 2c2d38
+outlineColor: 313131
+mechLegColor: 3a3b40
+stepSound: blockBreak3
 speed: 0.34
 health: 2500
 drag: 0.25
@@ -19,7 +21,7 @@ hitSize: 18
 abilities:[
 {
 type: ArmorPlateAbility
-healthMultiplier: 0.15
+healthMultiplier: 0.225
 }
 ]
 // 
@@ -97,6 +99,7 @@ shake: 0.2
 shootSound: art-fire
 reload: 50
 ejectEffect: casing2
+shootSound: shootCyclone
 
 shoot:{
 shots: 4
@@ -117,32 +120,37 @@ backColor: d06b53
 trailColor: f68859
 homingPower: 0.01
 homingRange: 180
-
+hitShake: 6.5
+despawnHit: true
+hitEffect: shockwave
+hitSound: explosionReactor2
 fragBullets: 1
 fragRandomSpread: 0
-fragSpread: 20
+fragSpread: 0
+fragVelocityMin: 1
 //
 
 //
 fragBullet:{
-type: ShrapnelBulletType
-length: 11
-width: 8
-fromColor: f68859
-toColor: d06b53
-hitSize: 50
-damage: 30
-serrations: 3
-
-hitEffect:{
-type: ParticleEffect
-line: true
-strokeFrom: 3
-colorFrom: b0fffc
-colorTo: dbfffe
-lifetime: 10
-}
-
+type: BasicBulletType
+speed: 6
+lifetime: 33
+damage: 25
+pierce: true
+pierceCap: 2
+pierceBuildings: true
+trailWidth: 2
+width: 10
+height: 10
+trailLength: 4
+frontColor: f68859
+backColor: d06b53
+trailColor: f68859
+homingPower: 0.01
+hitEffect: explosion
+hitSound: unitExplode1
+despawnHit: true
+homingRange: 180
 }
 
 hitEffect:{
@@ -174,8 +182,9 @@ bullet:{
 type: ContinuousFlameBulletType
 width: 4
 pierceBuildings: false
+pierceCap: 4
 flareLength: 28
-damage: 3.3
+damage: 6.6
 colors:[ff795e8c,e46b58b2,c85c51cc,f15454ff,ffffffff]
 flareColor: f15454ff
 hitEffect: fireHit

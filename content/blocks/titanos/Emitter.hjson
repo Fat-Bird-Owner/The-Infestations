@@ -1,8 +1,8 @@
 type: CoreBlock
 name: Emitter
-health: 4500
+health: 10000
 buildVisibility: sandboxOnly
-armor: 20
+armor: 5000
 itemCapacity: 250
 size: 3
 unitType: "infested-mass"

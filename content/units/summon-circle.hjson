@@ -1,0 +1,125 @@
+type: missile
+lifetime: 3000
+speed: 0
+drag: 1000
+range: 0
+drawCell: false
+name: Summon Circle
+drawBody: false
+killable: false
+hittable: false
+targetable: false
+physics: false
+
+weapons:[
+{
+alwaysShooting: true
+shoot:{
+firstShotDelay: 360
+}
+shake: 75
+x: 0
+y: 0
+mirror: false
+
+bullet:{
+
+spawnUnit: convoy
+hitShake: 75
+despawnHit: true
+killShooter: true
+splashDamage: 100000000
+splashDamageRadius: 200
+
+chargeEffect:{
+type: MultiEffect
+
+effects:[
+{
+type: SeqEffect
+effects:[
+{
+type: SoundEffect
+sound: acceleratorCharge
+lifetime: 220
+minPitch: 1
+maxPitch: 1
+effect: none
+}
+{
+type: SoundEffect
+sound: wreckFallBig
+lifetime: 80
+minPitch: 1
+maxPitch: 1
+effect: none
+}
+{
+type: SoundEffect
+sound: blockExplodeExplosiveAlt
+effect: none
+lifetime: 120
+minPitch: 1
+maxPitch: 1
+}
+]
+}
+{
+type: SeqEffect
+effects:[
+{
+type: WaveEffect
+sizeTo: 200
+lifetime: 180
+strokeTo: 8
+strokeFrom: 0
+layer: 123
+}
+{
+type: WaveEffect
+sizeTo: 200
+sizeFrom: 200
+strokeFrom: 8
+strokeTo: 8
+lifetime: 120
+layer: 123
+}
+{
+type: WaveEffect
+sizeTo: 200
+sizeFrom: 200
+strokeFrom: 8
+strokeTo: 0
+lifetime: 80
+layer: 123
+}
+]
+}
+// effect 1 end
+{
+type: SeqEffect
+effects:[
+{
+type: Effect
+lifetime: 180
+}
+{
+type: ParticleEffect
+length: 0
+region: "infestation-convoy"
+sizeFrom: 48
+sizeTo: 48
+colorTo: ffffff
+cone: 0
+lifetime: 180
+offset: -90
+layer: 85
+}
+]
+}
+]
+  
+}}
+//
+}
+]

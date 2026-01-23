@@ -1,0 +1,63 @@
+type: tether
+hover: true
+flying: false
+speed: 1
+health: 350
+armor: 7.5
+outlineColor: 313131
+hover: true
+flying: false
+
+immunities:[frosted,rallied]
+commands:[mine]
+allowChangeCommands: false
+logicControllable: false
+playerControllable: true
+controlSelectGlobal: false
+autoFindTarget: false
+range: 0.1
+targetAir: false
+targetGround: false
+engineSize: 2
+engineOffset: 3
+defaultCommand: mine
+
+trailScl: 2
+trailLength: 25
+buildSpeed: 0.75
+
+weapons:[
+{
+x: 4.5
+y: 2.5
+reload: 75
+shoot:{
+shots: 3
+shotDelay: 10
+}
+
+bullet:{
+type: MissileBulletType
+frontColor: 9FA4C5FF
+backColor: 777A90FF
+trailColor: 777A90FF
+speed: 3
+lifetime: 60
+trailEffect: none
+trailWidth: 2
+trailLength: 30
+
+despawnHit: true
+splashDamage: 25
+splashDamageRadius: 25
+damage: 25
+hitEffect: explosion
+weaveMag: 3.5
+impact: true
+knockBack: 3.5
+buildingDamageMultiplier: 0.35
+weaveScl: 1.85
+}
+
+}
+]

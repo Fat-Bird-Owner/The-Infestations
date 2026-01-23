@@ -1,0 +1,31 @@
+type: UnitCargoLoader
+category: effect
+solid: false
+itemCapacity: 0
+consumes:{
+power: 2.25
+}
+name: "Tundra Hover Bay"
+
+size: 2
+unitType: tundra
+unitBuildTime: 900
+requirements:[item-silver/90,item-oxidium/90,item-hardened-calcite/35,item-conduction-quartz/85]
+
+polyRadius: 4.5
+polySides: 4
+polyStroke: 0.75
+polyRotateSpeed: 0
+polyColor: 9FA4C5FF
+description:"
+Uses power to fabricate a drive unit, this unit will stay idle and can be controlled by the player.
+[accent]
+Drive[grey]
+"
+
+/*
+research:{
+parent: recon-air-bay
+}
+researchCostMultiplier: 0.15
+  */

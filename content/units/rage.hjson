@@ -1,0 +1,21 @@
+type: missile
+lifetime: 7.5
+physics: false
+drawBody: false
+drawCell: false
+hittable: false
+deathExplosionEffect: none
+createScorch: false
+hoverable: false
+logicControllable: false
+
+abilities:[
+{
+type: StatusFieldAbility
+reload: 5
+duration: 300
+effect: madness
+range: 85
+activeEffect: none
+}
+]

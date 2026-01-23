@@ -1,0 +1,13 @@
+type: StorageBlock
+scaledHealth: 245
+size: 2
+name: Blast Crate
+coreMerge: false
+
+itemCapacity: 25
+baseExplosiveness: 0.45
+explosivenessScale: 4.5
+flammabilityScale: 12.5
+
+requirements:[]
+category: effect

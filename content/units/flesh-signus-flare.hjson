@@ -1,0 +1,27 @@
+type: missile
+drag: 2000
+speed: 0
+logicControllable: false
+lifetime: 300
+health: 2200
+armor: 15
+hitSize: 35
+physics: false
+drawCell: false
+drawBody: false
+allowedInPayloads: false
+
+parts:[
+{
+type: RegionPart
+name: "flesh-signus"
+}
+{
+type: FlarePart
+radius: 0
+radiusTo: 20
+progress: life
+color1: D15454FF
+spinSpeed: 0.583333
+}
+]

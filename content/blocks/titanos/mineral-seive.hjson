@@ -49,7 +49,8 @@ drawers:[
 type: DrawDefault
 }
 {
-type: DrawPistons
+type: DrawBlurSpin
+suffix: "-rotator"
 }
 {
 type: DrawParticles

@@ -10,6 +10,8 @@ Class: [lightgrey]Fragmentation[]
 Fires bullets at it's target and can use a varity of ammo."
 health: 400
 reload: 60
+ammoPerShot: 2
+maxAmmo: 6
 range: 180
 size: 2
 outlineColor: 2c2d38
@@ -129,11 +131,27 @@ type: ExplosionEffect
 item-conduction-quartz:{
 type: BasicBulletType
 
+bulletInterval: 1.5
+intervalRandomSpread: 0
+intervalBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+hitEffect: {
+type: WrapEffect
+effect: colorSpark
+color: e28654
+}
+
+frontColor: e28654
+backColor: ffcd66
+}
+
 speed: 6
 width: 10
-height: 14
+height: 30
 lifetime: 30
-damage: 28
+damage: 14
 fragSpread: 30
 pierce: true
 frontColor: e28654
@@ -158,7 +176,42 @@ splashDamageRadius: 40
 hitEffect:{
 type: ExplosionEffect
 }}
+// e
+
+item-hardened-calcite:{
+type: BasicBulletType
+
+bulletInterval: 1.5
+intervalRandomSpread: 0
+intervalBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+frontColor: 7f7f7f
+backColor: 5f5f5f
+hitEffect: colorSpark
 }
+
+speed: 6
+width: 10
+height: 14
+lifetime: 30
+damage: 110
+fragSpread: 30
+frontColor: 7f7f7f
+backColor: 5f5f5f
+trailColor: 5f5f5f55
+trailWidth: 2
+trailLength: 6
+status: blasted
+despawnHit: true
+
+splashDamage: 1
+splashDamageRadius: 40
+hitEffect: railHit
+hitSound: shootFuse
+
+}}
 
 category: turret
 

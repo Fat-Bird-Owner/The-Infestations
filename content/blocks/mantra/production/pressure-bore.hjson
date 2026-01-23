@@ -1,0 +1,19 @@
+type: BeamDrill
+size: 2
+
+requirements:[
+copper/35
+item-hollowed-scrap/20
+]
+
+sparkColor: ffffff
+heatColor: ffffff00
+boostHeatColor: ffffff00
+tier: 3
+range: 2
+laserWidth: 0.45
+optionalBoostIntensity: 1
+
+consumes:{
+liquids:[pressure/0.01667]
+}

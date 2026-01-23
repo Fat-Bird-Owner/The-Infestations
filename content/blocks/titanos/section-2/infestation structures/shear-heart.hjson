@@ -1,0 +1,95 @@
+// general stats
+
+type: PowerTurret
+name: "Shear Heart"
+buildVisibility: sandboxOnly
+consumes:[]
+size: 2
+health: 600
+armor: 20
+alwaysShooting: true
+outlineRadius: 0
+outlineColor: 313131
+consumes:{
+liquids:[blood/0.08888]
+}
+
+shootEffect: {
+type: MultiEffect
+effects:[
+launchPod
+{
+type: WrapEffect
+effect: missileTrailSmoke
+color: f04816
+}
+]
+}
+
+shootSound: explosionMissile
+// turret related stats
+
+requirements:[]
+  
+rotateSpeed: 0
+reload: 2400
+shootCone: 180
+inaccuracy: 360
+range: 85
+shootY: 0
+recoil: 0
+shake: 6.5
+// bullet
+
+shootType:{
+type: BasicBulletType
+fragBullets: 44
+instantDisappear: true
+despawnHit: true
+fragBullet:{
+spawnUnit: flesh-signus
+}}
+
+destroyBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+fragBullets: 20
+fragBullet:{
+type: LiquidBulletType
+liquid: blood
+despawnHit: true
+puddleSize: 8
+velocityScaleRandMin: 0.05
+velocityScaleRandMax: 1
+}
+
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+type: RegionPart
+suffix: "-base"
+layer: 50.5
+}
+{
+suffix:"-sack"
+layer: 52
+xScl: 1
+yScl: 1
+progress: reload
+growProgress: reload
+growX: -1
+growY: -1
+color: ffffffff
+colorTo: 000000ff
+}
+{
+type: RegionPart
+suffix: "-top"
+layer: 53
+}
+]
+}

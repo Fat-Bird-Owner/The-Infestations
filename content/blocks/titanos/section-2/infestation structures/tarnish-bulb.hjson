@@ -1,0 +1,84 @@
+// general stats
+
+type: PowerTurret
+name: "Tarnish Bulb"
+outlineColor: 00000000
+consumes:[]
+size: 2
+health: 675
+armor: 12
+outlineColor: 313131
+consumes:{
+liquids:[blood/0.02]
+}
+shootEffect: {
+type: MultiEffect
+effects:[
+launchPod
+{
+type: WrapEffect
+effect: missileTrailSmoke
+color: CFFF70FF
+}
+]
+}
+
+shootSound: blockExplodeElectricBig
+// turret related stats
+
+rotateSpeed: 0
+alwaysShooting: true
+reload: 1425
+shootCone: 180
+inaccuracy: 360
+recoil: 0
+// bullet
+
+shootType:{
+instantDisappear: true
+despawnHit:true
+damage: 0
+
+fragBullets: 1
+fragBullet:{
+instantDisappear: true
+despawnHit:true
+damage: 0
+spawnUnit: "tarnish"
+hitShake: 6.5
+}
+
+}
+
+destroyBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+fragBullets: 65
+fragBullet:{
+type: LiquidBulletType
+liquid: blood
+despawnHit: true
+puddleSize: 8
+velocityScaleRandMin: 0.05
+velocityScaleRandMax: 1
+}
+
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix:"-sack"
+xScl: 1
+yScl: 1
+progress: reload
+growProgress: reload
+growX: -1
+growY: -1
+color: ffffffff
+colorTo: 00000000
+}
+]
+}

@@ -1,0 +1,36 @@
+type: flying
+speed: 1.25
+health: 250
+armor: 5
+hitSize: 12
+outlineColor: 5A5D61
+mineSpeed: 4.5
+engineOffset: 6
+trailScl: 1
+trailLength: 12.5
+mineTier: 1
+buildSpeed: 0.5
+flying: true
+
+drawBuildBeam: false
+weapons:[
+{
+type: BuildWeapon
+name: "scarab"
+x: 0
+y: 0
+mirror: false
+
+parts:[
+{
+suffix: "-arm1"
+moveRot: 15
+}
+{
+suffix: "-arm2"
+moveRot: -15
+}
+]
+
+}
+]

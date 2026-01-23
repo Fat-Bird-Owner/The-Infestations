@@ -1,0 +1,30 @@
+type: ItemTurret
+name: Rellish
+description: "Shoots focused piercing bullets."
+size: 2
+
+category: turret
+requirements:[]
+heatColor: 005fff
+cooldownTime: 120
+warmupSpeed: 0.00555556
+linearWarmup: true
+minWarmup: 1
+reload: 65
+ammoType:{
+item-hardened-calcite:{
+type: BasicBulletType
+width:: 5
+height: 20
+trailLength: 30
+trailWidth: 1
+trailColor: 9f9f9f
+frontColor: ffffff
+backColor: 9f9f9f
+  
+speed: 6
+lifetime: 30
+damage: 105
+homingPower: 0.005
+}
+}

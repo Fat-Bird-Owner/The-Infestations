@@ -1,0 +1,38 @@
+type: Missile
+lifetime: 180
+speed: 0
+drag: 1000
+hittable: false
+physics: false
+range: 120
+drawBody: false
+drawCell: false
+
+parts:[
+{
+type: ShapePart
+sides: 100
+radius: 24
+color: ffff00
+}
+{
+type: ShapePart
+sides: 100
+radius: 120
+color: ffff00
+hollow: true
+}
+]
+
+weapons:[
+{
+reload: 5
+bullet:{
+type: LightningBulletType
+lightningColor: ffff00
+damage: 15
+lightningLength: 15
+lightningCone: 0
+}
+}
+]

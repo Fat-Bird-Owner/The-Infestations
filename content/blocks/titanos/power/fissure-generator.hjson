@@ -1,0 +1,30 @@
+type: ThermalGenerator
+name: Fissure Generator
+size: 2
+
+requirements:[
+item-silver/45
+item-oxidium/30
+item-conduction-quartz/25
+item-hardened-calcite/15
+]
+category: production
+minEfficiency: 1
+powerProduction: 1.15
+
+drawer:{
+type: DrawMulti
+drawers:[
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawParticles
+color: D06B53FF
+}
+{
+type: DrawDefault
+}
+]
+}

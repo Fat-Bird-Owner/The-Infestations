@@ -4,4 +4,5 @@ requirements:[item-silver/2]
 consumes:{
 liquids:[blood/0.00833333333]
 }
-liquidPadding: 1.2
+liquidPadding: 1.5
+solid: false

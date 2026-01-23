@@ -1,0 +1,44 @@
+type: mech
+name: Flesh Signus
+speed: 0
+drag: 1000
+hitSizd: 14
+outlineColor: BB4646FF
+
+deathExplosionEffect: none
+createScorch: false
+createWreck: false
+abilities:[
+{
+type: SpawnDeathAbility
+unit: flesh-signus-flare
+spread: 0
+}
+{
+type: SpawnDeathAbility
+unit: rage
+spread: 0
+}
+]
+drawCell: false
+weapons:[
+{
+reload: 25
+rotate: true
+
+bullets:{
+type: ExplosionBulletType
+speed: 1
+lifetime: 80
+splashDamageRadius: 80
+makeFire: true
+splashDamage: 160
+fragBullets: 35
+fragBullet:{
+type: FireBulletType
+}
+
+}
+
+}
+]

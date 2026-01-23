@@ -1,0 +1,63 @@
+type: crawl
+name: "Angst"
+description: "
+Scourge type unit, able to very quickly crawl on the floor, Releases lightning upon reaching terminal velocity.
+Very strong unit able to destroy enemy defenses very rapidly using its lightning ability, very strong in hordes.
+"
+health: 450
+armor: 5
+unitController: HugAI
+range: 0
+crawlSlowdown: 0
+speed: 5.25
+drag: 1.5
+immunities:[hover-anchored,flamethrow-fail,melting,burning,ret-shock]
+drawBody: false
+drawCell: true
+omniMovement: false
+canDrown: false
+outlineColor: 313131
+rotateSpeed: 2.5
+segmentUnits: 3
+segmentUnit: renale
+segmentPhase: 1.5
+segmentScl: 0.65
+segmentEndUnit: renale
+segmentMaxRot: 35
+crushDamage: 0.65
+
+/*
+weapons:[
+{
+controllable: false
+
+bullet:{
+instantDisappear: true
+despawnHit: true
+hitEffect: none
+hitSound: none
+recoil: -35
+speed: 8
+lifetime: 15
+}
+
+}
+]
+*/
+
+abilities:[
+{
+type: RepairFieldAbility
+range: 0
+healPercent: 4.5
+reload: 60
+}
+{
+type: MoveLightningAbility
+heatRegion: "-lightning"
+length: 4
+chance: 0.45
+minSpeed: 0.075
+maxSpeed: 0.25
+}
+]

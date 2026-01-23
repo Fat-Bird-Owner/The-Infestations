@@ -1,0 +1,48 @@
+type: mech
+speed: 0.85
+armor: 8.5
+health: 1500
+name: Torrent
+hitSize: 25
+
+weapons:[
+{
+reload: 45
+name: torrent-weapon
+
+bullet:{
+type: ArtilleryBulletType
+shootEffect: {
+type: WrapEffect
+color: e33805
+effect: missileTrailSmokeSmall
+}
+
+speed: 7.5
+lifetime: 120
+puddles: 22
+puddleRange: 10
+puddleAmount: 120
+puddleLiquid: blood
+damage: 225
+splashDamage: 45
+splashDamageRadius: 25
+status: slow
+statusDuration: 60
+impact: true
+knockBack: 12.5
+
+width: 15
+height: 20
+backColor: fc6603
+frontColor: e33805
+trailEffect: {
+type: WrapEffect
+color: e33805
+effect: titanSmokeSmall
+}
+
+}
+  
+}
+]

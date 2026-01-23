@@ -1,0 +1,44 @@
+type: Missile
+lifetime: 55
+health: 25
+hover: true
+flying: false
+hitSize: 16
+range: 0
+drawCell: false
+drawBody: false
+physics: false
+  
+weapons:[
+{
+shootOnDeath: true
+
+bullet:{
+type: EmptyBulletType
+despawnHit: true
+instantDisappear: true
+hitShake: 8.5
+hitSound: parry
+}
+
+}
+{
+reload: 300
+
+bullet:{
+type: EmptyBulletType
+instantDisappear: false
+despawnHit: true
+
+hitEffect:{
+type: ParticleEffect
+region: "infestation-star"
+length: 0
+colorFrom: ffff00ff
+colorTo: ffff0000
+}
+
+}
+
+}
+]

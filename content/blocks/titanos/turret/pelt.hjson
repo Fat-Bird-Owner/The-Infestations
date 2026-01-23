@@ -68,7 +68,7 @@ lifetime: 42
 height: 14
 width: 10
 status: hover-anchored
-knockback: 10
+knockback: 1.25
 impact: true
 statusDuration: 15
 backColor: 9c88c3

@@ -71,17 +71,18 @@ campaignRuleDefaults: {
 	showSpawns: true
 	sectorInvasion: true
 	legacyLaunchPads: true
+	fog: false
 }
 
 generator: SerpuloPlanetGenerator
 orbitRadius: 50
 sectorSize: 2
-allowLaunchSchematics: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
 enemyCoreSpawnReplace: true
-startSector: 86
+startSector: 10
 orbitSpacing: 2
 radius: 1.219
 minZoom: 0.25

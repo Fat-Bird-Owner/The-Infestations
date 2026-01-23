@@ -3,38 +3,39 @@ name: "Drive"
 description: "Basic mech unit able to build and heal blocks."
 health: 500
 armor: 1
-speed: 2.25
+speed: 1.85
 range: 180
 mineTier: 0
 minesItem:[]
 mineWalls: true
 buildSpeed: 1.15
 mineSpeed: 0
-payloadCapacity: 576
+payloadCapacity: 256
+strafePenalty: 0.65
 drag: 0.03
 accel: 0.1
-trailScl: 1
+trailScl: 2.5
 trailLength: 16
 flying: true
 itemCapacity: 40
 ammoCapacity: 1
 pickupUnits: false
-outlineColor: 2c2d38
+outlineColor: 313131
 engineOffset: 8.5
 
 // mech pad module
 mineSpeed: 0
-commands:[mine]
+commands:[repair]
 allowChangeCommands: false
 logicControllable: false
 playerControllable: true
 controlSelectGlobal: false
-autoFindTarget: false
+autoFindTarget: true
 targetPriority: -0.1
-range: 0.1
+range: 60
 targetAir: false
 targetGround: false
-defaultCommand: mine
+defaultCommand: repair
 immunities:[rallied]
 
 engines:[
@@ -47,51 +48,37 @@ rotation: 90
 
 abilities:[
 {
-type: EnergyFieldAbility
-damage: 0
-hitUnits: false
-maxTargets: 10
-healPercent: 3.5
-reload: 60
-effectRadius: 0
-sectors: 0
-layer: 10
-hitEffect: heal
-shootSound: heal
+type: ShieldRegenFieldAbility
+reload: 180
+max: 300
+amount: 30
+range: 0
 
-damageEffect:[
-{
-type: WaveEffect
-sizeTo: 60
-colorFrom: e2865455
-colorTo: e2865455
-followParent: true
-lifetime: 120
-strokeFrom: 3.5
-strokeTo: 3.5
-followParent: true
-layer: 122
-}
-{
-type: SoundEffect
-sound: sonar-ping
-effect: none
-}
-{
-type: WaveEffect
-sizeTo: 60
-colorFrom: e28654
-colorTo: e2865400
-followParent: true
-lifetime: 120
-strokeFrom: 3.5
-strokeTo: 3.5
-sizeFrom: 60
-sizeTo: 60
-followParent: true
-layer: 122
 }
 ]
+
+weapons:[
+{
+x: 0
+y: 7
+mirror: false
+type: RepairBeamWeapon
+healColor: FFD280FF
+laserColor: FFD280FF
+recentDamageMultiplier: 0.225
+repairSpeed: 1.35
+targetBuildings: true
+targetUnits: false
+controllable: true
+aiControllable: true
+autoTarget: false
+shootCone: 30
+beamWidth: 0.75
+// FFD280FF
+
+bullet:{
+maxRange: 80
+}
 
 }
 ]

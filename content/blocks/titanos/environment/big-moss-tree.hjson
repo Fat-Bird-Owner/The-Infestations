@@ -1,0 +1,5 @@
+type: TreeBlock
+size: 1
+breakable: true
+instantDeconstruct: false
+buildTime: 600

@@ -12,16 +12,17 @@ unitType: drive
 unitBuildTime: 600
 requirements:[item-silver/60,item-oxidium/45,item-hardened-calcite/25,item-conduction-quartz/15]
 
-polyRadius: 6
-polySides: 3
-polyStroke: 1
-polyRotateSpeed: 1.5
-polyColor: ffcd6677
+polyRadius: 4.25
+polySides: 4
+polyStroke: 0.75
+polyRotateSpeed: 0
+polyColor: ffcd66
 description:"
 Uses power to fabricate a drive unit, this unit will stay idle and can be controlled by the player.
 [accent]
 Drive[grey]
 Support unit able to fly and heal nearby blocks.
+Automatically heals nearby blocks when not in control.
 "
 
 

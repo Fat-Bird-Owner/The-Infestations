@@ -1,0 +1,52 @@
+type: ItemTurret
+name: Harpoon
+description: "Shoots harpoons at enemy targets."
+size: 2
+maxAmmo: 16
+ammoPerShot: 4
+shootSound: unitCreateBig
+outlineColor: 424242
+
+reload: 90
+requirements:[
+copper/35
+item-hollowed-scrap/45
+]
+
+consumes:{
+liquids:[pressure/0.01667]
+}
+  
+ammoTypes:{
+item-hollowed-scrap:{
+type: BasicBulletType
+speed: 3
+homingPower: 0.005
+width: 4
+height: 25
+trailWidth: 0.85
+trailLength: 30
+trailColor: ffffff77
+lifetime: 60
+damage: 65
+knockBack: 4.65
+impact: true
+status: frag
+statusDuration: 2
+}
+}
+
+parts:[
+{
+type: RegionPart
+under: true
+x: 0
+y: 0
+progress: reload
+moveY: -3
+colorTo: 00000000
+color: ffffff
+suffix: "-harpoon"
+}
+
+]

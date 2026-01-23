@@ -9,6 +9,19 @@ liquids:[steam/0.01667]
 }
 
 shootSound: blockExplodeElectricBig
+shootEffect:{
+type: ParticleEffect
+colorTo: 6f6f6f00
+colorFrom: 4f4f4f55
+sizeFrom: 6
+sizeTo: 16
+lifetime: 75
+cone: 45
+length: 75
+particles: 22
+interp: sine
+}
+
 requirements:[]
 shake: 7.5
 category: turret
@@ -18,6 +31,50 @@ reload: 325
 ammoTypes:{
 
 item-hardened-calcite:{
+type: BasicBulletype
+instantDisappear: true
+collides: false
+despawnHit: true
+damage: 2135
+pierce: true
+spawnBullets:[
+{
+type: BasicBulletType
+bulletInterval: 2.5
+lifetime: 50
+speed: 10
+collides: false
+intervalRandomSpread: 0
+intervalBullet:{
+type: EmptyBulletType
+despawnHit: true
+hitEffect: railHit
+hitShake: 4.5
+hitSound: shootFuse
+instantDisappear: true
+}
+}
+//
+{
+type: EmptyBulletType
+lifetime: 75
+collides: false
+despawnHit: true
+fragBullets: 1
+fragRandomSpread: 0
+hitShake: 17.5
+fragBullet:{
+type: LaserBulletType
+
+colors:[f5c84255,f5c84277, f5c84299]
+length: 500
+collides: false
+lifetime: 180
+width: 32
+}
+
+}
+{
 type: LaserBulletType
 
 colors:[4f4f4f,6f6f6f,8f8f8f]
@@ -32,6 +89,8 @@ hitShake: 6.5
 hitSound: shootToxopidShotgun
 hitEffect: sparkExplosion
 
+}
+]
 }
   
 }

@@ -1,0 +1,31 @@
+type: BurstDrill
+size: 2
+health: 450
+shake: 6.5
+requirements:[]
+category: production
+
+consumes:{
+liquids:[blood/0.01667]
+}
+
+destroyBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+fragBullets: 12
+fragBullet:{
+type: LiquidBulletType
+liquid: blood
+despawnHit: true
+puddleSize: 8
+velocityScaleRandMin: 0.05
+velocityScaleRandMax: 1
+}
+
+}
+
+arrows: 0
+drillTime: 360
+liquidBoostIntensity: 1
+tier: 15

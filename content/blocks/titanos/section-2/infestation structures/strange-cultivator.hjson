@@ -3,6 +3,22 @@ size: 3
 
 outputLiquid: blood/1.667
 
+destroyBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+fragBullets: 35
+fragBullet:{
+type: LiquidBulletType
+liquid: blood
+despawnHit: true
+puddleSize: 16
+velocityScaleRandMin: 0.05
+velocityScaleRandMax: 1
+}
+
+}
+
 drawer:{
 type: DrawMulti
 drawers:[

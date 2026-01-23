@@ -4,6 +4,10 @@ planet: titanos
 showSectorLandInfo: false
 sector: 70
 
+overrideLaunchDefaults: true
+allowLaunchSchematics: true
+allowLaunchLoadout: true
+
 details: "
 Sector-70: Blast Site
 A safe facility built in the blast zone of there deadliest weapons.

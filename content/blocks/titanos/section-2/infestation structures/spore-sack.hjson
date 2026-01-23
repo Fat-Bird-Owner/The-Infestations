@@ -1,0 +1,99 @@
+// general stats
+
+type: PowerTurret
+name: "Spore Sack"
+consumes:[]
+size: 2
+health: 300
+armor: 12
+outlineColor: 313131
+consumes:{
+liquids:[blood/0.06667]
+}
+shootEffect: {
+type: MultiEffect
+effects:[
+launchPod
+{
+type: WrapEffect
+effect: missileTrailSmoke
+color: 8175A5FF
+}
+]
+}
+
+shootSound: explosionMissile
+// turret related stats
+
+requirements:[]
+  
+rotateSpeed: 0
+reload: 180
+shootCone: 180
+inaccuracy: 360
+range: 85
+shootY: 0
+recoil: 0
+shake: 6.5
+// bullet
+
+shootType:{
+type: EmptyBulletType
+collides: false
+bulletInterval: 5
+lifetime: 60
+splashDamage: 205
+splashDamageRadius: 125
+scaledSplashDamage: true
+intervalBullet:{
+splashDamage: 35
+splashDamageRadius: 105
+hitShake: 2.5
+scaledSplashDamage: true
+collides: true
+status: corroded
+despawnHit: true
+instantDisappear: true
+
+hitEffect:{
+type: WrapEffect
+effect: artilleryTrailSmoke
+color: 8175A5FF
+}
+
+}
+
+}
+
+destroyBullet:{
+type: EmptyBulletType
+instantDisappear: true
+despawnHit: true
+fragBullets: 20
+fragBullet:{
+type: LiquidBulletType
+liquid: blood
+despawnHit: true
+puddleSize: 8
+velocityScaleRandMin: 0.05
+velocityScaleRandMax: 1
+}
+
+}
+
+drawer:{
+type: DrawTurret
+parts:[
+{
+suffix:"-bulb"
+xScl: 1
+yScl: 1
+progress: reload
+growProgress: reload
+growX: -1
+growY: -1
+color: ffffffff
+colorTo: 000000ff
+}
+]
+}
