@@ -82,7 +82,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
 enemyCoreSpawnReplace: true
-startSector: 86
+startSector: 10
 orbitSpacing: 2
 radius: 1.219
 minZoom: 0.25
