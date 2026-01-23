@@ -1,5 +1,5 @@
 localizedName: Mantra
-alwaysUnlocked: true
+# alwaysUnlocked: true
 defaultEnv: 2
 mesh: [
 {
