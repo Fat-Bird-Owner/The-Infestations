@@ -2,7 +2,7 @@ name: "Infestation"
 displayName: "[salmon[]]The Infestation[[]]"
 repo: Fat-Bird-Owner/The-Infestations
 subtitle: "
-[grey]I await down [brick[]]below[[]].
+[lightgrey[]]No longer in development
 "
 author: "
 Fat Bird's Owner - [accent[]]Main Developer[[]]
@@ -29,7 +29,7 @@ Optionally give a star to show your support.
 iosCompatible: true
 version: "
 [lightgrey[]]v2-Infestation
-[grey[]]- Act 2
+[grey[]]- Act 2.25
 - 6 Sectors
 - C2236
 "
