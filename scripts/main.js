@@ -5,4 +5,5 @@ Events.on(WorldLoadEvent, event => {
   
     Team.get(5).setPalette(Color.valueOf("c93063"));
     Team.get(5).emoji = "[#c93063][]";
+    Team.get(5).ignoreUnitCap = true;
 })
